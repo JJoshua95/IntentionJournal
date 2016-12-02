@@ -1,12 +1,8 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/Tree.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml.cs">
     <Files>
-      <File FileName="IntentionJournal/MainTabContainer.xaml" Line="29" Column="57" />
-      <File FileName="IntentionJournal/HomePage.xaml" Line="6" Column="16" />
-      <File FileName="IntentionJournal/JournalPage.xaml" Line="6" Column="19" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml" Line="6" Column="18" />
-      <File FileName="IntentionJournal/Settings.xaml" Line="6" Column="20" />
-      <File FileName="IntentionJournal/Tree.xaml" Line="6" Column="16" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="6" Column="17" />
+      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="13" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
