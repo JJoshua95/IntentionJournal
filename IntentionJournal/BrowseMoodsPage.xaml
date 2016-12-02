@@ -2,9 +2,8 @@
 <ContentPage x:Class="IntentionJournal.BrowseMoodsPage"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Padding="20">
-	<ContentPage.Icon>
-	</ContentPage.Icon>
+             Padding="20"
+			 Title="Browse">
 	<StackLayout x:Name="StackLayoutMap">
 	<Label HorizontalOptions="Center"
            Text="Browse"

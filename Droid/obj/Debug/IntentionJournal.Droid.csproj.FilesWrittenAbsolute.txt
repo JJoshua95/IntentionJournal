@@ -10,6 +10,8 @@
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable-hdpi/icon.png
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable-xhdpi/icon.png
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/settings2.png
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/settings.png
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/R.cs.flag
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/uk.ac.ucl.msccs.gc02.appdesign.intention_journal-Signed.apk
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/uploadflags.txt
@@ -30,5 +32,3 @@
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/IntentionJournal.dll.mdb
-/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/settings.png
-/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/settings2.png

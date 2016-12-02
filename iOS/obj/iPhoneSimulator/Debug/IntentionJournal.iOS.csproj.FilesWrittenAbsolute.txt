@@ -2,6 +2,8 @@
 /Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
 /Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
 /Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/settings.png
+/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/settings@2x.png
 /Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.iOS.exe.mdb
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.iOS.exe
@@ -13,7 +15,3 @@
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll.mdb
-/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/TabPics/settings.png
-/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/TabPics/settings@2x.png
-/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/settings.png
-/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/settings@2x.png
