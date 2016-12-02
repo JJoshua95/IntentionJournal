@@ -8,5 +8,6 @@
            Text="Journal"
            VerticalOptions="Center" />
 	<Button Text="Back" Clicked="OnBackButtonClicked" VerticalOptions="CenterAndExpand" />
+	<Button Text="Github test" VerticalOptions = "CenterAndExpand" />
 	</StackLayout>
 </ContentPage>
