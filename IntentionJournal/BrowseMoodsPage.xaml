@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage x:Class="IntentionJournal.BrowseMoodsPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="20">
+	<ContentPage.Icon>
+	</ContentPage.Icon>
+	<StackLayout x:Name="StackLayoutMap">
+	<Label HorizontalOptions="Center"
+           Text="Browse"
+           VerticalOptions="CenterAndExpand"/>
+	<Button Text="Journal" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
+	</StackLayout>
+</ContentPage>
+

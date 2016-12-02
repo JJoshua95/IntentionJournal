@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:mypages="clr-namespace:IntentionJournal;assembly=IntentionJournal"
+		xmlns:local="clr-namespace:IntentionJournal;assembly=IntentionJournal" 
+		x:Class="IntentionJournal.MainTabContainer"
+		Title = "Intention Journal">
+	<TabbedPage.Children>
+		<local:HomePage  Icon="settings.png"/>
+		<local:BrowseMoodsPage Title="Browse" Icon="settings.png"/>
+		<local:AddEntryPage Title="Write" Icon="settings.png"/>
+		<local:Tree Title="Tree" Icon="settings.png"/>
+		<local:Settings Title="Settings" Icon="settings.png"/>
+	</TabbedPage.Children>
+</TabbedPage>
