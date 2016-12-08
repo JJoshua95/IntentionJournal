@@ -77,6 +77,7 @@
     <Compile Include="MainTabContainer.xaml.cs">
       <DependentUpon>MainTabContainer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Entries.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

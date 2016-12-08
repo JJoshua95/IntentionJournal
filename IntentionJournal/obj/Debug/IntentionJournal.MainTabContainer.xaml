@@ -6,7 +6,7 @@
 		x:Class="IntentionJournal.MainTabContainer"
 		Title = "Intention Journal">
 	<TabbedPage.Children>
-		<NavigationPage Title = "Home" Icon="settings.png">
+		<NavigationPage Title="Home" Icon="settings.png">
 			<x:Arguments>
 				<local:HomePage/>
 			</x:Arguments>
@@ -33,4 +33,3 @@
 		</NavigationPage>
 	</TabbedPage.Children>
 </TabbedPage>
-
