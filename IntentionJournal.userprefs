@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml">
     <Files>
-      <File FileName="IntentionJournal/JournalPage.xaml" Line="8" Column="25" />
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="13" Column="123" />
+      <File FileName="IntentionJournal/JournalPage.xaml" Line="6" Column="75" />
+      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="28" Column="2" />
+      <File FileName="IntentionJournal/Entry.cs" Line="14" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

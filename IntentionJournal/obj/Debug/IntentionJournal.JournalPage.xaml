@@ -5,6 +5,12 @@
              Padding="20"
 			 Title="Journal">
 	<ContentPage.Content>
-		<ListView x:Name = "listView" />
+		<ListView x:Name = "listView" ItemSelected="listSelection" >
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<ImageCell Text="{Binding entryTitle}" Detail="{Binding entryContent}" ImageSource="{Binding image}"/>
+				</DataTemplate>
+			</ListView.ItemTemplate>
+		</ListView>
 	</ContentPage.Content>
 </ContentPage>
