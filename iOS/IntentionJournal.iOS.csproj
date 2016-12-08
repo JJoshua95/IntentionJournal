@@ -134,6 +134,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\settings.png" />
     <BundleResource Include="Resources\settings%402x.png" />
+    <BundleResource Include="Resources\tree.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />

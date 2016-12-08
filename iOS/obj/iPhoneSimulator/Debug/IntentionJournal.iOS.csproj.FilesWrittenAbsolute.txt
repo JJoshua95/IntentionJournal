@@ -15,3 +15,5 @@
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll.mdb
+/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/drawable/tree.png
+/Users/jcjoshua/Projects/IntentionJournal/iOS/obj/iPhoneSimulator/Debug/optimized/tree.png

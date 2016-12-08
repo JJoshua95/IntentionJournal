@@ -36,5 +36,10 @@ namespace IntentionJournal
 			await Navigation.PushAsync(new JournalPage());
 		}
 
+		public void addEntry()
+		{
+			
+		}
+
 	}
 }
