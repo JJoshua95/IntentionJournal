@@ -31,5 +31,10 @@ namespace IntentionJournal
 
 		}
 
+		async void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+		{
+			await Navigation.PushAsync(new JournalPage());
+		}
+
 	}
 }

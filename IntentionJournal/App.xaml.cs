@@ -8,7 +8,7 @@ namespace IntentionJournal
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage ( new MainTabContainer() ) ;
+			MainPage = new MainTabContainer() ;
 
 		}
 

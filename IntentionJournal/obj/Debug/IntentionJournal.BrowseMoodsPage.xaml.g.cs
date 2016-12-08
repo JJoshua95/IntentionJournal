@@ -20,9 +20,13 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.StackLayout StackLayoutMap;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Grid gridView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(BrowseMoodsPage));
             StackLayoutMap = this.FindByName <global::Xamarin.Forms.StackLayout>("StackLayoutMap");
+            gridView = this.FindByName <global::Xamarin.Forms.Grid>("gridView");
         }
     }
 }

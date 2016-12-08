@@ -1,12 +1,9 @@
-﻿<Properties StartupConfiguration="{E59913A3-ACA9-44B3-8B0E-0C694B06FE83}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/App.xaml.cs">
+﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml">
     <Files>
-      <File FileName="IntentionJournal/App.xaml.cs" Line="12" Column="4" />
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="14" Column="3" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml.cs" Line="18" Column="50" />
-      <File FileName="IntentionJournal/App.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/MainTabContainer.xaml" Line="9" Column="19" />
+      <File FileName="IntentionJournal/JournalPage.xaml" Line="6" Column="75" />
+      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="28" Column="2" />
+      <File FileName="IntentionJournal/Entry.cs" Line="14" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -15,5 +12,4 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.50A91A05-5CA5-423F-985C-FE2DA49B38C0" />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.Nexus4Android7.0" />
 </Properties>
