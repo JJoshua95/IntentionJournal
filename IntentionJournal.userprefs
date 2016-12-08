@@ -1,15 +1,10 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml">
-    <Files>
-      <File FileName="IntentionJournal/JournalPage.xaml" Line="6" Column="75" />
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="28" Column="2" />
-      <File FileName="IntentionJournal/Entry.cs" Line="14" Column="29" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.50A91A05-5CA5-423F-985C-FE2DA49B38C0" />
+  <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.Nexus4Android7.0" />
 </Properties>

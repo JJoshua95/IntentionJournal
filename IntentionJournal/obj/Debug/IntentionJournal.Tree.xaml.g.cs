@@ -17,8 +17,20 @@ namespace IntentionJournal {
     public partial class Tree : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image image;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button startButton;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button cancelButton;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Tree));
+            image = this.FindByName <global::Xamarin.Forms.Image>("image");
+            startButton = this.FindByName <global::Xamarin.Forms.Button>("startButton");
+            cancelButton = this.FindByName <global::Xamarin.Forms.Button>("cancelButton");
         }
     }
 }

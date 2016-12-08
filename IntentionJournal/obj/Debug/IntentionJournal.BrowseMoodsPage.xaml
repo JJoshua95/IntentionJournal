@@ -38,6 +38,7 @@
   				</Image.GestureRecognizers>
 			</Image>
 		</Grid>
+		<!--<Button Text = "Add Entry" Clicked="addEntry" VerticalOptions="CenterAndExpand" />-->
 	</StackLayout>
 </ContentPage>
 

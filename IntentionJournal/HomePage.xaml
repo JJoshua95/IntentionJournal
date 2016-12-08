@@ -5,6 +5,6 @@
              Padding="20"
 			 Title="Home">
 	<Label HorizontalOptions="Center"
-           Text="Home"
+           Text="Intention Journal"
            VerticalOptions="Center" />
 </ContentPage>
