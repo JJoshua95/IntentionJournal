@@ -18,6 +18,12 @@
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/SQLitePCLRaw.core.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/SQLite-net.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/System.Net.Http.dll
@@ -42,4 +48,5 @@
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/System.IO.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/System.Dynamic.Runtime.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/System.Text.RegularExpressions.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll

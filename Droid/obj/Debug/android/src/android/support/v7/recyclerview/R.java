@@ -2559,9 +2559,10 @@ containing a value of this type.
         public static int mr_ic_pause_light=0x7f02009e;
         public static int mr_ic_play_dark=0x7f02009f;
         public static int mr_ic_play_light=0x7f0200a0;
-        public static int notification_template_icon_bg=0x7f0200a3;
+        public static int notification_template_icon_bg=0x7f0200a4;
         public static int settings=0x7f0200a1;
         public static int settings2=0x7f0200a2;
+        public static int tree=0x7f0200a3;
     }
     public static final class id {
         public static int action0=0x7f0b008b;
@@ -2795,6 +2796,8 @@ containing a value of this type.
         public static int toolbar=0x7f030038;
     }
     public static final class string {
+        public static int ApplicationName=0x7f060027;
+        public static int Hello=0x7f060026;
         public static int abc_action_bar_home_description=0x7f060012;
         public static int abc_action_bar_home_description_format=0x7f060013;
         public static int abc_action_bar_home_subtitle_description_format=0x7f060014;

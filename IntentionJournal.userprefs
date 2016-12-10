@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/SQLite_iOS.cs">
     <Files>
-      <File FileName="IntentionJournal/EntryObject.cs" Line="15" Column="2" />
-      <File FileName="IntentionJournal/EntryDatabase.cs" Line="22" Column="4" />
-      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="10" Column="48" />
-      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="24" Column="24" />
-      <File FileName="IntentionJournal/App.xaml.cs" Line="14" Column="39" />
-      <File FileName="IntentionJournal/JournalPage.xaml" Line="13" Column="8" />
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="23" Column="34" />
+      <File FileName="Droid/SQLite_Android.cs" Line="32" Column="2" />
+      <File FileName="IntentionJournal/ISQLite.cs" Line="7" Column="1" />
+      <File FileName="IntentionJournal/EntryDatabase.cs" Line="1" Column="13" />
+      <File FileName="IntentionJournal/App.xaml" Line="1" Column="1" />
+      <File FileName="IntentionJournal/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="IntentionJournal/EntryObject.cs" Line="3" Column="1" />
+      <File FileName="iOS/SQLite_iOS.cs" Line="30" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -16,4 +16,5 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.50A91A05-5CA5-423F-985C-FE2DA49B38C0" />
+  <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.emulator-5554" />
 </Properties>
