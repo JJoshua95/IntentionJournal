@@ -39,6 +39,10 @@
 	-r \
 	/Users/jcjoshua/Projects/IntentionJournal/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
 	-r \
+	/Users/jcjoshua/Projects/IntentionJournal/packages/SQLite.Net.Core-PCL.3.1.1/lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll \
+	-r \
+	/Users/jcjoshua/Projects/IntentionJournal/packages/SQLite.Net-PCL.3.1.1/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll \
+	-r \
 	/Users/jcjoshua/Projects/IntentionJournal/IntentionJournal/bin/Debug/IntentionJournal.dll \
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
@@ -306,6 +310,10 @@
 	/Users/jcjoshua/Projects/IntentionJournal/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/jcjoshua/Projects/IntentionJournal/packages/Xamarin.Forms.2.3.1.114/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/jcjoshua/Projects/IntentionJournal/packages/SQLite.Net.Core-PCL.3.1.1/lib/portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1/SQLite.Net.dll \
+	-r \
+	/Users/jcjoshua/Projects/IntentionJournal/packages/SQLite.Net-PCL.3.1.1/lib/Xamarin.iOS10/SQLite.Net.Platform.XamarinIOS.Unified.dll \
 	-r \
 	/Users/jcjoshua/Projects/IntentionJournal/IntentionJournal/bin/Debug/IntentionJournal.dll \
 	--target-framework \
