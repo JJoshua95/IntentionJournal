@@ -12,6 +12,7 @@
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable-xxhdpi/icon.png
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/settings2.png
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/settings.png
+/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/tree.png
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/R.cs.flag
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/uk.ac.ucl.msccs.gc02.appdesign.intention_journal-Signed.apk
 /Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/uploadflags.txt
@@ -30,6 +31,13 @@
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/Xamarin.Forms.Platform.Android.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/Xamarin.Forms.Platform.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLitePCLRaw.core.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLitePCLRaw.lib.e_sqlite3.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLite-net.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLite.Net.dll
+/Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/SQLite.Net.Platform.XamarinAndroid.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal/Droid/bin/Debug/IntentionJournal.dll.mdb
-/Users/jcjoshua/Projects/IntentionJournal/Droid/obj/Debug/res/drawable/tree.png

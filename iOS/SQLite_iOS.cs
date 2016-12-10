@@ -12,7 +12,7 @@ namespace IntentionJournal.iOS
 		{
 		}
 		#region ISQLite implementation
-		public SQLite.Net.SQLiteConnection GetConnection()
+		public SQLite.SQLiteConnection GetConnection() 
 		{
 			var sqliteFilename = "EntriesSQLite.db3";
 			string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.Personal); // Documents folder
@@ -26,8 +26,9 @@ namespace IntentionJournal.iOS
 				File.Create(path);
 			}
 
-			var plat = new SQLite.Net.Platform.XamarinIOS.SQLitePlatformIOS();
-			var conn = new SQLite.Net.SQLiteConnection(plat, path);
+			//var plat = new SQLite.Net.Platform.XamarinIOS.SQLitePlatformIOS();
+			//var conn = new SQLite.Net.SQLiteConnection(plat, path);
+			var conn = new SQLite.SQLiteConnection(path);
 
 			// Return the database connection 
 			return conn;
