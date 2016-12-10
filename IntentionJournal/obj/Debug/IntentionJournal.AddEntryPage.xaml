@@ -4,9 +4,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
 			 Title="Write your entry">
-  <StackLayout Padding="5,10">
+  <StackLayout x:Name="stacklayout">
     <Label Text="This is where you enter your entries" />
-    <Entry Text="enter a title" />
-    <Editor Text="Today is a lovely day isn't it" HeightRequest="400" />
+    <Entry x:Name="titleInput"/>
+    <Editor x:Name="contInput" HeightRequest="200" />
   </StackLayout>
 </ContentPage>
