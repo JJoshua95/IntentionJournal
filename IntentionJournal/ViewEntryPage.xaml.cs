@@ -18,7 +18,7 @@ namespace IntentionJournal
 		public void onSaveClicked()
 		{
 			try
-			{
+			{	
 				currentEntryEdit.entryTitle = titleInputEdit.Text;
 				currentEntryEdit.entryContent = contInputEdit.Text;
 				App.DBase.EditEntry(currentEntryEdit);

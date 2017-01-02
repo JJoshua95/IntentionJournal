@@ -8,14 +8,19 @@ namespace IntentionJournal
 {
 	public partial class AddEntryPage : ContentPage
 	{
+		public String currentMood;
 		public AddEntryPage()
 		{
-			InitializeComponent(); 
+			InitializeComponent();
 			{
+				moodPicker.Items.Add("Joyful");
+				moodPicker.Items.Add("Grateful");
+				moodPicker.Items.Add("Creative");
+				moodPicker.Items.Add("Inspired");
+
 				var picturebutton = new Button { Text = "Add Picture" };
 				var savebutton = new Button { Text = "Save Entry" };
 				savebutton.Clicked += (sender, e) => { onSaveClicked(); };
-				//var deletebutton = new Button { Text = "Delete" };
 				var buttonBar = new StackLayout
 				{
 					Children = { picturebutton, savebutton },
@@ -27,22 +32,34 @@ namespace IntentionJournal
 			}
 		}
 
-		public void onSaveClicked() 
+		public void onSaveClicked()
 		{
 			try
-			{
-				var ent = new EntryObject()
+			{	
+				if (moodPicker.SelectedIndex == -1)
 				{
-					entryTitle = titleInput.Text,
-					entryContent = contInput.Text
-				};
-				App.DBase.SaveEntry(ent);
-				Navigation.PushAsync(new Tree());
+					DisplayAlert("Attention", "You haven't picked a mood", "OK");
+				}
+				else
+				{
+					currentMood = moodPicker.Items[moodPicker.SelectedIndex];
+					System.Diagnostics.Debug.WriteLine("Selected mood: " + moodPicker.Items[moodPicker.SelectedIndex]);
+					var ent = new EntryObject()
+					{
+						entryCategory = currentMood,
+						entryTitle = titleInput.Text,
+						entryContent = contInput.Text
+					};
+					App.DBase.SaveEntry(ent);
+					Navigation.PushAsync(new Tree());
+				}
+
 			}
 			catch (SQLite.NotNullConstraintViolationException)
 			{
 				// "The user tried to save an empty entry"
 				System.Diagnostics.Debug.WriteLine("The user tried to save an empty entry");
+				DisplayAlert("Attention", "You haven't written anything", "OK");
 			}
 		}
 

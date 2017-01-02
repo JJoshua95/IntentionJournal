@@ -5,7 +5,7 @@
              Padding="20"
 			 Title="Write your entry">
   <StackLayout x:Name="stacklayout">
-    <Label Text="This is where you enter your entries" />
+    <Label x:Name="moodLabel" Text="{Binding entryCategory}"/>
     <Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}"/>
     <Editor x:Name="contInputEdit" Text ="{Binding entryContent}" HeightRequest="300" BackgroundColor="#FEF5E7"/>
 	<Button x:Name="SaveEdit" Text="Save" Clicked="onSaveClicked"/>
