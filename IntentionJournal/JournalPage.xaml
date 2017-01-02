@@ -10,7 +10,7 @@
 				<DataTemplate>
 					<ImageCell Text="{Binding entryTitle}" Detail="{Binding entryContent}" ImageSource="Settings.png"/>
 				</DataTemplate>
-			</ListView.ItemTemplate>
-		</ListView>
+			</ListView.ItemTemplate> 
+	 	</ListView>
 	</ContentPage.Content>
 </ContentPage>

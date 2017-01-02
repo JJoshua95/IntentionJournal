@@ -22,22 +22,19 @@ namespace IntentionJournal
 				currentEntryEdit.entryTitle = titleInputEdit.Text;
 				currentEntryEdit.entryContent = contInputEdit.Text;
 				App.DBase.EditEntry(currentEntryEdit);
-				//Navigation.PopAsync();
-				//var entList = App.DBase.GetAllEntries();
-				//IntentionJournal.JournalPage.listView.ItemsSource = entList;
-				//IntentionJournal.JournalPage.refreshList();
-				var existingPages = Navigation.NavigationStack;
-				foreach (var page in existingPages) 
-				{
-					Navigation.RemovePage(page);
-				}
-				Navigation.PushAsync(new JournalPage());
+				Navigation.PopAsync();
 			}
 			catch (SQLite.NotNullConstraintViolationException)
 			{
 				// "The user tried to save an empty entry"
 				System.Diagnostics.Debug.WriteLine("The user tried to save an empty entry");
 			}
+		}
+
+		public void onDeleteClicked() 
+		{
+			App.DBase.DeleteEntry(currentEntryEdit);
+			Navigation.PopAsync();
 		}
 	}
 }

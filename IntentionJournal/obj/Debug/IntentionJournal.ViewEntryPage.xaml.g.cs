@@ -29,12 +29,16 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.Button SaveEdit;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button deleteEdit;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(ViewEntryPage));
             stacklayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stacklayout");
             titleInputEdit = this.FindByName <global::Xamarin.Forms.Entry>("titleInputEdit");
             contInputEdit = this.FindByName <global::Xamarin.Forms.Editor>("contInputEdit");
             SaveEdit = this.FindByName <global::Xamarin.Forms.Button>("SaveEdit");
+            deleteEdit = this.FindByName <global::Xamarin.Forms.Button>("deleteEdit");
         }
     }
 }
