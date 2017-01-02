@@ -7,6 +7,6 @@
   <StackLayout x:Name="stacklayout">
     <Label Text="This is where you enter your entries" />
     <Entry x:Name="titleInput"/>
-    <Editor x:Name="contInput" HeightRequest="200" />
+    <Editor x:Name="contInput" HeightRequest="300" BackgroundColor="#FEF5E7"/>
   </StackLayout>
 </ContentPage>

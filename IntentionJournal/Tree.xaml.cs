@@ -9,7 +9,8 @@ namespace IntentionJournal
 {
 	public Tree()
 	{
-		InitializeComponent();
+			InitializeComponent();
+			NavigationPage.SetHasBackButton(this, false);
 	}
 
 	void SetIsEnabledButtonState(bool startButtonState, bool cancelButtonState)

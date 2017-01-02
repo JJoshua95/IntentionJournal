@@ -10,7 +10,8 @@ namespace IntentionJournal
 		[NotNull]
 		public String entryTitle { get; set; }
 		public String entryContent { get; set; }
-
+		// Some sort of category entry
+		// Potentially a picture here
 	}
 
 }

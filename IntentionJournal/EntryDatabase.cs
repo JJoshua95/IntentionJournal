@@ -35,5 +35,10 @@ namespace IntentionJournal
 		{
 			return conn.Update(entryVal);
 		}
+
+		public EntryObject GetEntry(int id) 
+		{
+			return conn.Table<EntryObject>().FirstOrDefault(t => t.ID == id);
+		}
 	}
 }
