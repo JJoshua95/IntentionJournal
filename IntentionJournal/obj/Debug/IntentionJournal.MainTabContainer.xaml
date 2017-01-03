@@ -11,7 +11,7 @@
 				<local:HomePage/>
 			</x:Arguments>
 		</NavigationPage>
-		<NavigationPage Title = "Browse" Icon="browsegrey.png">
+		<NavigationPage Title="Browse" Icon="browsegrey.png">
 			<x:Arguments>
 				<local:BrowseMoodsPage/>
 			</x:Arguments>
@@ -26,7 +26,7 @@
 				<local:Tree/>
 			</x:Arguments>
 		</NavigationPage>
-		<NavigationPage Title = "Settings" Icon="settings.png">
+		<NavigationPage Title = "Settings" Icon="settingsgrey.png">
 			<x:Arguments>
 				<local:Settings/>
 			</x:Arguments>

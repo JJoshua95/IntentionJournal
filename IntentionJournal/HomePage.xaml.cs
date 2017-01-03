@@ -10,7 +10,7 @@ namespace IntentionJournal
 		public HomePage()
 		{
 			InitializeComponent();
-			ToolbarItems.Add(new ToolbarItem("Settings", "settings.png", () => {
+			ToolbarItems.Add(new ToolbarItem("Settings", "settingsgrey.png", () => {
 			//logic code goes here 
 			}));
 		}

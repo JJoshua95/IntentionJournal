@@ -148,8 +148,6 @@
     <Compile Include="SQLite_iOS.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\settings.png" />
-    <BundleResource Include="Resources\settings%402x.png" />
     <BundleResource Include="Resources\tree.png" />
     <BundleResource Include="Resources\Creative.png" />
     <BundleResource Include="Resources\Grateful.png" />
@@ -163,6 +161,8 @@
     <BundleResource Include="Resources\treegrey2x.png" />
     <BundleResource Include="Resources\writegrey.png" />
     <BundleResource Include="Resources\writegrey2x.png" />
+    <BundleResource Include="Resources\settingsgrey.png" />
+    <BundleResource Include="Resources\settingsgrey2x.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />

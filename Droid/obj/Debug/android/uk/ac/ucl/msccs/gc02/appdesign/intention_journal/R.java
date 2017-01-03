@@ -2566,8 +2566,8 @@ containing a value of this type.
         public static final int mr_ic_play_dark=0x7f0200a5;
         public static final int mr_ic_play_light=0x7f0200a6;
         public static final int notification_template_icon_bg=0x7f0200ac;
-        public static final int settings=0x7f0200a7;
-        public static final int settings2=0x7f0200a8;
+        public static final int settingsgrey=0x7f0200a7;
+        public static final int settingsgrey2x=0x7f0200a8;
         public static final int tree=0x7f0200a9;
         public static final int treegrey=0x7f0200aa;
         public static final int writegrey=0x7f0200ab;

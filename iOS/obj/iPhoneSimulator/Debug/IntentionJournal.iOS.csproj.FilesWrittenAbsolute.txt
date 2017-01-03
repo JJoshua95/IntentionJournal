@@ -85,3 +85,5 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treegrey2x.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/writegrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/writegrey2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/settingsgrey.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/settingsgrey2x.png
