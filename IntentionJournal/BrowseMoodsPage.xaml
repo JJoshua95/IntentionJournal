@@ -5,6 +5,7 @@
              Padding="20"
 			 Title="Browse">
 	<StackLayout x:Name="StackLayoutMap">
+		<Label Text="Today I want to feel..."/>
 		<Grid x:Name="gridView" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
 			<Grid.RowDefinitions>
       			<RowDefinition Height="*" />
