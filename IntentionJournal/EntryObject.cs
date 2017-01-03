@@ -12,5 +12,6 @@ namespace IntentionJournal
 		[NotNull]
 		public String entryContent { get; set; }
 		public String entryCategory { get; set; }
+		public String entryImageFile { get; set; }
 	}
 }

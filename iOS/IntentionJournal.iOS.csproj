@@ -151,6 +151,10 @@
     <BundleResource Include="Resources\settings.png" />
     <BundleResource Include="Resources\settings%402x.png" />
     <BundleResource Include="Resources\tree.png" />
+    <BundleResource Include="Resources\Creative.png" />
+    <BundleResource Include="Resources\Grateful.png" />
+    <BundleResource Include="Resources\Joyful.png" />
+    <BundleResource Include="Resources\Inspired.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />

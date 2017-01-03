@@ -5,10 +5,6 @@
              Padding="20"
 			 Title="Browse">
 	<StackLayout x:Name="StackLayoutMap">
-		<Label HorizontalOptions="Center"
-           Text="Browse"
-           VerticalOptions="CenterAndExpand"/>
-		<Button Text="Journal" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
 		<Grid x:Name="gridView" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
 			<Grid.RowDefinitions>
       			<RowDefinition Height="*" />
@@ -18,27 +14,39 @@
       			<ColumnDefinition Width="*" />
       			<ColumnDefinition Width="*" />
     		</Grid.ColumnDefinitions>
-			<Label Text="Happy"
-           	 Grid.Row="0" Grid.Column="0"
-           	 TextColor="White"
-           	 BackgroundColor="Navy" />
-			<Label Text="Grateful"
-           	 Grid.Row="0" Grid.Column="1"
-           	 TextColor="White"
-           	 BackgroundColor="Maroon" />
-			<Label Text="Inspired"
-           	 Grid.Row="1" Grid.Column="0"
-           	 TextColor="White"
-           	 BackgroundColor="Teal" />
-			<Image Source="settings.png" Grid.Row="1" Grid.Column="1">
+			<Image Source="Joyful.png"
+           	 Grid.Row="0" Grid.Column="0">
+				<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedJoyful"
+                	NumberOfTapsRequired="2" />
+  				</Image.GestureRecognizers>
+			</Image>
+			<Image Source="Grateful.png"
+           	 Grid.Row="0" Grid.Column="1">
+				<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedGrateful"
+                	NumberOfTapsRequired="2" />
+  				</Image.GestureRecognizers>
+			</Image>
+			<Image Source="Inspired.png"
+           	 Grid.Row="1" Grid.Column="0">
+				<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedInspired"
+                	NumberOfTapsRequired="2" />
+  				</Image.GestureRecognizers>
+			</Image>
+			<Image Source="Creative.png" Grid.Row="1" Grid.Column="1">
     			<Image.GestureRecognizers>
         			<TapGestureRecognizer
-                	Tapped="OnTapGestureRecognizerTapped"
+                	Tapped="OnTapGestureRecognizerTappedCreative"
                 	NumberOfTapsRequired="2" />
   				</Image.GestureRecognizers>
 			</Image>
 		</Grid>
-		<!--<Button Text = "Add Entry" Clicked="addEntry" VerticalOptions="CenterAndExpand" />-->
+		<Button Text="All Entries" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
 	</StackLayout>
 </ContentPage>
 

@@ -32,6 +32,13 @@ namespace IntentionJournal
 			}
 		}
 
+		public void clearTextAreas() 
+		{
+			titleInput.Text = "";
+			contInput.Text = "";
+			moodPicker.SelectedIndex = -1;
+		}
+
 		public void onSaveClicked()
 		{
 			try
@@ -44,13 +51,16 @@ namespace IntentionJournal
 				{
 					currentMood = moodPicker.Items[moodPicker.SelectedIndex];
 					System.Diagnostics.Debug.WriteLine("Selected mood: " + moodPicker.Items[moodPicker.SelectedIndex]);
+					System.Diagnostics.Debug.WriteLine(currentMood + ".png");
 					var ent = new EntryObject()
 					{
 						entryCategory = currentMood,
 						entryTitle = titleInput.Text,
-						entryContent = contInput.Text
+						entryContent = contInput.Text,
+						entryImageFile = currentMood + ".png"
 					};
 					App.DBase.SaveEntry(ent);
+					clearTextAreas();
 					Navigation.PushAsync(new Tree());
 				}
 
@@ -59,7 +69,7 @@ namespace IntentionJournal
 			{
 				// "The user tried to save an empty entry"
 				System.Diagnostics.Debug.WriteLine("The user tried to save an empty entry");
-				DisplayAlert("Attention", "You haven't written anything", "OK");
+				DisplayAlert("Attention", "You haven't written a title", "OK");
 			}
 		}
 

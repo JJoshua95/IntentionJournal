@@ -31,14 +31,24 @@ namespace IntentionJournal
 
 		}
 
-		async void OnTapGestureRecognizerTapped(object sender, EventArgs args)
+		async void OnTapGestureRecognizerTappedCreative(object sender, EventArgs args)
 		{
-			await Navigation.PushAsync(new JournalPage());
+			await Navigation.PushAsync(new JournalPage("Creative"));
 		}
 
-		public void addEntry()
+		async void OnTapGestureRecognizerTappedInspired(object sender, EventArgs args)
 		{
-			
+			await Navigation.PushAsync(new JournalPage("Inspired"));
+		}
+
+		async void OnTapGestureRecognizerTappedJoyful(object sender, EventArgs args)
+		{
+			await Navigation.PushAsync(new JournalPage("Joyful"));
+		}
+
+		async void OnTapGestureRecognizerTappedGrateful(object sender, EventArgs args)
+		{
+			await Navigation.PushAsync(new JournalPage("Grateful"));
 		}
 
 	}

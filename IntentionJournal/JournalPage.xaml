@@ -8,7 +8,7 @@
 		<ListView x:Name = "listView" ItemSelected="listSelection"  >
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<ImageCell Text="{Binding entryTitle}" Detail="{Binding entryContent}" ImageSource="Settings.png"/>
+					<ImageCell Text="{Binding entryTitle}" Detail="{Binding entryContent}" ImageSource="{Binding entryImageFile}"/>
 				</DataTemplate>
 			</ListView.ItemTemplate> 
 	 	</ListView>

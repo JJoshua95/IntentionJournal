@@ -18,7 +18,6 @@ namespace IntentionJournal
 		public List<EntryObject> GetAllEntries()
 		{
 			return conn.Query<EntryObject>("select * from [EntryObject]");
-
 		}
 
 		public List<EntryObject> GetEntriesForSingleMood(String targetMood) 
