@@ -6,22 +6,22 @@
 		x:Class="IntentionJournal.MainTabContainer"
 		Title = "Intention Journal">
 	<TabbedPage.Children>
-		<NavigationPage Title="Home" Icon="settings.png">
+		<NavigationPage Title="Home" Icon="homegrey.png">
 			<x:Arguments>
 				<local:HomePage/>
 			</x:Arguments>
 		</NavigationPage>
-		<NavigationPage Title = "Browse" Icon="settings.png">
+		<NavigationPage Title = "Browse" Icon="browsegrey.png">
 			<x:Arguments>
 				<local:BrowseMoodsPage/>
 			</x:Arguments>
 		</NavigationPage>
-		<NavigationPage Title = "Write" Icon="settings.png">
+		<NavigationPage Title = "Write" Icon="writegrey.png">
 			<x:Arguments>
 				<local:AddEntryPage/>
 			</x:Arguments>
 		</NavigationPage>
-		<NavigationPage Title = "Tree" Icon="settings.png">
+		<NavigationPage Title = "Tree" Icon="treegrey.png">
 			<x:Arguments>
 				<local:Tree/>
 			</x:Arguments>

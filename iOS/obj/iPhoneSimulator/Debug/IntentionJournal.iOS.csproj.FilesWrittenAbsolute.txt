@@ -77,3 +77,11 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll.mdb
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/browsegrey.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/browsegrey2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/homegrey.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/homegrey2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treegrey.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treegrey2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/writegrey.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/writegrey2x.png
