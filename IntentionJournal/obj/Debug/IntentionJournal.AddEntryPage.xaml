@@ -8,7 +8,7 @@
     <Label Text="Title:" />
     <Entry x:Name="titleInput"/>
 	<Label Text="Text:"/>
-    <Editor x:Name="contInput" HeightRequest="275" BackgroundColor="#FEF5E7"/>
+    <Editor x:Name="contInput" HeightRequest="100" BackgroundColor="#FEF5E7"/>
 	<Label Text="Mood:"/>
 	<Picker x:Name="moodPicker" />
   </StackLayout>

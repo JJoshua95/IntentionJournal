@@ -1,14 +1,17 @@
-﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml">
+﻿<Properties StartupConfiguration="{E59913A3-ACA9-44B3-8B0E-0C694B06FE83}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/ViewEntryPage.xaml.cs">
     <Files>
-      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="11" Column="50" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="15" Column="15" />
       <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="23" Column="63" />
       <File FileName="IntentionJournal/EntryDatabase.cs" Line="15" Column="1" />
-      <File FileName="IntentionJournal/EntryObject.cs" Line="12" Column="12" />
-      <File FileName="IntentionJournal/ViewEntryPage.xaml.cs" Line="39" Column="3" />
+      <File FileName="IntentionJournal/EntryObject.cs" Line="14" Column="44" />
+      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="21" Column="4" />
+      <File FileName="IntentionJournal/BrowseMoodsPage.xaml" Line="31" Column="31" />
+      <File FileName="IntentionJournal/BrowseMoodsPage.xaml.cs" Line="7" Column="2" />
+      <File FileName="IntentionJournal/App.xaml" Line="1" Column="1" />
+      <File FileName="IntentionJournal/App.xaml.cs" Line="12" Column="26" />
       <File FileName="IntentionJournal/ViewEntryPage.xaml" Line="15" Column="1" />
-      <File FileName="IntentionJournal/JournalPage.xaml" Line="9" Column="4" />
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="16" Column="26" />
+      <File FileName="IntentionJournal/ViewEntryPage.xaml.cs" Line="39" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
