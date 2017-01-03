@@ -5,8 +5,11 @@
              Padding="20"
 			 Title="Write your entry">
   <StackLayout x:Name="stacklayout">
-    <Label Text="This is where you enter your entries" />
+    <Label Text="Title:" />
     <Entry x:Name="titleInput"/>
-    <Editor x:Name="contInput" HeightRequest="300" BackgroundColor="#FEF5E7"/>
+	<Label Text="Text:"/>
+    <Editor x:Name="contInput" HeightRequest="100" BackgroundColor="#FEF5E7"/>
+	<Label Text="Mood:"/>
+	<Picker x:Name="moodPicker" />
   </StackLayout>
 </ContentPage>

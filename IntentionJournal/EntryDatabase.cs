@@ -21,6 +21,11 @@ namespace IntentionJournal
 
 		}
 
+		public List<EntryObject> GetEntriesForSingleMood(String targetMood) 
+		{
+			return conn.Query<EntryObject>("select * from [EntryObject] where entryCategory = ?", targetMood);
+		}
+
 		public int SaveEntry(EntryObject entryVal) 
 		{
 			return conn.Insert(entryVal);

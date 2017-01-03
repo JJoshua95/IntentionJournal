@@ -9,9 +9,8 @@ namespace IntentionJournal
 		public int ID { get; set; }
 		[NotNull]
 		public String entryTitle { get; set; }
+		[NotNull]
 		public String entryContent { get; set; }
-		// Some sort of category entry
-		// Potentially a picture here
+		public String entryCategory { get; set; }
 	}
-
 }
