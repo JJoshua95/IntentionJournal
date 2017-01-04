@@ -6,6 +6,8 @@ namespace IntentionJournal
 {
 	public partial class App : Application
 	{
+		public static double ScreenWidth;
+		public static double ScreenHeight;
 		static EntryDatabase database;
 		public App()
 		{

@@ -1,2 +1,0 @@
-android.app.Application
-uk.ac.ucl.msccs.gc02.appdesign.intention_journal

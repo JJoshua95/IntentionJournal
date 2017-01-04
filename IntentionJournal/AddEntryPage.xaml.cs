@@ -60,7 +60,29 @@ namespace IntentionJournal
 					};
 					App.DBase.SaveEntry(ent);
 					clearTextAreas();
-					Navigation.PushAsync(new Tree());
+					// get current scale 
+					var oldTreeProg = App.DBase.getTreeProgress(1);
+					if (oldTreeProg == null)
+					{
+						System.Diagnostics.Debug.WriteLine("No progress recorded yet so initialise tree now");
+						oldTreeProg = new TreeProgress()
+						{
+							progressID = 1,
+							currentTreeScale = 1
+						};
+						System.Diagnostics.Debug.WriteLine(oldTreeProg.currentTreeScale);
+					}
+					System.Diagnostics.Debug.WriteLine("old progress: " + oldTreeProg.currentTreeScale);
+					var newTreeProg = new TreeProgress()
+					{
+						progressID = 1,
+						currentTreeScale = oldTreeProg.currentTreeScale + 0.1 // add 0.1 to previous scale
+					};
+					//App.DBase.UpdateTreeProgress(newTreeProg);
+					System.Diagnostics.Debug.WriteLine("new progress " + newTreeProg.currentTreeScale);
+					Navigation.PushModalAsync(new NavigationPage(new TreeGrowing(newTreeProg.currentTreeScale)));
+					// maybe make a separate tree growing (modal) page
+
 				}
 
 			}
@@ -68,7 +90,7 @@ namespace IntentionJournal
 			{
 				// "The user tried to save an empty entry"
 				System.Diagnostics.Debug.WriteLine("The user tried to save an empty entry");
-				DisplayAlert("Attention", "You haven't written a title", "OK");
+				DisplayAlert("Attention", "You haven't finished the title or intention", "OK");
 			}
 		}
 

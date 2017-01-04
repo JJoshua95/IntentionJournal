@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.Tree" 
-		Title="Simple Animation">
-	<StackLayout Margin="0,20,0,0">
-		<Image x:Name="image" Source="tree.png" VerticalOptions="CenterAndExpand" />
-		<Button x:Name="startButton" Text="Start Animation" Clicked="OnStartAnimationButtonClicked" VerticalOptions="End" />
-		<Button x:Name="cancelButton" Text="Cancel Animation" Clicked="OnCancelAnimationButtonClicked" IsEnabled="false" />
-	</StackLayout>
+		xmlns:local="clr-namespace:IntentionJournal"
+		Title="Your Tree Progess">
+		<AbsoluteLayout HorizontalOptions="CenterAndExpand">
+			<local:PanContainer>
+				<Image x:Name="image" Source="tree.png"/>
+			</local:PanContainer>
+		</AbsoluteLayout>
 </ContentPage>

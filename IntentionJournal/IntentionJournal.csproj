@@ -53,6 +53,9 @@
     <EmbeddedResource Include="ViewEntryPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="TreeGrowing.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -86,6 +89,11 @@
     <Compile Include="ViewEntryPage.xaml.cs">
       <DependentUpon>ViewEntryPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="TreeProgress.cs" />
+    <Compile Include="TreeGrowing.xaml.cs">
+      <DependentUpon>TreeGrowing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PanContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLite-net">

@@ -15,52 +15,31 @@ namespace IntentionJournal
 			NavigationPage.SetHasBackButton(this, false);
 		}
 
-		/*
-		void SetIsEnabledButtonState(bool startButtonState, bool cancelButtonState)
+		protected override void OnAppearing()
 		{
-			startButton.IsEnabled = startButtonState;
-			cancelButton.IsEnabled = cancelButtonState;
-		}
-
-		void OnStartAnimationButtonClicked(object sender, EventArgs e)
-		{
-			SetIsEnabledButtonState(false, true);
-
-			var animation = new Animation(v => image.Scale = v, 1, 2);
-			animation.Commit(this, "SimpleAnimation", 16, 2000, Easing.Linear, (v, c) => image.Scale = 1, () => true);
-		}
-
-		void OnCancelAnimationButtonClicked(object sender, EventArgs e)
-		{
-			this.AbortAnimation("SimpleAnimation");
-			SetIsEnabledButtonState(true, false);
-		}
-
-		*/
-
-		void SetIsEnabledButtonState(bool startButtonState, bool cancelButtonState)
-		{
-			startButton.IsEnabled = startButtonState;
-			cancelButton.IsEnabled = cancelButtonState;
-		}
-
-		async void OnStartAnimationButtonClicked(object sender, EventArgs e)
-		{
-			SetIsEnabledButtonState(false, true);
-
-			bool isCancelled = await image.ScaleTo(2, 2000);
-			if (!isCancelled)
+			var currentProgScale = App.DBase.getTreeProgress(1);
+			if (currentProgScale == null)
 			{
-				await image.ScaleTo(1, 2000);
+				System.Diagnostics.Debug.WriteLine("No initial tree progress entry found");
+				ReloadTree(1);
+				App.DBase.UpdateTreeProgress(new TreeProgress { progressID = 1 , currentTreeScale = 1.0 });
+			}
+			else 
+			{
+				System.Diagnostics.Debug.WriteLine("Loading previous scale from database");
+				ReloadTree(currentProgScale.currentTreeScale);
 			}
 
-			SetIsEnabledButtonState(true, false);
+			base.OnAppearing();
 		}
 
-		void OnCancelAnimationButtonClicked(object sender, EventArgs e)
+		void ReloadTree(double startingScale) 
 		{
-			ViewExtensions.CancelAnimations(image);
-			SetIsEnabledButtonState(true, false);
+			// set the scale of the tree instantaneously to the previously incremented scale
+			image.HeightRequest = image.Height * startingScale;
+			image.WidthRequest = image.Width * startingScale;
+			//image.Scale = startingScale;
+
 		}
 
 	}
