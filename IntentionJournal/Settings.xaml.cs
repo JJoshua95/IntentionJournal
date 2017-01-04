@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// for git test
+
 using Xamarin.Forms;
 
 namespace IntentionJournal
