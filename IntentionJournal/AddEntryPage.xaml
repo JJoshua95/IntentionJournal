@@ -4,12 +4,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
 			 Title="Your Intention">
-  <StackLayout x:Name="stacklayout">
-    <Label Text="Title:" />
-    <Entry x:Name="titleInput"/>
-	<Label Text="Text:"/>
-    <Editor x:Name="contInput" HeightRequest="250" BackgroundColor="#FEF5E7"/>
-	<Label Text="Mood:"/>
-	<Picker x:Name="moodPicker" />
-  </StackLayout>
+	<ScrollView Orientation="Vertical">
+  		<StackLayout x:Name="stacklayout">
+    		<Label Text="Title:" />
+    		<Entry x:Name="titleInput"/>
+			<Label Text="Text:"/>
+    		<Editor x:Name="contInput" HeightRequest="250" BackgroundColor="#FEF5E7"/>
+			<Label Text="Mood:"/>
+			<Picker x:Name="moodPicker" />
+  		</StackLayout>
+	</ScrollView>
 </ContentPage>

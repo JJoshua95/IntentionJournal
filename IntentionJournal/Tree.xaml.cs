@@ -36,8 +36,13 @@ namespace IntentionJournal
 		void ReloadTree(double startingScale) 
 		{
 			// set the scale of the tree instantaneously to the previously incremented scale
-			image.HeightRequest = image.Height * startingScale;
-			image.WidthRequest = image.Width * startingScale;
+			System.Diagnostics.Debug.WriteLine(image.Height);
+			// times by the original images dimensions
+			image.HeightRequest = 150*startingScale;
+			System.Diagnostics.Debug.WriteLine(image.Height);
+			System.Diagnostics.Debug.WriteLine(image.Width);
+			image.WidthRequest = 94*startingScale;
+			System.Diagnostics.Debug.WriteLine(image.Width);
 			//image.Scale = startingScale;
 
 		}

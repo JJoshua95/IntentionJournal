@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 // https://github.com/xamarin/xamarin-forms-samples/blob/master/UserInterface/Animation/Basic/BasicAnimation/ScaleAnimationPage.xaml.cs
-// <StackLayout Margin="0,20,0,0" Orientation="Vertical">
+
 using Xamarin.Forms;
 
 namespace IntentionJournal

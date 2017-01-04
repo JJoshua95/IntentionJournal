@@ -3,10 +3,10 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.Tree" 
 		xmlns:local="clr-namespace:IntentionJournal"
-		Title="Your Tree Progess">
-		<AbsoluteLayout HorizontalOptions="CenterAndExpand">
-			<local:PanContainer>
-				<Image x:Name="image" Source="tree.png"/>
-			</local:PanContainer>
+		Title="Your Tree Progress">
+		<ScrollView Orientation="Both">
+		<AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
+				<Image x:Name="image" Source="tree.png" />
 		</AbsoluteLayout>
+		</ScrollView>
 </ContentPage>

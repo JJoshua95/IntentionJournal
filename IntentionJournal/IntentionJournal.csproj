@@ -93,7 +93,6 @@
     <Compile Include="TreeGrowing.xaml.cs">
       <DependentUpon>TreeGrowing.xaml</DependentUpon>
     </Compile>
-    <Compile Include="PanContainer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SQLite-net">
