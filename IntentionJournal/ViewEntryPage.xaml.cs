@@ -18,16 +18,29 @@ namespace IntentionJournal
 		public void onSaveClicked()
 		{
 			try
-			{	
-				currentEntryEdit.entryTitle = titleInputEdit.Text;
-				currentEntryEdit.entryContent = contInputEdit.Text;
-				App.DBase.EditEntry(currentEntryEdit);
-				Navigation.PopAsync();
+			{
+				// if strings empty handle
+				if (titleInputEdit.Text == "")
+				{
+					DisplayAlert("Attention", "You haven't entered a title", "OK");
+				}
+				else if (contInputEdit.Text == "")
+				{
+					DisplayAlert("Attention", "You haven't entered any text", "OK");
+				}
+				else
+				{
+					currentEntryEdit.entryTitle = titleInputEdit.Text;
+					currentEntryEdit.entryContent = contInputEdit.Text;
+					App.DBase.EditEntry(currentEntryEdit);
+					Navigation.PopAsync();
+				}
 			}
 			catch (SQLite.NotNullConstraintViolationException)
 			{
 				// "The user tried to save an empty entry"
 				System.Diagnostics.Debug.WriteLine("The user tried to save an empty entry");
+				DisplayAlert("Attention", "You haven't entered anything", "OK");
 			}
 		}
 

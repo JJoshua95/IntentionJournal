@@ -4,17 +4,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 Title="Settings">
 <ContentPage.Content>
-		<TableView Intent="Settings">
+		<TableView x:Name="settingsTable" Intent="Settings">
 			<TableRoot>
-				<TableSection Title="Quotes">
-					<TextCell Text="TextCell" Detail="TextCell Detail" />
-					<EntryCell Label="Entry Label" Text="EntryCell Text" />
-					<SwitchCell Text="SwitchCell Text" />
+				<TableSection Title="Manage Quotes">
+					<TextCell Text="Add Quote" Tapped="addQuoteCellSelected"/>
+					<TextCell Text="View/Edit Quotes" Tapped="viewQuotesCellSelected"/>
 				</TableSection>
-				<TableSection Title="Clear Data">
-					<TextCell Text="TextCell" Detail="TextCell Detail" />
-					<EntryCell Label="Entry Label" Text="EntryCell Text" />
-					<SwitchCell Text="SwitchCell Text" />
+				<TableSection Title="Manage Data">
+					<TextCell Text="Clear all Entries"/>
+					<TextCell Text="Clear all Quotes"/>
 				</TableSection>
 			</TableRoot>
 		</TableView>

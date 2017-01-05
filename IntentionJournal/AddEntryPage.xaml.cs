@@ -41,10 +41,18 @@ namespace IntentionJournal
 		public void onSaveClicked()
 		{
 			try
-			{	
+			{
 				if (moodPicker.SelectedIndex == -1)
 				{
 					DisplayAlert("Attention", "You haven't picked a mood", "OK");
+				}
+				else if (titleInput.Text == "")
+				{
+					DisplayAlert("Attention", "You haven't entered a title", "OK");
+				}
+				else if (contInput.Text == "") 
+				{ 
+					DisplayAlert("Attention", "You haven't entered any entry text", "OK");
 				}
 				else
 				{

@@ -3,7 +3,7 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="24" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Intention Journal" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <application android:label="Intention Journal" android:icon="@drawable/saplingicon" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="IntentionJournal.Droid" android:theme="@style/MyTheme" android:name="md598554bcb206d2625391eee1e50073f73.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

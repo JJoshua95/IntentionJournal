@@ -17,6 +17,7 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/writegrey2x.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/settingsgrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/settingsgrey2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/saplingicon.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.iOS.exe.mdb
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.iOS.exe

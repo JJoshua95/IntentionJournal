@@ -2218,23 +2218,26 @@ namespace IntentionJournal.Droid
 			// aapt resource value: 0x7f0200a6
 			public const int mr_ic_play_light = 2130837670;
 			
-			// aapt resource value: 0x7f0200ac
-			public const int notification_template_icon_bg = 2130837676;
+			// aapt resource value: 0x7f0200ad
+			public const int notification_template_icon_bg = 2130837677;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int settingsgrey = 2130837671;
+			public const int saplingicon = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int settingsgrey2x = 2130837672;
+			public const int settingsgrey = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int tree = 2130837673;
+			public const int settingsgrey2x = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int treegrey = 2130837674;
+			public const int tree = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int writegrey = 2130837675;
+			public const int treegrey = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int writegrey = 2130837676;
 			
 			static Drawable()
 			{

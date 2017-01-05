@@ -2565,12 +2565,13 @@ containing a value of this type.
         public static int mr_ic_pause_light=0x7f0200a4;
         public static int mr_ic_play_dark=0x7f0200a5;
         public static int mr_ic_play_light=0x7f0200a6;
-        public static int notification_template_icon_bg=0x7f0200ac;
-        public static int settingsgrey=0x7f0200a7;
-        public static int settingsgrey2x=0x7f0200a8;
-        public static int tree=0x7f0200a9;
-        public static int treegrey=0x7f0200aa;
-        public static int writegrey=0x7f0200ab;
+        public static int notification_template_icon_bg=0x7f0200ad;
+        public static int saplingicon=0x7f0200a7;
+        public static int settingsgrey=0x7f0200a8;
+        public static int settingsgrey2x=0x7f0200a9;
+        public static int tree=0x7f0200aa;
+        public static int treegrey=0x7f0200ab;
+        public static int writegrey=0x7f0200ac;
     }
     public static final class id {
         public static int action0=0x7f0b008b;

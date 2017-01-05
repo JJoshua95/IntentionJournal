@@ -8,7 +8,7 @@ namespace IntentionJournal
 	{
 		public static double ScreenWidth;
 		public static double ScreenHeight;
-		static EntryDatabase database;
+		static AppDatabase database;
 		public App()
 		{
 			InitializeComponent();
@@ -17,13 +17,13 @@ namespace IntentionJournal
 
 		}
 
-		public static EntryDatabase DBase 
+		public static AppDatabase DBase 
 		{
 			get 
 			{
 				if (database == null) 
 				{
-					database = new EntryDatabase();
+					database = new AppDatabase();
 				}
 				return database;
 			}
