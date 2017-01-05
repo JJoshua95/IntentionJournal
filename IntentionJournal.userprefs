@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/Tree.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml.cs">
     <Files>
-      <File FileName="IntentionJournal/Tree.xaml" Line="11" Column="16" />
-      <File FileName="IntentionJournal/Tree.xaml.cs" Line="51" Column="2" />
+      <File FileName="IntentionJournal/HomePage.xaml" Line="14" Column="1" />
+      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="10" Column="11" />
+      <File FileName="IntentionJournal/AppDatabase.cs" Line="85" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

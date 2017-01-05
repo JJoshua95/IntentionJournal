@@ -21,6 +21,7 @@
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/writegrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/settingsgrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/settingsgrey2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/saplingicon.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/R.cs.flag
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/bin/Debug/uk.ac.ucl.msccs.gc02.appdesign.intention_journal-Signed.apk
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/uploadflags.txt

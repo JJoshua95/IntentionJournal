@@ -9,6 +9,9 @@
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.MainTabContainer.xaml
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.ViewEntryPage.xaml
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.TreeGrowing.xaml
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.AddQuotePage.xaml
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.BrowseQuotesPage.xaml
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.ViewQuotePage.xaml
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.App.xaml.g.cs
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.HomePage.xaml.g.cs
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.BrowseMoodsPage.xaml.g.cs
@@ -19,6 +22,9 @@
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.MainTabContainer.xaml.g.cs
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.ViewEntryPage.xaml.g.cs
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.TreeGrowing.xaml.g.cs
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.AddQuotePage.xaml.g.cs
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.BrowseQuotesPage.xaml.g.cs
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.ViewQuotePage.xaml.g.cs
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/IntentionJournal.dll.mdb
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.dll

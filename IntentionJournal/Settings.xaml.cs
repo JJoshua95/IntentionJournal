@@ -13,5 +13,16 @@ namespace IntentionJournal
 		{
 			InitializeComponent();
 		}
+
+		public void addQuoteCellSelected() 
+		{
+			Navigation.PushAsync(new AddQuotePage());
+		}
+
+		public void viewQuotesCellSelected()
+		{
+			Navigation.PushAsync(new BrowseQuotesPage());
+		}
+
 	}
 }
