@@ -4,7 +4,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
 			 Title="Home">
-	<Label HorizontalOptions="Center"
-           Text="Intention Journal"
-           VerticalOptions="Center" />
+	<ScrollView Orientation="Vertical">
+  		<StackLayout x:Name="stacklayout">
+			<Label Text="Text:" HorizontalOptions="Center"/>
+    		<Editor x:Name="randomQuoteEditor" HeightRequest="250" BackgroundColor="#FEF5E7" IsEnabled="false"/>
+  		</StackLayout>
+	</ScrollView>
 </ContentPage>
