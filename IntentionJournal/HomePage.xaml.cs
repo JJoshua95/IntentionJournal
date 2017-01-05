@@ -38,7 +38,13 @@ namespace IntentionJournal
 				quoteStringList.Add(stringToAdd);
 			}
 			// Add in preloaded quotes here
-			// quoteStringList.Add(quote); // Repeat for all preloaded quotes
+			quoteStringList.Add("Our beliefs become your thoughts, " +
+								"Your thoughts become your words, " +
+								"Your words become your actions, " +
+								"Your actions become your habits, " +
+								"Your habits become your values, " +
+								"Your values become your destiny");
+			// Repeat for all preloaded quotes
 
 			var noOfStrings = quoteStringList.Count;
 			System.Diagnostics.Debug.WriteLine("Number of quotes in Database: " + noOfStrings);
