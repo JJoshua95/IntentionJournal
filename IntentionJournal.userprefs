@@ -1,9 +1,8 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/AddEntryPage.xaml.cs">
     <Files>
-      <File FileName="IntentionJournal/HomePage.xaml" Line="14" Column="1" />
-      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="10" Column="11" />
-      <File FileName="IntentionJournal/AppDatabase.cs" Line="85" Column="1" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="1" Column="1" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="95" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -11,6 +10,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5909ABD-1DD3-4CA4-9AB0-E59382CF78A3" />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.Nexus4Android7.0" />
+  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97F31E44-E4DE-4DD3-ACE9-43239CD759AA" />
 </Properties>

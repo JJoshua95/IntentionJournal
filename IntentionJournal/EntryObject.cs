@@ -12,6 +12,7 @@ namespace IntentionJournal
 		[NotNull]
 		public String entryContent { get; set; }
 		public String entryCategory { get; set; }
+		//[Column("BLOB")]
 		public String entryImageFile { get; set; }
 	}
 }

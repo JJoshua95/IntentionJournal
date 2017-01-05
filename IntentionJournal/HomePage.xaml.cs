@@ -38,7 +38,7 @@ namespace IntentionJournal
 				quoteStringList.Add(stringToAdd);
 			}
 			// Add in preloaded quotes here
-			quoteStringList.Add("Our beliefs become your thoughts, " +
+			quoteStringList.Add("Your beliefs become your thoughts, " +
 								"Your thoughts become your words, " +
 								"Your words become your actions, " +
 								"Your actions become your habits, " +

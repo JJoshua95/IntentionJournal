@@ -24,13 +24,13 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/IntentionJournal.iOS.exe
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/IntentionJournal.iOS.exe.mdb
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.sqlite3.dll
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_green.dll
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll.mdb

@@ -18,11 +18,12 @@ namespace IntentionJournal
 				moodPicker.Items.Add("Inspired");
 
 				var picturebutton = new Button { Text = "Add Picture" };
+				var image = new Image();
 				var savebutton = new Button { Text = "Save Entry" };
 				savebutton.Clicked += (sender, e) => { onSaveClicked(); };
 				var buttonBar = new StackLayout
 				{
-					Children = { picturebutton, savebutton },
+					Children = { picturebutton, image, savebutton },
 					Orientation = StackOrientation.Vertical,
 					HorizontalOptions = LayoutOptions.CenterAndExpand,
 					VerticalOptions = LayoutOptions.EndAndExpand
@@ -104,3 +105,33 @@ namespace IntentionJournal
 
 	}
 }
+
+/*
+ public async void pickClick(object sender, EventArgs args)
+		{
+			if (!CrossMedia.Current.IsPickPhotoSupported)
+			{
+				DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
+				return;
+			}
+
+			var file = await CrossMedia.Current.PickPhotoAsync();
+
+
+			if (file == null)
+				return;
+			image.Source = ImageSource.FromStream(() =>
+			{
+				var stream = file.GetStream();
+				//System.Diagnostics.Debug.WriteLine(file.Path);
+				//System.Diagnostics.Debug.WriteLine(file.AlbumPath);
+				var memoryStream = new MemoryStream();
+				file.GetStream().CopyTo(memoryStream);
+				bitArr = memoryStream.ToArray();
+				System.Diagnostics.Debug.WriteLine(bitArr.Count());
+				file.Dispose();
+				return stream;
+			});
+
+		}
+ */
