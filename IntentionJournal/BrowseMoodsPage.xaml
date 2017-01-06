@@ -21,7 +21,7 @@
 				<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedJoyful"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
 			<Image Source="Grateful.png"
@@ -29,7 +29,7 @@
 				<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedGrateful"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
 			<Image Source="Inspired.png"
@@ -37,14 +37,14 @@
 				<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedInspired"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
 			<Image Source="Creative.png" Grid.Row="1" Grid.Column="1">
     			<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedCreative"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
 		</Grid>

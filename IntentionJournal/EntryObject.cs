@@ -17,6 +17,6 @@ namespace IntentionJournal
 		public String entryImageFile { get; set; }
 		// This is for a picture selected from user photos gallery
 		[Column("BLOB")]
-		public byte[] pictureBytes { get; set; }
+		public byte[] entryPictureBytes { get; set; }
 	}
 }

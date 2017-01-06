@@ -30,6 +30,9 @@ namespace IntentionJournal
 		public List<EntryObject> GetEntriesForSingleMood(String targetMood) 
 		{
 			return conn.Query<EntryObject>("select * from [EntryObject] where entryCategory = ?", targetMood);
+			// Get all columns apart from the image bytes as if there are lots of images loading all in at once
+			// may be overly demanding
+			// return conn.Query<EntryObject>("select [ID],[entryTitle],[entryContent],[entryCategory],[entryImageFile] from [EntryObject] where entryCategory = ?", targetMood);
 		}
 
 		public int SaveEntry(EntryObject entryVal) 
@@ -50,6 +53,17 @@ namespace IntentionJournal
 		public EntryObject GetEntry(int id) 
 		{
 			return conn.Table<EntryObject>().FirstOrDefault(t => t.ID == id);
+		}
+
+		public void deleteAllEntries()
+		{
+			{
+				List<EntryObject> l = conn.Query<EntryObject>("select * from [EntryObject]");
+				foreach (EntryObject e in l)
+				{
+					conn.Delete(e);
+				}
+			}
 		}
 
 		public TreeProgress getTreeProgress(int scaleId)
@@ -82,6 +96,15 @@ namespace IntentionJournal
 			return conn.Query<QuoteObject>("select * from [QuoteObject]");
 		}
 
+		public void deleteAllQuotes()
+		{
+			List<QuoteObject> l = GetAllQuotes();
+			foreach (QuoteObject q in l)
+			{
+				conn.Delete(q);
+			}
+		}
+
 		public int InsertTemporaryImage(ImageDataObject imageInput) 
 		{
 			return conn.InsertOrReplace(imageInput);
@@ -92,7 +115,7 @@ namespace IntentionJournal
 			return conn.Table<ImageDataObject>().FirstOrDefault(t => t.picID == inputId);
 		}
 
-		public int ClearImageBuffer(ImageDataObject inputImage)
+		public int ClearImageBuffer()
 		{
 			return conn.DeleteAll<ImageDataObject>();
 		}

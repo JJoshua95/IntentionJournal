@@ -29,6 +29,15 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.Editor contInputEdit;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button changeImageButton;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image editImage;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Button deleteImageButton;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button SaveEdit;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -41,6 +50,9 @@ namespace IntentionJournal {
             moodLabel = this.FindByName <global::Xamarin.Forms.Label>("moodLabel");
             titleInputEdit = this.FindByName <global::Xamarin.Forms.Entry>("titleInputEdit");
             contInputEdit = this.FindByName <global::Xamarin.Forms.Editor>("contInputEdit");
+            changeImageButton = this.FindByName <global::Xamarin.Forms.Button>("changeImageButton");
+            editImage = this.FindByName <global::Xamarin.Forms.Image>("editImage");
+            deleteImageButton = this.FindByName <global::Xamarin.Forms.Button>("deleteImageButton");
             SaveEdit = this.FindByName <global::Xamarin.Forms.Button>("SaveEdit");
             deleteEdit = this.FindByName <global::Xamarin.Forms.Button>("deleteEdit");
         }

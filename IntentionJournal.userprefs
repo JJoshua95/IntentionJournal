@@ -1,14 +1,10 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/ViewEntryPage.xaml.cs">
     <Files>
       <File FileName="IntentionJournal/AddEntryPage.xaml" Line="18" Column="15" />
-      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/EntryObject.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/AppDatabase.cs" Line="93" Column="4" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/HomePage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="30" Column="4" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="76" Column="6" />
+      <File FileName="IntentionJournal/ViewEntryPage.xaml" Line="12" Column="39" />
+      <File FileName="IntentionJournal/ViewEntryPage.xaml.cs" Line="113" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

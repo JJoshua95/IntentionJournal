@@ -11,8 +11,8 @@
 					<TextCell Text="View/Edit Quotes" Tapped="viewQuotesCellSelected"/>
 				</TableSection>
 				<TableSection Title="Manage Data">
-					<TextCell Text="Clear all Entries"/>
-					<TextCell Text="Clear all Quotes"/>
+					<TextCell Text="Clear all Entries" Tapped="clearEntriesCellSelected"/>
+          			<TextCell Text="Clear all Quotes" Tapped="clearQuotesCellSelected"/>
 				</TableSection>
 			</TableRoot>
 		</TableView>

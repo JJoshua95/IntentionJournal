@@ -61,6 +61,19 @@ namespace IntentionJournal
 				}
 				else
 				{
+					// save the image bytes into an entry
+					var currentBufferImage = App.DBase.getTempImage(1);
+					byte[] inputBytes;
+					if (currentBufferImage == null)
+					{
+						System.Diagnostics.Debug.WriteLine("No image picked");
+						inputBytes = null;
+					}
+					else 
+					{
+						inputBytes = currentBufferImage.pictureBytes;
+					}
+
 					currentMood = moodPicker.Items[moodPicker.SelectedIndex];
 					System.Diagnostics.Debug.WriteLine("Selected mood: " + moodPicker.Items[moodPicker.SelectedIndex]);
 					System.Diagnostics.Debug.WriteLine(currentMood + ".png");
@@ -69,10 +82,17 @@ namespace IntentionJournal
 						entryCategory = currentMood,
 						entryTitle = titleInput.Text,
 						entryContent = contInput.Text,
-						entryImageFile = currentMood + ".png"
+						entryImageFile = currentMood + ".png",
+						entryPictureBytes = inputBytes //currentBufferImage.pictureBytes
 					};
 					App.DBase.SaveEntry(ent);
+					// Clear the buffer so that if another user saves an entry with no picture 
+					// this buffer won't be saved to the entry when it shouldn't
+					App.DBase.ClearImageBuffer();
+					// Clear inputs
 					clearTextAreas();
+					//
+					image.Source = null;
 					// get current scale 
 					var oldTreeProg = App.DBase.getTreeProgress(1);
 					if (oldTreeProg == null)
@@ -95,8 +115,6 @@ namespace IntentionJournal
 					System.Diagnostics.Debug.WriteLine("new progress " + newTreeProg.currentTreeScale);
 					Navigation.PushModalAsync(new NavigationPage(new TreeGrowing(newTreeProg.currentTreeScale)));
 
-					// save the image bytes into an entry
-					// clear the buffer
 				}
 
 			}
