@@ -8,9 +8,18 @@ using Xamarin.Forms;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// Contains the logic behind the ViewEntryPage.
+	/// </summary>
 	public partial class ViewEntryPage : ContentPage
 	{
 		EntryObject currentEntryEdit;
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:IntentionJournal.ViewEntryPage"/> class.
+		/// Takes an EntryObject input and displays the entry allowing editing
+		/// </summary>
+		/// <param name="selectedEntryEdit">Selected entry edit.</param>
 		public ViewEntryPage(EntryObject selectedEntryEdit)
 		{
 			InitializeComponent();
@@ -19,6 +28,10 @@ namespace IntentionJournal
 			getImageFromDB();
 		}
 
+		/// <summary>
+		/// When save is clicked all the user input is taken and the input EntryObject is updated in the database, howver no progress is made by 
+		/// editing, and no growing tree is shown, the user is taken back to a journal page where all the entries are refreshed and shown 
+		/// </summary>
 		public void onSaveClicked()
 		{
 			try
@@ -64,18 +77,30 @@ namespace IntentionJournal
 			}
 		}
 
+		/// <summary>
+		/// When the delete button is pressed the EntryObject entered into this page is deleted from the database
+		/// And the user is taken back to the journal where all the entries are updated
+		/// </summary>
 		public void onDeleteClicked() 
 		{
 			App.DBase.DeleteEntry(currentEntryEdit);
 			Navigation.PopAsync();
 		}
 
+		/// <summary>
+		/// Deletes the image the user picked and wipes it from the buffer too
+		/// </summary>
 		public void DeletePicture() 
 		{
 			App.DBase.ClearImageBuffer();
 			editImage.Source = null;
 		}
 
+		/// <summary>
+		/// Opens up the users gallery on their device where they can choose a picture which will be displayed and thenstored in the buffer
+		/// </summary>
+		/// <param name="sender">Sender.</param>
+		/// <param name="args">Arguments.</param>
 		public async void pickGalleryImage(object sender, EventArgs args)
 		{
 			if (!CrossMedia.Current.IsPickPhotoSupported)
@@ -105,6 +130,9 @@ namespace IntentionJournal
 
 		}
 
+		/// <summary>
+		/// Loads the image bytes from the entry and processes them to display an image
+		/// </summary>
 		public void getImageFromDB()
 		{
 			var imageBytes = currentEntryEdit.entryPictureBytes;

@@ -5,9 +5,17 @@ using Xamarin.Forms;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// Contains the logic behind the ViewQuotePage
+	/// </summary>
 	public partial class ViewQuotePage : ContentPage
 	{
 		QuoteObject currentQuoteEdit;
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:IntentionJournal.ViewQuotePage"/> class.
+		/// Takes a QuoteObject and displays its text in the editor ready for editing
+		/// </summary>
+		/// <param name="inputQuote">Input quote.</param>
 		public ViewQuotePage(QuoteObject inputQuote)
 		{
 			InitializeComponent();
@@ -15,6 +23,9 @@ namespace IntentionJournal
 			BindingContext = currentQuoteEdit;
 		}
 
+		/// <summary>
+		/// Takes the text in the editor and updates the currently displayed QuoteObject with the new text
+		/// </summary>
 		public void UpdateQuoteToDB() 
 		{	
 			try
@@ -42,6 +53,9 @@ namespace IntentionJournal
 
 		}
 
+		/// <summary>
+		/// Deletes the currently selected quote from the database
+		/// </summary>
 		public void DeleteQuoteFromDB()
 		{
 			App.DBase.DeleteQuote(currentQuoteEdit);

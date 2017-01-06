@@ -7,8 +7,18 @@ using Xamarin.Forms;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// Contains the logic behind the TreeGrowing.xaml page which is opened when a user makes a new entry and displays a 
+	/// quick animation of a tree growing.
+	/// This class was structured so that the animation would later be scaled up to an input scale, however for the moment it scales up 
+	/// to a uniform scale every time
+	/// </summary>
 	public partial class TreeGrowing : ContentPage
 	{
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:IntentionJournal.TreeGrowing"/> class.
+		/// </summary>
+		/// <param name="inputScale">Input scale.</param>
 		public TreeGrowing(double inputScale)
 		{
 			InitializeComponent();
@@ -21,6 +31,10 @@ namespace IntentionJournal
 			GrowTree(inputScale);
 		}
 
+		/// <summary>
+		/// When this page is displayed the curent progress is loaded in with the intent of displaying initially a tree of that previous size and then
+		/// scaling up to the next incremented size
+		/// </summary>
 		protected override void OnAppearing()
 		{
 			var currentProgScale = App.DBase.getTreeProgress(1);
@@ -39,12 +53,20 @@ namespace IntentionJournal
 			base.OnAppearing();
 		}
 
+		/// <summary>
+		/// Reloads the tree, given a scale it displays a tree image at that scale
+		/// </summary>
+		/// <param name="startingScale">Starting scale.</param>
 		void ReloadTree(double startingScale)
 		{
 			// set the scale of the tree instantaneously to the previously incremented scale
 			image.Scale = startingScale;
 		}
 
+		/// <summary>
+		/// Grows the tree. given a scale this method performs an animation where the tree grows to the input scale
+		/// </summary>
+		/// <param name="newScale">New scale.</param>
 		void GrowTree(double newScale)
 		{
 			image.ScaleTo(3, 10000);
