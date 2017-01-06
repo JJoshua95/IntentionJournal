@@ -12,6 +12,7 @@
     		<Editor x:Name="contInput" HeightRequest="250" BackgroundColor="#FEF5E7"/>
 			<Label Text="Mood:"/>
 			<Picker x:Name="moodPicker" />
+			<Image x:Name="image"/>
   		</StackLayout>
 	</ScrollView>
 </ContentPage>

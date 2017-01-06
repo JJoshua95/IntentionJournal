@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Intention Journal</string>
 	<key>CFBundleIdentifier</key>
-	<string>uk.ac.ucl.msccs.gc02.appdesign.intention-journal</string>
+	<string>uk.ac.ucl.msccs.gc02.appdesign.intention-journal.IntentionJournalTest</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -42,5 +42,7 @@
 	</array>
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to photos.</string>
 </dict>
 </plist>

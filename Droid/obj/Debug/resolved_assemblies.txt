@@ -24,6 +24,11 @@
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/SQLitePCLRaw.provider.e_sqlite3.dll
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/SQLitePCLRaw.batteries_green.dll
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/SQLitePCLRaw.batteries_v2.dll
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/Plugin.CurrentActivity.dll
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/Plugin.Permissions.Abstractions.dll
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/Plugin.Permissions.dll
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/Plugin.Media.Abstractions.dll
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/Plugin.Media.dll
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/mscorlib.dll
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/android/assets/System.Net.Http.dll

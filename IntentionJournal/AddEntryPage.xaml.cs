@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using Plugin.Media;
+using System.Linq;
 
 using Xamarin.Forms;
 
@@ -18,16 +21,18 @@ namespace IntentionJournal
 				moodPicker.Items.Add("Inspired");
 
 				var picturebutton = new Button { Text = "Add Picture" };
+				picturebutton.Clicked += (sender, e) => { pickGalleryImage(sender, e); };
 				var savebutton = new Button { Text = "Save Entry" };
 				savebutton.Clicked += (sender, e) => { onSaveClicked(); };
 				var buttonBar = new StackLayout
 				{
-					Children = { picturebutton, savebutton },
+					Children = { picturebutton, image, savebutton },
 					Orientation = StackOrientation.Vertical,
 					HorizontalOptions = LayoutOptions.CenterAndExpand,
 					VerticalOptions = LayoutOptions.EndAndExpand
 				};
 				stacklayout.Children.Add(buttonBar);
+				// clear buffer when new page made
 			}
 		}
 
@@ -56,6 +61,19 @@ namespace IntentionJournal
 				}
 				else
 				{
+					// save the image bytes into an entry
+					var currentBufferImage = App.DBase.getTempImage(1);
+					byte[] inputBytes;
+					if (currentBufferImage == null)
+					{
+						System.Diagnostics.Debug.WriteLine("No image picked");
+						inputBytes = null;
+					}
+					else 
+					{
+						inputBytes = currentBufferImage.pictureBytes;
+					}
+
 					currentMood = moodPicker.Items[moodPicker.SelectedIndex];
 					System.Diagnostics.Debug.WriteLine("Selected mood: " + moodPicker.Items[moodPicker.SelectedIndex]);
 					System.Diagnostics.Debug.WriteLine(currentMood + ".png");
@@ -64,10 +82,17 @@ namespace IntentionJournal
 						entryCategory = currentMood,
 						entryTitle = titleInput.Text,
 						entryContent = contInput.Text,
-						entryImageFile = currentMood + ".png"
+						entryImageFile = currentMood + ".png",
+						entryPictureBytes = inputBytes //currentBufferImage.pictureBytes
 					};
 					App.DBase.SaveEntry(ent);
+					// Clear the buffer so that if another user saves an entry with no picture 
+					// this buffer won't be saved to the entry when it shouldn't
+					App.DBase.ClearImageBuffer();
+					// Clear inputs
 					clearTextAreas();
+					//
+					image.Source = null;
 					// get current scale 
 					var oldTreeProg = App.DBase.getTreeProgress(1);
 					if (oldTreeProg == null)
@@ -89,7 +114,6 @@ namespace IntentionJournal
 					//App.DBase.UpdateTreeProgress(newTreeProg);
 					System.Diagnostics.Debug.WriteLine("new progress " + newTreeProg.currentTreeScale);
 					Navigation.PushModalAsync(new NavigationPage(new TreeGrowing(newTreeProg.currentTreeScale)));
-					// maybe make a separate tree growing (modal) page
 
 				}
 
@@ -100,6 +124,46 @@ namespace IntentionJournal
 				System.Diagnostics.Debug.WriteLine("The user tried to save an empty entry");
 				DisplayAlert("Attention", "You haven't finished the title or intention", "OK");
 			}
+		}
+
+		public async void pickGalleryImage(object sender, EventArgs args)
+		{
+			if (!CrossMedia.Current.IsPickPhotoSupported)
+			{
+				DisplayAlert("Photos Not Supported", ":( Permission not granted to photos.", "OK");
+				return;
+			}
+
+			var file = await CrossMedia.Current.PickPhotoAsync();
+
+			if (file == null)
+				return;
+			image.Source = ImageSource.FromStream(() =>
+			{
+				var stream = file.GetStream();
+				//System.Diagnostics.Debug.WriteLine(file.Path);
+				//System.Diagnostics.Debug.WriteLine(file.AlbumPath);
+				var memoryStream = new MemoryStream();
+				file.GetStream().CopyTo(memoryStream);
+				var bitArr = memoryStream.ToArray();
+				// Overwrite the picture buffer record with the image loaded in
+				App.DBase.InsertTemporaryImage(new ImageDataObject() { picID =1, pictureBytes=bitArr });
+				System.Diagnostics.Debug.WriteLine(bitArr.Count());
+				file.Dispose();
+				return stream;
+			});
+
+		}
+
+		public void getBlob(object sender, EventArgs args)
+		{
+			var imRecord = App.DBase.getTempImage(1);
+
+			byte[] dbBin = imRecord.pictureBytes;
+			System.Diagnostics.Debug.WriteLine("Loading from db");
+			// image.Source = ImageSource.FromStream(() => new MemoryStream(dbBin));
+			System.Diagnostics.Debug.WriteLine(dbBin.Length);
+			// foreach (byte bit in dbBin) { System.Diagnostics.Debug.WriteLine(bit); }
 		}
 
 	}

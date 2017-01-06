@@ -2,6 +2,10 @@ IntentionJournal.Droid.MainActivity, IntentionJournal.Droid;md598554bcb206d26253
 IntentionJournal.Droid.MainActivity, IntentionJournal.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md598554bcb206d2625391eee1e50073f73.MainActivity
 IntentionJournal.Droid.MainActivity;md598554bcb206d2625391eee1e50073f73.MainActivity
 intentionjournal.droid.MainActivity;md598554bcb206d2625391eee1e50073f73.MainActivity
+IntentionJournal.Droid.MainApplication, IntentionJournal.Droid;md598554bcb206d2625391eee1e50073f73.MainApplication
+IntentionJournal.Droid.MainApplication, IntentionJournal.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md598554bcb206d2625391eee1e50073f73.MainApplication
+IntentionJournal.Droid.MainApplication;md598554bcb206d2625391eee1e50073f73.MainApplication
+intentionjournal.droid.MainApplication;md598554bcb206d2625391eee1e50073f73.MainApplication
 Android.Support.V4.View.ViewPager/IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager+IOnPageChangeListenerImplementor, Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
 Android.Support.V4.View.ViewPager.IOnPageChangeListenerImplementor;mono.android.support.v4.view.ViewPager_OnPageChangeListenerImplementor
@@ -566,3 +570,7 @@ Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Fo
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 Xamarin.Forms.Platform.Android.AppCompat.FormsFragmentPagerAdapter`1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
 xamarin.forms.platform.android.appcompat.FormsFragmentPagerAdapter_1;md5270abb39e60627f0f200893b490a1ade.FormsFragmentPagerAdapter_1
+Plugin.Media.MediaPickerActivity, Plugin.Media;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
+Plugin.Media.MediaPickerActivity, Plugin.Media, Version=2.6.1.0, Culture=neutral, PublicKeyToken=null;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
+Plugin.Media.MediaPickerActivity;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity
+plugin.media.MediaPickerActivity;md5447fdd08b040856919d3dd3a41d94bac.MediaPickerActivity

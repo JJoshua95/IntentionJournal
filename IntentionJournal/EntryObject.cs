@@ -12,6 +12,11 @@ namespace IntentionJournal
 		[NotNull]
 		public String entryContent { get; set; }
 		public String entryCategory { get; set; }
+		//[Column("BLOB")]
+		// This is for the mood template image 
 		public String entryImageFile { get; set; }
+		// This is for a picture selected from user photos gallery
+		[Column("BLOB")]
+		public byte[] entryPictureBytes { get; set; }
 	}
 }
