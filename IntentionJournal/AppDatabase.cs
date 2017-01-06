@@ -19,6 +19,7 @@ namespace IntentionJournal
 			conn.CreateTable<EntryObject>();
 			conn.CreateTable<TreeProgress>();
 			conn.CreateTable<QuoteObject>();
+			conn.CreateTable<ImageDataObject>();
 		}
 
 		public List<EntryObject> GetAllEntries()
@@ -79,6 +80,21 @@ namespace IntentionJournal
 		public List<QuoteObject> GetAllQuotes()
 		{
 			return conn.Query<QuoteObject>("select * from [QuoteObject]");
+		}
+
+		public int InsertTemporaryImage(ImageDataObject imageInput) 
+		{
+			return conn.InsertOrReplace(imageInput);
+		}
+
+		public ImageDataObject getTempImage(int inputId)
+		{
+			return conn.Table<ImageDataObject>().FirstOrDefault(t => t.picID == inputId);
+		}
+
+		public int ClearImageBuffer(ImageDataObject inputImage)
+		{
+			return conn.DeleteAll<ImageDataObject>();
 		}
 	}
 }

@@ -27,7 +27,7 @@ namespace IntentionJournal
 		public void GetRandomQuote() 
 		{
 			// Load the quote objects into a list and then put their quote strings into another list
-			//quoteStringList.Clear(); // clear the list and reload to avoid possible duplicates
+			quoteStringList.Clear(); // clear the list and reload to avoid possible duplicates
 			var fullQuoteObjectList = App.DBase.GetAllQuotes();
 
 			foreach (QuoteObject quoteObjVal in fullQuoteObjectList) 
@@ -53,6 +53,8 @@ namespace IntentionJournal
 			String randomlySelectedQuote = quoteStringList[randomIndexToPick];
 			System.Diagnostics.Debug.WriteLine("Randomly selected quote is: " + randomlySelectedQuote);
 			randomQuoteEditor.Text = "\" " + randomlySelectedQuote + " \"";
+
+			// Handle the tabel getting bigger every time page is opened
 		}
 
 	}

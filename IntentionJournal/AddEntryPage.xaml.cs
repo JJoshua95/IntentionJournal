@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using Plugin.Media;
+using System.Linq;
 
 using Xamarin.Forms;
 
@@ -18,7 +21,7 @@ namespace IntentionJournal
 				moodPicker.Items.Add("Inspired");
 
 				var picturebutton = new Button { Text = "Add Picture" };
-				var image = new Image();
+				picturebutton.Clicked += (sender, e) => { pickGalleryImage(sender, e); };
 				var savebutton = new Button { Text = "Save Entry" };
 				savebutton.Clicked += (sender, e) => { onSaveClicked(); };
 				var buttonBar = new StackLayout
@@ -29,6 +32,7 @@ namespace IntentionJournal
 					VerticalOptions = LayoutOptions.EndAndExpand
 				};
 				stacklayout.Children.Add(buttonBar);
+				// clear buffer when new page made
 			}
 		}
 
@@ -90,8 +94,9 @@ namespace IntentionJournal
 					//App.DBase.UpdateTreeProgress(newTreeProg);
 					System.Diagnostics.Debug.WriteLine("new progress " + newTreeProg.currentTreeScale);
 					Navigation.PushModalAsync(new NavigationPage(new TreeGrowing(newTreeProg.currentTreeScale)));
-					// maybe make a separate tree growing (modal) page
 
+					// save the image bytes into an entry
+					// clear the buffer
 				}
 
 			}
@@ -103,11 +108,7 @@ namespace IntentionJournal
 			}
 		}
 
-	}
-}
-
-/*
- public async void pickClick(object sender, EventArgs args)
+		public async void pickGalleryImage(object sender, EventArgs args)
 		{
 			if (!CrossMedia.Current.IsPickPhotoSupported)
 			{
@@ -116,7 +117,6 @@ namespace IntentionJournal
 			}
 
 			var file = await CrossMedia.Current.PickPhotoAsync();
-
 
 			if (file == null)
 				return;
@@ -127,11 +127,26 @@ namespace IntentionJournal
 				//System.Diagnostics.Debug.WriteLine(file.AlbumPath);
 				var memoryStream = new MemoryStream();
 				file.GetStream().CopyTo(memoryStream);
-				bitArr = memoryStream.ToArray();
+				var bitArr = memoryStream.ToArray();
+				// Overwrite the picture buffer record with the image loaded in
+				App.DBase.InsertTemporaryImage(new ImageDataObject() { picID =1, pictureBytes=bitArr });
 				System.Diagnostics.Debug.WriteLine(bitArr.Count());
 				file.Dispose();
 				return stream;
 			});
 
 		}
- */
+
+		public void getBlob(object sender, EventArgs args)
+		{
+			var imRecord = App.DBase.getTempImage(1);
+
+			byte[] dbBin = imRecord.pictureBytes;
+			System.Diagnostics.Debug.WriteLine("Loading from db");
+			// image.Source = ImageSource.FromStream(() => new MemoryStream(dbBin));
+			System.Diagnostics.Debug.WriteLine(dbBin.Length);
+			// foreach (byte bit in dbBin) { System.Diagnostics.Debug.WriteLine(bit); }
+		}
+
+	}
+}

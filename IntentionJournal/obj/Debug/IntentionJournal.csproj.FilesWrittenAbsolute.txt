@@ -36,3 +36,5 @@
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/SQLitePCLRaw.core.dll
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/SQLitePCLRaw.batteries_green.dll
 /Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/Plugin.Media.Abstractions.dll
+/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/bin/Debug/Plugin.Media.dll

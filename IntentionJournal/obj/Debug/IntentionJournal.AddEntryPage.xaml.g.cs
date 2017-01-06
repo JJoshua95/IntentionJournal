@@ -29,12 +29,16 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.Picker moodPicker;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image image;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(AddEntryPage));
             stacklayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stacklayout");
             titleInput = this.FindByName <global::Xamarin.Forms.Entry>("titleInput");
             contInput = this.FindByName <global::Xamarin.Forms.Editor>("contInput");
             moodPicker = this.FindByName <global::Xamarin.Forms.Picker>("moodPicker");
+            image = this.FindByName <global::Xamarin.Forms.Image>("image");
         }
     }
 }

@@ -34,3 +34,5 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll.mdb
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.Abstractions.dll
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/Plugin.Media.dll
