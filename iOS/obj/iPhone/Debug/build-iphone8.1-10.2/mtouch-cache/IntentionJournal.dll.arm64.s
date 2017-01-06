@@ -7655,8 +7655,8 @@ bl _p_13
 Lme_27:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor
-IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor:
+	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor
+IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor:
 .loc 3 1 0
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -7688,8 +7688,8 @@ ldr x16, [x16, #1656]
 Lme_28:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate
-IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate:
+	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate
+IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate:
 .loc 3 1 0
 .word 0xd2808210
 .word 0x910003f1
@@ -8802,7 +8802,7 @@ Lme_29:
 	.no_dead_strip IntentionJournal_AddEntryPage__ctor
 IntentionJournal_AddEntryPage__ctor:
 .file 10 "/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/AddEntryPage.xaml.cs"
-.loc 10 14 0 prologue_end
+.loc 10 19 0 prologue_end
 .word 0xa9a67bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -8836,12 +8836,12 @@ ldr x16, [x16, #1856]
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 bl _p_14
-.loc 10 15 0
+.loc 10 20 0
 .word 0xf94023b1
 .word 0xf9408e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 16 0
+.loc 10 21 0
 .word 0xf94023b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -8853,12 +8853,12 @@ bl _p_14
 .word 0xd63f0220
 .word 0xaa1a03e0
 bl _p_129
-.loc 10 17 0
+.loc 10 22 0
 .word 0xf94023b1
 .word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 18 0
+.loc 10 23 0
 .word 0xf94023b1
 .word 0xf940da31
 .word 0xb4000051
@@ -8900,7 +8900,7 @@ ldr x15, [x16, #1864]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 10 19 0
+.loc 10 24 0
 .word 0xf94023b1
 .word 0xf9417631
 .word 0xb4000051
@@ -8942,7 +8942,7 @@ ldr x15, [x16, #1864]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 10 20 0
+.loc 10 25 0
 .word 0xf94023b1
 .word 0xf9421231
 .word 0xb4000051
@@ -8984,7 +8984,7 @@ ldr x15, [x16, #1864]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 10 21 0
+.loc 10 26 0
 .word 0xf94023b1
 .word 0xf942ae31
 .word 0xb4000051
@@ -9026,7 +9026,7 @@ ldr x15, [x16, #1864]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 10 23 0
+.loc 10 28 0
 .word 0xf94023b1
 .word 0xf9434a31
 .word 0xb4000051
@@ -9068,7 +9068,7 @@ bl _p_131
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa0003f9
-.loc 10 24 0
+.loc 10 29 0
 .word 0xf94023b1
 .word 0xf943e631
 .word 0xb4000051
@@ -9119,7 +9119,7 @@ ldr x1, [x16, #1896]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_81
-.loc 10 25 0
+.loc 10 30 0
 .word 0xf94023b1
 .word 0xf9449e31
 .word 0xb4000051
@@ -9161,7 +9161,7 @@ bl _p_131
 .word 0xd63f0220
 .word 0xaa1803e0
 .word 0xaa0003f7
-.loc 10 26 0
+.loc 10 31 0
 .word 0xf94023b1
 .word 0xf9453a31
 .word 0xb4000051
@@ -9212,7 +9212,7 @@ ldr x1, [x16, #1928]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_81
-.loc 10 27 0
+.loc 10 32 0
 .word 0xf94023b1
 .word 0xf945f231
 .word 0xb4000051
@@ -9230,7 +9230,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xf94073a0
 .word 0xaa0003f5
-.loc 10 29 0
+.loc 10 34 0
 .word 0xf94023b1
 .word 0xf9463231
 .word 0xb4000051
@@ -9341,7 +9341,7 @@ ldr x15, [x16, #544]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 10 30 0
+.loc 10 35 0
 .word 0xf94023b1
 .word 0xf947de31
 .word 0xb4000051
@@ -9358,7 +9358,7 @@ ldr x15, [x16, #544]
 .word 0xd2800001
 .word 0xf940005e
 bl _p_132
-.loc 10 31 0
+.loc 10 36 0
 .word 0xf94023b1
 .word 0xf9481e31
 .word 0xb4000051
@@ -9382,7 +9382,7 @@ ldr x0, [x16, #696]
 .word 0xf94033a1
 .word 0xf940005e
 bl _p_57
-.loc 10 32 0
+.loc 10 37 0
 .word 0xf94023b1
 .word 0xf9487631
 .word 0xb4000051
@@ -9412,7 +9412,7 @@ bl _p_58
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xaa0003f6
-.loc 10 34 0
+.loc 10 39 0
 .word 0xf94023b1
 .word 0xf948e631
 .word 0xb4000051
@@ -9451,12 +9451,12 @@ ldr x15, [x16, #544]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 10 36 0
+.loc 10 41 0
 .word 0xf94023b1
 .word 0xf9497a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 37 0
+.loc 10 42 0
 .word 0xf94023b1
 .word 0xf9498a31
 .word 0xb4000051
@@ -9480,7 +9480,7 @@ Lme_2a:
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage_clearTextAreas
 IntentionJournal_AddEntryPage_clearTextAreas:
-.loc 10 40 0 prologue_end
+.loc 10 45 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -9504,7 +9504,7 @@ ldr x16, [x16, #1944]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 41 0
+.loc 10 46 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -9526,7 +9526,7 @@ ldr x0, [x16, #1752]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_133
-.loc 10 42 0
+.loc 10 47 0
 .word 0xf9400fb1
 .word 0xf940b631
 .word 0xb4000051
@@ -9548,7 +9548,7 @@ ldr x0, [x16, #1752]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_37
-.loc 10 43 0
+.loc 10 48 0
 .word 0xf9400fb1
 .word 0xf9410631
 .word 0xb4000051
@@ -9568,7 +9568,7 @@ bl _p_37
 .word 0xf2bfffe1
 .word 0xf940005e
 bl _p_134
-.loc 10 44 0
+.loc 10 49 0
 .word 0xf9400fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -9587,7 +9587,7 @@ Lme_2b:
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage_onSaveClicked
 IntentionJournal_AddEntryPage_onSaveClicked:
-.loc 10 47 0 prologue_end
+.loc 10 52 0 prologue_end
 .word 0xa9a37bfd
 .word 0x910003fd
 .word 0xa90157b4
@@ -9621,7 +9621,7 @@ ldr x16, [x16, #1952]
 .word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 49 0
+.loc 10 54 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9630,7 +9630,7 @@ ldr x16, [x16, #1952]
 .word 0xf9409e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 50 0
+.loc 10 55 0
 .word 0xf9402bb1
 .word 0xf940ae31
 .word 0xb4000051
@@ -9659,7 +9659,7 @@ bl _p_135
 .word 0xf2bffffe
 .word 0x6b1e001f
 .word 0x540005a1
-.loc 10 51 0
+.loc 10 56 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9668,7 +9668,7 @@ bl _p_135
 .word 0xf9412e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 52 0
+.loc 10 57 0
 .word 0xf9402bb1
 .word 0xf9413e31
 .word 0xb4000051
@@ -9703,13 +9703,13 @@ bl _p_136
 .word 0xf941aa31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 53 0
+.loc 10 58 0
 .word 0xf9402bb1
 .word 0xf941ba31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140003ed
-.loc 10 54 0
+.loc 10 59 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9754,7 +9754,7 @@ bl _p_138
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0x340005a0
-.loc 10 55 0
+.loc 10 60 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9763,7 +9763,7 @@ bl _p_138
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 56 0
+.loc 10 61 0
 .word 0xf9402bb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -9798,13 +9798,13 @@ bl _p_136
 .word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 57 0
+.loc 10 62 0
 .word 0xf9402bb1
 .word 0xf9431631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000396
-.loc 10 58 0
+.loc 10 63 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9849,7 +9849,7 @@ bl _p_138
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0x340005a0
-.loc 10 59 0
+.loc 10 64 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9858,7 +9858,7 @@ bl _p_138
 .word 0xf943e631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 60 0
+.loc 10 65 0
 .word 0xf9402bb1
 .word 0xf943f631
 .word 0xb4000051
@@ -9893,13 +9893,13 @@ bl _p_136
 .word 0xf9446231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 61 0
+.loc 10 66 0
 .word 0xf9402bb1
 .word 0xf9447231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x1400033f
-.loc 10 63 0
+.loc 10 68 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9908,7 +9908,7 @@ bl _p_136
 .word 0xf9449631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 65 0
+.loc 10 70 0
 .word 0xf9402bb1
 .word 0xf944a631
 .word 0xb4000051
@@ -9937,7 +9937,7 @@ bl _p_140
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003fa
-.loc 10 67 0
+.loc 10 72 0
 .word 0xf9402bb1
 .word 0xf9451631
 .word 0xb4000051
@@ -9945,7 +9945,7 @@ bl _p_140
 .word 0xf9404ba0
 .word 0xaa0003e1
 .word 0xb5000420
-.loc 10 68 0
+.loc 10 73 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9954,7 +9954,7 @@ bl _p_140
 .word 0xf9454231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 69 0
+.loc 10 74 0
 .word 0xf9402bb1
 .word 0xf9455231
 .word 0xb4000051
@@ -9970,19 +9970,19 @@ ldr x0, [x16, #2000]
 .word 0xd63f0220
 .word 0xf9404ba0
 bl _p_27
-.loc 10 70 0
+.loc 10 75 0
 .word 0xf9402bb1
 .word 0xf9458a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xd2800019
-.loc 10 71 0
+.loc 10 76 0
 .word 0xf9402bb1
 .word 0xf9459e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000020
-.loc 10 73 0
+.loc 10 78 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -9991,7 +9991,7 @@ bl _p_27
 .word 0xf945c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 74 0
+.loc 10 79 0
 .word 0xf9402bb1
 .word 0xf945d231
 .word 0xb4000051
@@ -10011,12 +10011,12 @@ bl _p_141
 .word 0xd63f0220
 .word 0xf9404ba0
 .word 0xaa0003f9
-.loc 10 75 0
+.loc 10 80 0
 .word 0xf9402bb1
 .word 0xf9461e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 77 0
+.loc 10 82 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10084,7 +10084,7 @@ ldr x15, [x16, #2008]
 .word 0x91072000
 bl _p_13
 .word 0xf940b7a0
-.loc 10 78 0
+.loc 10 83 0
 .word 0xf9402bb1
 .word 0xf9473631
 .word 0xb4000051
@@ -10154,7 +10154,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xf9409ba0
 bl _p_27
-.loc 10 79 0
+.loc 10 84 0
 .word 0xf9402bb1
 .word 0xf9484231
 .word 0xb4000051
@@ -10173,7 +10173,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xf94097a0
 bl _p_27
-.loc 10 80 0
+.loc 10 85 0
 .word 0xf9402bb1
 .word 0xf9488631
 .word 0xb4000051
@@ -10191,7 +10191,7 @@ bl _p_142
 .word 0xd63f0220
 .word 0xf94093a0
 .word 0xaa0003f7
-.loc 10 82 0
+.loc 10 87 0
 .word 0xf9402bb1
 .word 0xf948c631
 .word 0xb4000051
@@ -10208,7 +10208,7 @@ bl _p_142
 .word 0xaa1703e0
 .word 0xf94002fe
 bl _p_143
-.loc 10 83 0
+.loc 10 88 0
 .word 0xf9402bb1
 .word 0xf9490631
 .word 0xb4000051
@@ -10236,7 +10236,7 @@ bl _p_137
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_144
-.loc 10 84 0
+.loc 10 89 0
 .word 0xf9402bb1
 .word 0xf9497231
 .word 0xb4000051
@@ -10264,7 +10264,7 @@ bl _p_139
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_145
-.loc 10 85 0
+.loc 10 90 0
 .word 0xf9402bb1
 .word 0xf949de31
 .word 0xb4000051
@@ -10288,7 +10288,7 @@ bl _p_35
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_146
-.loc 10 86 0
+.loc 10 91 0
 .word 0xf9402bb1
 .word 0xf94a3631
 .word 0xb4000051
@@ -10311,7 +10311,7 @@ bl _p_147
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xaa0003f8
-.loc 10 88 0
+.loc 10 93 0
 .word 0xf9402bb1
 .word 0xf94a8e31
 .word 0xb4000051
@@ -10338,7 +10338,7 @@ bl _p_148
 .word 0xf94ae631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 91 0
+.loc 10 96 0
 .word 0xf9402bb1
 .word 0xf94af631
 .word 0xb4000051
@@ -10358,7 +10358,7 @@ bl _p_149
 .word 0xf94b3231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 93 0
+.loc 10 98 0
 .word 0xf9402bb1
 .word 0xf94b4231
 .word 0xb4000051
@@ -10371,7 +10371,7 @@ bl _p_149
 .word 0xd63f0220
 .word 0xf9405ba0
 bl _p_150
-.loc 10 95 0
+.loc 10 100 0
 .word 0xf9402bb1
 .word 0xf94b7231
 .word 0xb4000051
@@ -10389,7 +10389,7 @@ bl _p_150
 .word 0xd2800001
 .word 0xf940005e
 bl _p_151
-.loc 10 97 0
+.loc 10 102 0
 .word 0xf9402bb1
 .word 0xf94bb631
 .word 0xb4000051
@@ -10418,7 +10418,7 @@ bl _p_152
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f6
-.loc 10 98 0
+.loc 10 103 0
 .word 0xf9402bb1
 .word 0xf94c2631
 .word 0xb4000051
@@ -10426,7 +10426,7 @@ bl _p_152
 .word 0xf9404ba0
 .word 0xaa0003e1
 .word 0xb5000e20
-.loc 10 99 0
+.loc 10 104 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10435,7 +10435,7 @@ bl _p_152
 .word 0xf94c5231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 100 0
+.loc 10 105 0
 .word 0xf9402bb1
 .word 0xf94c6231
 .word 0xb4000051
@@ -10451,7 +10451,7 @@ ldr x0, [x16, #2040]
 .word 0xd63f0220
 .word 0xf9405ba0
 bl _p_27
-.loc 10 101 0
+.loc 10 106 0
 .word 0xf9402bb1
 .word 0xf94c9a31
 .word 0xb4000051
@@ -10469,7 +10469,7 @@ bl _p_153
 .word 0xd63f0220
 .word 0xf94057a0
 .word 0xaa0003f5
-.loc 10 103 0
+.loc 10 108 0
 .word 0xf9402bb1
 .word 0xf94cda31
 .word 0xb4000051
@@ -10484,7 +10484,7 @@ bl _p_153
 .word 0xd2800021
 .word 0xf94002be
 bl _p_154
-.loc 10 104 0
+.loc 10 109 0
 .word 0xf9402bb1
 .word 0xf94d1231
 .word 0xb4000051
@@ -10511,7 +10511,7 @@ bl _p_155
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xaa0003f6
-.loc 10 106 0
+.loc 10 111 0
 .word 0xf9402bb1
 .word 0xf94d7a31
 .word 0xb4000051
@@ -10543,12 +10543,12 @@ bl _p_3
 .word 0xd63f0220
 .word 0xf9404ba0
 bl _p_157
-.loc 10 107 0
+.loc 10 112 0
 .word 0xf9402bb1
 .word 0xf94df231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 108 0
+.loc 10 113 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10592,7 +10592,7 @@ bl _p_32
 .word 0xd63f0220
 .word 0xf9407fa0
 bl _p_27
-.loc 10 109 0
+.loc 10 114 0
 .word 0xf9402bb1
 .word 0xf94ea631
 .word 0xb4000051
@@ -10610,7 +10610,7 @@ bl _p_153
 .word 0xd63f0220
 .word 0xf9407ba0
 .word 0xaa0003f5
-.loc 10 111 0
+.loc 10 116 0
 .word 0xf9402bb1
 .word 0xf94ee631
 .word 0xb4000051
@@ -10625,7 +10625,7 @@ bl _p_153
 .word 0xd2800021
 .word 0xf94002be
 bl _p_154
-.loc 10 112 0
+.loc 10 117 0
 .word 0xf9402bb1
 .word 0xf94f1e31
 .word 0xb4000051
@@ -10668,7 +10668,7 @@ bl _p_155
 .word 0xd63f0220
 .word 0xaa1503e0
 .word 0xaa0003f4
-.loc 10 115 0
+.loc 10 120 0
 .word 0xf9402bb1
 .word 0xf94fc631
 .word 0xb4000051
@@ -10708,7 +10708,7 @@ bl _p_32
 .word 0xd63f0220
 .word 0xf94063a0
 bl _p_27
-.loc 10 116 0
+.loc 10 121 0
 .word 0xf9402bb1
 .word 0xf9505a31
 .word 0xb4000051
@@ -10781,12 +10781,12 @@ ldr x15, [x16, #2088]
 .word 0xf9515e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 118 0
+.loc 10 123 0
 .word 0xf9402bb1
 .word 0xf9516e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 120 0
+.loc 10 125 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10795,7 +10795,7 @@ ldr x15, [x16, #2088]
 .word 0xf9518e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 121 0
+.loc 10 126 0
 .word 0xf9402bb1
 .word 0xf9519e31
 .word 0xb4000051
@@ -10803,12 +10803,12 @@ ldr x15, [x16, #2088]
 .word 0x1400003f
 .word 0xf90037a0
 .word 0xf94037a0
-.loc 10 122 0
+.loc 10 127 0
 .word 0xf9402bb1
 .word 0xf951ba31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 124 0
+.loc 10 129 0
 .word 0xf9402bb1
 .word 0xf951ca31
 .word 0xb4000051
@@ -10824,7 +10824,7 @@ ldr x0, [x16, #2096]
 .word 0xd63f0220
 .word 0xf9405ba0
 bl _p_27
-.loc 10 125 0
+.loc 10 130 0
 .word 0xf9402bb1
 .word 0xf9520231
 .word 0xb4000051
@@ -10859,7 +10859,7 @@ bl _p_136
 .word 0xf9526e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 126 0
+.loc 10 131 0
 .word 0xf9402bb1
 .word 0xf9527e31
 .word 0xb4000051
@@ -10871,7 +10871,7 @@ bl _p_91
 .word 0xf94047a0
 bl _p_92
 .word 0x14000001
-.loc 10 127 0
+.loc 10 132 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -10998,7 +10998,7 @@ Lme_2d:
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage_getBlob_object_System_EventArgs
 IntentionJournal_AddEntryPage_getBlob_object_System_EventArgs:
-.loc 10 159 0 prologue_end
+.loc 10 164 0 prologue_end
 .word 0xa9b77bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -11026,7 +11026,7 @@ ldr x16, [x16, #2128]
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 160 0
+.loc 10 165 0
 .word 0xf9401fb1
 .word 0xf9407631
 .word 0xb4000051
@@ -11055,7 +11055,7 @@ bl _p_140
 .word 0xf94043a0
 .word 0xf9003fa0
 .word 0xaa0003fa
-.loc 10 162 0
+.loc 10 167 0
 .word 0xf9401fb1
 .word 0xf940e631
 .word 0xb4000051
@@ -11077,7 +11077,7 @@ bl _p_141
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xaa0003f9
-.loc 10 163 0
+.loc 10 168 0
 .word 0xf9401fb1
 .word 0xf9413a31
 .word 0xb4000051
@@ -11093,7 +11093,7 @@ ldr x0, [x16, #2136]
 .word 0xd63f0220
 .word 0xf94033a0
 bl _p_27
-.loc 10 165 0
+.loc 10 170 0
 .word 0xf9401fb1
 .word 0xf9417231
 .word 0xb4000051
@@ -11115,7 +11115,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xf9402ba0
 bl _p_157
-.loc 10 167 0
+.loc 10 172 0
 .word 0xf9401fb1
 .word 0xf941c231
 .word 0xb4000051
@@ -12167,7 +12167,7 @@ Lme_2f:
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage__AddEntryPagem__0_object_System_EventArgs
 IntentionJournal_AddEntryPage__AddEntryPagem__0_object_System_EventArgs:
-.loc 10 24 0 prologue_end
+.loc 10 29 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -12227,7 +12227,7 @@ Lme_30:
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage__AddEntryPagem__1_object_System_EventArgs
 IntentionJournal_AddEntryPage__AddEntryPagem__1_object_System_EventArgs:
-.loc 10 26 0 prologue_end
+.loc 10 31 0 prologue_end
 .word 0xa9bb7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -12445,7 +12445,7 @@ b IntentionJournal_AddEntryPage__pickGalleryImagec__async0_MoveNext
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage__pickGalleryImagec__async0_MoveNext
 IntentionJournal_AddEntryPage__pickGalleryImagec__async0_MoveNext:
-.loc 10 130 0 prologue_end
+.loc 10 135 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa9016bb9
@@ -12541,7 +12541,7 @@ bl _p_171
 .word 0xf9416e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 131 0
+.loc 10 136 0
 .word 0xf94017b1
 .word 0xf9417e31
 .word 0xb4000051
@@ -12571,7 +12571,7 @@ ldr x15, [x16, #2312]
 .word 0xd63f0220
 .word 0xf94063a0
 .word 0x350005c0
-.loc 10 132 0
+.loc 10 137 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12580,7 +12580,7 @@ ldr x15, [x16, #2312]
 .word 0xf941fe31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 133 0
+.loc 10 138 0
 .word 0xf94017b1
 .word 0xf9420e31
 .word 0xb4000051
@@ -12616,13 +12616,13 @@ bl _p_136
 .word 0xf9427e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 134 0
+.loc 10 139 0
 .word 0xf94017b1
 .word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x140000f5
-.loc 10 137 0
+.loc 10 142 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12740,7 +12740,7 @@ bl _p_176
 .word 0x91004000
 bl _p_13
 .word 0xf94063a0
-.loc 10 139 0
+.loc 10 144 0
 .word 0xf94017b1
 .word 0xf9446631
 .word 0xb4000051
@@ -12749,7 +12749,7 @@ bl _p_13
 .word 0xf9401800
 .word 0xf9400800
 .word 0xb5000140
-.loc 10 140 0
+.loc 10 145 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12759,7 +12759,7 @@ bl _p_13
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x14000073
-.loc 10 141 0
+.loc 10 146 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12857,7 +12857,7 @@ bl _p_91
 .word 0xf9405fa0
 bl _p_92
 .word 0x14000016
-.loc 10 156 0
+.loc 10 161 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -12970,7 +12970,7 @@ Lme_35:
 	.align 4
 	.no_dead_strip IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__m__0
 IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__m__0:
-.loc 10 142 0 prologue_end
+.loc 10 147 0 prologue_end
 .word 0xa9b17bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -13001,7 +13001,7 @@ ldr x16, [x16, #2408]
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 143 0
+.loc 10 148 0
 .word 0xf94023b1
 .word 0xf9408231
 .word 0xb4000051
@@ -13024,7 +13024,7 @@ bl _p_178
 .word 0xd63f0220
 .word 0xf9406fa0
 .word 0xaa0003f9
-.loc 10 146 0
+.loc 10 151 0
 .word 0xf94023b1
 .word 0xf940da31
 .word 0xb4000051
@@ -13042,7 +13042,7 @@ bl _p_179
 .word 0xd63f0220
 .word 0xf9406ba0
 .word 0xaa0003f8
-.loc 10 147 0
+.loc 10 152 0
 .word 0xf94023b1
 .word 0xf9411a31
 .word 0xb4000051
@@ -13074,7 +13074,7 @@ bl _p_178
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_180
-.loc 10 148 0
+.loc 10 153 0
 .word 0xf94023b1
 .word 0xf9419631
 .word 0xb4000051
@@ -13097,7 +13097,7 @@ bl _p_180
 .word 0xd63f0220
 .word 0xf94057a0
 .word 0xaa0003f7
-.loc 10 150 0
+.loc 10 155 0
 .word 0xf94023b1
 .word 0xf941ee31
 .word 0xb4000051
@@ -13172,7 +13172,7 @@ bl _p_184
 .word 0xf9430231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 10 151 0
+.loc 10 156 0
 .word 0xf94023b1
 .word 0xf9431231
 .word 0xb4000051
@@ -13209,7 +13209,7 @@ bl _p_3
 .word 0xd63f0220
 .word 0xf94037a0
 bl _p_157
-.loc 10 152 0
+.loc 10 157 0
 .word 0xf94023b1
 .word 0xf9439a31
 .word 0xb4000051
@@ -13225,14 +13225,14 @@ bl _p_157
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_186
-.loc 10 153 0
+.loc 10 158 0
 .word 0xf94023b1
 .word 0xf943d631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa0003f5
-.loc 10 154 0
+.loc 10 159 0
 .word 0xf94023b1
 .word 0xf943ee31
 .word 0xb4000051
@@ -17985,7 +17985,7 @@ bl _p_242
 .word 0xf9402fa0
 .word 0xf9002ba0
 .word 0xaa0003f8
-.loc 19 36 0
+.loc 19 33 0
 .word 0xf9401bb1
 .word 0xf9412e31
 .word 0xb4000051
@@ -18006,7 +18006,7 @@ Lme_5a:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject
 IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject:
-.loc 19 39 0 prologue_end
+.loc 19 36 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -18032,7 +18032,7 @@ ldr x16, [x16, #3304]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 40 0
+.loc 19 37 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -18060,7 +18060,7 @@ bl _p_243
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 41 0
+.loc 19 38 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -18081,7 +18081,7 @@ Lme_5b:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject
 IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject:
-.loc 19 44 0 prologue_end
+.loc 19 41 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -18107,7 +18107,7 @@ ldr x16, [x16, #3312]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 45 0
+.loc 19 42 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -18135,7 +18135,7 @@ bl _p_244
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 46 0
+.loc 19 43 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -18156,7 +18156,7 @@ Lme_5c:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject
 IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject:
-.loc 19 49 0 prologue_end
+.loc 19 46 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -18182,7 +18182,7 @@ ldr x16, [x16, #3320]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 50 0
+.loc 19 47 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -18210,7 +18210,7 @@ bl _p_245
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 51 0
+.loc 19 48 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -18231,7 +18231,7 @@ Lme_5d:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_GetEntry_int
 IntentionJournal_AppDatabase_GetEntry_int:
-.loc 19 54 0 prologue_end
+.loc 19 51 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
 .word 0xf9000bb3
@@ -18287,7 +18287,7 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #3352]
 .word 0xf90057a0
-.loc 19 55 0
+.loc 19 52 0
 .word 0xf94027b1
 .word 0xf940da31
 .word 0xb4000051
@@ -18302,12 +18302,12 @@ bl _p_247
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xaa0003f7
-.loc 19 54 0
+.loc 19 51 0
 .word 0xf94027b1
 .word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 55 0
+.loc 19 52 0
 .word 0xf94027b1
 .word 0xf9412231
 .word 0xb4000051
@@ -18379,7 +18379,7 @@ bl _p_250
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.loc 19 54 0
+.loc 19 51 0
 .word 0xf94027b1
 .word 0xf9423231
 .word 0xb4000051
@@ -18413,7 +18413,7 @@ bl _p_252
 .word 0xf9406ba1
 bl _p_253
 .word 0xf90063a0
-.loc 19 55 0
+.loc 19 52 0
 .word 0xf94027b1
 .word 0xf942b231
 .word 0xb4000051
@@ -18473,7 +18473,7 @@ bl _p_256
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f6
-.loc 19 56 0
+.loc 19 53 0
 .word 0xf94027b1
 .word 0xf9439631
 .word 0xb4000051
@@ -18499,7 +18499,7 @@ Lme_5e:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_deleteAllEntries
 IntentionJournal_AppDatabase_deleteAllEntries:
-.loc 19 59 0 prologue_end
+.loc 19 56 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -18531,12 +18531,12 @@ ldr x16, [x16, #3408]
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 60 0
+.loc 19 57 0
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 61 0
+.loc 19 58 0
 .word 0xf94017b1
 .word 0xf9409631
 .word 0xb4000051
@@ -18578,7 +18578,7 @@ bl _p_242
 .word 0xf94053a0
 .word 0xf9004fa0
 .word 0xaa0003f9
-.loc 19 62 0
+.loc 19 59 0
 .word 0xf94017b1
 .word 0xf9412e31
 .word 0xb4000051
@@ -18640,12 +18640,12 @@ bl _p_258
 .word 0xf94057a0
 .word 0xf90053a0
 .word 0xaa0003f8
-.loc 19 63 0
+.loc 19 60 0
 .word 0xf94017b1
 .word 0xf9421e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 64 0
+.loc 19 61 0
 .word 0xf94017b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -18669,14 +18669,14 @@ bl _p_244
 .word 0xf9427a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 65 0
+.loc 19 62 0
 .word 0xf94017b1
 .word 0xf9428a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910163a0
 .word 0xf9004fa0
-.loc 19 62 0
+.loc 19 59 0
 .word 0xf94017b1
 .word 0xf942a231
 .word 0xb4000051
@@ -18716,7 +18716,7 @@ bl _p_260
 .word 0xd63f0220
 .word 0xf94043be
 .word 0xd61f03c0
-.loc 19 66 0
+.loc 19 63 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -18725,7 +18725,7 @@ bl _p_260
 .word 0xf9434631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 67 0
+.loc 19 64 0
 .word 0xf94017b1
 .word 0xf9435631
 .word 0xb4000051
@@ -18745,7 +18745,7 @@ Lme_5f:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_getTreeProgress_int
 IntentionJournal_AppDatabase_getTreeProgress_int:
-.loc 19 70 0 prologue_end
+.loc 19 67 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
 .word 0xf9000bb3
@@ -18801,7 +18801,7 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #3352]
 .word 0xf90057a0
-.loc 19 71 0
+.loc 19 68 0
 .word 0xf94027b1
 .word 0xf940da31
 .word 0xb4000051
@@ -18816,12 +18816,12 @@ bl _p_247
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xaa0003f7
-.loc 19 70 0
+.loc 19 67 0
 .word 0xf94027b1
 .word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 71 0
+.loc 19 68 0
 .word 0xf94027b1
 .word 0xf9412231
 .word 0xb4000051
@@ -18893,7 +18893,7 @@ bl _p_250
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.loc 19 70 0
+.loc 19 67 0
 .word 0xf94027b1
 .word 0xf9423231
 .word 0xb4000051
@@ -18927,7 +18927,7 @@ bl _p_252
 .word 0xf9406ba1
 bl _p_253
 .word 0xf90063a0
-.loc 19 71 0
+.loc 19 68 0
 .word 0xf94027b1
 .word 0xf942b231
 .word 0xb4000051
@@ -18987,7 +18987,7 @@ bl _p_264
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f6
-.loc 19 72 0
+.loc 19 69 0
 .word 0xf94027b1
 .word 0xf9439631
 .word 0xb4000051
@@ -19013,7 +19013,7 @@ Lme_60:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress
 IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress:
-.loc 19 75 0 prologue_end
+.loc 19 72 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -19039,7 +19039,7 @@ ldr x16, [x16, #3480]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 76 0
+.loc 19 73 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -19067,7 +19067,7 @@ bl _p_265
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 77 0
+.loc 19 74 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -19088,7 +19088,7 @@ Lme_61:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject
 IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject:
-.loc 19 80 0 prologue_end
+.loc 19 77 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -19114,7 +19114,7 @@ ldr x16, [x16, #3488]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 81 0
+.loc 19 78 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -19142,7 +19142,7 @@ bl _p_243
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 82 0
+.loc 19 79 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -19163,7 +19163,7 @@ Lme_62:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject
 IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject:
-.loc 19 85 0 prologue_end
+.loc 19 82 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -19189,7 +19189,7 @@ ldr x16, [x16, #3496]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 86 0
+.loc 19 83 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -19217,7 +19217,7 @@ bl _p_244
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 87 0
+.loc 19 84 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -19238,7 +19238,7 @@ Lme_63:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject
 IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject:
-.loc 19 90 0 prologue_end
+.loc 19 87 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -19264,7 +19264,7 @@ ldr x16, [x16, #3504]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 91 0
+.loc 19 88 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -19292,7 +19292,7 @@ bl _p_245
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 92 0
+.loc 19 89 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -19313,7 +19313,7 @@ Lme_64:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_GetAllQuotes
 IntentionJournal_AppDatabase_GetAllQuotes:
-.loc 19 95 0 prologue_end
+.loc 19 92 0 prologue_end
 .word 0xa9b97bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -19338,7 +19338,7 @@ ldr x16, [x16, #3512]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 96 0
+.loc 19 93 0
 .word 0xf94013b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -19380,7 +19380,7 @@ bl _p_266
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f9
-.loc 19 97 0
+.loc 19 94 0
 .word 0xf94013b1
 .word 0xf9410231
 .word 0xb4000051
@@ -19401,7 +19401,7 @@ Lme_65:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_deleteAllQuotes
 IntentionJournal_AppDatabase_deleteAllQuotes:
-.loc 19 100 0 prologue_end
+.loc 19 97 0 prologue_end
 .word 0xa9b47bfd
 .word 0x910003fd
 .word 0xa90167b8
@@ -19433,7 +19433,7 @@ ldr x16, [x16, #3536]
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 101 0
+.loc 19 98 0
 .word 0xf94017b1
 .word 0xf9408631
 .word 0xb4000051
@@ -19453,7 +19453,7 @@ bl _p_23
 .word 0xf94053a0
 .word 0xf9004fa0
 .word 0xaa0003f9
-.loc 19 102 0
+.loc 19 99 0
 .word 0xf94017b1
 .word 0xf940d231
 .word 0xb4000051
@@ -19515,12 +19515,12 @@ bl _p_25
 .word 0xf94057a0
 .word 0xf90053a0
 .word 0xaa0003f8
-.loc 19 103 0
+.loc 19 100 0
 .word 0xf94017b1
 .word 0xf941c231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 104 0
+.loc 19 101 0
 .word 0xf94017b1
 .word 0xf941d231
 .word 0xb4000051
@@ -19544,14 +19544,14 @@ bl _p_244
 .word 0xf9421e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 105 0
+.loc 19 102 0
 .word 0xf94017b1
 .word 0xf9422e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910163a0
 .word 0xf9004fa0
-.loc 19 102 0
+.loc 19 99 0
 .word 0xf94017b1
 .word 0xf9424631
 .word 0xb4000051
@@ -19591,7 +19591,7 @@ bl _p_30
 .word 0xd63f0220
 .word 0xf94043be
 .word 0xd61f03c0
-.loc 19 106 0
+.loc 19 103 0
 .word 0xf9401bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -19615,7 +19615,7 @@ Lme_66:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject
 IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject:
-.loc 19 109 0 prologue_end
+.loc 19 106 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb8
@@ -19641,7 +19641,7 @@ ldr x16, [x16, #3544]
 .word 0xf9405e31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 110 0
+.loc 19 107 0
 .word 0xf94017b1
 .word 0xf9406e31
 .word 0xb4000051
@@ -19669,7 +19669,7 @@ bl _p_265
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f8
-.loc 19 111 0
+.loc 19 108 0
 .word 0xf94017b1
 .word 0xf940da31
 .word 0xb4000051
@@ -19690,7 +19690,7 @@ Lme_67:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_getTempImage_int
 IntentionJournal_AppDatabase_getTempImage_int:
-.loc 19 114 0 prologue_end
+.loc 19 111 0 prologue_end
 .word 0xa9b27bfd
 .word 0x910003fd
 .word 0xf9000bb3
@@ -19746,7 +19746,7 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #3352]
 .word 0xf90057a0
-.loc 19 115 0
+.loc 19 112 0
 .word 0xf94027b1
 .word 0xf940da31
 .word 0xb4000051
@@ -19761,12 +19761,12 @@ bl _p_247
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xaa0003f7
-.loc 19 114 0
+.loc 19 111 0
 .word 0xf94027b1
 .word 0xf9411231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 115 0
+.loc 19 112 0
 .word 0xf94027b1
 .word 0xf9412231
 .word 0xb4000051
@@ -19838,7 +19838,7 @@ bl _p_250
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.loc 19 114 0
+.loc 19 111 0
 .word 0xf94027b1
 .word 0xf9423231
 .word 0xb4000051
@@ -19872,7 +19872,7 @@ bl _p_252
 .word 0xf9406ba1
 bl _p_253
 .word 0xf90063a0
-.loc 19 115 0
+.loc 19 112 0
 .word 0xf94027b1
 .word 0xf942b231
 .word 0xb4000051
@@ -19932,7 +19932,7 @@ bl _p_270
 .word 0xf9404fa0
 .word 0xf9004ba0
 .word 0xaa0003f6
-.loc 19 116 0
+.loc 19 113 0
 .word 0xf94027b1
 .word 0xf9439631
 .word 0xb4000051
@@ -19958,7 +19958,7 @@ Lme_68:
 	.align 4
 	.no_dead_strip IntentionJournal_AppDatabase_ClearImageBuffer
 IntentionJournal_AppDatabase_ClearImageBuffer:
-.loc 19 119 0 prologue_end
+.loc 19 116 0 prologue_end
 .word 0xa9ba7bfd
 .word 0x910003fd
 .word 0xf9000bb9
@@ -19983,7 +19983,7 @@ ldr x16, [x16, #3608]
 .word 0xf9405a31
 .word 0xb4000051
 .word 0xd63f0220
-.loc 19 120 0
+.loc 19 117 0
 .word 0xf94013b1
 .word 0xf9406a31
 .word 0xb4000051
@@ -20011,7 +20011,7 @@ bl _p_271
 .word 0xf94027a0
 .word 0xf90023a0
 .word 0xaa0003f9
-.loc 19 121 0
+.loc 19 118 0
 .word 0xf94013b1
 .word 0xf940d231
 .word 0xb4000051
@@ -28995,8 +28995,8 @@ bl _p_13
 Lme_94:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor
-IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor:
+	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor
+IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor:
 .loc 3 1 0
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -29028,8 +29028,8 @@ ldr x16, [x16, #552]
 Lme_95:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate
-IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate:
+	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate
+IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate:
 .loc 3 1 0
 .word 0xa9a77bfd
 .word 0x910003fd
@@ -57015,8 +57015,8 @@ bl IntentionJournal_JournalPage_OnAppearing
 bl IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChangedEventArgs
 bl IntentionJournal_JournalPage_InitializeComponent
 bl IntentionJournal_JournalPage___InitComponentRuntime
-bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor
-bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate
+bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor
+bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate
 bl IntentionJournal_AddEntryPage__ctor
 bl IntentionJournal_AddEntryPage_clearTextAreas
 bl IntentionJournal_AddEntryPage_onSaveClicked
@@ -57124,8 +57124,8 @@ bl IntentionJournal_BrowseQuotesPage_OnAppearing
 bl IntentionJournal_BrowseQuotesPage_QuoteSelected_object_Xamarin_Forms_SelectedItemChangedEventArgs
 bl IntentionJournal_BrowseQuotesPage_InitializeComponent
 bl IntentionJournal_BrowseQuotesPage___InitComponentRuntime
-bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor
-bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate
+bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor
+bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate
 bl IntentionJournal_ViewQuotePage__ctor_IntentionJournal_QuoteObject
 bl IntentionJournal_ViewQuotePage_UpdateQuoteToDB
 bl IntentionJournal_ViewQuotePage_DeleteQuoteFromDB
@@ -58347,8 +58347,8 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
 .word 11254
-	.no_dead_strip plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor
-plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor:
+	.no_dead_strip plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor
+plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor:
 _p_112:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
@@ -59907,8 +59907,8 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
 .word 12645
-	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor
-plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor:
+	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor
+plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor:
 _p_307:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
@@ -61461,7 +61461,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "0718A340-4C98-4955-974A-B1C6ACA6386F"
+	.asciz "C17FB7C8-4F3B-4B51-8146-508F8570366F"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -61544,7 +61544,7 @@ _mono_aot_file_info:
 	.long 504,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 75,234,4,222,215,236,229,111,253,146,7,160,180,53,192,225
+	.byte 37,233,144,64,136,251,181,114,240,124,50,13,114,119,129,193
 	.globl _mono_aot_module_IntentionJournal_info
 	.align 3
 _mono_aot_module_IntentionJournal_info:
@@ -72141,7 +72141,7 @@ Lfde39_end:
 LTDIE_251:
 
 	.byte 5
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_64"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_4"
 
 	.byte 32,16
 LDIFF_SYM1797=LTDIE_4 - Ldebug_info_start
@@ -72157,7 +72157,7 @@ LDIFF_SYM1798=LDIE_SZARRAY - Ldebug_info_start
 LDIFF_SYM1799=LTDIE_194_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1799
 	.byte 2,35,24,0,7
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_64"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_4"
 
 LDIFF_SYM1800=LTDIE_251 - Ldebug_info_start
 	.long LDIFF_SYM1800
@@ -72172,11 +72172,11 @@ LTDIE_251_REFERENCE:
 LDIFF_SYM1802=LTDIE_251 - Ldebug_info_start
 	.long LDIFF_SYM1802
 	.byte 2
-	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_64:.ctor"
-	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor"
+	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_4:.ctor"
+	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor"
 
 	.byte 0,0
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor
 	.quad Lme_28
 
 	.byte 2,118,16,3
@@ -72194,9 +72194,9 @@ Lfde40_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor
 
-LDIFF_SYM1805=Lme_28 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64__ctor
+LDIFF_SYM1805=Lme_28 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4__ctor
 	.long LDIFF_SYM1805
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -72283,11 +72283,11 @@ LTDIE_252_REFERENCE:
 LDIFF_SYM1819=LTDIE_252 - Ldebug_info_start
 	.long LDIFF_SYM1819
 	.byte 2
-	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_64:LoadDataTemplate"
-	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate"
+	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_4:LoadDataTemplate"
+	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate"
 
 	.byte 0,0
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate
 	.quad Lme_29
 
 	.byte 2,118,16,3
@@ -72375,9 +72375,9 @@ Lfde41_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate
 
-LDIFF_SYM1836=Lme_29 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_64_LoadDataTemplate
+LDIFF_SYM1836=Lme_29 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_4_LoadDataTemplate
 	.long LDIFF_SYM1836
 	.long 0
 	.byte 12,31,0,84,14,144,8,157,130,1,158,129,1,68,13,29,68,147,128,1,148,127,68,149,126,150,125,68,151,124,152,123
@@ -72641,7 +72641,7 @@ LDIFF_SYM1882=LTDIE_254 - Ldebug_info_start
 	.asciz "IntentionJournal.AddEntryPage:.ctor"
 	.asciz "IntentionJournal_AddEntryPage__ctor"
 
-	.byte 9,14
+	.byte 9,19
 	.quad IntentionJournal_AddEntryPage__ctor
 	.quad Lme_2a
 
@@ -72700,7 +72700,7 @@ Lfde42_end:
 	.asciz "IntentionJournal.AddEntryPage:clearTextAreas"
 	.asciz "IntentionJournal_AddEntryPage_clearTextAreas"
 
-	.byte 9,40
+	.byte 9,45
 	.quad IntentionJournal_AddEntryPage_clearTextAreas
 	.quad Lme_2b
 
@@ -72799,7 +72799,7 @@ LDIFF_SYM1905=LTDIE_262 - Ldebug_info_start
 	.asciz "IntentionJournal.AddEntryPage:onSaveClicked"
 	.asciz "IntentionJournal_AddEntryPage_onSaveClicked"
 
-	.byte 9,47
+	.byte 9,52
 	.quad IntentionJournal_AddEntryPage_onSaveClicked
 	.quad Lme_2c
 
@@ -72917,7 +72917,7 @@ Lfde45_end:
 	.asciz "IntentionJournal.AddEntryPage:getBlob"
 	.asciz "IntentionJournal_AddEntryPage_getBlob_object_System_EventArgs"
 
-	.byte 9,159,1
+	.byte 9,164,1
 	.quad IntentionJournal_AddEntryPage_getBlob_object_System_EventArgs
 	.quad Lme_2e
 
@@ -73061,7 +73061,7 @@ Lfde47_end:
 	.asciz "IntentionJournal.AddEntryPage:<AddEntryPage>m__0"
 	.asciz "IntentionJournal_AddEntryPage__AddEntryPagem__0_object_System_EventArgs"
 
-	.byte 9,24
+	.byte 9,29
 	.quad IntentionJournal_AddEntryPage__AddEntryPagem__0_object_System_EventArgs
 	.quad Lme_30
 
@@ -73105,7 +73105,7 @@ Lfde48_end:
 	.asciz "IntentionJournal.AddEntryPage:<AddEntryPage>m__1"
 	.asciz "IntentionJournal_AddEntryPage__AddEntryPagem__1_object_System_EventArgs"
 
-	.byte 9,26
+	.byte 9,31
 	.quad IntentionJournal_AddEntryPage__AddEntryPagem__1_object_System_EventArgs
 	.quad Lme_31
 
@@ -73784,7 +73784,7 @@ LDIFF_SYM2057=LTDIE_274 - Ldebug_info_start
 	.asciz "IntentionJournal.AddEntryPage/<pickGalleryImage>c__async0/<pickGalleryImage>c__AnonStorey1:<>m__0"
 	.asciz "IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__m__0"
 
-	.byte 9,142,1
+	.byte 9,147,1
 	.quad IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__m__0
 	.quad Lme_36
 
@@ -77156,7 +77156,7 @@ Lfde89_end:
 	.asciz "IntentionJournal.AppDatabase:SaveEntry"
 	.asciz "IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject"
 
-	.byte 18,39
+	.byte 18,36
 	.quad IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject
 	.quad Lme_5b
 
@@ -77200,7 +77200,7 @@ Lfde90_end:
 	.asciz "IntentionJournal.AppDatabase:DeleteEntry"
 	.asciz "IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject"
 
-	.byte 18,44
+	.byte 18,41
 	.quad IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject
 	.quad Lme_5c
 
@@ -77244,7 +77244,7 @@ Lfde91_end:
 	.asciz "IntentionJournal.AppDatabase:EditEntry"
 	.asciz "IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject"
 
-	.byte 18,49
+	.byte 18,46
 	.quad IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject
 	.quad Lme_5d
 
@@ -77366,7 +77366,7 @@ LDIFF_SYM2589=LTDIE_329 - Ldebug_info_start
 	.asciz "IntentionJournal.AppDatabase:GetEntry"
 	.asciz "IntentionJournal_AppDatabase_GetEntry_int"
 
-	.byte 18,54
+	.byte 18,51
 	.quad IntentionJournal_AppDatabase_GetEntry_int
 	.quad Lme_5e
 
@@ -77420,7 +77420,7 @@ Lfde93_end:
 	.asciz "IntentionJournal.AppDatabase:deleteAllEntries"
 	.asciz "IntentionJournal_AppDatabase_deleteAllEntries"
 
-	.byte 18,59
+	.byte 18,56
 	.quad IntentionJournal_AppDatabase_deleteAllEntries
 	.quad Lme_5f
 
@@ -77496,7 +77496,7 @@ LDIFF_SYM2607=LTDIE_331 - Ldebug_info_start
 	.asciz "IntentionJournal.AppDatabase:getTreeProgress"
 	.asciz "IntentionJournal_AppDatabase_getTreeProgress_int"
 
-	.byte 18,70
+	.byte 18,67
 	.quad IntentionJournal_AppDatabase_getTreeProgress_int
 	.quad Lme_60
 
@@ -77550,7 +77550,7 @@ Lfde95_end:
 	.asciz "IntentionJournal.AppDatabase:UpdateTreeProgress"
 	.asciz "IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress"
 
-	.byte 18,75
+	.byte 18,72
 	.quad IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress
 	.quad Lme_61
 
@@ -77594,7 +77594,7 @@ Lfde96_end:
 	.asciz "IntentionJournal.AppDatabase:SaveQuote"
 	.asciz "IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject"
 
-	.byte 18,80
+	.byte 18,77
 	.quad IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject
 	.quad Lme_62
 
@@ -77638,7 +77638,7 @@ Lfde97_end:
 	.asciz "IntentionJournal.AppDatabase:DeleteQuote"
 	.asciz "IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject"
 
-	.byte 18,85
+	.byte 18,82
 	.quad IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject
 	.quad Lme_63
 
@@ -77682,7 +77682,7 @@ Lfde98_end:
 	.asciz "IntentionJournal.AppDatabase:EditQuote"
 	.asciz "IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject"
 
-	.byte 18,90
+	.byte 18,87
 	.quad IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject
 	.quad Lme_64
 
@@ -77726,7 +77726,7 @@ Lfde99_end:
 	.asciz "IntentionJournal.AppDatabase:GetAllQuotes"
 	.asciz "IntentionJournal_AppDatabase_GetAllQuotes"
 
-	.byte 18,95
+	.byte 18,92
 	.quad IntentionJournal_AppDatabase_GetAllQuotes
 	.quad Lme_65
 
@@ -77765,7 +77765,7 @@ Lfde100_end:
 	.asciz "IntentionJournal.AppDatabase:deleteAllQuotes"
 	.asciz "IntentionJournal_AppDatabase_deleteAllQuotes"
 
-	.byte 18,100
+	.byte 18,97
 	.quad IntentionJournal_AppDatabase_deleteAllQuotes
 	.quad Lme_66
 
@@ -77814,7 +77814,7 @@ Lfde101_end:
 	.asciz "IntentionJournal.AppDatabase:InsertTemporaryImage"
 	.asciz "IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject"
 
-	.byte 18,109
+	.byte 18,106
 	.quad IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject
 	.quad Lme_67
 
@@ -77885,7 +77885,7 @@ LDIFF_SYM2654=LTDIE_332 - Ldebug_info_start
 	.asciz "IntentionJournal.AppDatabase:getTempImage"
 	.asciz "IntentionJournal_AppDatabase_getTempImage_int"
 
-	.byte 18,114
+	.byte 18,111
 	.quad IntentionJournal_AppDatabase_getTempImage_int
 	.quad Lme_68
 
@@ -77939,7 +77939,7 @@ Lfde103_end:
 	.asciz "IntentionJournal.AppDatabase:ClearImageBuffer"
 	.asciz "IntentionJournal_AppDatabase_ClearImageBuffer"
 
-	.byte 18,119
+	.byte 18,116
 	.quad IntentionJournal_AppDatabase_ClearImageBuffer
 	.quad Lme_69
 
@@ -80185,7 +80185,7 @@ Lfde147_end:
 LTDIE_343:
 
 	.byte 5
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_65"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_5"
 
 	.byte 32,16
 LDIFF_SYM2939=LTDIE_4 - Ldebug_info_start
@@ -80201,7 +80201,7 @@ LDIFF_SYM2940=LDIE_SZARRAY - Ldebug_info_start
 LDIFF_SYM2941=LTDIE_342_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2941
 	.byte 2,35,24,0,7
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_65"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_5"
 
 LDIFF_SYM2942=LTDIE_343 - Ldebug_info_start
 	.long LDIFF_SYM2942
@@ -80216,11 +80216,11 @@ LTDIE_343_REFERENCE:
 LDIFF_SYM2944=LTDIE_343 - Ldebug_info_start
 	.long LDIFF_SYM2944
 	.byte 2
-	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_65:.ctor"
-	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor"
+	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_5:.ctor"
+	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor"
 
 	.byte 0,0
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor
 	.quad Lme_95
 
 	.byte 2,118,16,3
@@ -80238,9 +80238,9 @@ Lfde148_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor
 
-LDIFF_SYM2947=Lme_95 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65__ctor
+LDIFF_SYM2947=Lme_95 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5__ctor
 	.long LDIFF_SYM2947
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -80250,11 +80250,11 @@ Lfde148_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_65:LoadDataTemplate"
-	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate"
+	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_5:LoadDataTemplate"
+	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate"
 
 	.byte 0,0
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate
 	.quad Lme_96
 
 	.byte 2,118,16,3
@@ -80302,9 +80302,9 @@ Lfde149_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate
 
-LDIFF_SYM2956=Lme_96 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_65_LoadDataTemplate
+LDIFF_SYM2956=Lme_96 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_5_LoadDataTemplate
 	.long LDIFF_SYM2956
 	.long 0
 	.byte 12,31,0,68,14,144,3,157,50,158,49,68,13,29,68,147,48,148,47,68,149,46,150,45,68,151,44,152,43,68,153,42

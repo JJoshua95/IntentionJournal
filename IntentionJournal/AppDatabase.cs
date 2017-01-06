@@ -30,9 +30,6 @@ namespace IntentionJournal
 		public List<EntryObject> GetEntriesForSingleMood(String targetMood) 
 		{
 			return conn.Query<EntryObject>("select * from [EntryObject] where entryCategory = ?", targetMood);
-			// Get all columns apart from the image bytes as if there are lots of images loading all in at once
-			// may be overly demanding
-			// return conn.Query<EntryObject>("select [ID],[entryTitle],[entryContent],[entryCategory],[entryImageFile] from [EntryObject] where entryCategory = ?", targetMood);
 		}
 
 		public int SaveEntry(EntryObject entryVal) 

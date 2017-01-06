@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage x:Class="IntentionJournal.BrowseMoodsPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Padding="20"
+			 Title="Browse">
+	<ScrollView Orientation="Vertical">
+	<StackLayout x:Name="StackLayoutMap">
+		<Label Text="Today I want to feel..."/>
+		<Grid x:Name="gridView" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+			<Grid.RowDefinitions>
+      			<RowDefinition Height="*" />
+      			<RowDefinition Height="*" />
+    		</Grid.RowDefinitions>
+    		<Grid.ColumnDefinitions>
+      			<ColumnDefinition Width="*" />
+      			<ColumnDefinition Width="*" />
+    		</Grid.ColumnDefinitions>
+			<Image Source="Joyful.png"
+           	 Grid.Row="0" Grid.Column="0">
+				<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedJoyful"
+                	NumberOfTapsRequired="1" />
+  				</Image.GestureRecognizers>
+			</Image>
+			<Image Source="Grateful.png"
+           	 Grid.Row="0" Grid.Column="1">
+				<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedGrateful"
+                	NumberOfTapsRequired="1" />
+  				</Image.GestureRecognizers>
+			</Image>
+			<Image Source="Inspired.png"
+           	 Grid.Row="1" Grid.Column="0">
+				<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedInspired"
+                	NumberOfTapsRequired="1" />
+  				</Image.GestureRecognizers>
+			</Image>
+			<Image Source="Creative.png" Grid.Row="1" Grid.Column="1">
+    			<Image.GestureRecognizers>
+        			<TapGestureRecognizer
+                	Tapped="OnTapGestureRecognizerTappedCreative"
+                	NumberOfTapsRequired="1" />
+  				</Image.GestureRecognizers>
+			</Image>
+		</Grid>
+		<Button Text="All Entries" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
+	</StackLayout>
+	</ScrollView>
+</ContentPage>
+

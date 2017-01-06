@@ -52,7 +52,7 @@ namespace IntentionJournal
 			var randomIndexToPick = random.Next(noOfStrings);
 			String randomlySelectedQuote = quoteStringList[randomIndexToPick];
 			System.Diagnostics.Debug.WriteLine("Randomly selected quote is: " + randomlySelectedQuote);
-			randomQuoteEditor.Text = "\" " + randomlySelectedQuote + " \"";
+			randomQuoteEditor.Text = "\"" + randomlySelectedQuote + "\"";
 
 			// Handle the tabel getting bigger every time page is opened
 		}
