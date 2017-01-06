@@ -6,6 +6,7 @@ using System.Linq;
 
 using Xamarin.Forms;
 
+// This class makes use of answers in the following forums
 // https://forums.xamarin.com/discussion/17882/blob-to-image-binding
 // https://forums.xamarin.com/discussion/46010/convert-image-to-byte
 // https://forums.xamarin.com/discussion/47973/sqlite-with-blob
@@ -13,9 +14,16 @@ using Xamarin.Forms;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// This class represents is the page opened when the "Write" tab is tapped where a user can enter a 
+	/// new intention entry in the journal,
+	/// </summary>
 	public partial class AddEntryPage : ContentPage
 	{
-		public String currentMood;
+		public String currentMood; // to hold the currently selected ood a user may pick to save their entry under
+		/// <summary>
+		/// Initializes a new instance of a <see cref="T:IntentionJournal.AddEntryPage"/> class.
+		/// </summary>
 		public AddEntryPage()
 		{
 			InitializeComponent();
@@ -41,6 +49,9 @@ namespace IntentionJournal
 			}
 		}
 
+		/// <summary>
+		/// Clears the text areas.
+		/// </summary>
 		public void clearTextAreas() 
 		{
 			titleInput.Text = "";
@@ -131,6 +142,11 @@ namespace IntentionJournal
 			}
 		}
 
+		/// <summary>
+		/// Picks the gallery image.
+		/// </summary>
+		/// <param name="sender">Sender.</param>
+		/// <param name="args">Arguments.</param>
 		public async void pickGalleryImage(object sender, EventArgs args)
 		{
 			if (!CrossMedia.Current.IsPickPhotoSupported)
