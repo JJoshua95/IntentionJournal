@@ -3,7 +3,7 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
-			 Title="Write your entry">
+			 Title="Edit your entry">
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
     		<Label x:Name="moodLabel" Text="{Binding entryCategory}"/>
