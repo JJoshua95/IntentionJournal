@@ -2,5 +2,20 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="IntentionJournal.App">
 	<Application.Resources>
 		<!-- Application resource dictionary -->
+    <Color x:Key="backgroundColor">#6b6868</Color>
+    <Color x:Key ="toolbarColor">#433e3f</Color>
+    <Color x:Key="textColor">White</Color>
+    <Color x:Key="buttonColor">#00ba8e</Color>
+    <Color x:Key ="editorColor">#433e3f</Color>
+ 
+    
+    <!--<Style x:Key="buttonStyle" TargetType="Button">
+      <Setter Property="BackgroundColor" Value="{DynamicResource buttonColor}" />
+    </Style>
+    
+    <Style x:Key="backgroundStyle" TargetType="VisualElement">
+      <Setter Property="BackgroundColor" Value="{DynamicResource backgroundColor}" />
+    </Style>-->
+    
 	</Application.Resources>
 </Application>

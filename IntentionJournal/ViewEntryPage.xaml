@@ -9,11 +9,11 @@
     		<Label x:Name="moodLabel" Text="{Binding entryCategory}"/>
     		<Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}"/>
     		<Editor x:Name="contInputEdit" Text ="{Binding entryContent}" HeightRequest="300" BackgroundColor="#FEF5E7"/>
-			<Button x:Name="changeImageButton" Text="Change Picture" Clicked="pickGalleryImage"/>
+			<Button x:Name="changeImageButton" BackgroundColor ="{StaticResource buttonColor}" Text="Change Picture" Clicked="pickGalleryImage"/>
 			<Image x:Name="editImage"/>
-			<Button x:Name="deleteImageButton" Text="Delete Picture" Clicked="DeletePicture"/>
-			<Button x:Name="SaveEdit" Text="Save" Clicked="onSaveClicked"/>
-			<Button x:Name="deleteEdit" Text="Delete" Clicked="onDeleteClicked"/>
+			<Button x:Name="deleteImageButton" BackgroundColor ="{StaticResource buttonColor}" Text="Delete Picture" Clicked="DeletePicture"/>
+			<Button x:Name="SaveEdit" BackgroundColor ="{StaticResource buttonColor}" Text="Save" Clicked="onSaveClicked"/>
+			<Button x:Name="deleteEdit" BackgroundColor ="{StaticResource buttonColor}" Text="Delete" Clicked="onDeleteClicked"/>
   		</StackLayout>
 	</ScrollView>
 </ContentPage>

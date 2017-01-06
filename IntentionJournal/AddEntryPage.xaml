@@ -9,7 +9,7 @@
     		<Label Text="Title:" />
     		<Entry x:Name="titleInput"/>
 			<Label Text="Text:"/>
-    		<Editor x:Name="contInput" HeightRequest="250" BackgroundColor="#FEF5E7"/>
+    		<Editor x:Name="contInput" HeightRequest="250" BackgroundColor= "{StaticResource editorColor}"/>
 			<Label Text="Mood:"/>
 			<Picker x:Name="moodPicker" />
 			<Image x:Name="image"/>

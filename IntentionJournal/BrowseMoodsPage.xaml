@@ -48,7 +48,7 @@
   				</Image.GestureRecognizers>
 			</Image>
 		</Grid>
-		<Button Text="All Entries" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
+		<Button BackgroundColor ="{StaticResource buttonColor}"  Text="All Entries" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
 	</StackLayout>
 	</ScrollView>
 </ContentPage>
