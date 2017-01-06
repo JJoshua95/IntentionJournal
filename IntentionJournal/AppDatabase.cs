@@ -51,7 +51,18 @@ namespace IntentionJournal
 			return conn.Table<EntryObject>().FirstOrDefault(t => t.ID == id);
 		}
 
-		public TreeProgress getTreeProgress(int scaleId)
+        public void deleteAllEntries()
+        {
+            {
+                List<EntryObject> l = conn.Query<EntryObject>("select * from [EntryObject]");
+                foreach (EntryObject e in l)
+                {
+                    conn.Delete(e);
+                }
+            }
+        }
+
+        public TreeProgress getTreeProgress(int scaleId)
 		{
 			return conn.Table<TreeProgress>().FirstOrDefault(t => t.progressID == scaleId);
 		}
@@ -80,5 +91,14 @@ namespace IntentionJournal
 		{
 			return conn.Query<QuoteObject>("select * from [QuoteObject]");
 		}
+
+        public void deleteAllQuotes()
+        {
+            List<QuoteObject> l = GetAllQuotes();
+            foreach (QuoteObject q in l)
+            {
+                conn.Delete(q);
+            }
+        }
 	}
 }

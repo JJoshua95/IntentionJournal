@@ -21,32 +21,44 @@
 				<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedJoyful"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
+      <Label Text="Joyful"
+             Grid.Row="0" Grid.Column="0">
+      </Label>
 			<Image Source="Grateful.png"
            	 Grid.Row="0" Grid.Column="1">
 				<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedGrateful"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
+      <Label Text="Grateful"
+             Grid.Row="0" Grid.Column="1">
+      </Label>
 			<Image Source="Inspired.png"
            	 Grid.Row="1" Grid.Column="0">
 				<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedInspired"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
+      <Label Text="Inspired"
+             Grid.Row="1" Grid.Column="0">
+      </Label>
 			<Image Source="Creative.png" Grid.Row="1" Grid.Column="1">
     			<Image.GestureRecognizers>
         			<TapGestureRecognizer
                 	Tapped="OnTapGestureRecognizerTappedCreative"
-                	NumberOfTapsRequired="2" />
+                	NumberOfTapsRequired="1" />
   				</Image.GestureRecognizers>
 			</Image>
+      <Label Text="Creative"
+             Grid.Row="1" Grid.Column="1">
+      </Label>
 		</Grid>
 		<Button Text="All Entries" Clicked="OnJournalButtonClicked" VerticalOptions="CenterAndExpand"/>
 	</StackLayout>
