@@ -153,7 +153,6 @@
     <AndroidResource Include="Resources\drawable\writegrey.png" />
     <AndroidResource Include="Resources\drawable\settingsgrey.png" />
     <AndroidResource Include="Resources\drawable\settingsgrey2x.png" />
-    <AndroidResource Include="Resources\drawable\saplingicon.png" />
     <AndroidResource Include="Resources\drawable\randomtransparent.png" />
     <AndroidResource Include="Resources\drawable\randomtransparent2x.png" />
     <AndroidResource Include="Resources\drawable\treeonly.png" />

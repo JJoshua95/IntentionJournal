@@ -5508,7 +5508,7 @@ ldr x15, [x16, #640]
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.loc 4 25 0
+.loc 4 26 0
 .word 0xf9400fb1
 .word 0xf9426e31
 .word 0xb4000051
@@ -5530,7 +5530,7 @@ Lme_7:
 	.align 4
 	.no_dead_strip IntentionJournal_HomePage_OnAppearing
 IntentionJournal_HomePage_OnAppearing:
-.loc 4 31 0 prologue_end
+.loc 4 32 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000bba
@@ -5554,7 +5554,7 @@ ldr x16, [x16, #648]
 .word 0xf9405631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 33 0
+.loc 4 34 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
@@ -5566,7 +5566,7 @@ ldr x16, [x16, #648]
 .word 0xd63f0220
 .word 0xaa1a03e0
 bl _p_41
-.loc 4 34 0
+.loc 4 35 0
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -5578,7 +5578,7 @@ bl _p_41
 .word 0xd63f0220
 .word 0xaa1a03e0
 bl _p_42
-.loc 4 35 0
+.loc 4 36 0
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -5597,7 +5597,7 @@ Lme_8:
 	.align 4
 	.no_dead_strip IntentionJournal_HomePage_GetRandomQuote
 IntentionJournal_HomePage_GetRandomQuote:
-.loc 4 41 0 prologue_end
+.loc 4 42 0 prologue_end
 .word 0xa9ab7bfd
 .word 0x910003fd
 .word 0xa90153b3
@@ -5636,7 +5636,7 @@ ldr x16, [x16, #656]
 .word 0xf9409231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 43 0
+.loc 4 44 0
 .word 0xf9402bb1
 .word 0xf940a231
 .word 0xb4000051
@@ -5652,7 +5652,7 @@ ldr x16, [x16, #656]
 .word 0xaa0103e0
 .word 0xf940003e
 bl _p_43
-.loc 4 44 0
+.loc 4 45 0
 .word 0xf9402bb1
 .word 0xf940de31
 .word 0xb4000051
@@ -5675,7 +5675,7 @@ bl _p_45
 .word 0xf94063a0
 .word 0xf9005fa0
 .word 0xaa0003f9
-.loc 4 46 0
+.loc 4 47 0
 .word 0xf9402bb1
 .word 0xf9413631
 .word 0xb4000051
@@ -5737,12 +5737,12 @@ bl _p_47
 .word 0xf94077a0
 .word 0xf90073a0
 .word 0xaa0003f8
-.loc 4 47 0
+.loc 4 48 0
 .word 0xf9402bb1
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 4 48 0
+.loc 4 49 0
 .word 0xf9402bb1
 .word 0xf9423631
 .word 0xb4000051
@@ -5765,7 +5765,7 @@ bl _p_48
 .word 0xf9406ba0
 .word 0xf90067a0
 .word 0xaa0003f7
-.loc 4 50 0
+.loc 4 51 0
 .word 0xf9402bb1
 .word 0xf9428e31
 .word 0xb4000051
@@ -5778,7 +5778,7 @@ bl _p_48
 .word 0xd63f0220
 .word 0xf94063a0
 bl _p_49
-.loc 4 51 0
+.loc 4 52 0
 .word 0xf9402bb1
 .word 0xf942be31
 .word 0xb4000051
@@ -5797,14 +5797,14 @@ bl _p_49
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
-.loc 4 52 0
+.loc 4 53 0
 .word 0xf9402bb1
 .word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0x910203a0
 .word 0xf9005fa0
-.loc 4 46 0
+.loc 4 47 0
 .word 0xf9402bb1
 .word 0xf9431e31
 .word 0xb4000051
@@ -5844,7 +5844,7 @@ bl _p_52
 .word 0xd63f0220
 .word 0xf94057be
 .word 0xd61f03c0
-.loc 4 54 0
+.loc 4 55 0
 .word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
@@ -5870,7 +5870,7 @@ ldr x0, [x16, #672]
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_50
-.loc 4 62 0
+.loc 4 63 0
 .word 0xf9402bb1
 .word 0xf9441231
 .word 0xb4000051
@@ -5895,7 +5895,7 @@ bl _p_53
 .word 0xf94097a0
 .word 0xf90093a0
 .word 0xaa0003f6
-.loc 4 63 0
+.loc 4 64 0
 .word 0xf9402bb1
 .word 0xf9447231
 .word 0xb4000051
@@ -5924,7 +5924,7 @@ bl _p_54
 .word 0xd63f0220
 .word 0xf94087a0
 bl _p_49
-.loc 4 64 0
+.loc 4 65 0
 .word 0xf9402bb1
 .word 0xf944da31
 .word 0xb4000051
@@ -5942,7 +5942,7 @@ bl _p_55
 .word 0xd63f0220
 .word 0xf94083a0
 .word 0xaa0003f5
-.loc 4 65 0
+.loc 4 66 0
 .word 0xf9402bb1
 .word 0xf9451a31
 .word 0xb4000051
@@ -5968,7 +5968,7 @@ bl _p_55
 .word 0xf9407ba0
 .word 0xf90077a0
 .word 0xaa0003f4
-.loc 4 66 0
+.loc 4 67 0
 .word 0xf9402bb1
 .word 0xf9457e31
 .word 0xb4000051
@@ -5995,7 +5995,7 @@ bl _p_56
 .word 0xf9406ba0
 .word 0xf90067a0
 .word 0xaa0003f3
-.loc 4 67 0
+.loc 4 68 0
 .word 0xf9402bb1
 .word 0xf945e631
 .word 0xb4000051
@@ -6014,7 +6014,7 @@ bl _p_57
 .word 0xd63f0220
 .word 0xf94063a0
 bl _p_49
-.loc 4 68 0
+.loc 4 69 0
 .word 0xf9402bb1
 .word 0xf9462a31
 .word 0xb4000051
@@ -6042,7 +6042,7 @@ bl _p_58
 .word 0xaa0203e0
 .word 0xf940005e
 bl _p_59
-.loc 4 71 0
+.loc 4 72 0
 .word 0xf9402bb1
 .word 0xf9468e31
 .word 0xb4000051
@@ -6066,7 +6066,7 @@ Lme_9:
 IntentionJournal_HomePage_InitializeComponent:
 .file 5 "/Users/jcjoshua/Projects/IntentionJournal3/IntentionJournal/obj/Debug/IntentionJournal.HomePage.xaml.g.cs"
 .loc 5 26 0 prologue_end
-.word 0xd2806010
+.word 0xd2805810
 .word 0x910003f1
 .word 0xcb100231
 .word 0x9100023f
@@ -6091,9 +6091,9 @@ ldr x16, [x16, #720]
 .word 0xd2800015
 .word 0xd2800014
 .word 0xd2800013
-.word 0xb900d3bf
-.word 0xf9006fbf
-.word 0xf90073bf
+.word 0xb900b3bf
+.word 0xf9005fbf
+.word 0xf90063bf
 .word 0xf9402bb1
 .word 0xf9407a31
 .word 0xb4000051
@@ -6112,15 +6112,15 @@ ldr x16, [x16, #720]
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_7
-.word 0xf9009ba0
+.word 0xf9008ba0
 .word 0xf9402bb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409ba0
+.word 0xf9408ba0
 .word 0xb40004c0
 bl _p_7
-.word 0xf900a7a0
+.word 0xf90097a0
 .word 0xf9402bb1
 .word 0xf940e231
 .word 0xb4000051
@@ -6128,25 +6128,25 @@ bl _p_7
 .word 0xaa1a03e0
 .word 0xf9400340
 .word 0xf9400c00
-.word 0xf900a3a0
+.word 0xf90093a0
 .word 0xf9402bb1
 .word 0xf9410231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940a3a1
-.word 0xf940a7a2
+.word 0xf94093a1
+.word 0xf94097a2
 .word 0xaa0203e0
-.word 0xf9009fa2
+.word 0xf9008fa2
 .word 0xf9400c50
 .word 0xd63f0200
 .word 0xaa0003e1
-.word 0xf9409fa0
-.word 0xf9009ba1
+.word 0xf9408fa0
+.word 0xf9008ba1
 .word 0xf9402bb1
 .word 0xf9413631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409ba0
+.word 0xf9408ba0
 .word 0xb4000120
 .word 0xaa1a03e0
 .word 0xaa1a03e0
@@ -6155,45 +6155,45 @@ bl _p_60
 .word 0xf9415a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0x14000317
+.word 0x140002e8
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #728]
 bl _p_3
-.word 0xf9017ba0
+.word 0xf9015fa0
 bl _p_61
 .word 0xf9402bb1
 .word 0xf9418631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9417ba0
+.word 0xf9415fa0
 .word 0xaa0003f9
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #736]
 bl _p_3
-.word 0xf90177a0
+.word 0xf9015ba0
 bl _p_62
 .word 0xf9402bb1
 .word 0xf941b631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94177a0
+.word 0xf9415ba0
 .word 0xaa0003f8
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #736]
 bl _p_3
-.word 0xf90173a0
-bl _p_63
+.word 0xf90157a0
+bl _p_62
 .word 0xf9402bb1
 .word 0xf941e631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94173a0
+.word 0xf94157a0
 .word 0xaa0003f7
 .loc 5 30 0
 .word 0xf9402bb1
@@ -6203,28 +6203,28 @@ bl _p_63
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 bl _p_3
-.word 0xf9016fa0
-bl _p_64
+.word 0xf90153a0
+bl _p_63
 .word 0xf9402bb1
 .word 0xf9422631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9416fa0
+.word 0xf94153a0
 .word 0xaa0003f6
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
-.word 0xf9016ba0
-bl _p_65
+.word 0xf9014fa0
+bl _p_64
 .word 0xf9402bb1
 .word 0xf9425631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9416ba0
+.word 0xf9414fa0
 .word 0xaa0003f5
 .word 0xaa1a03e0
 .word 0xaa1a03f4
@@ -6233,13 +6233,13 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #368]
 bl _p_3
-.word 0xf90167a0
+.word 0xf9014ba0
 bl _p_21
 .word 0xf9402bb1
 .word 0xf9428e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94167a0
+.word 0xf9414ba0
 .word 0xaa0003f3
 .word 0xaa1a03e0
 .word 0xaa1303e0
@@ -6265,14 +6265,14 @@ bl _p_22
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
-.word 0xf90163a0
+.word 0xf90147a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #768]
-.word 0xf90157a0
+ldr x0, [x16, #760]
+.word 0xf9013ba0
 .word 0xaa1603e0
-.word 0xf9015ba0
+.word 0xf9013fa0
 .word 0xd2800120
 .word 0xd2800240
 
@@ -6280,7 +6280,7 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #296]
 bl _p_3
-.word 0xf9015fa0
+.word 0xf90143a0
 .word 0xd2800121
 .word 0xd2800242
 bl _p_17
@@ -6288,16 +6288,16 @@ bl _p_17
 .word 0xf9434a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94157a1
-.word 0xf9415ba2
-.word 0xf9415fa3
-.word 0xf94163a4
+.word 0xf9413ba1
+.word 0xf9413fa2
+.word 0xf94143a3
+.word 0xf94147a4
 .word 0xaa0403e0
 .word 0xf9400084
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -6321,39 +6321,39 @@ bl _p_22
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1303e0
-.word 0xf90153a0
+.word 0xf90137a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #784]
-.word 0xf90147a0
+ldr x0, [x16, #776]
+.word 0xf9012ba0
 .word 0xaa1703e0
-.word 0xf9014ba0
+.word 0xf9012fa0
 .word 0xd2800160
-.word 0xd28001e0
+.word 0xd2800160
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #296]
 bl _p_3
-.word 0xf9014fa0
+.word 0xf90133a0
 .word 0xd2800161
-.word 0xd28001e2
+.word 0xd2800162
 bl _p_17
 .word 0xf9402bb1
 .word 0xf9441e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94147a1
-.word 0xf9414ba2
-.word 0xf9414fa3
-.word 0xf94153a4
+.word 0xf9412ba1
+.word 0xf9412fa2
+.word 0xf94133a3
+.word 0xf94137a4
 .word 0xaa0403e0
 .word 0xf9400084
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -6364,55 +6364,55 @@ ldr x15, [x16, #776]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1603e0
-.word 0xf90143a0
+.word 0xf90127a0
 .word 0xf900eb40
 .word 0x91074340
 bl _p_35
-.word 0xf94143a0
+.word 0xf94127a0
 .word 0xaa1a03e0
 .word 0xaa1703e0
-.word 0xf9013fa0
+.word 0xf90123a0
 .word 0xf900ef40
 .word 0x91076340
 bl _p_35
-.word 0xf9413fa0
+.word 0xf94123a0
 .word 0xaa1a03e0
+
+adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x0, [x16, #784]
+.word 0xf9400000
+.word 0xf90117a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #792]
-.word 0xf9400000
-.word 0xf90133a0
-
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
 bl _p_3
-.word 0xf9013ba0
-bl _p_66
+.word 0xf9011fa0
+bl _p_65
 .word 0xf9402bb1
 .word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9413ba2
+.word 0xf9411fa2
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
 .word 0xd63f0200
-.word 0xf90137a0
+.word 0xf9011ba0
 .word 0xf9402bb1
 .word 0xf9450e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94133a1
-.word 0xf94137a2
+.word 0xf94117a1
+.word 0xf9411ba2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9453231
 .word 0xb4000051
@@ -6421,15 +6421,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #824]
+ldr x2, [x16, #816]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9456e31
 .word 0xb4000051
@@ -6441,49 +6441,49 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402bb1
 .word 0xf9459a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-.word 0xf900cfa0
+.word 0xf900b3a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #216]
 bl _p_3
-.word 0xf9012fa0
+.word 0xf90113a0
 bl _p_12
 .word 0xf9402bb1
 .word 0xf945ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9412fa0
-.word 0xf90077a0
-.word 0xf94077a0
-.word 0xf90117a0
-.word 0xf94077a0
-.word 0xf90123a0
+.word 0xf94113a0
+.word 0xf90067a0
+.word 0xf94067a0
+.word 0xf900fba0
+.word 0xf94067a0
+.word 0xf90107a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #440]
-.word 0xf9011ba0
-.word 0xb900d3bf
-.word 0xb980d3a0
+.word 0xf900ffa0
+.word 0xb900b3bf
+.word 0xb980b3a0
 .word 0x11000401
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #448]
 bl _p_27
-.word 0xf9006fa0
-.word 0xf9406fa0
-.word 0xf9007ba0
-.word 0xf9407ba0
-.word 0xf90127a0
-.word 0xf9407ba3
+.word 0xf9005fa0
+.word 0xf9405fa0
+.word 0xf9006ba0
+.word 0xf9406ba0
+.word 0xf9010ba0
+.word 0xf9406ba3
 .word 0xd2800000
 .word 0xaa1a03e0
 .word 0xaa0303e0
@@ -6497,23 +6497,23 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #512]
 .word 0xf9400000
-.word 0xf9012ba0
+.word 0xf9010fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #456]
 bl _p_3
-.word 0xf94127a1
-.word 0xf9412ba2
-.word 0xf9011fa0
+.word 0xf9410ba1
+.word 0xf9410fa2
+.word 0xf90103a0
 bl _p_28
 .word 0xf9402bb1
 .word 0xf9468a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9411ba1
-.word 0xf9411fa2
-.word 0xf94123a3
+.word 0xf940ffa1
+.word 0xf94103a2
+.word 0xf94107a3
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_16
@@ -6521,33 +6521,33 @@ bl _p_16
 .word 0xf946b231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94117a0
-.word 0xf9007fa0
-.word 0xf9407fa0
-.word 0xf90103a0
-.word 0xf9407fa0
-.word 0xf9010fa0
+.word 0xf940fba0
+.word 0xf9006fa0
+.word 0xf9406fa0
+.word 0xf900e7a0
+.word 0xf9406fa0
+.word 0xf900f3a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #464]
-.word 0xf90107a0
+.word 0xf900eba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #472]
 bl _p_3
-.word 0xf90113a0
+.word 0xf900f7a0
 bl _p_29
 .word 0xf9402bb1
 .word 0xf9470231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94113a0
-.word 0xf90083a0
-.word 0xf94083a0
-.word 0xf9010ba0
-.word 0xf94083a2
+.word 0xf940f7a0
+.word 0xf90073a0
+.word 0xf94073a0
+.word 0xf900efa0
+.word 0xf94073a2
 .word 0xaa1303e1
 .word 0xaa0203e0
 .word 0xf940005e
@@ -6556,9 +6556,9 @@ bl _p_30
 .word 0xf9473631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94107a1
-.word 0xf9410ba2
-.word 0xf9410fa3
+.word 0xf940eba1
+.word 0xf940efa2
+.word 0xf940f3a3
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_16
@@ -6566,33 +6566,33 @@ bl _p_16
 .word 0xf9475e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94103a0
-.word 0xf90087a0
-.word 0xf94087a0
-.word 0xf900e3a0
-.word 0xf94087a0
-.word 0xf900efa0
+.word 0xf940e7a0
+.word 0xf90077a0
+.word 0xf94077a0
+.word 0xf900c7a0
+.word 0xf94077a0
+.word 0xf900d3a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #224]
-.word 0xf900e7a0
+.word 0xf900cba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #232]
 bl _p_3
-.word 0xf900ffa0
+.word 0xf900e3a0
 bl _p_13
 .word 0xf9402bb1
 .word 0xf947ae31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940ffa0
-.word 0xf9008ba0
-.word 0xf9408ba0
-.word 0xf900fba0
-.word 0xf9408ba3
+.word 0xf940e3a0
+.word 0xf9007ba0
+.word 0xf9407ba0
+.word 0xf900dfa0
+.word 0xf9407ba3
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
@@ -6608,11 +6608,11 @@ bl _p_14
 .word 0xf947f631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940fba0
-.word 0xf9008fa0
-.word 0xf9408fa0
-.word 0xf900f3a0
-.word 0xf9408fa3
+.word 0xf940dfa0
+.word 0xf9007fa0
+.word 0xf9407fa0
+.word 0xf900d7a0
+.word 0xf9407fa3
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
@@ -6631,12 +6631,12 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #824]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
 .word 0xd63f0200
-.word 0xf900f7a0
+.word 0xf900dba0
 .word 0xf9402bb1
 .word 0xf9486e31
 .word 0xb4000051
@@ -6646,17 +6646,17 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #280]
 bl _p_3
-.word 0xf940f3a1
-.word 0xf940f7a2
-.word 0xf900eba0
+.word 0xf940d7a1
+.word 0xf940dba2
+.word 0xf900cfa0
 bl _p_15
 .word 0xf9402bb1
 .word 0xf9489e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940e7a1
-.word 0xf940eba2
-.word 0xf940efa3
+.word 0xf940cba1
+.word 0xf940cfa2
+.word 0xf940d3a3
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_16
@@ -6664,17 +6664,17 @@ bl _p_16
 .word 0xf948c631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940e3a0
-.word 0xf90093a0
-.word 0xf94093a0
-.word 0xf900cba0
-.word 0xf94093a0
-.word 0xf900dba0
+.word 0xf940c7a0
+.word 0xf90083a0
+.word 0xf94083a0
+.word 0xf900afa0
+.word 0xf94083a0
+.word 0xf900bfa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #288]
-.word 0xf900d3a0
+.word 0xf900b7a0
 .word 0xd28000e0
 .word 0xd28000a0
 
@@ -6682,7 +6682,7 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #296]
 bl _p_3
-.word 0xf900dfa0
+.word 0xf900c3a0
 .word 0xd28000e1
 .word 0xd28000a2
 bl _p_17
@@ -6695,16 +6695,16 @@ adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #304]
 bl _p_3
-.word 0xf940dfa1
-.word 0xf900d7a0
+.word 0xf940c3a1
+.word 0xf900bba0
 bl _p_18
 .word 0xf9402bb1
 .word 0xf9495231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940d3a1
-.word 0xf940d7a2
-.word 0xf940dba3
+.word 0xf940b7a1
+.word 0xf940bba2
+.word 0xf940bfa3
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_16
@@ -6712,90 +6712,90 @@ bl _p_16
 .word 0xf9497a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940cba1
-.word 0xf940cfa2
+.word 0xf940afa1
+.word 0xf940b3a2
 .word 0xaa0203e0
 .word 0xf9400042
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.word 0xf900c7a0
+.word 0xf900aba0
 .word 0xf9402bb1
 .word 0xf949ba31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940c7a0
-.word 0xf90073a0
+.word 0xf940aba0
+.word 0xf90063a0
 .word 0xaa1a03e0
-.word 0xf94073a0
+.word 0xf94063a0
 .word 0xf9400001
 .word 0x3940a822
 .word 0xeb1f005f
 .word 0x10000011
-.word 0x540020c1
+.word 0x54001ae1
 .word 0xf9400021
 .word 0xf9400021
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #848]
+ldr x2, [x16, #840]
 .word 0xeb02003f
 .word 0x10000011
-.word 0x54001fc1
+.word 0x540019e1
 .word 0x91004000
-.word 0x9102c3a1
-.word 0xf9400001
-.word 0xf9005ba1
-.word 0xf9400401
-.word 0xf9005fa1
-.word 0xf9400801
-.word 0xf90063a1
-.word 0xf9400c00
-.word 0xf90067a0
-.word 0xaa1a03e0
-.word 0x9102c3a1
 .word 0x910243a1
-.word 0xf9405ba2
-.word 0xf9004ba2
-.word 0xf9405fa2
-.word 0xf9004fa2
-.word 0xf94063a2
-.word 0xf90053a2
-.word 0xf94067a2
-.word 0xf90057a2
+.word 0xf9400001
+.word 0xf9004ba1
+.word 0xf9400401
+.word 0xf9004fa1
+.word 0xf9400801
+.word 0xf90053a1
+.word 0xf9400c00
+.word 0xf90057a0
+.word 0xaa1a03e0
+.word 0x910243a1
+.word 0x9101c3a1
+.word 0xf9404ba2
+.word 0xf9003ba2
+.word 0xf9404fa2
+.word 0xf9003fa2
+.word 0xf94053a2
+.word 0xf90043a2
+.word 0xf94057a2
+.word 0xf90047a2
 .word 0xaa0103e2
 .word 0xf940035e
-bl _p_69
+bl _p_68
 .word 0xf9402bb1
 .word 0xf94a6e31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e0
-.word 0xf900c3a0
+.word 0xf900a7a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
-.word 0xf900bfa0
+.word 0xf900a3a0
 .word 0xd2800000
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
-.word 0xf940bfa1
-.word 0xf940c3a3
+.word 0xf940a3a1
+.word 0xf940a7a3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94aca31
 .word 0xb4000051
@@ -6804,49 +6804,49 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #880]
+ldr x2, [x16, #872]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94b0631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf900bba0
+.word 0xf9009fa0
+
+adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x0, [x16, #880]
+.word 0xf9400000
+.word 0xf9009ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #888]
-.word 0xf9400000
-.word 0xf900b7a0
+.word 0x9101a3a1
+.word 0xb9800000
+.word 0xb9006ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #896]
-.word 0x910223a1
-.word 0xb9800000
-.word 0xb9008ba0
-
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
 bl _p_3
 .word 0xaa0003e2
-.word 0xf940b7a1
-.word 0xf940bba3
-.word 0x910223a0
+.word 0xf9409ba1
+.word 0xf9409fa3
+.word 0x9101a3a0
 .word 0x91004040
-.word 0xb9808ba4
+.word 0xb9806ba4
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94b8231
 .word 0xb4000051
@@ -6854,20 +6854,20 @@ bl _p_67
 .word 0xaa1603e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
-.word 0xf900b3a0
+bl _p_69
+.word 0xf90097a0
 .word 0xf9402bb1
 .word 0xf94ba631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf940b3a2
+.word 0xf94097a2
 .word 0xaa1803e1
 .word 0xaa0203e0
 .word 0xf9400042
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -6877,131 +6877,81 @@ ldr x15, [x16, #912]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1703e0
-.word 0xf900aba0
+.word 0xf90093a0
+
+adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x0, [x16, #912]
+.word 0xf9400000
+.word 0xf9008fa0
+.word 0xd2800020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #920]
-.word 0xf9400000
-.word 0xf900a7a0
-.word 0xd280001e
-.word 0xf2c8001e
-.word 0xf2e80dfe
-.word 0x9e6703c0
-.word 0xfd00afa0
-
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
 bl _p_3
 .word 0xaa0003e2
-.word 0xf940a7a1
-.word 0xf940aba3
-.word 0xfd40afa0
-.word 0xfd000840
+.word 0xf9408fa1
+.word 0xf94093a3
+.word 0xd280003e
+.word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
-.word 0xf94c5231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xf900a3a0
-
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #536]
-.word 0xf9400000
-.word 0xf9009fa0
-
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #184]
-.word 0x9101a3a1
-.word 0xf9400001
-.word 0xf90037a1
-.word 0xf9400401
-.word 0xf9003ba1
-.word 0xf9400801
-.word 0xf9003fa1
-.word 0xf9400c00
-.word 0xf90043a0
-
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #384]
-bl _p_3
-.word 0xaa0003e2
-.word 0xf9409fa1
-.word 0xf940a3a3
-.word 0x9101a3a0
-.word 0x91004040
-.word 0xf94037a4
-.word 0xf9000004
-.word 0xf9403ba4
-.word 0xf9000404
-.word 0xf9403fa4
-.word 0xf9000804
-.word 0xf94043a4
-.word 0xf9000c04
-.word 0xaa0303e0
-.word 0xf940007e
-bl _p_67
-.word 0xf9402bb1
-.word 0xf94cfe31
+.word 0xf94c4231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
-.word 0xf9009ba0
+bl _p_69
+.word 0xf9008ba0
 .word 0xf9402bb1
-.word 0xf94d2231
+.word 0xf94c6631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9409ba2
+.word 0xf9408ba2
 .word 0xaa1703e1
 .word 0xaa0203e0
 .word 0xf9400042
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
 .word 0xf9402bb1
-.word 0xf94d5e31
+.word 0xf94ca231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1503e2
 .word 0xaa1603e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf9402bb1
-.word 0xf94d8231
+.word 0xf94cc631
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1503e2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
-.word 0xf94db631
+.word 0xf94cfa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402bb1
-.word 0xf94dc631
+.word 0xf94d0a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa94153b3
@@ -7010,7 +6960,7 @@ bl _p_67
 .word 0xa9446bb9
 .word 0x910003bf
 .word 0xa9407bfd
-.word 0xd2806010
+.word 0xd2805810
 .word 0x910003f1
 .word 0x8b100231
 .word 0x9100023f
@@ -7031,7 +6981,7 @@ IntentionJournal_HomePage__HomePagem__0:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #936]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7060,7 +7010,7 @@ ldr x16, [x16, #944]
 .word 0xd63f0220
 .word 0xf9401ba0
 bl _p_41
-.loc 4 24 0
+.loc 4 25 0
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -7086,7 +7036,7 @@ IntentionJournal_HomePage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7098,13 +7048,13 @@ ldr x16, [x16, #952]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #832]
+ldr x1, [x16, #824]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #960]
+ldr x15, [x16, #952]
 .word 0xaa1a03e0
-bl _p_72
+bl _p_71
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -7114,13 +7064,13 @@ bl _p_72
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #760]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #968]
+ldr x15, [x16, #960]
 .word 0xaa1a03e0
-bl _p_73
+bl _p_72
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -7137,13 +7087,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #784]
+ldr x1, [x16, #776]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #968]
 .word 0xaa1a03e0
-bl _p_74
+bl _p_73
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940fa31
@@ -7178,7 +7128,7 @@ IntentionJournal_BrowseMoodsPage__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -7213,7 +7163,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_75
+bl _p_74
 .loc 6 20 0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -7242,7 +7192,7 @@ IntentionJournal_BrowseMoodsPage_OnJournalButtonClicked_object_System_EventArgs:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #984]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7270,7 +7220,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -7314,8 +7264,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1000]
-bl _p_77
+ldr x15, [x16, #992]
+bl _p_76
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -7341,7 +7291,7 @@ IntentionJournal_BrowseMoodsPage_MakeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1000]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7386,7 +7336,7 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1016]
+ldr x0, [x16, #1008]
 .word 0xf90063a0
 .word 0xf94017b1
 .word 0xf940d231
@@ -7395,7 +7345,7 @@ ldr x0, [x16, #1016]
 .word 0xf94063a1
 .word 0xaa1803e0
 .word 0xf940031e
-bl _p_78
+bl _p_59
 .loc 6 40 0
 .word 0xf94017b1
 .word 0xf940f231
@@ -7406,7 +7356,7 @@ bl _p_78
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0x910223a1
 .word 0xb9800000
 .word 0xb9008ba0
@@ -7419,7 +7369,7 @@ ldr x0, [x16, #1024]
 .word 0x910223a1
 .word 0xf94047a1
 .word 0xf940005e
-bl _p_79
+bl _p_77
 .loc 6 41 0
 .word 0xf94017b1
 .word 0xf9414a31
@@ -7430,7 +7380,7 @@ bl _p_79
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0x910203a1
 .word 0xb9800000
 .word 0xb90083a0
@@ -7443,7 +7393,7 @@ ldr x0, [x16, #1024]
 .word 0x910203a1
 .word 0xf94043a1
 .word 0xf940005e
-bl _p_80
+bl _p_78
 .loc 6 42 0
 .word 0xf94017b1
 .word 0xf941a231
@@ -7454,7 +7404,7 @@ bl _p_80
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1032]
+ldr x0, [x16, #1024]
 .word 0x910183a1
 .word 0xf9400001
 .word 0xf90033a1
@@ -7482,7 +7432,7 @@ ldr x0, [x16, #1032]
 .word 0xf9002fa3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_81
+bl _p_79
 .word 0xf94017b1
 .word 0xf9423631
 .word 0xb4000051
@@ -7504,7 +7454,7 @@ bl _p_81
 .word 0xf94053a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9004fa0
 .word 0xf94017b1
 .word 0xf9428e31
@@ -7523,7 +7473,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -7556,7 +7506,7 @@ IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedCreative_object_Sys
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1032]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7584,7 +7534,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -7628,8 +7578,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1048]
-bl _p_82
+ldr x15, [x16, #1040]
+bl _p_80
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -7656,7 +7606,7 @@ IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedInspired_object_Sys
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1048]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7684,7 +7634,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -7728,8 +7678,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1064]
-bl _p_83
+ldr x15, [x16, #1056]
+bl _p_81
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -7756,7 +7706,7 @@ IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedJoyful_object_Syste
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1064]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7784,7 +7734,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -7828,8 +7778,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1080]
-bl _p_84
+ldr x15, [x16, #1072]
+bl _p_82
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -7856,7 +7806,7 @@ IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedGrateful_object_Sys
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1080]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -7884,7 +7834,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -7928,8 +7878,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1096]
-bl _p_85
+ldr x15, [x16, #1088]
+bl _p_83
 .word 0xf94017b1
 .word 0xf9414e31
 .word 0xb4000051
@@ -7963,7 +7913,7 @@ IntentionJournal_BrowseMoodsPage_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1096]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -8045,7 +7995,7 @@ bl _p_7
 .word 0xf940cba0
 .word 0xb4000100
 .word 0xf9402ba0
-bl _p_86
+bl _p_84
 .word 0xf9402fb1
 .word 0xf9418a31
 .word 0xb4000051
@@ -8080,10 +8030,10 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1112]
+ldr x0, [x16, #1104]
 bl _p_3
 .word 0xf90343a0
-bl _p_87
+bl _p_85
 .word 0xf9402fb1
 .word 0xf9421631
 .word 0xb4000051
@@ -8098,10 +8048,10 @@ bl _p_87
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1112]
+ldr x0, [x16, #1104]
 bl _p_3
 .word 0xf9033fa0
-bl _p_87
+bl _p_85
 .word 0xf9402fb1
 .word 0xf9425631
 .word 0xb4000051
@@ -8111,10 +8061,10 @@ bl _p_87
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1120]
+ldr x0, [x16, #1112]
 bl _p_3
 .word 0xf9033ba0
-bl _p_88
+bl _p_86
 .word 0xf9402fb1
 .word 0xf9428631
 .word 0xb4000051
@@ -8124,10 +8074,10 @@ bl _p_88
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1120]
+ldr x0, [x16, #1112]
 bl _p_3
 .word 0xf90337a0
-bl _p_88
+bl _p_86
 .word 0xf9402fb1
 .word 0xf942b631
 .word 0xb4000051
@@ -8137,10 +8087,10 @@ bl _p_88
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 bl _p_3
 .word 0xf90333a0
-bl _p_89
+bl _p_87
 .word 0xf9402fb1
 .word 0xf942e631
 .word 0xb4000051
@@ -8150,10 +8100,10 @@ bl _p_89
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf9032fa0
-bl _p_90
+bl _p_88
 .word 0xf9402fb1
 .word 0xf9431631
 .word 0xb4000051
@@ -8163,10 +8113,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 bl _p_3
 .word 0xf9032ba0
-bl _p_89
+bl _p_87
 .word 0xf9402fb1
 .word 0xf9434631
 .word 0xb4000051
@@ -8176,10 +8126,10 @@ bl _p_89
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf90327a0
-bl _p_90
+bl _p_88
 .word 0xf9402fb1
 .word 0xf9437631
 .word 0xb4000051
@@ -8189,10 +8139,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 bl _p_3
 .word 0xf90323a0
-bl _p_89
+bl _p_87
 .word 0xf9402fb1
 .word 0xf943a631
 .word 0xb4000051
@@ -8202,10 +8152,10 @@ bl _p_89
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf9031fa0
-bl _p_90
+bl _p_88
 .word 0xf9402fb1
 .word 0xf943d631
 .word 0xb4000051
@@ -8215,10 +8165,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1128]
+ldr x0, [x16, #1120]
 bl _p_3
 .word 0xf9031ba0
-bl _p_89
+bl _p_87
 .word 0xf9402fb1
 .word 0xf9440631
 .word 0xb4000051
@@ -8228,10 +8178,10 @@ bl _p_89
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf90317a0
-bl _p_90
+bl _p_88
 .word 0xf9402fb1
 .word 0xf9443631
 .word 0xb4000051
@@ -8241,10 +8191,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1144]
+ldr x0, [x16, #1136]
 bl _p_3
 .word 0xf90313a0
-bl _p_91
+bl _p_89
 .word 0xf9402fb1
 .word 0xf9446631
 .word 0xb4000051
@@ -8254,10 +8204,10 @@ bl _p_91
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9030fa0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9449631
 .word 0xb4000051
@@ -8267,10 +8217,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 bl _p_3
 .word 0xf9030ba0
-bl _p_64
+bl _p_63
 .word 0xf9402fb1
 .word 0xf944c631
 .word 0xb4000051
@@ -8280,10 +8230,10 @@ bl _p_64
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
 .word 0xf90307a0
-bl _p_65
+bl _p_64
 .word 0xf9402fb1
 .word 0xf944f631
 .word 0xb4000051
@@ -8332,7 +8282,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1160]
+ldr x0, [x16, #1152]
 .word 0xf902f3a0
 .word 0xaa1403e0
 .word 0xf902f7a0
@@ -8360,7 +8310,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -8388,7 +8338,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1168]
+ldr x0, [x16, #1160]
 .word 0xf902e3a0
 .word 0xaa1803e0
 .word 0xf902e7a0
@@ -8416,7 +8366,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -8535,16 +8485,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf902cba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf902d7a0
-bl _p_66
+bl _p_65
 .word 0xf9402fb1
 .word 0xf948e631
 .word 0xb4000051
@@ -8553,7 +8503,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -8568,7 +8518,7 @@ ldr x1, [x16, #808]
 .word 0xf942d3a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9494231
 .word 0xb4000051
@@ -8577,15 +8527,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #1176]
+ldr x2, [x16, #1168]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9497e31
 .word 0xb4000051
@@ -8597,7 +8547,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402fb1
 .word 0xf949aa31
 .word 0xb4000051
@@ -8786,7 +8736,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1176]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -8874,7 +8824,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -8898,7 +8848,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #848]
+ldr x3, [x16, #840]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x5400af41
@@ -8925,7 +8875,7 @@ ldr x3, [x16, #848]
 .word 0xf90057a3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_69
+bl _p_68
 .word 0xf9402fb1
 .word 0xf94e7a31
 .word 0xb4000051
@@ -8935,14 +8885,14 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf90257a0
 .word 0xd2800000
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94257a1
@@ -8950,7 +8900,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94ed631
 .word 0xb4000051
@@ -8959,15 +8909,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #1192]
+ldr x2, [x16, #1184]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94f1231
 .word 0xb4000051
@@ -8977,20 +8927,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf9024fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #896]
+ldr x0, [x16, #888]
 .word 0x910223a1
 .word 0xb9800000
 .word 0xb9008ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf9424fa1
@@ -9001,7 +8951,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94f8e31
 .word 0xb4000051
@@ -9009,7 +8959,7 @@ bl _p_67
 .word 0xaa1403e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9024ba0
 .word 0xf9402fb1
 .word 0xf94fb231
@@ -9022,7 +8972,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9036,20 +8986,20 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xf9400000
 .word 0xf90243a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1208]
+ldr x0, [x16, #1200]
 .word 0x910203a1
 .word 0xb9800000
 .word 0xb90083a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94243a1
@@ -9060,7 +9010,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9506a31
 .word 0xb4000051
@@ -9070,20 +9020,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf9023ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1216]
+ldr x0, [x16, #1208]
 .word 0x9101e3a1
 .word 0xb9800000
 .word 0xb9007ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf9423ba1
@@ -9094,7 +9044,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf950e631
 .word 0xb4000051
@@ -9104,16 +9054,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1216]
 .word 0xf9400000
 .word 0xf9022ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1232]
+ldr x0, [x16, #1224]
 bl _p_3
 .word 0xf90237a0
-bl _p_93
+bl _p_91
 .word 0xf9402fb1
 .word 0xf9512a31
 .word 0xb4000051
@@ -9122,7 +9072,7 @@ bl _p_93
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1240]
+ldr x1, [x16, #1232]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -9137,7 +9087,7 @@ ldr x1, [x16, #1240]
 .word 0xf94233a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9518631
 .word 0xb4000051
@@ -9145,7 +9095,7 @@ bl _p_67
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_94
+bl _p_92
 .word 0xf90227a0
 .word 0xf9402fb1
 .word 0xf951aa31
@@ -9155,7 +9105,7 @@ bl _p_94
 .word 0xf94073a1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_95
+bl _p_93
 .word 0xf9402fb1
 .word 0xf951ce31
 .word 0xb4000051
@@ -9165,16 +9115,16 @@ bl _p_95
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1224]
+ldr x0, [x16, #1216]
 .word 0xf9400000
 .word 0xf90217a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1232]
+ldr x0, [x16, #1224]
 bl _p_3
 .word 0xf90223a0
-bl _p_93
+bl _p_91
 .word 0xf9402fb1
 .word 0xf9521231
 .word 0xb4000051
@@ -9183,7 +9133,7 @@ bl _p_93
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1240]
+ldr x1, [x16, #1232]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -9198,7 +9148,7 @@ ldr x1, [x16, #1240]
 .word 0xf9421fa3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9526e31
 .word 0xb4000051
@@ -9206,7 +9156,7 @@ bl _p_67
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_94
+bl _p_92
 .word 0xf90213a0
 .word 0xf9402fb1
 .word 0xf9529231
@@ -9216,7 +9166,7 @@ bl _p_94
 .word 0xf94077a1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_95
+bl _p_93
 .word 0xf9402fb1
 .word 0xf952b631
 .word 0xb4000051
@@ -9226,16 +9176,16 @@ bl _p_95
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1240]
 .word 0xf9400000
 .word 0xf90203a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1232]
+ldr x0, [x16, #1224]
 bl _p_3
 .word 0xf9020fa0
-bl _p_93
+bl _p_91
 .word 0xf9402fb1
 .word 0xf952fa31
 .word 0xb4000051
@@ -9244,7 +9194,7 @@ bl _p_93
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1240]
+ldr x1, [x16, #1232]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -9259,7 +9209,7 @@ ldr x1, [x16, #1240]
 .word 0xf9420ba3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9535631
 .word 0xb4000051
@@ -9267,7 +9217,7 @@ bl _p_67
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_96
+bl _p_94
 .word 0xf901ffa0
 .word 0xf9402fb1
 .word 0xf9537a31
@@ -9277,7 +9227,7 @@ bl _p_96
 .word 0xf9407ba1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_97
+bl _p_95
 .word 0xf9402fb1
 .word 0xf9539e31
 .word 0xb4000051
@@ -9287,16 +9237,16 @@ bl _p_97
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1248]
+ldr x0, [x16, #1240]
 .word 0xf9400000
 .word 0xf901efa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1232]
+ldr x0, [x16, #1224]
 bl _p_3
 .word 0xf901fba0
-bl _p_93
+bl _p_91
 .word 0xf9402fb1
 .word 0xf953e231
 .word 0xb4000051
@@ -9305,7 +9255,7 @@ bl _p_93
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1240]
+ldr x1, [x16, #1232]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -9320,7 +9270,7 @@ ldr x1, [x16, #1240]
 .word 0xf941f7a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9543e31
 .word 0xb4000051
@@ -9328,7 +9278,7 @@ bl _p_67
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_96
+bl _p_94
 .word 0xf901eba0
 .word 0xf9402fb1
 .word 0xf9546231
@@ -9338,7 +9288,7 @@ bl _p_96
 .word 0xf9407fa1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_97
+bl _p_95
 .word 0xf9402fb1
 .word 0xf9548631
 .word 0xb4000051
@@ -9348,16 +9298,16 @@ bl _p_97
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1248]
 .word 0xf9400000
 .word 0xf901dba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 bl _p_3
 .word 0xf901e7a0
-bl _p_98
+bl _p_96
 .word 0xf9402fb1
 .word 0xf954ca31
 .word 0xb4000051
@@ -9366,10 +9316,10 @@ bl _p_98
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1272]
+ldr x1, [x16, #1264]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_99
+bl _p_97
 .word 0xf901dfa0
 .word 0xf9402fb1
 .word 0xf954fa31
@@ -9380,7 +9330,7 @@ bl _p_99
 .word 0xf941e3a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9552231
 .word 0xb4000051
@@ -9390,7 +9340,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1272]
 .word 0xf9400000
 .word 0xf901d3a0
 .word 0xd2800000
@@ -9405,7 +9355,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9557e31
 .word 0xb4000051
@@ -9415,7 +9365,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1288]
+ldr x0, [x16, #1280]
 .word 0xf9400000
 .word 0xf901cba0
 .word 0xd2800000
@@ -9430,7 +9380,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf955da31
 .word 0xb4000051
@@ -9445,7 +9395,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf941c7a1
 .word 0xf901bba1
@@ -9459,17 +9409,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1304]
+ldr x0, [x16, #1296]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1312]
+ldr x0, [x16, #1304]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1320]
+ldr x0, [x16, #1312]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -9478,7 +9428,7 @@ ldr x0, [x16, #1320]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_100
+bl _p_98
 .word 0xf9402fb1
 .word 0xf9568a31
 .word 0xb4000051
@@ -9488,7 +9438,7 @@ bl _p_100
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1320]
 .word 0xf9400000
 .word 0xf901b3a0
 .word 0xd2800020
@@ -9504,7 +9454,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf956ea31
 .word 0xb4000051
@@ -9512,7 +9462,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_101
+bl _p_99
 .word 0xf901afa0
 .word 0xf9402fb1
 .word 0xf9570e31
@@ -9525,7 +9475,7 @@ bl _p_101
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1336]
+ldr x15, [x16, #1328]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9537,7 +9487,7 @@ ldr x15, [x16, #1336]
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_102
+bl _p_100
 .word 0xf901aba0
 .word 0xf9402fb1
 .word 0xf9576e31
@@ -9550,7 +9500,7 @@ bl _p_102
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9564,16 +9514,16 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1248]
 .word 0xf9400000
 .word 0xf9019ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 bl _p_3
 .word 0xf901a7a0
-bl _p_98
+bl _p_96
 .word 0xf9402fb1
 .word 0xf957ee31
 .word 0xb4000051
@@ -9582,10 +9532,10 @@ bl _p_98
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1344]
+ldr x1, [x16, #1336]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_99
+bl _p_97
 .word 0xf9019fa0
 .word 0xf9402fb1
 .word 0xf9581e31
@@ -9596,7 +9546,7 @@ bl _p_99
 .word 0xf941a3a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9584631
 .word 0xb4000051
@@ -9606,7 +9556,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1272]
 .word 0xf9400000
 .word 0xf90193a0
 .word 0xd2800000
@@ -9621,7 +9571,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf958a231
 .word 0xb4000051
@@ -9631,7 +9581,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1288]
+ldr x0, [x16, #1280]
 .word 0xf9400000
 .word 0xf9018ba0
 .word 0xd2800020
@@ -9647,7 +9597,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9590231
 .word 0xb4000051
@@ -9662,7 +9612,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf94187a1
 .word 0xf9017ba1
@@ -9676,17 +9626,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1352]
+ldr x0, [x16, #1344]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1360]
+ldr x0, [x16, #1352]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1368]
+ldr x0, [x16, #1360]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -9695,7 +9645,7 @@ ldr x0, [x16, #1368]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_100
+bl _p_98
 .word 0xf9402fb1
 .word 0xf959b231
 .word 0xb4000051
@@ -9705,7 +9655,7 @@ bl _p_100
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1320]
 .word 0xf9400000
 .word 0xf90173a0
 .word 0xd2800020
@@ -9721,7 +9671,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95a1231
 .word 0xb4000051
@@ -9729,7 +9679,7 @@ bl _p_67
 .word 0xaa1303e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_101
+bl _p_99
 .word 0xf9016fa0
 .word 0xf9402fb1
 .word 0xf95a3631
@@ -9742,7 +9692,7 @@ bl _p_101
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1336]
+ldr x15, [x16, #1328]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9754,7 +9704,7 @@ ldr x15, [x16, #1336]
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_102
+bl _p_100
 .word 0xf9016ba0
 .word 0xf9402fb1
 .word 0xf95a9631
@@ -9767,7 +9717,7 @@ bl _p_102
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9781,16 +9731,16 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1248]
 .word 0xf9400000
 .word 0xf9015ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 bl _p_3
 .word 0xf90167a0
-bl _p_98
+bl _p_96
 .word 0xf9402fb1
 .word 0xf95b1631
 .word 0xb4000051
@@ -9799,10 +9749,10 @@ bl _p_98
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1376]
+ldr x1, [x16, #1368]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_99
+bl _p_97
 .word 0xf9015fa0
 .word 0xf9402fb1
 .word 0xf95b4631
@@ -9813,7 +9763,7 @@ bl _p_99
 .word 0xf94163a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95b6e31
 .word 0xb4000051
@@ -9823,7 +9773,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1272]
 .word 0xf9400000
 .word 0xf90153a0
 .word 0xd2800020
@@ -9839,7 +9789,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95bce31
 .word 0xb4000051
@@ -9849,7 +9799,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1288]
+ldr x0, [x16, #1280]
 .word 0xf9400000
 .word 0xf9014ba0
 .word 0xd2800000
@@ -9864,7 +9814,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95c2a31
 .word 0xb4000051
@@ -9879,7 +9829,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf94147a1
 .word 0xf9013ba1
@@ -9893,17 +9843,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1384]
+ldr x0, [x16, #1376]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1392]
+ldr x0, [x16, #1384]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1400]
+ldr x0, [x16, #1392]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -9912,7 +9862,7 @@ ldr x0, [x16, #1400]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_100
+bl _p_98
 .word 0xf9402fb1
 .word 0xf95cda31
 .word 0xb4000051
@@ -9922,7 +9872,7 @@ bl _p_100
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1320]
 .word 0xf9400000
 .word 0xf90133a0
 .word 0xd2800020
@@ -9938,7 +9888,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95d3a31
 .word 0xb4000051
@@ -9946,7 +9896,7 @@ bl _p_67
 .word 0xaa1503e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_101
+bl _p_99
 .word 0xf9012fa0
 .word 0xf9402fb1
 .word 0xf95d5e31
@@ -9959,7 +9909,7 @@ bl _p_101
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1336]
+ldr x15, [x16, #1328]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9971,7 +9921,7 @@ ldr x15, [x16, #1336]
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_102
+bl _p_100
 .word 0xf9012ba0
 .word 0xf9402fb1
 .word 0xf95dbe31
@@ -9984,7 +9934,7 @@ bl _p_102
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -9998,16 +9948,16 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1248]
 .word 0xf9400000
 .word 0xf9011ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 bl _p_3
 .word 0xf90127a0
-bl _p_98
+bl _p_96
 .word 0xf9402fb1
 .word 0xf95e3e31
 .word 0xb4000051
@@ -10016,10 +9966,10 @@ bl _p_98
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1408]
+ldr x1, [x16, #1400]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_99
+bl _p_97
 .word 0xf9011fa0
 .word 0xf9402fb1
 .word 0xf95e6e31
@@ -10030,7 +9980,7 @@ bl _p_99
 .word 0xf94123a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95e9631
 .word 0xb4000051
@@ -10040,7 +9990,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1280]
+ldr x0, [x16, #1272]
 .word 0xf9400000
 .word 0xf90113a0
 .word 0xd2800020
@@ -10056,7 +10006,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95ef631
 .word 0xb4000051
@@ -10066,7 +10016,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1288]
+ldr x0, [x16, #1280]
 .word 0xf9400000
 .word 0xf9010ba0
 .word 0xd2800020
@@ -10082,7 +10032,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf95f5631
 .word 0xb4000051
@@ -10097,7 +10047,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf94107a1
 .word 0xf900fba1
@@ -10111,17 +10061,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1416]
+ldr x0, [x16, #1408]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1424]
+ldr x0, [x16, #1416]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1432]
+ldr x0, [x16, #1424]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -10130,7 +10080,7 @@ ldr x0, [x16, #1432]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_100
+bl _p_98
 .word 0xf9402fb1
 .word 0xf9600631
 .word 0xb4000051
@@ -10140,7 +10090,7 @@ bl _p_100
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1328]
+ldr x0, [x16, #1320]
 .word 0xf9400000
 .word 0xf900f3a0
 .word 0xd2800020
@@ -10156,7 +10106,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9606631
 .word 0xb4000051
@@ -10164,7 +10114,7 @@ bl _p_67
 .word 0xaa1703e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_101
+bl _p_99
 .word 0xf900efa0
 .word 0xf9402fb1
 .word 0xf9608a31
@@ -10177,7 +10127,7 @@ bl _p_101
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1336]
+ldr x15, [x16, #1328]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10189,7 +10139,7 @@ ldr x15, [x16, #1336]
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_102
+bl _p_100
 .word 0xf900eba0
 .word 0xf9402fb1
 .word 0xf960ea31
@@ -10202,7 +10152,7 @@ bl _p_102
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10214,7 +10164,7 @@ ldr x15, [x16, #912]
 .word 0xaa1403e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900e7a0
 .word 0xf9402fb1
 .word 0xf9614a31
@@ -10227,7 +10177,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10240,15 +10190,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #1448]
+ldr x2, [x16, #1440]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf961c231
 .word 0xb4000051
@@ -10263,7 +10213,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf940e3a1
 .word 0xf900d7a1
@@ -10277,17 +10227,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1456]
+ldr x0, [x16, #1448]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1464]
+ldr x0, [x16, #1456]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1472]
+ldr x0, [x16, #1464]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -10296,7 +10246,7 @@ ldr x0, [x16, #1472]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf9627231
 .word 0xb4000051
@@ -10306,20 +10256,20 @@ bl _p_103
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xf9400000
 .word 0xf900cfa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0x9101c3a1
 .word 0xb9800000
 .word 0xb90073a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf940cfa1
@@ -10330,7 +10280,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf962ee31
 .word 0xb4000051
@@ -10338,7 +10288,7 @@ bl _p_67
 .word 0xaa1403e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900cba0
 .word 0xf9402fb1
 .word 0xf9631231
@@ -10351,7 +10301,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10364,7 +10314,7 @@ ldr x15, [x16, #912]
 .word 0xaa1403e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf9402fb1
 .word 0xf9637231
 .word 0xb4000051
@@ -10373,12 +10323,12 @@ bl _p_71
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xf94097a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf963a631
 .word 0xb4000051
@@ -10418,7 +10368,7 @@ IntentionJournal_BrowseMoodsPage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1472]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -10430,13 +10380,13 @@ ldr x16, [x16, #1480]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1184]
+ldr x1, [x16, #1176]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1488]
+ldr x15, [x16, #1480]
 .word 0xaa1a03e0
-bl _p_104
+bl _p_102
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -10446,13 +10396,13 @@ bl _p_104
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1160]
+ldr x1, [x16, #1152]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #968]
+ldr x15, [x16, #960]
 .word 0xaa1a03e0
-bl _p_73
+bl _p_72
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -10469,13 +10419,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1168]
+ldr x1, [x16, #1160]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1496]
+ldr x15, [x16, #1488]
 .word 0xaa1a03e0
-bl _p_105
+bl _p_103
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940fa31
@@ -10520,7 +10470,7 @@ IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1496]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10548,7 +10498,7 @@ ldr x16, [x16, #1504]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1512]
+ldr x0, [x16, #1504]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -10570,7 +10520,7 @@ ldr x0, [x16, #1512]
 .word 0xf9004ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_106
+bl _p_104
 .word 0xf90057a0
 .word 0xf94017b1
 .word 0xf940ee31
@@ -10579,10 +10529,10 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1512]
 bl _p_3
 .word 0xf90053a0
-bl _p_107
+bl _p_105
 .word 0xf94017b1
 .word 0xf9411631
 .word 0xb4000051
@@ -10594,7 +10544,7 @@ bl _p_107
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10609,7 +10559,7 @@ ldr x15, [x16, #1528]
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_108
+bl _p_106
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -10627,7 +10577,7 @@ bl _p_35
 .word 0xf94047a0
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_109
+bl _p_107
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -10648,8 +10598,8 @@ bl _p_109
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1536]
-bl _p_110
+ldr x15, [x16, #1528]
+bl _p_108
 .word 0xf94017b1
 .word 0xf9421a31
 .word 0xb4000051
@@ -10657,7 +10607,7 @@ bl _p_110
 .word 0x14000036
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_111
+bl _p_109
 .word 0xf94017b1
 .word 0xf9423a31
 .word 0xb4000051
@@ -10675,17 +10625,17 @@ bl _p_111
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 6 30 0
 .word 0xf9401bb1
@@ -10704,7 +10654,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf942f231
 .word 0xb4000051
@@ -10735,7 +10685,7 @@ IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_SetStateMachin
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1536]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -10746,7 +10696,7 @@ ldr x16, [x16, #1544]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -10776,7 +10726,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1544]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -10804,7 +10754,7 @@ ldr x16, [x16, #1552]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1560]
+ldr x0, [x16, #1552]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -10826,7 +10776,7 @@ ldr x0, [x16, #1560]
 .word 0xf9004ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_106
+bl _p_104
 .word 0xf90057a0
 .word 0xf94017b1
 .word 0xf940ee31
@@ -10835,16 +10785,16 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1568]
+ldr x0, [x16, #1560]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1512]
 bl _p_3
 .word 0xf9405ba1
 .word 0xf90053a0
-bl _p_117
+bl _p_115
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -10856,7 +10806,7 @@ bl _p_117
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -10871,7 +10821,7 @@ ldr x15, [x16, #1528]
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_108
+bl _p_106
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -10889,7 +10839,7 @@ bl _p_35
 .word 0xf94047a0
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_109
+bl _p_107
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -10910,8 +10860,8 @@ bl _p_109
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1576]
-bl _p_118
+ldr x15, [x16, #1568]
+bl _p_116
 .word 0xf94017b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -10919,7 +10869,7 @@ bl _p_118
 .word 0x14000036
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_111
+bl _p_109
 .word 0xf94017b1
 .word 0xf9424e31
 .word 0xb4000051
@@ -10937,17 +10887,17 @@ bl _p_111
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 6 56 0
 .word 0xf9401bb1
@@ -10966,7 +10916,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9430631
 .word 0xb4000051
@@ -10997,7 +10947,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11008,7 +10958,7 @@ ldr x16, [x16, #1584]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -11038,7 +10988,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1584]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11066,7 +11016,7 @@ ldr x16, [x16, #1592]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1600]
+ldr x0, [x16, #1592]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -11088,7 +11038,7 @@ ldr x0, [x16, #1600]
 .word 0xf9004ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_106
+bl _p_104
 .word 0xf90057a0
 .word 0xf94017b1
 .word 0xf940ee31
@@ -11097,16 +11047,16 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1600]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1512]
 bl _p_3
 .word 0xf9405ba1
 .word 0xf90053a0
-bl _p_117
+bl _p_115
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -11118,7 +11068,7 @@ bl _p_117
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -11133,7 +11083,7 @@ ldr x15, [x16, #1528]
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_108
+bl _p_106
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -11151,7 +11101,7 @@ bl _p_35
 .word 0xf94047a0
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_109
+bl _p_107
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -11172,8 +11122,8 @@ bl _p_109
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1616]
-bl _p_119
+ldr x15, [x16, #1608]
+bl _p_117
 .word 0xf94017b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -11181,7 +11131,7 @@ bl _p_119
 .word 0x14000036
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_111
+bl _p_109
 .word 0xf94017b1
 .word 0xf9424e31
 .word 0xb4000051
@@ -11199,17 +11149,17 @@ bl _p_111
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 6 66 0
 .word 0xf9401bb1
@@ -11228,7 +11178,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9430631
 .word 0xb4000051
@@ -11259,7 +11209,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1616]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11270,7 +11220,7 @@ ldr x16, [x16, #1624]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -11300,7 +11250,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_Mo
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1624]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11328,7 +11278,7 @@ ldr x16, [x16, #1632]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1640]
+ldr x0, [x16, #1632]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -11350,7 +11300,7 @@ ldr x0, [x16, #1640]
 .word 0xf9004ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_106
+bl _p_104
 .word 0xf90057a0
 .word 0xf94017b1
 .word 0xf940ee31
@@ -11359,16 +11309,16 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1648]
+ldr x0, [x16, #1640]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1512]
 bl _p_3
 .word 0xf9405ba1
 .word 0xf90053a0
-bl _p_117
+bl _p_115
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -11380,7 +11330,7 @@ bl _p_117
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -11395,7 +11345,7 @@ ldr x15, [x16, #1528]
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_108
+bl _p_106
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -11413,7 +11363,7 @@ bl _p_35
 .word 0xf94047a0
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_109
+bl _p_107
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -11434,8 +11384,8 @@ bl _p_109
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1656]
-bl _p_120
+ldr x15, [x16, #1648]
+bl _p_118
 .word 0xf94017b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -11443,7 +11393,7 @@ bl _p_120
 .word 0x14000036
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_111
+bl _p_109
 .word 0xf94017b1
 .word 0xf9424e31
 .word 0xb4000051
@@ -11461,17 +11411,17 @@ bl _p_111
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 6 76 0
 .word 0xf9401bb1
@@ -11490,7 +11440,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9430631
 .word 0xb4000051
@@ -11521,7 +11471,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_Se
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1656]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11532,7 +11482,7 @@ ldr x16, [x16, #1664]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -11562,7 +11512,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1664]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -11590,7 +11540,7 @@ ldr x16, [x16, #1672]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1680]
+ldr x0, [x16, #1672]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -11612,7 +11562,7 @@ ldr x0, [x16, #1680]
 .word 0xf9004ba0
 .word 0xf94013a0
 .word 0xf9400000
-bl _p_106
+bl _p_104
 .word 0xf90057a0
 .word 0xf94017b1
 .word 0xf940ee31
@@ -11621,16 +11571,16 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1688]
+ldr x0, [x16, #1680]
 .word 0xf9005ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1520]
+ldr x0, [x16, #1512]
 bl _p_3
 .word 0xf9405ba1
 .word 0xf90053a0
-bl _p_117
+bl _p_115
 .word 0xf94017b1
 .word 0xf9412a31
 .word 0xb4000051
@@ -11642,7 +11592,7 @@ bl _p_117
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -11657,7 +11607,7 @@ ldr x15, [x16, #1528]
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_108
+bl _p_106
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -11675,7 +11625,7 @@ bl _p_35
 .word 0xf94047a0
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_109
+bl _p_107
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -11696,8 +11646,8 @@ bl _p_109
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1696]
-bl _p_121
+ldr x15, [x16, #1688]
+bl _p_119
 .word 0xf94017b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -11705,7 +11655,7 @@ bl _p_121
 .word 0x14000036
 .word 0xf94013a0
 .word 0x9100c000
-bl _p_111
+bl _p_109
 .word 0xf94017b1
 .word 0xf9424e31
 .word 0xb4000051
@@ -11723,17 +11673,17 @@ bl _p_111
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9429631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 6 86 0
 .word 0xf9401bb1
@@ -11752,7 +11702,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9430631
 .word 0xb4000051
@@ -11783,7 +11733,7 @@ IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1696]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11794,7 +11744,7 @@ ldr x16, [x16, #1704]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -11821,7 +11771,7 @@ IntentionJournal_JournalPage__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1704]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11856,7 +11806,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_122
+bl _p_120
 .loc 8 31 0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -11885,7 +11835,7 @@ IntentionJournal_JournalPage__ctor_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1712]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -11932,7 +11882,7 @@ bl _p_35
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_122
+bl _p_120
 .loc 8 43 0
 .word 0xf94013b1
 .word 0xf940de31
@@ -11959,7 +11909,7 @@ IntentionJournal_JournalPage_get_entries:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1720]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -11979,7 +11929,7 @@ ldr x16, [x16, #1728]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1728]
 .word 0xf9400000
 .word 0xaa0003fa
 .word 0xaa1a03e0
@@ -12004,7 +11954,7 @@ IntentionJournal_JournalPage_set_entries_System_Collections_ObjectModel_Observab
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1736]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -12024,7 +11974,7 @@ ldr x16, [x16, #1744]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1736]
+ldr x0, [x16, #1728]
 .word 0xf9000001
 .word 0xf9400fb1
 .word 0xf9407631
@@ -12048,7 +11998,7 @@ IntentionJournal_JournalPage_OnAppearing:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1744]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -12087,7 +12037,7 @@ ldr x16, [x16, #1752]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1760]
+ldr x0, [x16, #1752]
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf940be31
@@ -12103,7 +12053,7 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1768]
+ldr x0, [x16, #1760]
 .word 0xaa1a03e1
 .word 0xf940e741
 bl _p_57
@@ -12128,7 +12078,7 @@ bl _p_44
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_123
+bl _p_121
 .word 0xf9002fa0
 .word 0xf94017b1
 .word 0xf9415631
@@ -12155,7 +12105,7 @@ bl _p_123
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_124
+bl _p_122
 .loc 8 57 0
 .word 0xf94017b1
 .word 0xf941ba31
@@ -12187,7 +12137,7 @@ bl _p_42
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1760]
+ldr x0, [x16, #1752]
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf9422a31
@@ -12203,7 +12153,7 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1768]
+ldr x0, [x16, #1760]
 .word 0xaa1a03e1
 .word 0xf940e741
 bl _p_57
@@ -12236,7 +12186,7 @@ bl _p_44
 .word 0xf94037a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_125
+bl _p_123
 .word 0xf9002fa0
 .word 0xf94017b1
 .word 0xf942e231
@@ -12263,7 +12213,7 @@ bl _p_125
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_124
+bl _p_122
 .loc 8 65 0
 .word 0xf94017b1
 .word 0xf9434631
@@ -12316,7 +12266,7 @@ IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChan
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1768]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -12345,7 +12295,7 @@ ldr x16, [x16, #1776]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_126
+bl _p_124
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf940aa31
@@ -12376,7 +12326,7 @@ bl _p_126
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_126
+bl _p_124
 .word 0xaa0003f7
 .word 0xf9401fb1
 .word 0xf9411a31
@@ -12390,7 +12340,7 @@ bl _p_126
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1784]
+ldr x1, [x16, #1776]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000c41
@@ -12403,7 +12353,7 @@ ldr x1, [x16, #1784]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1792]
+ldr x0, [x16, #1784]
 .word 0xf9003ba0
 .word 0xaa1703e0
 .word 0xf9401fb1
@@ -12412,7 +12362,7 @@ ldr x0, [x16, #1792]
 .word 0xd63f0220
 .word 0xaa1703e0
 .word 0xf94002fe
-bl _p_127
+bl _p_125
 .word 0xf9003fa0
 .word 0xf9401fb1
 .word 0xf9419e31
@@ -12440,7 +12390,7 @@ bl _p_49
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_106
+bl _p_104
 .word 0xf9002fa0
 .word 0xf9401fb1
 .word 0xf9420a31
@@ -12454,11 +12404,11 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1800]
+ldr x0, [x16, #1792]
 bl _p_3
 .word 0xf9002ba0
 .word 0xaa1703e1
-bl _p_128
+bl _p_126
 .word 0xf9401fb1
 .word 0xf9424a31
 .word 0xb4000051
@@ -12470,7 +12420,7 @@ bl _p_128
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -12522,7 +12472,7 @@ IntentionJournal_JournalPage_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1800]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -12594,7 +12544,7 @@ bl _p_7
 .word 0xb4000120
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_129
+bl _p_127
 .word 0xf9402bb1
 .word 0xf9416231
 .word 0xb4000051
@@ -12616,10 +12566,10 @@ bl _p_61
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1816]
+ldr x0, [x16, #1808]
 bl _p_3
 .word 0xf90177a0
-bl _p_130
+bl _p_128
 .word 0xf9402bb1
 .word 0xf941be31
 .word 0xb4000051
@@ -12629,10 +12579,10 @@ bl _p_130
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1824]
+ldr x0, [x16, #1816]
 bl _p_3
 .word 0xf90173a0
-bl _p_131
+bl _p_129
 .word 0xf9402bb1
 .word 0xf941ee31
 .word 0xb4000051
@@ -12642,10 +12592,10 @@ bl _p_131
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1832]
+ldr x0, [x16, #1824]
 bl _p_3
 .word 0xf9016fa0
-bl _p_132
+bl _p_130
 .word 0xf9402bb1
 .word 0xf9421e31
 .word 0xb4000051
@@ -12688,7 +12638,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1840]
+ldr x0, [x16, #1832]
 .word 0xf9015ba0
 .word 0xaa1603e0
 .word 0xf9015fa0
@@ -12716,7 +12666,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -12757,16 +12707,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf90147a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf9014fa0
-bl _p_66
+bl _p_65
 .word 0xf9402bb1
 .word 0xf943e631
 .word 0xb4000051
@@ -12775,7 +12725,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -12789,7 +12739,7 @@ ldr x1, [x16, #808]
 .word 0xf9414ba2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9443e31
 .word 0xb4000051
@@ -12798,15 +12748,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #1848]
+ldr x2, [x16, #1840]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9447a31
 .word 0xb4000051
@@ -12818,7 +12768,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402bb1
 .word 0xf944a631
 .word 0xb4000051
@@ -13008,7 +12958,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1848]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -13096,7 +13046,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -13120,7 +13070,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #848]
+ldr x2, [x16, #840]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001e01
@@ -13147,7 +13097,7 @@ ldr x2, [x16, #848]
 .word 0xf90043a2
 .word 0xaa0103e2
 .word 0xf940035e
-bl _p_69
+bl _p_68
 .word 0xf9402bb1
 .word 0xf9497a31
 .word 0xb4000051
@@ -13161,7 +13111,7 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1856]
 bl _p_3
 .word 0xf900101a
 .word 0xf900d3a0
@@ -13172,17 +13122,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1872]
+ldr x0, [x16, #1864]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1880]
+ldr x0, [x16, #1872]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1888]
+ldr x0, [x16, #1880]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -13191,7 +13141,7 @@ ldr x0, [x16, #1888]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_133
+bl _p_131
 .word 0xf9402bb1
 .word 0xf94a1a31
 .word 0xb4000051
@@ -13201,10 +13151,10 @@ bl _p_133
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1896]
+ldr x0, [x16, #1888]
 bl _p_3
 .word 0xf900cfa0
-bl _p_134
+bl _p_132
 .word 0xf9402bb1
 .word 0xf94a4a31
 .word 0xb4000051
@@ -13285,7 +13235,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 bl _p_3
 .word 0xf940afa1
 .word 0xf900a3a1
@@ -13299,17 +13249,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1912]
+ldr x0, [x16, #1904]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1920]
+ldr x0, [x16, #1912]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1928]
+ldr x0, [x16, #1920]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -13321,7 +13271,7 @@ ldr x0, [x16, #1928]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1936]
+ldr x15, [x16, #1928]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -13334,12 +13284,12 @@ ldr x15, [x16, #1936]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0xf9400001
 .word 0xaa1703e2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94c4a31
 .word 0xb4000051
@@ -13348,12 +13298,12 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1603e2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94c7e31
 .word 0xb4000051
@@ -13393,7 +13343,7 @@ IntentionJournal_JournalPage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13405,13 +13355,13 @@ ldr x16, [x16, #1952]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1856]
+ldr x1, [x16, #1848]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1960]
+ldr x15, [x16, #1952]
 .word 0xaa1a03e0
-bl _p_135
+bl _p_133
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -13421,13 +13371,13 @@ bl _p_135
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1840]
+ldr x1, [x16, #1832]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1968]
+ldr x15, [x16, #1960]
 .word 0xaa1a03e0
-bl _p_136
+bl _p_134
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -13451,8 +13401,8 @@ bl _p_35
 Lme_27:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
-IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor:
+	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor
+IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor:
 .loc 3 1 0
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -13460,7 +13410,7 @@ IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -13484,8 +13434,8 @@ ldr x16, [x16, #1976]
 Lme_28:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate
-IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate:
+	.no_dead_strip IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate
+IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate:
 .loc 3 1 0
 .word 0xd2808e10
 .word 0x910003f1
@@ -13501,7 +13451,7 @@ IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadD
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #1976]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -13526,10 +13476,10 @@ ldr x16, [x16, #1984]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf90237a0
-bl _p_137
+bl _p_135
 .word 0xf9402bb1
 .word 0xf940b231
 .word 0xb4000051
@@ -13539,10 +13489,10 @@ bl _p_137
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf90233a0
-bl _p_137
+bl _p_135
 .word 0xf9402bb1
 .word 0xf940e231
 .word 0xb4000051
@@ -13552,10 +13502,10 @@ bl _p_137
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf9022fa0
-bl _p_137
+bl _p_135
 .word 0xf9402bb1
 .word 0xf9411231
 .word 0xb4000051
@@ -13565,10 +13515,10 @@ bl _p_137
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1816]
+ldr x0, [x16, #1808]
 bl _p_3
 .word 0xf9022ba0
-bl _p_130
+bl _p_128
 .word 0xf9402bb1
 .word 0xf9414231
 .word 0xb4000051
@@ -13600,10 +13550,10 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2000]
+ldr x1, [x16, #1992]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402bb1
 .word 0xf941c631
 .word 0xb4000051
@@ -13653,7 +13603,7 @@ bl _p_27
 .word 0xd2800001
 .word 0xaa1303e2
 .word 0xd2800023
-bl _p_139
+bl _p_137
 .word 0xf9402bb1
 .word 0xf9428231
 .word 0xb4000051
@@ -13673,7 +13623,7 @@ bl _p_139
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400000
 .word 0xf9021fa0
 
@@ -13809,7 +13759,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2016]
+ldr x1, [x16, #2008]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -13897,7 +13847,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -13913,12 +13863,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400001
 .word 0xf94057a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402bb1
 .word 0xf9466231
 .word 0xb4000051
@@ -13927,10 +13877,10 @@ bl _p_140
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2032]
+ldr x1, [x16, #2024]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402bb1
 .word 0xf9468e31
 .word 0xb4000051
@@ -13979,7 +13929,7 @@ bl _p_27
 .word 0xb980b3a4
 .word 0xd2800001
 .word 0xd2800023
-bl _p_139
+bl _p_137
 .word 0xf9402bb1
 .word 0xf9474631
 .word 0xb4000051
@@ -13999,7 +13949,7 @@ bl _p_139
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2040]
+ldr x0, [x16, #2032]
 .word 0xf9400000
 .word 0xf901b3a0
 
@@ -14135,7 +14085,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2016]
+ldr x1, [x16, #2008]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -14223,7 +14173,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14239,12 +14189,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2040]
+ldr x0, [x16, #2032]
 .word 0xf9400001
 .word 0xf94063a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402bb1
 .word 0xf94b2631
 .word 0xb4000051
@@ -14253,10 +14203,10 @@ bl _p_140
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2048]
+ldr x1, [x16, #2040]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402bb1
 .word 0xf94b5231
 .word 0xb4000051
@@ -14305,7 +14255,7 @@ bl _p_27
 .word 0xb980cba4
 .word 0xd2800001
 .word 0xd2800023
-bl _p_139
+bl _p_137
 .word 0xf9402bb1
 .word 0xf94c0a31
 .word 0xb4000051
@@ -14325,7 +14275,7 @@ bl _p_139
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2056]
+ldr x0, [x16, #2048]
 .word 0xf9400000
 .word 0xf90147a0
 
@@ -14461,7 +14411,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2016]
+ldr x1, [x16, #2008]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -14549,7 +14499,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14565,12 +14515,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2056]
+ldr x0, [x16, #2048]
 .word 0xf9400001
 .word 0xf9406fa2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402bb1
 .word 0xf94fea31
 .word 0xb4000051
@@ -14580,7 +14530,7 @@ bl _p_140
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2064]
+ldr x0, [x16, #2056]
 .word 0xf9400000
 .word 0xf900dba0
 
@@ -14616,7 +14566,7 @@ bl _p_3
 .word 0xf9000c04
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9509631
 .word 0xb4000051
@@ -14626,7 +14576,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2072]
+ldr x0, [x16, #2064]
 .word 0xf9400000
 .word 0xf900d3a0
 
@@ -14662,7 +14612,7 @@ bl _p_3
 .word 0xf9000c04
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9514231
 .word 0xb4000051
@@ -14698,7 +14648,7 @@ IntentionJournal_AddEntryPage__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2072]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14733,7 +14683,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_141
+bl _p_139
 .loc 10 31 0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -14754,7 +14704,7 @@ bl _p_141
 .word 0xf94047a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_140
 .word 0xf90043a0
 .word 0xf9400fb1
 .word 0xf940fe31
@@ -14763,7 +14713,7 @@ bl _p_142
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1648]
+ldr x0, [x16, #1640]
 .word 0xf9003fa0
 .word 0xf9400fb1
 .word 0xf9411e31
@@ -14776,7 +14726,7 @@ ldr x0, [x16, #1648]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2088]
+ldr x15, [x16, #2080]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14796,7 +14746,7 @@ ldr x15, [x16, #2088]
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_140
 .word 0xf90037a0
 .word 0xf9400fb1
 .word 0xf9419a31
@@ -14805,7 +14755,7 @@ bl _p_142
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1688]
+ldr x0, [x16, #1680]
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf941ba31
@@ -14818,7 +14768,7 @@ ldr x0, [x16, #1688]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2088]
+ldr x15, [x16, #2080]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14838,7 +14788,7 @@ ldr x15, [x16, #2088]
 .word 0xf9402fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_140
 .word 0xf9002ba0
 .word 0xf9400fb1
 .word 0xf9423631
@@ -14847,7 +14797,7 @@ bl _p_142
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1568]
+ldr x0, [x16, #1560]
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf9425631
@@ -14860,7 +14810,7 @@ ldr x0, [x16, #1568]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2088]
+ldr x15, [x16, #2080]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14880,7 +14830,7 @@ ldr x15, [x16, #2088]
 .word 0xf94023a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_140
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf942d231
@@ -14889,7 +14839,7 @@ bl _p_142
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1608]
+ldr x0, [x16, #1600]
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf942f231
@@ -14902,7 +14852,7 @@ ldr x0, [x16, #1608]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2088]
+ldr x15, [x16, #2080]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -14939,7 +14889,7 @@ IntentionJournal_AddEntryPage_clearTextAreas:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2088]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -14976,7 +14926,7 @@ ldr x0, [x16, #240]
 .word 0xf9402ba2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_143
+bl _p_141
 .loc 10 61 0
 .word 0xf9400fb1
 .word 0xf940b631
@@ -14998,7 +14948,7 @@ ldr x0, [x16, #240]
 .word 0xf94023a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_59
+bl _p_142
 .loc 10 62 0
 .word 0xf9400fb1
 .word 0xf9410631
@@ -15018,7 +14968,7 @@ bl _p_59
 .word 0x92800001
 .word 0xf2bfffe1
 .word 0xf940005e
-bl _p_144
+bl _p_143
 .loc 10 63 0
 .word 0xf9400fb1
 .word 0xf9415231
@@ -15049,7 +14999,7 @@ IntentionJournal_AddEntryPage_onSaveClicked:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2096]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -15096,7 +15046,7 @@ ldr x16, [x16, #2104]
 .word 0xf9404fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_145
+bl _p_144
 .word 0x93407c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -15129,17 +15079,17 @@ bl _p_145
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9004fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2120]
+ldr x0, [x16, #2112]
 .word 0xf90053a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf9418631
@@ -15149,7 +15099,7 @@ ldr x0, [x16, #2128]
 .word 0xf9404fa1
 .word 0xf94053a2
 .word 0xf94057a3
-bl _p_146
+bl _p_145
 .word 0xf9402bb1
 .word 0xf941aa31
 .word 0xb4000051
@@ -15179,7 +15129,7 @@ bl _p_146
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_147
+bl _p_146
 .word 0xf9004fa0
 .word 0xf9402bb1
 .word 0xf9421e31
@@ -15196,7 +15146,7 @@ ldr x0, [x16, #240]
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf94053a1
-bl _p_148
+bl _p_147
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -15224,17 +15174,17 @@ bl _p_148
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9004fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #2128]
 .word 0xf90053a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf942e231
@@ -15244,7 +15194,7 @@ ldr x0, [x16, #2128]
 .word 0xf9404fa1
 .word 0xf94053a2
 .word 0xf94057a3
-bl _p_146
+bl _p_145
 .word 0xf9402bb1
 .word 0xf9430631
 .word 0xb4000051
@@ -15274,7 +15224,7 @@ bl _p_146
 .word 0xf94057a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf9004fa0
 .word 0xf9402bb1
 .word 0xf9437a31
@@ -15291,7 +15241,7 @@ ldr x0, [x16, #240]
 .word 0xd63f0220
 .word 0xf9404fa0
 .word 0xf94053a1
-bl _p_148
+bl _p_147
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf9402bb1
@@ -15319,17 +15269,17 @@ bl _p_148
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9004fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2144]
+ldr x0, [x16, #2136]
 .word 0xf90053a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf9443e31
@@ -15339,7 +15289,7 @@ ldr x0, [x16, #2128]
 .word 0xf9404fa1
 .word 0xf94053a2
 .word 0xf94057a3
-bl _p_146
+bl _p_145
 .word 0xf9402bb1
 .word 0xf9446231
 .word 0xb4000051
@@ -15379,7 +15329,7 @@ bl _p_44
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_150
+bl _p_149
 .word 0xf9004fa0
 .word 0xf9402bb1
 .word 0xf944fa31
@@ -15413,7 +15363,7 @@ bl _p_150
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2152]
+ldr x0, [x16, #2144]
 .word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf9457231
@@ -15454,7 +15404,7 @@ bl _p_49
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_151
+bl _p_150
 .word 0xf9004ba0
 .word 0xf9402bb1
 .word 0xf9460631
@@ -15488,7 +15438,7 @@ bl _p_151
 .word 0xf940cfa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_140
 .word 0xf900c7a0
 .word 0xf9402bb1
 .word 0xf9468631
@@ -15504,7 +15454,7 @@ bl _p_142
 .word 0xf940cba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_145
+bl _p_144
 .word 0x93407c00
 .word 0xf900c3a0
 .word 0xf9402bb1
@@ -15518,7 +15468,7 @@ bl _p_145
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2160]
+ldr x15, [x16, #2152]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -15543,7 +15493,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2168]
+ldr x0, [x16, #2160]
 .word 0xf9009fa0
 .word 0xf94027a0
 .word 0xf940f400
@@ -15555,7 +15505,7 @@ ldr x0, [x16, #2168]
 .word 0xf940b3a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_142
+bl _p_140
 .word 0xf900aba0
 .word 0xf9402bb1
 .word 0xf9478631
@@ -15571,7 +15521,7 @@ bl _p_142
 .word 0xf940afa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_145
+bl _p_144
 .word 0x93407c00
 .word 0xf900a7a0
 .word 0xf9402bb1
@@ -15585,7 +15535,7 @@ bl _p_145
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2160]
+ldr x15, [x16, #2152]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -15615,7 +15565,7 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2176]
+ldr x1, [x16, #2168]
 bl _p_57
 .word 0xf90097a0
 .word 0xf9402bb1
@@ -15632,10 +15582,10 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2184]
+ldr x0, [x16, #2176]
 bl _p_3
 .word 0xf90093a0
-bl _p_152
+bl _p_151
 .word 0xf9402bb1
 .word 0xf948ae31
 .word 0xb4000051
@@ -15658,7 +15608,7 @@ bl _p_152
 .word 0xf9408fa1
 .word 0xaa1703e0
 .word 0xf94002fe
-bl _p_153
+bl _p_152
 .loc 10 107 0
 .word 0xf9402bb1
 .word 0xf9490631
@@ -15676,7 +15626,7 @@ bl _p_153
 .word 0xf9408ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_147
+bl _p_146
 .word 0xf90083a0
 .word 0xf9402bb1
 .word 0xf9494e31
@@ -15686,7 +15636,7 @@ bl _p_147
 .word 0xf94087a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_154
+bl _p_153
 .loc 10 108 0
 .word 0xf9402bb1
 .word 0xf9497231
@@ -15704,7 +15654,7 @@ bl _p_154
 .word 0xf9407fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf90077a0
 .word 0xf9402bb1
 .word 0xf949ba31
@@ -15714,7 +15664,7 @@ bl _p_149
 .word 0xf9407ba2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_155
+bl _p_154
 .loc 10 109 0
 .word 0xf9402bb1
 .word 0xf949de31
@@ -15727,7 +15677,7 @@ bl _p_155
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2176]
+ldr x1, [x16, #2168]
 bl _p_57
 .word 0xf9006fa0
 .word 0xf9402bb1
@@ -15738,7 +15688,7 @@ bl _p_57
 .word 0xf94073a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_156
+bl _p_155
 .loc 10 110 0
 .word 0xf9402bb1
 .word 0xf94a3631
@@ -15755,7 +15705,7 @@ bl _p_156
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf940005e
-bl _p_157
+bl _p_156
 .word 0xf9402bb1
 .word 0xf94a7631
 .word 0xb4000051
@@ -15783,7 +15733,7 @@ bl _p_44
 .word 0xf94067a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_158
+bl _p_157
 .word 0x93407c00
 .word 0xf9402bb1
 .word 0xf94ae631
@@ -15803,7 +15753,7 @@ bl _p_44
 .word 0xf9405fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_159
+bl _p_158
 .word 0x93407c00
 .word 0xf9402bb1
 .word 0xf94b3231
@@ -15821,7 +15771,7 @@ bl _p_159
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405ba0
-bl _p_160
+bl _p_159
 .loc 10 119 0
 .word 0xf9402bb1
 .word 0xf94b7231
@@ -15839,7 +15789,7 @@ bl _p_160
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_161
+bl _p_160
 .loc 10 121 0
 .word 0xf9402bb1
 .word 0xf94bb631
@@ -15860,7 +15810,7 @@ bl _p_44
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_162
+bl _p_161
 .word 0xf9004fa0
 .word 0xf9402bb1
 .word 0xf94c0a31
@@ -15894,7 +15844,7 @@ bl _p_162
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2192]
+ldr x0, [x16, #2184]
 .word 0xf9005ba0
 .word 0xf9402bb1
 .word 0xf94c8231
@@ -15910,10 +15860,10 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2200]
+ldr x0, [x16, #2192]
 bl _p_3
 .word 0xf90057a0
-bl _p_163
+bl _p_162
 .word 0xf9402bb1
 .word 0xf94cc231
 .word 0xb4000051
@@ -15934,7 +15884,7 @@ bl _p_163
 .word 0xaa1503e0
 .word 0xd2800021
 .word 0xf94002be
-bl _p_164
+bl _p_163
 .loc 10 128 0
 .word 0xf9402bb1
 .word 0xf94d1231
@@ -15955,7 +15905,7 @@ bl _p_164
 .word 0xf2e7fe1e
 .word 0x9e6703c0
 .word 0xf940003e
-bl _p_165
+bl _p_164
 .word 0xf9402bb1
 .word 0xf94d6231
 .word 0xb4000051
@@ -15974,7 +15924,7 @@ bl _p_165
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_166
+bl _p_165
 .word 0xfd00d3a0
 .word 0xf9402bb1
 .word 0xf94dae31
@@ -15983,7 +15933,7 @@ bl _p_166
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xfd40d3a0
 .word 0xfd000800
@@ -15993,7 +15943,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404ba0
-bl _p_167
+bl _p_166
 .loc 10 131 0
 .word 0xf9402bb1
 .word 0xf94df231
@@ -16020,7 +15970,7 @@ ldr x0, [x16, #2208]
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_166
+bl _p_165
 .word 0xfd00e7a0
 .word 0xf9402bb1
 .word 0xf94e5631
@@ -16029,7 +15979,7 @@ bl _p_166
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e1
 .word 0xf94083a0
@@ -16051,10 +16001,10 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2200]
+ldr x0, [x16, #2192]
 bl _p_3
 .word 0xf9007ba0
-bl _p_163
+bl _p_162
 .word 0xf9402bb1
 .word 0xf94ece31
 .word 0xb4000051
@@ -16075,7 +16025,7 @@ bl _p_163
 .word 0xaa1503e0
 .word 0xd2800021
 .word 0xf94002be
-bl _p_164
+bl _p_163
 .loc 10 136 0
 .word 0xf9402bb1
 .word 0xf94f1e31
@@ -16090,7 +16040,7 @@ bl _p_164
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xf94002de
-bl _p_166
+bl _p_165
 .word 0xfd00e3a0
 .word 0xf9402bb1
 .word 0xf94f5a31
@@ -16112,7 +16062,7 @@ bl _p_166
 .word 0xfd40dfa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_165
+bl _p_164
 .word 0xf9402bb1
 .word 0xf94fae31
 .word 0xb4000051
@@ -16136,7 +16086,7 @@ ldr x0, [x16, #2216]
 .word 0xd63f0220
 .word 0xaa1403e0
 .word 0xf940029e
-bl _p_166
+bl _p_165
 .word 0xfd00dba0
 .word 0xf9402bb1
 .word 0xf9500a31
@@ -16145,7 +16095,7 @@ bl _p_166
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e1
 .word 0xf94067a0
@@ -16171,7 +16121,7 @@ bl _p_49
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9405fa0
-bl _p_106
+bl _p_104
 .word 0xf9004fa0
 .word 0xf9402bb1
 .word 0xf9508e31
@@ -16186,7 +16136,7 @@ bl _p_106
 .word 0xf9405ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_166
+bl _p_165
 .word 0xfd00d7a0
 .word 0xf9402bb1
 .word 0xf950ca31
@@ -16199,7 +16149,7 @@ ldr x0, [x16, #2224]
 bl _p_3
 .word 0xfd40d7a0
 .word 0xf90053a0
-bl _p_168
+bl _p_167
 .word 0xf9402bb1
 .word 0xf950f631
 .word 0xb4000051
@@ -16211,7 +16161,7 @@ ldr x0, [x16, #2232]
 bl _p_3
 .word 0xf94053a1
 .word 0xf9004ba0
-bl _p_169
+bl _p_168
 .word 0xf9402bb1
 .word 0xf9512231
 .word 0xb4000051
@@ -16285,7 +16235,7 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9004fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
@@ -16295,7 +16245,7 @@ ldr x0, [x16, #2256]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90057a0
 .word 0xf9402bb1
 .word 0xf9524a31
@@ -16305,7 +16255,7 @@ ldr x0, [x16, #2128]
 .word 0xf9404fa1
 .word 0xf94053a2
 .word 0xf94057a3
-bl _p_146
+bl _p_145
 .word 0xf9402bb1
 .word 0xf9526e31
 .word 0xb4000051
@@ -16315,12 +16265,12 @@ bl _p_146
 .word 0xf9527e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf90047a0
 .word 0xf94047a0
 .word 0xb4000060
 .word 0xf94047a0
-bl _p_114
+bl _p_112
 .word 0x14000001
 .loc 10 151 0
 .word 0xf9402fb1
@@ -16386,7 +16336,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf940a231
 .word 0xb4000051
@@ -16431,7 +16381,7 @@ bl _p_35
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x15, [x16, #2272]
-bl _p_170
+bl _p_169
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -16497,7 +16447,7 @@ bl _p_44
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_150
+bl _p_149
 .word 0xf90043a0
 .word 0xf9401fb1
 .word 0xf940ca31
@@ -16520,7 +16470,7 @@ bl _p_150
 .word 0xf9403ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_151
+bl _p_150
 .word 0xf90037a0
 .word 0xf9401fb1
 .word 0xf9412231
@@ -16565,7 +16515,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_167
+bl _p_166
 .loc 10 205 0
 .word 0xf9401fb1
 .word 0xf941c231
@@ -16677,7 +16627,7 @@ bl _p_7
 .word 0xf940c3a0
 .word 0xb4000100
 .word 0xf9402ba0
-bl _p_171
+bl _p_170
 .word 0xf9402fb1
 .word 0xf9417231
 .word 0xb4000051
@@ -16715,7 +16665,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #2304]
 bl _p_3
 .word 0xf90263a0
-bl _p_172
+bl _p_171
 .word 0xf9402fb1
 .word 0xf941fe31
 .word 0xb4000051
@@ -16743,10 +16693,10 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #2312]
 bl _p_3
 .word 0xf9025ba0
-bl _p_63
+bl _p_172
 .word 0xf9402fb1
 .word 0xf9426e31
 .word 0xb4000051
@@ -16769,7 +16719,7 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2312]
+ldr x0, [x16, #2320]
 bl _p_3
 .word 0xf90253a0
 bl _p_173
@@ -16782,10 +16732,10 @@ bl _p_173
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9024fa0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf942fe31
 .word 0xb4000051
@@ -16800,10 +16750,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf9024ba0
-bl _p_90
+bl _p_88
 .word 0xf9402fb1
 .word 0xf9433e31
 .word 0xb4000051
@@ -16817,10 +16767,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf90247a0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9437e31
 .word 0xb4000051
@@ -16830,10 +16780,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 bl _p_3
 .word 0xf90243a0
-bl _p_64
+bl _p_63
 .word 0xf9402fb1
 .word 0xf943ae31
 .word 0xb4000051
@@ -16843,10 +16793,10 @@ bl _p_64
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
 .word 0xf9023fa0
-bl _p_65
+bl _p_64
 .word 0xf9402fb1
 .word 0xf943de31
 .word 0xb4000051
@@ -16904,7 +16854,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #768]
+ldr x0, [x16, #760]
 .word 0xf90223a0
 .word 0xaa1a03e0
 .word 0xf90227a0
@@ -16932,7 +16882,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -16960,7 +16910,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2320]
+ldr x0, [x16, #2328]
 .word 0xf90213a0
 .word 0xaa1703e0
 .word 0xf90217a0
@@ -16988,7 +16938,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -17016,7 +16966,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2328]
+ldr x0, [x16, #2336]
 .word 0xf90203a0
 .word 0xaa1503e0
 .word 0xf90207a0
@@ -17044,7 +16994,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -17072,7 +17022,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2336]
+ldr x0, [x16, #2344]
 .word 0xf901f3a0
 .word 0xf9407fa0
 .word 0xf901f7a0
@@ -17100,7 +17050,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -17121,7 +17071,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2344]
+ldr x0, [x16, #2352]
 .word 0xf901e3a0
 .word 0xf94083a0
 .word 0xf901e7a0
@@ -17149,7 +17099,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -17170,7 +17120,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2352]
+ldr x0, [x16, #2360]
 .word 0xf901d3a0
 .word 0xf94087a0
 .word 0xf901d7a0
@@ -17198,7 +17148,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -17219,7 +17169,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2360]
+ldr x0, [x16, #2368]
 .word 0xf901c3a0
 .word 0xf9408ba0
 .word 0xf901c7a0
@@ -17247,7 +17197,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -17310,16 +17260,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf90197a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf901a3a0
-bl _p_66
+bl _p_65
 .word 0xf9402fb1
 .word 0xf94ade31
 .word 0xb4000051
@@ -17328,7 +17278,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -17343,7 +17293,7 @@ ldr x1, [x16, #808]
 .word 0xf9419fa3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94b3a31
 .word 0xb4000051
@@ -17352,15 +17302,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2368]
+ldr x2, [x16, #2376]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94b7631
 .word 0xb4000051
@@ -17372,7 +17322,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402fb1
 .word 0xf94ba231
 .word 0xb4000051
@@ -17561,7 +17511,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2376]
+ldr x1, [x16, #2384]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -17649,7 +17599,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -17673,7 +17623,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #848]
+ldr x3, [x16, #840]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x540048c1
@@ -17700,7 +17650,7 @@ ldr x3, [x16, #848]
 .word 0xf90067a3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_69
+bl _p_68
 .word 0xf9402fb1
 .word 0xf9507231
 .word 0xb4000051
@@ -17710,14 +17660,14 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf90123a0
 .word 0xd2800000
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94123a1
@@ -17725,7 +17675,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf950ce31
 .word 0xb4000051
@@ -17734,15 +17684,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2384]
+ldr x2, [x16, #2392]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9510a31
 .word 0xb4000051
@@ -17750,7 +17700,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9011fa0
 .word 0xf9402fb1
 .word 0xf9512e31
@@ -17763,7 +17713,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -17813,7 +17763,7 @@ bl _p_3
 .word 0xf9000c04
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9521631
 .word 0xb4000051
@@ -17821,7 +17771,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf90113a0
 .word 0xf9402fb1
 .word 0xf9523a31
@@ -17834,7 +17784,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -17847,15 +17797,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #880]
+ldr x2, [x16, #872]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf952b231
 .word 0xb4000051
@@ -17863,7 +17813,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9010fa0
 .word 0xf9402fb1
 .word 0xf952d631
@@ -17876,7 +17826,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -17890,7 +17840,7 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #2400]
 .word 0xf9400000
 .word 0xf90103a0
 .word 0xd280001e
@@ -17901,7 +17851,7 @@ ldr x0, [x16, #920]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94103a1
@@ -17910,7 +17860,7 @@ bl _p_3
 .word 0xfd000840
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9538231
 .word 0xb4000051
@@ -17918,7 +17868,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900ffa0
 .word 0xf9402fb1
 .word 0xf953a631
@@ -17931,7 +17881,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -17944,15 +17894,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2392]
+ldr x2, [x16, #2408]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9541e31
 .word 0xb4000051
@@ -17960,7 +17910,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900fba0
 .word 0xf9402fb1
 .word 0xf9544231
@@ -17973,7 +17923,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -18023,7 +17973,7 @@ bl _p_3
 .word 0xf9000c04
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9552a31
 .word 0xb4000051
@@ -18031,7 +17981,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900efa0
 .word 0xf9402fb1
 .word 0xf9554e31
@@ -18044,7 +17994,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -18057,15 +18007,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2400]
+ldr x2, [x16, #2416]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf955c631
 .word 0xb4000051
@@ -18080,7 +18030,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf940eba1
 .word 0xf900dfa1
@@ -18094,17 +18044,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2408]
+ldr x0, [x16, #2424]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2416]
+ldr x0, [x16, #2432]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2424]
+ldr x0, [x16, #2440]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -18113,7 +18063,7 @@ ldr x0, [x16, #2424]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf9567631
 .word 0xb4000051
@@ -18121,7 +18071,7 @@ bl _p_103
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900dba0
 .word 0xf9402fb1
 .word 0xf9569a31
@@ -18134,7 +18084,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -18146,7 +18096,7 @@ ldr x15, [x16, #912]
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900d7a0
 .word 0xf9402fb1
 .word 0xf956fa31
@@ -18159,7 +18109,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -18172,15 +18122,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2432]
+ldr x2, [x16, #2448]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9577231
 .word 0xb4000051
@@ -18192,7 +18142,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf940d3a1
 .word 0xf900c7a1
@@ -18206,17 +18156,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2440]
+ldr x0, [x16, #2456]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2448]
+ldr x0, [x16, #2464]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2456]
+ldr x0, [x16, #2472]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -18225,7 +18175,7 @@ ldr x0, [x16, #2456]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf9581631
 .word 0xb4000051
@@ -18233,7 +18183,7 @@ bl _p_103
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900c3a0
 .word 0xf9402fb1
 .word 0xf9583a31
@@ -18246,7 +18196,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -18259,7 +18209,7 @@ ldr x15, [x16, #912]
 .word 0xaa1a03e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf9402fb1
 .word 0xf9589a31
 .word 0xb4000051
@@ -18268,12 +18218,12 @@ bl _p_71
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xf9408fa2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf958ce31
 .word 0xb4000051
@@ -18313,7 +18263,7 @@ IntentionJournal_AddEntryPage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2480]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -18325,11 +18275,11 @@ ldr x16, [x16, #2464]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2376]
+ldr x1, [x16, #2384]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2472]
+ldr x15, [x16, #2488]
 .word 0xaa1a03e0
 bl _p_174
 .word 0xf9400fb1
@@ -18341,13 +18291,13 @@ bl _p_174
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #760]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #968]
+ldr x15, [x16, #960]
 .word 0xaa1a03e0
-bl _p_73
+bl _p_72
 .word 0xf9004fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -18364,11 +18314,11 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2320]
+ldr x1, [x16, #2328]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2480]
+ldr x15, [x16, #2496]
 .word 0xaa1a03e0
 bl _p_175
 .word 0xf90047a0
@@ -18387,13 +18337,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2328]
+ldr x1, [x16, #2336]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #2504]
 .word 0xaa1a03e0
-bl _p_74
+bl _p_176
 .word 0xf9003fa0
 .word 0xf9400fb1
 .word 0xf9414e31
@@ -18410,13 +18360,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2336]
+ldr x1, [x16, #2344]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2488]
+ldr x15, [x16, #2512]
 .word 0xaa1a03e0
-bl _p_176
+bl _p_177
 .word 0xf90037a0
 .word 0xf9400fb1
 .word 0xf941a231
@@ -18433,13 +18383,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2344]
+ldr x1, [x16, #2352]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf941f631
@@ -18456,13 +18406,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2352]
+ldr x1, [x16, #2360]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2504]
+ldr x15, [x16, #2528]
 .word 0xaa1a03e0
-bl _p_178
+bl _p_179
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf9424a31
@@ -18479,13 +18429,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2360]
+ldr x1, [x16, #2368]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9429e31
@@ -18523,7 +18473,7 @@ IntentionJournal_AddEntryPage__pickGalleryImagec__async0_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2536]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -18551,7 +18501,7 @@ ldr x16, [x16, #2512]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2520]
+ldr x0, [x16, #2544]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -18565,10 +18515,10 @@ ldr x0, [x16, #2520]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2528]
+ldr x0, [x16, #2552]
 bl _p_3
 .word 0xf90073a0
-bl _p_179
+bl _p_180
 .word 0xf94017b1
 .word 0xf940d631
 .word 0xb4000051
@@ -18606,7 +18556,7 @@ bl _p_35
 .word 0xd2801be2
 .word 0xd2800802
 .word 0xd2801be3
-bl _p_180
+bl _p_181
 .word 0xf94017b1
 .word 0xf9416e31
 .word 0xb4000051
@@ -18616,7 +18566,7 @@ bl _p_180
 .word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_181
+bl _p_182
 .word 0xf90067a0
 .word 0xf94017b1
 .word 0xf9419631
@@ -18628,7 +18578,7 @@ bl _p_181
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2536]
+ldr x15, [x16, #2560]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -18661,17 +18611,17 @@ ldr x15, [x16, #2536]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2544]
+ldr x0, [x16, #2568]
 .word 0xf90067a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2552]
+ldr x0, [x16, #2576]
 .word 0xf9006ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf9006fa0
 .word 0xf94017b1
 .word 0xf9425a31
@@ -18681,7 +18631,7 @@ ldr x0, [x16, #2128]
 .word 0xf94067a1
 .word 0xf9406ba2
 .word 0xf9406fa3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf9427e31
 .word 0xb4000051
@@ -18703,7 +18653,7 @@ bl _p_146
 .word 0xd63f0220
 .word 0xf94013a0
 .word 0xf9006ba0
-bl _p_181
+bl _p_182
 .word 0xf90073a0
 .word 0xf94017b1
 .word 0xf942d231
@@ -18717,7 +18667,7 @@ bl _p_181
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2560]
+ldr x15, [x16, #2584]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -18732,7 +18682,7 @@ ldr x15, [x16, #2560]
 .word 0xf9004ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_182
+bl _p_183
 .word 0xf9404bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -18753,8 +18703,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2568]
-bl _p_183
+ldr x15, [x16, #2592]
+bl _p_184
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94017b1
@@ -18775,8 +18725,8 @@ bl _p_183
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2576]
-bl _p_184
+ldr x15, [x16, #2600]
+bl _p_185
 .word 0xf94017b1
 .word 0xf943e631
 .word 0xb4000051
@@ -18796,8 +18746,8 @@ bl _p_184
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2568]
-bl _p_185
+ldr x15, [x16, #2592]
+bl _p_186
 .word 0xf9006ba0
 .word 0xf94017b1
 .word 0xf9443a31
@@ -18851,7 +18801,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2584]
+ldr x0, [x16, #2608]
 bl _p_3
 .word 0xf94077a1
 .word 0xf90073a1
@@ -18864,17 +18814,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2592]
+ldr x1, [x16, #2616]
 .word 0xf9001401
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2600]
+ldr x1, [x16, #2624]
 .word 0xf9002001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2608]
+ldr x1, [x16, #2632]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -18887,7 +18837,7 @@ ldr x1, [x16, #2608]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
-bl _p_186
+bl _p_187
 .word 0xf90063a0
 .word 0xf94017b1
 .word 0xf9458631
@@ -18897,7 +18847,7 @@ bl _p_186
 .word 0xf94067a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_161
+bl _p_160
 .word 0xf94017b1
 .word 0xf945aa31
 .word 0xb4000051
@@ -18915,17 +18865,17 @@ bl _p_161
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94047a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf945f231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9005fa0
 .word 0xf9405fa0
 .word 0xb4000060
 .word 0xf9405fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 10 188 0
 .word 0xf9401bb1
@@ -18944,7 +18894,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9466231
 .word 0xb4000051
@@ -18978,7 +18928,7 @@ IntentionJournal_AddEntryPage__pickGalleryImagec__async0_SetStateMachine_System_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2640]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -18989,7 +18939,7 @@ ldr x16, [x16, #2616]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -19014,7 +18964,7 @@ IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__Ano
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2648]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19050,7 +19000,7 @@ IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__Ano
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2656]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -19086,7 +19036,7 @@ ldr x16, [x16, #2632]
 .word 0xf94073a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_187
+bl _p_188
 .word 0xf9006fa0
 .word 0xf94023b1
 .word 0xf940c231
@@ -19102,10 +19052,10 @@ bl _p_187
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2640]
+ldr x0, [x16, #2664]
 bl _p_3
 .word 0xf9006ba0
-bl _p_188
+bl _p_189
 .word 0xf94023b1
 .word 0xf9410231
 .word 0xb4000051
@@ -19127,7 +19077,7 @@ bl _p_188
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_187
+bl _p_188
 .word 0xf90063a0
 .word 0xf94023b1
 .word 0xf9415a31
@@ -19143,7 +19093,7 @@ bl _p_187
 .word 0xf94063a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_189
+bl _p_190
 .loc 10 180 0
 .word 0xf94023b1
 .word 0xf9419631
@@ -19181,10 +19131,10 @@ bl _p_44
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2648]
+ldr x0, [x16, #2672]
 bl _p_3
 .word 0xf90053a0
-bl _p_190
+bl _p_191
 .word 0xf94023b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -19204,7 +19154,7 @@ bl _p_190
 .word 0xaa1603e0
 .word 0xd2800021
 .word 0xf94002de
-bl _p_191
+bl _p_192
 .word 0xf94023b1
 .word 0xf9427e31
 .word 0xb4000051
@@ -19221,7 +19171,7 @@ bl _p_191
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_192
+bl _p_193
 .word 0xf94023b1
 .word 0xf942c231
 .word 0xb4000051
@@ -19236,7 +19186,7 @@ bl _p_192
 .word 0xf94047a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_193
+bl _p_194
 .word 0x93407c00
 .word 0xf94023b1
 .word 0xf9430231
@@ -19257,8 +19207,8 @@ bl _p_193
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2656]
-bl _p_194
+ldr x15, [x16, #2680]
+bl _p_195
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf94023b1
@@ -19278,7 +19228,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
-bl _p_167
+bl _p_166
 .loc 10 184 0
 .word 0xf94023b1
 .word 0xf9439a31
@@ -19294,7 +19244,7 @@ bl _p_167
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_195
+bl _p_196
 .loc 10 185 0
 .word 0xf94023b1
 .word 0xf943d631
@@ -19334,7 +19284,7 @@ IntentionJournal_Tree__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2688]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -19369,7 +19319,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_196
+bl _p_197
 .loc 12 22 0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -19383,7 +19333,7 @@ bl _p_196
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800001
-bl _p_197
+bl _p_198
 .loc 12 23 0
 .word 0xf9400fb1
 .word 0xf940e231
@@ -19412,7 +19362,7 @@ IntentionJournal_Tree_OnAppearing:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2696]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -19450,7 +19400,7 @@ bl _p_44
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_162
+bl _p_161
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940c631
@@ -19480,7 +19430,7 @@ bl _p_162
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2680]
+ldr x0, [x16, #2704]
 .word 0xf90033a0
 .word 0xf94017b1
 .word 0xf9412e31
@@ -19505,7 +19455,7 @@ bl _p_49
 .word 0xd280001e
 .word 0xf2e7fe1e
 .word 0x9e6703c0
-bl _p_198
+bl _p_199
 .loc 12 36 0
 .word 0xf94017b1
 .word 0xf9418a31
@@ -19520,10 +19470,10 @@ bl _p_44
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2200]
+ldr x0, [x16, #2192]
 bl _p_3
 .word 0xf9002fa0
-bl _p_163
+bl _p_162
 .word 0xf94017b1
 .word 0xf941ca31
 .word 0xb4000051
@@ -19543,7 +19493,7 @@ bl _p_163
 .word 0xaa1803e0
 .word 0xd2800021
 .word 0xf940031e
-bl _p_164
+bl _p_163
 .word 0xf94017b1
 .word 0xf9421a31
 .word 0xb4000051
@@ -19563,7 +19513,7 @@ bl _p_164
 .word 0xf2e7fe1e
 .word 0x9e6703c0
 .word 0xf940003e
-bl _p_165
+bl _p_164
 .word 0xf94017b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -19578,7 +19528,7 @@ bl _p_165
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_199
+bl _p_200
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf942aa31
@@ -19603,7 +19553,7 @@ bl _p_199
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2688]
+ldr x0, [x16, #2712]
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf942fe31
@@ -19624,7 +19574,7 @@ bl _p_49
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_166
+bl _p_165
 .word 0xfd0037a0
 .word 0xf94017b1
 .word 0xf9434e31
@@ -19632,7 +19582,7 @@ bl _p_166
 .word 0xd63f0220
 .word 0xfd4037a0
 .word 0xaa1a03e0
-bl _p_198
+bl _p_199
 .loc 12 42 0
 .word 0xf94017b1
 .word 0xf9436a31
@@ -19683,7 +19633,7 @@ IntentionJournal_Tree_ReloadTree_double:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2720]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -19714,7 +19664,7 @@ ldr x16, [x16, #2696]
 .word 0xf9405fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_200
+bl _p_201
 .word 0xfd005ba0
 .word 0xf94013b1
 .word 0xf940aa31
@@ -19723,7 +19673,7 @@ bl _p_200
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xfd405ba0
 .word 0xfd000800
@@ -19733,7 +19683,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94057a0
-bl _p_167
+bl _p_166
 .loc 12 57 0
 .word 0xf94013b1
 .word 0xf940ee31
@@ -19757,7 +19707,7 @@ bl _p_167
 .word 0xfd4053a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_201
+bl _p_202
 .loc 12 58 0
 .word 0xf94013b1
 .word 0xf9414a31
@@ -19773,7 +19723,7 @@ bl _p_201
 .word 0xf9404ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_200
+bl _p_201
 .word 0xfd0047a0
 .word 0xf94013b1
 .word 0xf9418a31
@@ -19782,7 +19732,7 @@ bl _p_200
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xfd4047a0
 .word 0xfd000800
@@ -19792,7 +19742,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94043a0
-bl _p_167
+bl _p_166
 .loc 12 59 0
 .word 0xf94013b1
 .word 0xf941ce31
@@ -19808,7 +19758,7 @@ bl _p_167
 .word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_202
+bl _p_203
 .word 0xfd003ba0
 .word 0xf94013b1
 .word 0xf9420e31
@@ -19817,7 +19767,7 @@ bl _p_202
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xfd403ba0
 .word 0xfd000800
@@ -19827,7 +19777,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
-bl _p_167
+bl _p_166
 .loc 12 60 0
 .word 0xf94013b1
 .word 0xf9425231
@@ -19851,7 +19801,7 @@ bl _p_167
 .word 0xfd4033a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_203
+bl _p_204
 .loc 12 61 0
 .word 0xf94013b1
 .word 0xf942ae31
@@ -19867,7 +19817,7 @@ bl _p_203
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_202
+bl _p_203
 .word 0xfd0027a0
 .word 0xf94013b1
 .word 0xf942ee31
@@ -19876,7 +19826,7 @@ bl _p_202
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xfd4027a0
 .word 0xfd000800
@@ -19886,7 +19836,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-bl _p_167
+bl _p_166
 .loc 12 64 0
 .word 0xf94013b1
 .word 0xf9433231
@@ -19917,7 +19867,7 @@ IntentionJournal_Tree_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2728]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -19982,7 +19932,7 @@ bl _p_7
 .word 0xb4000120
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_204
+bl _p_205
 .word 0xf94023b1
 .word 0xf9413231
 .word 0xb4000051
@@ -19991,10 +19941,10 @@ bl _p_204
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf90087a0
-bl _p_90
+bl _p_88
 .word 0xf94023b1
 .word 0xf9415e31
 .word 0xb4000051
@@ -20004,10 +19954,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2712]
+ldr x0, [x16, #2736]
 bl _p_3
 .word 0xf90083a0
-bl _p_205
+bl _p_206
 .word 0xf94023b1
 .word 0xf9418e31
 .word 0xb4000051
@@ -20017,10 +19967,10 @@ bl _p_205
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
 .word 0xf9007fa0
-bl _p_65
+bl _p_64
 .word 0xf94023b1
 .word 0xf941be31
 .word 0xb4000051
@@ -20077,7 +20027,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2352]
+ldr x0, [x16, #2360]
 .word 0xf9006ba0
 .word 0xaa1903e0
 .word 0xf9006fa0
@@ -20105,7 +20055,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -20125,15 +20075,15 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2720]
+ldr x2, [x16, #2744]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf9436a31
 .word 0xb4000051
@@ -20142,15 +20092,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2728]
+ldr x0, [x16, #2752]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2736]
+ldr x2, [x16, #2760]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf943a631
 .word 0xb4000051
@@ -20160,14 +20110,14 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf9005fa0
 .word 0xd2800040
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf9405fa1
@@ -20176,7 +20126,7 @@ bl _p_3
 .word 0xb900105e
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf9440631
 .word 0xb4000051
@@ -20186,20 +20136,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf90057a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0x910183a1
 .word 0xb9800000
 .word 0xb90063a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94057a1
@@ -20210,7 +20160,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf9448231
 .word 0xb4000051
@@ -20220,20 +20170,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xf9400000
 .word 0xf9004fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2768]
 .word 0x910163a1
 .word 0xb9800000
 .word 0xb9005ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf9404fa1
@@ -20244,7 +20194,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf944fe31
 .word 0xb4000051
@@ -20254,16 +20204,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1248]
 .word 0xf9400000
 .word 0xf9003fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 bl _p_3
 .word 0xf9004ba0
-bl _p_98
+bl _p_96
 .word 0xf94023b1
 .word 0xf9454231
 .word 0xb4000051
@@ -20272,10 +20222,10 @@ bl _p_98
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2752]
+ldr x1, [x16, #2776]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_99
+bl _p_97
 .word 0xf90043a0
 .word 0xf94023b1
 .word 0xf9457231
@@ -20286,7 +20236,7 @@ bl _p_99
 .word 0xf94047a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf9459a31
 .word 0xb4000051
@@ -20294,7 +20244,7 @@ bl _p_67
 .word 0xaa1803e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_206
+bl _p_207
 .word 0xf9003ba0
 .word 0xf94023b1
 .word 0xf945be31
@@ -20307,7 +20257,7 @@ bl _p_206
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -20320,7 +20270,7 @@ ldr x15, [x16, #912]
 .word 0xaa1803e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf94023b1
 .word 0xf9461e31
 .word 0xb4000051
@@ -20329,12 +20279,12 @@ bl _p_71
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1703e2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf94023b1
 .word 0xf9465231
 .word 0xb4000051
@@ -20363,7 +20313,7 @@ IntentionJournal_Tree___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2784]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20375,13 +20325,13 @@ ldr x16, [x16, #2760]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2768]
+ldr x1, [x16, #2792]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2776]
+ldr x15, [x16, #2800]
 .word 0xaa1a03e0
-bl _p_207
+bl _p_208
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -20391,13 +20341,13 @@ bl _p_207
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2352]
+ldr x1, [x16, #2360]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2504]
+ldr x15, [x16, #2528]
 .word 0xaa1a03e0
-bl _p_178
+bl _p_179
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -20432,7 +20382,7 @@ IntentionJournal_Settings__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2808]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20467,7 +20417,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_208
+bl _p_209
 .loc 14 21 0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -20494,7 +20444,7 @@ IntentionJournal_Settings_addQuoteCellSelected:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2816]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20522,7 +20472,7 @@ ldr x16, [x16, #2792]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-bl _p_106
+bl _p_104
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9409631
@@ -20531,10 +20481,10 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2800]
+ldr x0, [x16, #2824]
 bl _p_3
 .word 0xf9001ba0
-bl _p_209
+bl _p_210
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -20546,7 +20496,7 @@ bl _p_209
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -20580,7 +20530,7 @@ IntentionJournal_Settings_viewQuotesCellSelected:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2832]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20608,7 +20558,7 @@ ldr x16, [x16, #2808]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94023a0
-bl _p_106
+bl _p_104
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9409631
@@ -20617,10 +20567,10 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2816]
+ldr x0, [x16, #2840]
 bl _p_3
 .word 0xf9001ba0
-bl _p_210
+bl _p_211
 .word 0xf9400fb1
 .word 0xf940be31
 .word 0xb4000051
@@ -20632,7 +20582,7 @@ bl _p_210
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -20666,7 +20616,7 @@ IntentionJournal_Settings_clearQuotesCellSelected:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2848]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20695,7 +20645,7 @@ bl _p_35
 .word 0xf90067a0
 .word 0x9100c3a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -20739,8 +20689,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2832]
-bl _p_211
+ldr x15, [x16, #2856]
+bl _p_212
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -20765,7 +20715,7 @@ IntentionJournal_Settings_clearEntriesCellSelected:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2864]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -20794,7 +20744,7 @@ bl _p_35
 .word 0xf90067a0
 .word 0x9100c3a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf9400fb1
 .word 0xf9409a31
 .word 0xb4000051
@@ -20838,8 +20788,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2848]
-bl _p_212
+ldr x15, [x16, #2872]
+bl _p_213
 .word 0xf9400fb1
 .word 0xf9414a31
 .word 0xb4000051
@@ -20869,7 +20819,7 @@ IntentionJournal_Settings_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2880]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -20938,7 +20888,7 @@ bl _p_7
 .word 0xf94043a0
 .word 0xb4000100
 .word 0xf9402ba0
-bl _p_213
+bl _p_214
 .word 0xf9402fb1
 .word 0xf9414631
 .word 0xb4000051
@@ -20947,10 +20897,10 @@ bl _p_213
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2888]
 bl _p_3
 .word 0xf900b7a0
-bl _p_214
+bl _p_215
 .word 0xf9402fb1
 .word 0xf9417231
 .word 0xb4000051
@@ -20960,10 +20910,10 @@ bl _p_214
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2888]
 bl _p_3
 .word 0xf900b3a0
-bl _p_214
+bl _p_215
 .word 0xf9402fb1
 .word 0xf941a231
 .word 0xb4000051
@@ -20973,10 +20923,10 @@ bl _p_214
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2896]
 bl _p_3
 .word 0xf900afa0
-bl _p_215
+bl _p_216
 .word 0xf9402fb1
 .word 0xf941d231
 .word 0xb4000051
@@ -20986,10 +20936,10 @@ bl _p_215
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2888]
 bl _p_3
 .word 0xf900aba0
-bl _p_214
+bl _p_215
 .word 0xf9402fb1
 .word 0xf9420231
 .word 0xb4000051
@@ -20999,10 +20949,10 @@ bl _p_214
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2888]
 bl _p_3
 .word 0xf900a7a0
-bl _p_214
+bl _p_215
 .word 0xf9402fb1
 .word 0xf9423231
 .word 0xb4000051
@@ -21012,10 +20962,10 @@ bl _p_214
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2872]
+ldr x0, [x16, #2896]
 bl _p_3
 .word 0xf900a3a0
-bl _p_215
+bl _p_216
 .word 0xf9402fb1
 .word 0xf9426231
 .word 0xb4000051
@@ -21025,10 +20975,10 @@ bl _p_215
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2880]
+ldr x0, [x16, #2904]
 bl _p_3
 .word 0xf9009fa0
-bl _p_216
+bl _p_217
 .word 0xf9402fb1
 .word 0xf9429231
 .word 0xb4000051
@@ -21038,10 +20988,10 @@ bl _p_216
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2888]
+ldr x0, [x16, #2912]
 bl _p_3
 .word 0xf9009ba0
-bl _p_217
+bl _p_218
 .word 0xf9402fb1
 .word 0xf942c231
 .word 0xb4000051
@@ -21083,7 +21033,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2896]
+ldr x0, [x16, #2920]
 .word 0xf90087a0
 .word 0xaa1a03e0
 .word 0xf9008ba0
@@ -21111,7 +21061,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -21180,7 +21130,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
@@ -21188,7 +21138,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x2, [x16, #584]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf944f631
 .word 0xb4000051
@@ -21198,7 +21148,7 @@ bl _p_67
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_218
+bl _p_219
 .word 0xf9402fb1
 .word 0xf9451e31
 .word 0xb4000051
@@ -21207,15 +21157,15 @@ bl _p_218
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2904]
+ldr x0, [x16, #2928]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2912]
+ldr x2, [x16, #2936]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9455a31
 .word 0xb4000051
@@ -21224,15 +21174,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2920]
+ldr x2, [x16, #2944]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9459631
 .word 0xb4000051
@@ -21244,7 +21194,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf9407fa1
 .word 0xf90073a1
@@ -21258,17 +21208,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2928]
+ldr x0, [x16, #2952]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2936]
+ldr x0, [x16, #2960]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2944]
+ldr x0, [x16, #2968]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -21277,7 +21227,7 @@ ldr x0, [x16, #2944]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_219
+bl _p_220
 .word 0xf9402fb1
 .word 0xf9463a31
 .word 0xb4000051
@@ -21286,7 +21236,7 @@ bl _p_219
 .word 0xaa1903e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_220
+bl _p_221
 .word 0xf9402fb1
 .word 0xf9465e31
 .word 0xb4000051
@@ -21295,15 +21245,15 @@ bl _p_220
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2952]
+ldr x2, [x16, #2976]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9469a31
 .word 0xb4000051
@@ -21315,7 +21265,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf9406fa1
 .word 0xf90063a1
@@ -21329,17 +21279,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2960]
+ldr x0, [x16, #2984]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2968]
+ldr x0, [x16, #2992]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2976]
+ldr x0, [x16, #3000]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -21348,7 +21298,7 @@ ldr x0, [x16, #2976]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_219
+bl _p_220
 .word 0xf9402fb1
 .word 0xf9473e31
 .word 0xb4000051
@@ -21357,7 +21307,7 @@ bl _p_219
 .word 0xaa1803e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_220
+bl _p_221
 .word 0xf9402fb1
 .word 0xf9476231
 .word 0xb4000051
@@ -21366,7 +21316,7 @@ bl _p_220
 .word 0xaa1703e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_221
+bl _p_222
 .word 0xf9402fb1
 .word 0xf9478631
 .word 0xb4000051
@@ -21375,15 +21325,15 @@ bl _p_221
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2904]
+ldr x0, [x16, #2928]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2984]
+ldr x2, [x16, #3008]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf947c231
 .word 0xb4000051
@@ -21392,15 +21342,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #2992]
+ldr x2, [x16, #3016]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf947fe31
 .word 0xb4000051
@@ -21412,7 +21362,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf9405fa1
 .word 0xf90053a1
@@ -21426,17 +21376,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3000]
+ldr x0, [x16, #3024]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3008]
+ldr x0, [x16, #3032]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3016]
+ldr x0, [x16, #3040]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -21445,7 +21395,7 @@ ldr x0, [x16, #3016]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_219
+bl _p_220
 .word 0xf9402fb1
 .word 0xf948a231
 .word 0xb4000051
@@ -21454,7 +21404,7 @@ bl _p_219
 .word 0xaa1603e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_220
+bl _p_221
 .word 0xf9402fb1
 .word 0xf948c631
 .word 0xb4000051
@@ -21463,15 +21413,15 @@ bl _p_220
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3024]
+ldr x2, [x16, #3048]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9490231
 .word 0xb4000051
@@ -21483,7 +21433,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf9404fa1
 .word 0xf90043a1
@@ -21497,17 +21447,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3032]
+ldr x0, [x16, #3056]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3040]
+ldr x0, [x16, #3064]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3048]
+ldr x0, [x16, #3072]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -21516,7 +21466,7 @@ ldr x0, [x16, #3048]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_219
+bl _p_220
 .word 0xf9402fb1
 .word 0xf949a631
 .word 0xb4000051
@@ -21525,7 +21475,7 @@ bl _p_219
 .word 0xaa1503e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_220
+bl _p_221
 .word 0xf9402fb1
 .word 0xf949ca31
 .word 0xb4000051
@@ -21534,7 +21484,7 @@ bl _p_220
 .word 0xf9403ba1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_221
+bl _p_222
 .word 0xf9402fb1
 .word 0xf949ee31
 .word 0xb4000051
@@ -21543,7 +21493,7 @@ bl _p_221
 .word 0xf9403fa1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_222
+bl _p_223
 .word 0xf9402fb1
 .word 0xf94a1231
 .word 0xb4000051
@@ -21552,12 +21502,12 @@ bl _p_222
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1a03e2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94a4631
 .word 0xb4000051
@@ -21587,7 +21537,7 @@ IntentionJournal_Settings___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3080]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -21599,13 +21549,13 @@ ldr x16, [x16, #3056]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3064]
+ldr x1, [x16, #3088]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3072]
+ldr x15, [x16, #3096]
 .word 0xaa1a03e0
-bl _p_223
+bl _p_224
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -21615,13 +21565,13 @@ bl _p_223
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2896]
+ldr x1, [x16, #2920]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3080]
+ldr x15, [x16, #3104]
 .word 0xaa1a03e0
-bl _p_224
+bl _p_225
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -21659,7 +21609,7 @@ IntentionJournal_Settings__clearQuotesCellSelectedc__async0_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3112]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -21687,7 +21637,7 @@ ldr x16, [x16, #3088]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3096]
+ldr x0, [x16, #3120]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -21712,20 +21662,20 @@ ldr x0, [x16, #3096]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2112]
+ldr x1, [x16, #2104]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3104]
+ldr x2, [x16, #3128]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #3112]
+ldr x3, [x16, #3136]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x4, [x16, #3120]
-bl _p_225
+ldr x4, [x16, #3144]
+bl _p_226
 .word 0xf9004fa0
 .word 0xf94017b1
 .word 0xf9411e31
@@ -21736,7 +21686,7 @@ bl _p_225
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_226
+bl _p_227
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -21757,8 +21707,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3128]
-bl _p_227
+ldr x15, [x16, #3152]
+bl _p_228
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -21779,8 +21729,8 @@ bl _p_227
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3136]
-bl _p_228
+ldr x15, [x16, #3160]
+bl _p_229
 .word 0xf94017b1
 .word 0xf941ee31
 .word 0xb4000051
@@ -21799,8 +21749,8 @@ bl _p_228
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3128]
-bl _p_229
+ldr x15, [x16, #3152]
+bl _p_230
 .word 0xf90047a0
 .word 0x53001c00
 .word 0xf94017b1
@@ -21841,7 +21791,7 @@ bl _p_44
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_230
+bl _p_231
 .loc 14 49 0
 .word 0xf94017b1
 .word 0xf942d231
@@ -21860,17 +21810,17 @@ bl _p_230
 .word 0xf94013a0
 .word 0x91004000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 14 50 0
 .word 0xf9401bb1
@@ -21889,7 +21839,7 @@ bl _p_114
 .word 0xb900301e
 .word 0xf94013a0
 .word 0x91004000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9438a31
 .word 0xb4000051
@@ -21920,7 +21870,7 @@ IntentionJournal_Settings__clearQuotesCellSelectedc__async0_SetStateMachine_Syst
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3144]
+ldr x16, [x16, #3168]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -21931,7 +21881,7 @@ ldr x16, [x16, #3144]
 .word 0xf9400ba0
 .word 0x91004000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -21961,7 +21911,7 @@ IntentionJournal_Settings__clearEntriesCellSelectedc__async1_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3152]
+ldr x16, [x16, #3176]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -21989,7 +21939,7 @@ ldr x16, [x16, #3152]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3160]
+ldr x0, [x16, #3184]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -22014,20 +21964,20 @@ ldr x0, [x16, #3160]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2112]
+ldr x1, [x16, #2104]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3168]
+ldr x2, [x16, #3192]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #3112]
+ldr x3, [x16, #3136]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x4, [x16, #3120]
-bl _p_225
+ldr x4, [x16, #3144]
+bl _p_226
 .word 0xf9004fa0
 .word 0xf94017b1
 .word 0xf9411e31
@@ -22038,7 +21988,7 @@ bl _p_225
 .word 0xf9002ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_226
+bl _p_227
 .word 0xf9402bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -22059,8 +22009,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3128]
-bl _p_227
+ldr x15, [x16, #3152]
+bl _p_228
 .word 0x53001c00
 .word 0xf90043a0
 .word 0xf94017b1
@@ -22081,8 +22031,8 @@ bl _p_227
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3176]
-bl _p_231
+ldr x15, [x16, #3200]
+bl _p_232
 .word 0xf94017b1
 .word 0xf941ee31
 .word 0xb4000051
@@ -22101,8 +22051,8 @@ bl _p_231
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3128]
-bl _p_229
+ldr x15, [x16, #3152]
+bl _p_230
 .word 0xf90047a0
 .word 0x53001c00
 .word 0xf94017b1
@@ -22143,7 +22093,7 @@ bl _p_44
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_232
+bl _p_233
 .loc 14 62 0
 .word 0xf94017b1
 .word 0xf942d231
@@ -22162,17 +22112,17 @@ bl _p_232
 .word 0xf94013a0
 .word 0x91004000
 .word 0xf94027a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf9431a31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9003fa0
 .word 0xf9403fa0
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 14 63 0
 .word 0xf9401bb1
@@ -22191,7 +22141,7 @@ bl _p_114
 .word 0xb900301e
 .word 0xf94013a0
 .word 0x91004000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9438a31
 .word 0xb4000051
@@ -22222,7 +22172,7 @@ IntentionJournal_Settings__clearEntriesCellSelectedc__async1_SetStateMachine_Sys
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3184]
+ldr x16, [x16, #3208]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -22233,7 +22183,7 @@ ldr x16, [x16, #3184]
 .word 0xf9400ba0
 .word 0x91004000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -22260,7 +22210,7 @@ IntentionJournal_MainTabContainer__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3192]
+ldr x16, [x16, #3216]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -22278,7 +22228,7 @@ ldr x16, [x16, #3192]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_233
+bl _p_234
 .loc 16 20 0
 .word 0xf9400fb1
 .word 0xf9407231
@@ -22295,7 +22245,7 @@ bl _p_233
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_234
+bl _p_235
 .loc 16 22 0
 .word 0xf9400fb1
 .word 0xf940ae31
@@ -22305,7 +22255,7 @@ bl _p_234
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3200]
+ldr x0, [x16, #3224]
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf940d231
@@ -22313,7 +22263,7 @@ ldr x0, [x16, #3200]
 .word 0xd63f0220
 .word 0xf9401ba1
 .word 0xaa1a03e0
-bl _p_235
+bl _p_236
 .loc 16 23 0
 .word 0xf9400fb1
 .word 0xf940ee31
@@ -22349,7 +22299,7 @@ IntentionJournal_MainTabContainer_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3208]
+ldr x16, [x16, #3232]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -22429,7 +22379,7 @@ bl _p_7
 .word 0xf940bba0
 .word 0xb4000100
 .word 0xf9402ba0
-bl _p_236
+bl _p_237
 .word 0xf9402fb1
 .word 0xf9418231
 .word 0xb4000051
@@ -22451,10 +22401,10 @@ bl _p_61
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3216]
+ldr x0, [x16, #3240]
 bl _p_3
 .word 0xf9021fa0
-bl _p_237
+bl _p_238
 .word 0xf9402fb1
 .word 0xf941de31
 .word 0xb4000051
@@ -22464,10 +22414,10 @@ bl _p_237
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3224]
+ldr x0, [x16, #3248]
 bl _p_3
 .word 0xf9021ba0
-bl _p_238
+bl _p_239
 .word 0xf9402fb1
 .word 0xf9420e31
 .word 0xb4000051
@@ -22483,7 +22433,7 @@ ldr x0, [x16, #2232]
 bl _p_3
 .word 0xf94217a1
 .word 0xf90213a0
-bl _p_169
+bl _p_168
 .word 0xf9402fb1
 .word 0xf9424a31
 .word 0xb4000051
@@ -22493,10 +22443,10 @@ bl _p_169
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3216]
+ldr x0, [x16, #3240]
 bl _p_3
 .word 0xf9020fa0
-bl _p_237
+bl _p_238
 .word 0xf9402fb1
 .word 0xf9427a31
 .word 0xb4000051
@@ -22506,10 +22456,10 @@ bl _p_237
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3232]
+ldr x0, [x16, #3256]
 bl _p_3
 .word 0xf9020ba0
-bl _p_239
+bl _p_240
 .word 0xf9402fb1
 .word 0xf942aa31
 .word 0xb4000051
@@ -22525,7 +22475,7 @@ ldr x0, [x16, #2232]
 bl _p_3
 .word 0xf94207a1
 .word 0xf90203a0
-bl _p_169
+bl _p_168
 .word 0xf9402fb1
 .word 0xf942e631
 .word 0xb4000051
@@ -22535,10 +22485,10 @@ bl _p_169
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3216]
+ldr x0, [x16, #3240]
 bl _p_3
 .word 0xf901ffa0
-bl _p_237
+bl _p_238
 .word 0xf9402fb1
 .word 0xf9431631
 .word 0xb4000051
@@ -22548,10 +22498,10 @@ bl _p_237
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3240]
+ldr x0, [x16, #3264]
 bl _p_3
 .word 0xf901fba0
-bl _p_240
+bl _p_241
 .word 0xf9402fb1
 .word 0xf9434631
 .word 0xb4000051
@@ -22567,7 +22517,7 @@ ldr x0, [x16, #2232]
 bl _p_3
 .word 0xf941f7a1
 .word 0xf901f3a0
-bl _p_169
+bl _p_168
 .word 0xf9402fb1
 .word 0xf9438231
 .word 0xb4000051
@@ -22577,10 +22527,10 @@ bl _p_169
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3216]
+ldr x0, [x16, #3240]
 bl _p_3
 .word 0xf901efa0
-bl _p_237
+bl _p_238
 .word 0xf9402fb1
 .word 0xf943b231
 .word 0xb4000051
@@ -22590,10 +22540,10 @@ bl _p_237
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3248]
+ldr x0, [x16, #3272]
 bl _p_3
 .word 0xf901eba0
-bl _p_241
+bl _p_242
 .word 0xf9402fb1
 .word 0xf943e231
 .word 0xb4000051
@@ -22609,7 +22559,7 @@ ldr x0, [x16, #2232]
 bl _p_3
 .word 0xf941e7a1
 .word 0xf901e3a0
-bl _p_169
+bl _p_168
 .word 0xf9402fb1
 .word 0xf9441e31
 .word 0xb4000051
@@ -22619,10 +22569,10 @@ bl _p_169
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3216]
+ldr x0, [x16, #3240]
 bl _p_3
 .word 0xf901dfa0
-bl _p_237
+bl _p_238
 .word 0xf9402fb1
 .word 0xf9444e31
 .word 0xb4000051
@@ -22632,10 +22582,10 @@ bl _p_237
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3256]
+ldr x0, [x16, #3280]
 bl _p_3
 .word 0xf901dba0
-bl _p_242
+bl _p_243
 .word 0xf9402fb1
 .word 0xf9447e31
 .word 0xb4000051
@@ -22651,7 +22601,7 @@ ldr x0, [x16, #2232]
 bl _p_3
 .word 0xf941d7a1
 .word 0xf901d3a0
-bl _p_169
+bl _p_168
 .word 0xf9402fb1
 .word 0xf944ba31
 .word 0xb4000051
@@ -22755,15 +22705,15 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3200]
+ldr x2, [x16, #3224]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9466e31
 .word 0xb4000051
@@ -22775,7 +22725,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402fb1
 .word 0xf9469a31
 .word 0xb4000051
@@ -22969,11 +22919,11 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3264]
+ldr x1, [x16, #3288]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3272]
+ldr x2, [x16, #3296]
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_14
@@ -22989,11 +22939,11 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3280]
+ldr x1, [x16, #3304]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3272]
+ldr x2, [x16, #3296]
 .word 0xaa0303e0
 .word 0xf940007e
 bl _p_14
@@ -23004,7 +22954,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3288]
+ldr x1, [x16, #3312]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -23092,7 +23042,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -23116,7 +23066,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #848]
+ldr x3, [x16, #840]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x54004c21
@@ -23143,7 +23093,7 @@ ldr x3, [x16, #848]
 .word 0xf90047a3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_69
+bl _p_68
 .word 0xf9402fb1
 .word 0xf94bfa31
 .word 0xb4000051
@@ -23153,16 +23103,16 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3296]
+ldr x0, [x16, #3320]
 .word 0xf9400000
 .word 0xf9014ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3328]
 bl _p_3
 .word 0xf90157a0
-bl _p_243
+bl _p_244
 .word 0xf9402fb1
 .word 0xf94c3e31
 .word 0xb4000051
@@ -23171,10 +23121,10 @@ bl _p_243
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3312]
+ldr x1, [x16, #3336]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_244
+bl _p_245
 .word 0xf9014fa0
 .word 0xf9402fb1
 .word 0xf94c6e31
@@ -23185,7 +23135,7 @@ bl _p_244
 .word 0xf94153a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94c9631
 .word 0xb4000051
@@ -23194,10 +23144,10 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #824]
+ldr x1, [x16, #816]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_245
+bl _p_246
 .word 0xf9402fb1
 .word 0xf94cc231
 .word 0xb4000051
@@ -23207,15 +23157,15 @@ bl _p_245
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400000
 .word 0xf9013fa0
 .word 0xaa1803e0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3216]
-bl _p_246
+ldr x15, [x16, #3240]
+bl _p_247
 .word 0xf90143a0
 .word 0xf9402fb1
 .word 0xf94d0631
@@ -23226,7 +23176,7 @@ bl _p_246
 .word 0xf94147a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94d2e31
 .word 0xb4000051
@@ -23234,7 +23184,7 @@ bl _p_67
 .word 0xaa1303e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_247
+bl _p_248
 .word 0xf9013ba0
 .word 0xf9402fb1
 .word 0xf94d5231
@@ -23247,7 +23197,7 @@ bl _p_247
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3320]
+ldr x15, [x16, #3344]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -23260,15 +23210,15 @@ ldr x15, [x16, #3320]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #1176]
+ldr x2, [x16, #1168]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94dca31
 .word 0xb4000051
@@ -23278,16 +23228,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3296]
+ldr x0, [x16, #3320]
 .word 0xf9400000
 .word 0xf9012ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3328]
 bl _p_3
 .word 0xf90137a0
-bl _p_243
+bl _p_244
 .word 0xf9402fb1
 .word 0xf94e0e31
 .word 0xb4000051
@@ -23296,10 +23246,10 @@ bl _p_243
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3328]
+ldr x1, [x16, #3352]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_244
+bl _p_245
 .word 0xf9012fa0
 .word 0xf9402fb1
 .word 0xf94e3e31
@@ -23310,7 +23260,7 @@ bl _p_244
 .word 0xf94133a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94e6631
 .word 0xb4000051
@@ -23319,10 +23269,10 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1176]
+ldr x1, [x16, #1168]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_245
+bl _p_246
 .word 0xf9402fb1
 .word 0xf94e9231
 .word 0xb4000051
@@ -23332,15 +23282,15 @@ bl _p_245
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400000
 .word 0xf9011fa0
 .word 0xf9405ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3216]
-bl _p_246
+ldr x15, [x16, #3240]
+bl _p_247
 .word 0xf90123a0
 .word 0xf9402fb1
 .word 0xf94ed631
@@ -23351,7 +23301,7 @@ bl _p_246
 .word 0xf94127a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94efe31
 .word 0xb4000051
@@ -23359,7 +23309,7 @@ bl _p_67
 .word 0xaa1303e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_247
+bl _p_248
 .word 0xf9011ba0
 .word 0xf9402fb1
 .word 0xf94f2231
@@ -23372,7 +23322,7 @@ bl _p_247
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3320]
+ldr x15, [x16, #3344]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -23385,15 +23335,15 @@ ldr x15, [x16, #3320]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3336]
+ldr x2, [x16, #3360]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94f9a31
 .word 0xb4000051
@@ -23403,16 +23353,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3296]
+ldr x0, [x16, #3320]
 .word 0xf9400000
 .word 0xf9010ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3328]
 bl _p_3
 .word 0xf90117a0
-bl _p_243
+bl _p_244
 .word 0xf9402fb1
 .word 0xf94fde31
 .word 0xb4000051
@@ -23421,10 +23371,10 @@ bl _p_243
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3344]
+ldr x1, [x16, #3368]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_244
+bl _p_245
 .word 0xf9010fa0
 .word 0xf9402fb1
 .word 0xf9500e31
@@ -23435,7 +23385,7 @@ bl _p_244
 .word 0xf94113a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9503631
 .word 0xb4000051
@@ -23444,10 +23394,10 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3336]
+ldr x1, [x16, #3360]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_245
+bl _p_246
 .word 0xf9402fb1
 .word 0xf9506231
 .word 0xb4000051
@@ -23457,15 +23407,15 @@ bl _p_245
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400000
 .word 0xf900ffa0
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3216]
-bl _p_246
+ldr x15, [x16, #3240]
+bl _p_247
 .word 0xf90103a0
 .word 0xf9402fb1
 .word 0xf950a631
@@ -23476,7 +23426,7 @@ bl _p_246
 .word 0xf94107a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf950ce31
 .word 0xb4000051
@@ -23484,7 +23434,7 @@ bl _p_67
 .word 0xaa1303e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_247
+bl _p_248
 .word 0xf900fba0
 .word 0xf9402fb1
 .word 0xf950f231
@@ -23497,7 +23447,7 @@ bl _p_247
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3320]
+ldr x15, [x16, #3344]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -23510,15 +23460,15 @@ ldr x15, [x16, #3320]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #3352]
+ldr x2, [x16, #3376]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9516a31
 .word 0xb4000051
@@ -23528,16 +23478,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3296]
+ldr x0, [x16, #3320]
 .word 0xf9400000
 .word 0xf900eba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3328]
 bl _p_3
 .word 0xf900f7a0
-bl _p_243
+bl _p_244
 .word 0xf9402fb1
 .word 0xf951ae31
 .word 0xb4000051
@@ -23546,10 +23496,10 @@ bl _p_243
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3360]
+ldr x1, [x16, #3384]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_244
+bl _p_245
 .word 0xf900efa0
 .word 0xf9402fb1
 .word 0xf951de31
@@ -23560,7 +23510,7 @@ bl _p_244
 .word 0xf940f3a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9520631
 .word 0xb4000051
@@ -23569,10 +23519,10 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3352]
+ldr x1, [x16, #3376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_245
+bl _p_246
 .word 0xf9402fb1
 .word 0xf9523231
 .word 0xb4000051
@@ -23582,15 +23532,15 @@ bl _p_245
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400000
 .word 0xf900dfa0
 .word 0xf9406ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3216]
-bl _p_246
+ldr x15, [x16, #3240]
+bl _p_247
 .word 0xf900e3a0
 .word 0xf9402fb1
 .word 0xf9527631
@@ -23601,7 +23551,7 @@ bl _p_246
 .word 0xf940e7a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9529e31
 .word 0xb4000051
@@ -23609,7 +23559,7 @@ bl _p_67
 .word 0xaa1303e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_247
+bl _p_248
 .word 0xf900dba0
 .word 0xf9402fb1
 .word 0xf952c231
@@ -23622,7 +23572,7 @@ bl _p_247
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3320]
+ldr x15, [x16, #3344]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -23635,7 +23585,7 @@ ldr x15, [x16, #3320]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
@@ -23643,7 +23593,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x2, [x16, #584]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9533a31
 .word 0xb4000051
@@ -23653,16 +23603,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3296]
+ldr x0, [x16, #3320]
 .word 0xf9400000
 .word 0xf900cba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3304]
+ldr x0, [x16, #3328]
 bl _p_3
 .word 0xf900d7a0
-bl _p_243
+bl _p_244
 .word 0xf9402fb1
 .word 0xf9537e31
 .word 0xb4000051
@@ -23671,10 +23621,10 @@ bl _p_243
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3368]
+ldr x1, [x16, #3392]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_244
+bl _p_245
 .word 0xf900cfa0
 .word 0xf9402fb1
 .word 0xf953ae31
@@ -23685,7 +23635,7 @@ bl _p_244
 .word 0xf940d3a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf953d631
 .word 0xb4000051
@@ -23697,7 +23647,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #584]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_245
+bl _p_246
 .word 0xf9402fb1
 .word 0xf9540231
 .word 0xb4000051
@@ -23707,15 +23657,15 @@ bl _p_245
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400000
 .word 0xf900bfa0
 .word 0xf94077a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3216]
-bl _p_246
+ldr x15, [x16, #3240]
+bl _p_247
 .word 0xf900c3a0
 .word 0xf9402fb1
 .word 0xf9544631
@@ -23726,7 +23676,7 @@ bl _p_246
 .word 0xf940c7a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9546e31
 .word 0xb4000051
@@ -23734,7 +23684,7 @@ bl _p_67
 .word 0xaa1303e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_247
+bl _p_248
 .word 0xf900bba0
 .word 0xf9402fb1
 .word 0xf9549231
@@ -23747,7 +23697,7 @@ bl _p_247
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3320]
+ldr x15, [x16, #3344]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -23787,7 +23737,7 @@ IntentionJournal_MainTabContainer___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3376]
+ldr x16, [x16, #3400]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23799,12 +23749,12 @@ ldr x16, [x16, #3376]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3288]
+ldr x1, [x16, #3312]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3384]
-bl _p_248
+ldr x15, [x16, #3408]
+bl _p_249
 .word 0xf9400fb1
 .word 0xf9406231
 .word 0xb4000051
@@ -23829,7 +23779,7 @@ IntentionJournal_EntryObject__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3392]
+ldr x16, [x16, #3416]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -23864,7 +23814,7 @@ IntentionJournal_EntryObject_get_ID:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3400]
+ldr x16, [x16, #3424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23907,7 +23857,7 @@ IntentionJournal_EntryObject_set_ID_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3408]
+ldr x16, [x16, #3432]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23947,7 +23897,7 @@ IntentionJournal_EntryObject_get_entryTitle:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3416]
+ldr x16, [x16, #3440]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -23990,7 +23940,7 @@ IntentionJournal_EntryObject_set_entryTitle_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3424]
+ldr x16, [x16, #3448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24034,7 +23984,7 @@ IntentionJournal_EntryObject_get_entryContent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3432]
+ldr x16, [x16, #3456]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24077,7 +24027,7 @@ IntentionJournal_EntryObject_set_entryContent_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3440]
+ldr x16, [x16, #3464]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24121,7 +24071,7 @@ IntentionJournal_EntryObject_get_entryCategory:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3448]
+ldr x16, [x16, #3472]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24164,7 +24114,7 @@ IntentionJournal_EntryObject_set_entryCategory_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3456]
+ldr x16, [x16, #3480]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24208,7 +24158,7 @@ IntentionJournal_EntryObject_get_entryImageFile:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3464]
+ldr x16, [x16, #3488]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24251,7 +24201,7 @@ IntentionJournal_EntryObject_set_entryImageFile_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3472]
+ldr x16, [x16, #3496]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24295,7 +24245,7 @@ IntentionJournal_EntryObject_get_entryPictureBytes:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3480]
+ldr x16, [x16, #3504]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24338,7 +24288,7 @@ IntentionJournal_EntryObject_set_entryPictureBytes_byte__:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3488]
+ldr x16, [x16, #3512]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24383,7 +24333,7 @@ IntentionJournal_AppDatabase__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3496]
+ldr x16, [x16, #3520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -24419,9 +24369,9 @@ ldr x16, [x16, #3496]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3504]
+ldr x15, [x16, #3528]
 .word 0xd2800000
-bl _p_249
+bl _p_250
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf940ba31
@@ -24433,7 +24383,7 @@ bl _p_249
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3512]
+ldr x15, [x16, #3536]
 .word 0x928011f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -24466,10 +24416,10 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3520]
+ldr x15, [x16, #3544]
 .word 0xf940001e
 .word 0xd2800001
-bl _p_250
+bl _p_251
 .word 0x93407c00
 .word 0xf9400fb1
 .word 0xf9416e31
@@ -24492,10 +24442,10 @@ bl _p_250
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3528]
+ldr x15, [x16, #3552]
 .word 0xf940001e
 .word 0xd2800001
-bl _p_251
+bl _p_252
 .word 0x93407c00
 .word 0xf9400fb1
 .word 0xf941ce31
@@ -24518,10 +24468,10 @@ bl _p_251
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3536]
+ldr x15, [x16, #3560]
 .word 0xf940001e
 .word 0xd2800001
-bl _p_252
+bl _p_253
 .word 0x93407c00
 .word 0xf9400fb1
 .word 0xf9422e31
@@ -24544,10 +24494,10 @@ bl _p_252
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3544]
+ldr x15, [x16, #3568]
 .word 0xf940001e
 .word 0xd2800001
-bl _p_253
+bl _p_254
 .word 0x93407c00
 .word 0xf9400fb1
 .word 0xf9428e31
@@ -24580,7 +24530,7 @@ IntentionJournal_AppDatabase_GetAllEntries:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3552]
+ldr x16, [x16, #3576]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -24608,7 +24558,7 @@ ldr x16, [x16, #3552]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3584]
 .word 0xf9002fa0
 .word 0xd2800000
 
@@ -24628,9 +24578,9 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3568]
+ldr x15, [x16, #3592]
 .word 0xf940001e
-bl _p_254
+bl _p_255
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940e631
@@ -24669,7 +24619,7 @@ IntentionJournal_AppDatabase_GetEntriesForSingleMood_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3576]
+ldr x16, [x16, #3600]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -24697,7 +24647,7 @@ ldr x16, [x16, #3576]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3584]
+ldr x0, [x16, #3608]
 .word 0xf90037a0
 .word 0xd2800020
 
@@ -24727,9 +24677,9 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3568]
+ldr x15, [x16, #3592]
 .word 0xf940001e
-bl _p_254
+bl _p_255
 .word 0xf9002fa0
 .word 0xf9401bb1
 .word 0xf9411231
@@ -24768,7 +24718,7 @@ IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3592]
+ldr x16, [x16, #3616]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24803,7 +24753,7 @@ ldr x16, [x16, #3592]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_255
+bl _p_256
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -24843,7 +24793,7 @@ IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3600]
+ldr x16, [x16, #3624]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24878,7 +24828,7 @@ ldr x16, [x16, #3600]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_256
+bl _p_257
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -24918,7 +24868,7 @@ IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3608]
+ldr x16, [x16, #3632]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -24953,7 +24903,7 @@ ldr x16, [x16, #3608]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_257
+bl _p_258
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -24995,7 +24945,7 @@ IntentionJournal_AppDatabase_GetEntry_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3616]
+ldr x16, [x16, #3640]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -25017,10 +24967,10 @@ ldr x16, [x16, #3616]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3624]
+ldr x0, [x16, #3648]
 bl _p_3
 .word 0xf9005ba0
-bl _p_258
+bl _p_259
 .word 0xf94027b1
 .word 0xf9409631
 .word 0xb4000051
@@ -25033,12 +24983,12 @@ bl _p_258
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3632]
+ldr x0, [x16, #3656]
 .word 0xf90053a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3640]
+ldr x0, [x16, #3664]
 .word 0xf90057a0
 .loc 19 87 0
 .word 0xf94027b1
@@ -25047,7 +24997,7 @@ ldr x0, [x16, #3640]
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xf94057a1
-bl _p_259
+bl _p_260
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf940fa31
@@ -25076,9 +25026,9 @@ bl _p_259
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3648]
+ldr x15, [x16, #3672]
 .word 0xf940001e
-bl _p_260
+bl _p_261
 .word 0xaa0003f5
 .word 0xf94027b1
 .word 0xf9416a31
@@ -25088,7 +25038,7 @@ bl _p_260
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3656]
+ldr x0, [x16, #3680]
 .word 0x9101e3a1
 .word 0xf9003fa0
 .word 0x9101e3a0
@@ -25097,7 +25047,7 @@ ldr x0, [x16, #3656]
 .word 0xf90037a0
 .word 0x9101a3a0
 .word 0xf94037a0
-bl _p_261
+bl _p_262
 .word 0xaa0003f3
 .word 0xf94027b1
 .word 0xf941b231
@@ -25111,7 +25061,7 @@ bl _p_261
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3664]
+ldr x1, [x16, #3688]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000f61
@@ -25125,7 +25075,7 @@ ldr x1, [x16, #3664]
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa1303e1
-bl _p_262
+bl _p_263
 .word 0xf9005fa0
 .word 0xf94027b1
 .word 0xf9421e31
@@ -25138,7 +25088,7 @@ bl _p_262
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-bl _p_263
+bl _p_264
 .word 0xf90067a0
 .word 0xf94027b1
 .word 0xf9424e31
@@ -25147,7 +25097,7 @@ bl _p_263
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3672]
+ldr x0, [x16, #3696]
 .word 0x9101c3a1
 .word 0xf9003ba0
 .word 0x9101c3a0
@@ -25156,7 +25106,7 @@ ldr x0, [x16, #3672]
 .word 0xf90033a0
 .word 0x910183a0
 .word 0xf94033a0
-bl _p_264
+bl _p_265
 .word 0xf9006ba0
 .word 0xf94027b1
 .word 0xf9429231
@@ -25164,7 +25114,7 @@ bl _p_264
 .word 0xd63f0220
 .word 0xf94067a0
 .word 0xf9406ba1
-bl _p_265
+bl _p_266
 .word 0xf90063a0
 .loc 19 87 0
 .word 0xf94027b1
@@ -25173,7 +25123,7 @@ bl _p_265
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf94063a1
-bl _p_266
+bl _p_267
 .word 0xf90057a0
 .word 0xf94027b1
 .word 0xf942d231
@@ -25183,7 +25133,7 @@ bl _p_266
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3680]
+ldr x0, [x16, #3704]
 .word 0xd2800021
 bl _p_27
 .word 0xf90047a0
@@ -25207,8 +25157,8 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3688]
-bl _p_267
+ldr x15, [x16, #3712]
+bl _p_268
 .word 0xf90053a0
 .word 0xf94027b1
 .word 0xf9435631
@@ -25217,7 +25167,7 @@ bl _p_267
 .word 0xf94053a1
 .word 0xaa1503e0
 .word 0xf94002be
-bl _p_268
+bl _p_269
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf9437a31
@@ -25261,7 +25211,7 @@ IntentionJournal_AppDatabase_deleteAllEntries:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3696]
+ldr x16, [x16, #3720]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25300,7 +25250,7 @@ ldr x16, [x16, #3696]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3560]
+ldr x0, [x16, #3584]
 .word 0xf9005ba0
 .word 0xd2800000
 
@@ -25320,9 +25270,9 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3568]
+ldr x15, [x16, #3592]
 .word 0xf940001e
-bl _p_254
+bl _p_255
 .word 0xf90053a0
 .word 0xf94017b1
 .word 0xf9411231
@@ -25351,7 +25301,7 @@ bl _p_254
 .word 0xaa0003e8
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_269
+bl _p_270
 .word 0xf94017b1
 .word 0xf9417e31
 .word 0xb4000051
@@ -25383,8 +25333,8 @@ bl _p_269
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3704]
-bl _p_270
+ldr x15, [x16, #3728]
+bl _p_271
 .word 0xf90057a0
 .word 0xf94017b1
 .word 0xf9420231
@@ -25416,7 +25366,7 @@ bl _p_270
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_256
+bl _p_257
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf9427a31
@@ -25438,8 +25388,8 @@ bl _p_256
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3704]
-bl _p_271
+ldr x15, [x16, #3728]
+bl _p_272
 .word 0x53001c00
 .word 0xf9004ba0
 .word 0xf94017b1
@@ -25461,8 +25411,8 @@ bl _p_271
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3704]
-bl _p_272
+ldr x15, [x16, #3728]
+bl _p_273
 .word 0xf94017b1
 .word 0xf9431e31
 .word 0xb4000051
@@ -25509,7 +25459,7 @@ IntentionJournal_AppDatabase_getTreeProgress_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3712]
+ldr x16, [x16, #3736]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -25531,10 +25481,10 @@ ldr x16, [x16, #3712]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3720]
+ldr x0, [x16, #3744]
 bl _p_3
 .word 0xf9005ba0
-bl _p_273
+bl _p_274
 .word 0xf94027b1
 .word 0xf9409631
 .word 0xb4000051
@@ -25547,12 +25497,12 @@ bl _p_273
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3728]
+ldr x0, [x16, #3752]
 .word 0xf90053a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3640]
+ldr x0, [x16, #3664]
 .word 0xf90057a0
 .loc 19 112 0
 .word 0xf94027b1
@@ -25561,7 +25511,7 @@ ldr x0, [x16, #3640]
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xf94057a1
-bl _p_259
+bl _p_260
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf940fa31
@@ -25590,9 +25540,9 @@ bl _p_259
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3736]
+ldr x15, [x16, #3760]
 .word 0xf940001e
-bl _p_274
+bl _p_275
 .word 0xaa0003f5
 .word 0xf94027b1
 .word 0xf9416a31
@@ -25602,7 +25552,7 @@ bl _p_274
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3744]
+ldr x0, [x16, #3768]
 .word 0x9101e3a1
 .word 0xf9003fa0
 .word 0x9101e3a0
@@ -25611,7 +25561,7 @@ ldr x0, [x16, #3744]
 .word 0xf90037a0
 .word 0x9101a3a0
 .word 0xf94037a0
-bl _p_261
+bl _p_262
 .word 0xaa0003f3
 .word 0xf94027b1
 .word 0xf941b231
@@ -25625,7 +25575,7 @@ bl _p_261
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3664]
+ldr x1, [x16, #3688]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000f61
@@ -25639,7 +25589,7 @@ ldr x1, [x16, #3664]
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa1303e1
-bl _p_262
+bl _p_263
 .word 0xf9005fa0
 .word 0xf94027b1
 .word 0xf9421e31
@@ -25652,7 +25602,7 @@ bl _p_262
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-bl _p_263
+bl _p_264
 .word 0xf90067a0
 .word 0xf94027b1
 .word 0xf9424e31
@@ -25661,7 +25611,7 @@ bl _p_263
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3752]
+ldr x0, [x16, #3776]
 .word 0x9101c3a1
 .word 0xf9003ba0
 .word 0x9101c3a0
@@ -25670,7 +25620,7 @@ ldr x0, [x16, #3752]
 .word 0xf90033a0
 .word 0x910183a0
 .word 0xf94033a0
-bl _p_264
+bl _p_265
 .word 0xf9006ba0
 .word 0xf94027b1
 .word 0xf9429231
@@ -25678,7 +25628,7 @@ bl _p_264
 .word 0xd63f0220
 .word 0xf94067a0
 .word 0xf9406ba1
-bl _p_265
+bl _p_266
 .word 0xf90063a0
 .loc 19 112 0
 .word 0xf94027b1
@@ -25687,7 +25637,7 @@ bl _p_265
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf94063a1
-bl _p_266
+bl _p_267
 .word 0xf90057a0
 .word 0xf94027b1
 .word 0xf942d231
@@ -25697,7 +25647,7 @@ bl _p_266
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3680]
+ldr x0, [x16, #3704]
 .word 0xd2800021
 bl _p_27
 .word 0xf90047a0
@@ -25721,8 +25671,8 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3760]
-bl _p_275
+ldr x15, [x16, #3784]
+bl _p_276
 .word 0xf90053a0
 .word 0xf94027b1
 .word 0xf9435631
@@ -25731,7 +25681,7 @@ bl _p_275
 .word 0xf94053a1
 .word 0xaa1503e0
 .word 0xf94002be
-bl _p_276
+bl _p_277
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf9437a31
@@ -25775,7 +25725,7 @@ IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3768]
+ldr x16, [x16, #3792]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25810,7 +25760,7 @@ ldr x16, [x16, #3768]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_277
+bl _p_278
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -25850,7 +25800,7 @@ IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3776]
+ldr x16, [x16, #3800]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25885,7 +25835,7 @@ ldr x16, [x16, #3776]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_255
+bl _p_256
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -25925,7 +25875,7 @@ IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3784]
+ldr x16, [x16, #3808]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -25960,7 +25910,7 @@ ldr x16, [x16, #3784]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_256
+bl _p_257
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -26000,7 +25950,7 @@ IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3792]
+ldr x16, [x16, #3816]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26035,7 +25985,7 @@ ldr x16, [x16, #3792]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_257
+bl _p_258
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -26074,7 +26024,7 @@ IntentionJournal_AppDatabase_GetAllQuotes:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3800]
+ldr x16, [x16, #3824]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26102,7 +26052,7 @@ ldr x16, [x16, #3800]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3808]
+ldr x0, [x16, #3832]
 .word 0xf9002fa0
 .word 0xd2800000
 
@@ -26122,9 +26072,9 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3816]
+ldr x15, [x16, #3840]
 .word 0xf940001e
-bl _p_278
+bl _p_279
 .word 0xf90027a0
 .word 0xf94013b1
 .word 0xf940e631
@@ -26163,7 +26113,7 @@ IntentionJournal_AppDatabase_deleteAllQuotes:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3824]
+ldr x16, [x16, #3848]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26291,7 +26241,7 @@ bl _p_47
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_256
+bl _p_257
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf9421e31
@@ -26377,7 +26327,7 @@ IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObje
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3832]
+ldr x16, [x16, #3856]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -26412,7 +26362,7 @@ ldr x16, [x16, #3832]
 .word 0xf9402fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_277
+bl _p_278
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94017b1
@@ -26454,7 +26404,7 @@ IntentionJournal_AppDatabase_getTempImage_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3840]
+ldr x16, [x16, #3864]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -26476,10 +26426,10 @@ ldr x16, [x16, #3840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3848]
+ldr x0, [x16, #3872]
 bl _p_3
 .word 0xf9005ba0
-bl _p_279
+bl _p_280
 .word 0xf94027b1
 .word 0xf9409631
 .word 0xb4000051
@@ -26492,12 +26442,12 @@ bl _p_279
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3856]
+ldr x0, [x16, #3880]
 .word 0xf90053a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3640]
+ldr x0, [x16, #3664]
 .word 0xf90057a0
 .loc 19 189 0
 .word 0xf94027b1
@@ -26506,7 +26456,7 @@ ldr x0, [x16, #3640]
 .word 0xd63f0220
 .word 0xf94053a0
 .word 0xf94057a1
-bl _p_259
+bl _p_260
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf940fa31
@@ -26535,9 +26485,9 @@ bl _p_259
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3864]
+ldr x15, [x16, #3888]
 .word 0xf940001e
-bl _p_280
+bl _p_281
 .word 0xaa0003f5
 .word 0xf94027b1
 .word 0xf9416a31
@@ -26547,7 +26497,7 @@ bl _p_280
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3872]
+ldr x0, [x16, #3896]
 .word 0x9101e3a1
 .word 0xf9003fa0
 .word 0x9101e3a0
@@ -26556,7 +26506,7 @@ ldr x0, [x16, #3872]
 .word 0xf90037a0
 .word 0x9101a3a0
 .word 0xf94037a0
-bl _p_261
+bl _p_262
 .word 0xaa0003f3
 .word 0xf94027b1
 .word 0xf941b231
@@ -26570,7 +26520,7 @@ bl _p_261
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #3664]
+ldr x1, [x16, #3688]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000f61
@@ -26584,7 +26534,7 @@ ldr x1, [x16, #3664]
 .word 0xd63f0220
 .word 0xf94043a0
 .word 0xaa1303e1
-bl _p_262
+bl _p_263
 .word 0xf9005fa0
 .word 0xf94027b1
 .word 0xf9421e31
@@ -26597,7 +26547,7 @@ bl _p_262
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-bl _p_263
+bl _p_264
 .word 0xf90067a0
 .word 0xf94027b1
 .word 0xf9424e31
@@ -26606,7 +26556,7 @@ bl _p_263
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3880]
+ldr x0, [x16, #3904]
 .word 0x9101c3a1
 .word 0xf9003ba0
 .word 0x9101c3a0
@@ -26615,7 +26565,7 @@ ldr x0, [x16, #3880]
 .word 0xf90033a0
 .word 0x910183a0
 .word 0xf94033a0
-bl _p_264
+bl _p_265
 .word 0xf9006ba0
 .word 0xf94027b1
 .word 0xf9429231
@@ -26623,7 +26573,7 @@ bl _p_264
 .word 0xd63f0220
 .word 0xf94067a0
 .word 0xf9406ba1
-bl _p_265
+bl _p_266
 .word 0xf90063a0
 .loc 19 189 0
 .word 0xf94027b1
@@ -26632,7 +26582,7 @@ bl _p_265
 .word 0xd63f0220
 .word 0xf9405fa0
 .word 0xf94063a1
-bl _p_266
+bl _p_267
 .word 0xf90057a0
 .word 0xf94027b1
 .word 0xf942d231
@@ -26642,7 +26592,7 @@ bl _p_266
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3680]
+ldr x0, [x16, #3704]
 .word 0xd2800021
 bl _p_27
 .word 0xf90047a0
@@ -26666,8 +26616,8 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3888]
-bl _p_281
+ldr x15, [x16, #3912]
+bl _p_282
 .word 0xf90053a0
 .word 0xf94027b1
 .word 0xf9435631
@@ -26676,7 +26626,7 @@ bl _p_281
 .word 0xf94053a1
 .word 0xaa1503e0
 .word 0xf94002be
-bl _p_282
+bl _p_283
 .word 0xf9004fa0
 .word 0xf94027b1
 .word 0xf9437a31
@@ -26719,7 +26669,7 @@ IntentionJournal_AppDatabase_ClearImageBuffer:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3896]
+ldr x16, [x16, #3920]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26752,9 +26702,9 @@ ldr x16, [x16, #3896]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3904]
+ldr x15, [x16, #3928]
 .word 0xf940001e
-bl _p_283
+bl _p_284
 .word 0x93407c00
 .word 0xf90027a0
 .word 0xf94013b1
@@ -26792,7 +26742,7 @@ IntentionJournal_AppDatabase__GetEntryc__AnonStorey0__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3912]
+ldr x16, [x16, #3936]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26825,7 +26775,7 @@ IntentionJournal_AppDatabase__getTreeProgressc__AnonStorey1__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3920]
+ldr x16, [x16, #3944]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26858,7 +26808,7 @@ IntentionJournal_AppDatabase__getTempImagec__AnonStorey2__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3928]
+ldr x16, [x16, #3952]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -26894,7 +26844,7 @@ IntentionJournal_ViewEntryPage__ctor_IntentionJournal_EntryObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3936]
+ldr x16, [x16, #3960]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -26929,7 +26879,7 @@ bl _p_36
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_284
+bl _p_285
 .loc 20 26 0
 .word 0xf94013b1
 .word 0xf940b231
@@ -26957,7 +26907,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1903e0
-bl _p_285
+bl _p_286
 .loc 20 28 0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -26969,7 +26919,7 @@ bl _p_285
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1903e0
-bl _p_286
+bl _p_287
 .loc 20 29 0
 .word 0xf94013b1
 .word 0xf9414631
@@ -26997,7 +26947,7 @@ IntentionJournal_ViewEntryPage_onSaveClicked:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3944]
+ldr x16, [x16, #3968]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27039,7 +26989,7 @@ ldr x16, [x16, #3944]
 .word 0xf94047a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_147
+bl _p_146
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf940ce31
@@ -27056,7 +27006,7 @@ ldr x0, [x16, #240]
 .word 0xd63f0220
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_148
+bl _p_147
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94017b1
@@ -27084,17 +27034,17 @@ bl _p_148
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9003fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2136]
+ldr x0, [x16, #2128]
 .word 0xf90043a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90047a0
 .word 0xf94017b1
 .word 0xf9419231
@@ -27104,7 +27054,7 @@ ldr x0, [x16, #2128]
 .word 0xf9403fa1
 .word 0xf94043a2
 .word 0xf94047a3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf941b631
 .word 0xb4000051
@@ -27134,7 +27084,7 @@ bl _p_146
 .word 0xf94047a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf9422a31
@@ -27151,7 +27101,7 @@ ldr x0, [x16, #240]
 .word 0xd63f0220
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_148
+bl _p_147
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94017b1
@@ -27179,17 +27129,17 @@ bl _p_148
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9003fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3952]
+ldr x0, [x16, #3976]
 .word 0xf90043a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90047a0
 .word 0xf94017b1
 .word 0xf942ee31
@@ -27199,7 +27149,7 @@ ldr x0, [x16, #2128]
 .word 0xf9403fa1
 .word 0xf94043a2
 .word 0xf94047a3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf9431231
 .word 0xb4000051
@@ -27239,7 +27189,7 @@ bl _p_44
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_150
+bl _p_149
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf943aa31
@@ -27273,7 +27223,7 @@ bl _p_150
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2152]
+ldr x0, [x16, #2144]
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf9442231
@@ -27314,7 +27264,7 @@ bl _p_49
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_151
+bl _p_150
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf944b631
@@ -27349,7 +27299,7 @@ bl _p_151
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_147
+bl _p_146
 .word 0xf9005fa0
 .word 0xf94017b1
 .word 0xf9453a31
@@ -27359,7 +27309,7 @@ bl _p_147
 .word 0xf94063a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_154
+bl _p_153
 .loc 20 63 0
 .word 0xf94017b1
 .word 0xf9455e31
@@ -27378,7 +27328,7 @@ bl _p_154
 .word 0xf9405ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf90053a0
 .word 0xf94017b1
 .word 0xf945aa31
@@ -27388,7 +27338,7 @@ bl _p_149
 .word 0xf94057a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_155
+bl _p_154
 .loc 20 64 0
 .word 0xf94017b1
 .word 0xf945ce31
@@ -27406,7 +27356,7 @@ bl _p_155
 .word 0xaa0203e0
 .word 0xaa1903e1
 .word 0xf940005e
-bl _p_157
+bl _p_156
 .loc 20 65 0
 .word 0xf94017b1
 .word 0xf9461231
@@ -27429,7 +27379,7 @@ bl _p_44
 .word 0xf9404ba2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_287
+bl _p_288
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf9466e31
@@ -27449,7 +27399,7 @@ bl _p_44
 .word 0xf94043a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_159
+bl _p_158
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf946ba31
@@ -27467,7 +27417,7 @@ bl _p_159
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
-bl _p_106
+bl _p_104
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf946fe31
@@ -27479,7 +27429,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3960]
+ldr x15, [x16, #3984]
 .word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -27541,17 +27491,17 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9003fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #3968]
+ldr x0, [x16, #3992]
 .word 0xf90043a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90047a0
 .word 0xf94017b1
 .word 0xf9482231
@@ -27561,7 +27511,7 @@ ldr x0, [x16, #2128]
 .word 0xf9403fa1
 .word 0xf94043a2
 .word 0xf94047a3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf9484631
 .word 0xb4000051
@@ -27571,12 +27521,12 @@ bl _p_146
 .word 0xf9485631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf90033a0
 .word 0xf94033a0
 .word 0xb4000060
 .word 0xf94033a0
-bl _p_114
+bl _p_112
 .word 0x14000001
 .loc 20 78 0
 .word 0xf9401bb1
@@ -27609,7 +27559,7 @@ IntentionJournal_ViewEntryPage_onDeleteClicked:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3976]
+ldr x16, [x16, #4000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27647,7 +27597,7 @@ bl _p_44
 .word 0xf94023a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_288
+bl _p_289
 .word 0x93407c00
 .word 0xf9400fb1
 .word 0xf940c231
@@ -27664,7 +27614,7 @@ bl _p_288
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_106
+bl _p_104
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9410231
@@ -27676,7 +27626,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3960]
+ldr x15, [x16, #3984]
 .word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -27711,7 +27661,7 @@ IntentionJournal_ViewEntryPage_DeletePicture:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3984]
+ldr x16, [x16, #4008]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -27741,7 +27691,7 @@ bl _p_44
 .word 0xf9401fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_159
+bl _p_158
 .word 0x93407c00
 .word 0xf9400fb1
 .word 0xf9409e31
@@ -27764,7 +27714,7 @@ bl _p_159
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_161
+bl _p_160
 .loc 20 97 0
 .word 0xf9400fb1
 .word 0xf940f231
@@ -27792,7 +27742,7 @@ IntentionJournal_ViewEntryPage_pickGalleryImage_object_System_EventArgs:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3992]
+ldr x16, [x16, #4016]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27821,7 +27771,7 @@ bl _p_35
 .word 0xf9006fa0
 .word 0x910103a0
 .word 0xaa0003e8
-bl _p_76
+bl _p_75
 .word 0xf94017b1
 .word 0xf940a231
 .word 0xb4000051
@@ -27865,8 +27815,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #4000]
-bl _p_289
+ldr x15, [x16, #4024]
+bl _p_290
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -27893,7 +27843,7 @@ IntentionJournal_ViewEntryPage_getImageFromDB:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #4008]
+ldr x16, [x16, #4032]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -27914,10 +27864,10 @@ ldr x16, [x16, #4008]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #4016]
+ldr x0, [x16, #4040]
 bl _p_3
 .word 0xf9002fa0
-bl _p_290
+bl _p_291
 .word 0xf94017b1
 .word 0xf9408a31
 .word 0xb4000051
@@ -27943,7 +27893,7 @@ bl _p_290
 .word 0xf9402ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_291
+bl _p_292
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940f231
@@ -27973,7 +27923,7 @@ bl _p_291
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #4024]
+ldr x0, [x16, #4048]
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf9415a31
@@ -28006,7 +27956,7 @@ bl _p_49
 .word 0xaa0203e0
 .word 0xd2800001
 .word 0xf940005e
-bl _p_161
+bl _p_160
 .loc 20 145 0
 .word 0xf94017b1
 .word 0xf941d231
@@ -28059,7 +28009,7 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2584]
+ldr x0, [x16, #2608]
 bl _p_3
 .word 0xf9001019
 .word 0xf9002fa0
@@ -28069,17 +28019,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4032]
+ldr x1, [x16, #4056]
 .word 0xf9001401
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4040]
+ldr x1, [x16, #4064]
 .word 0xf9002001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4048]
+ldr x1, [x16, #4072]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -28092,7 +28042,7 @@ ldr x1, [x16, #4048]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_186
+bl _p_187
 .word 0xf90023a0
 .word 0xf94017b1
 .word 0xf9430631
@@ -28102,7 +28052,7 @@ bl _p_186
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_161
+bl _p_160
 .loc 20 153 0
 .word 0xf94017b1
 .word 0xf9432a31
@@ -28151,7 +28101,7 @@ IntentionJournal_ViewEntryPage_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #4056]
+ldr x16, [x16, #4080]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -28238,7 +28188,7 @@ bl _p_7
 .word 0xf94153a0
 .word 0xb4000100
 .word 0xf9402ba0
-bl _p_292
+bl _p_293
 .word 0xf9402fb1
 .word 0xf9419e31
 .word 0xb4000051
@@ -28260,10 +28210,10 @@ bl _p_61
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf90493a0
-bl _p_137
+bl _p_135
 .word 0xf9402fb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -28291,10 +28241,10 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf9048ba0
-bl _p_137
+bl _p_135
 .word 0xf9402fb1
 .word 0xf9426a31
 .word 0xb4000051
@@ -28307,7 +28257,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x0, [x16, #2304]
 bl _p_3
 .word 0xf90487a0
-bl _p_172
+bl _p_171
 .word 0xf9402fb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -28317,10 +28267,10 @@ bl _p_172
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf90483a0
-bl _p_137
+bl _p_135
 .word 0xf9402fb1
 .word 0xf942ca31
 .word 0xb4000051
@@ -28330,10 +28280,10 @@ bl _p_137
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #2312]
 bl _p_3
 .word 0xf9047fa0
-bl _p_63
+bl _p_172
 .word 0xf9402fb1
 .word 0xf942fa31
 .word 0xb4000051
@@ -28343,10 +28293,10 @@ bl _p_63
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9047ba0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9432a31
 .word 0xb4000051
@@ -28361,10 +28311,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf90477a0
-bl _p_90
+bl _p_88
 .word 0xf9402fb1
 .word 0xf9436a31
 .word 0xb4000051
@@ -28378,10 +28328,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf90473a0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf943aa31
 .word 0xb4000051
@@ -28391,10 +28341,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9046fa0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf943da31
 .word 0xb4000051
@@ -28404,10 +28354,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9046ba0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9440a31
 .word 0xb4000051
@@ -28417,10 +28367,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 bl _p_3
 .word 0xf90467a0
-bl _p_64
+bl _p_63
 .word 0xf9402fb1
 .word 0xf9443a31
 .word 0xb4000051
@@ -28430,10 +28380,10 @@ bl _p_64
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
 .word 0xf90463a0
-bl _p_65
+bl _p_64
 .word 0xf9402fb1
 .word 0xf9446a31
 .word 0xb4000051
@@ -28482,7 +28432,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #768]
+ldr x0, [x16, #760]
 .word 0xf9044fa0
 .word 0xaa1a03e0
 .word 0xf90453a0
@@ -28510,7 +28460,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28531,7 +28481,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #4064]
+ldr x0, [x16, #4088]
 .word 0xf9043fa0
 .word 0xaa1703e0
 .word 0xf90443a0
@@ -28559,7 +28509,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28578,9 +28528,9 @@ bl _p_22
 .word 0xaa1403e0
 .word 0xf9043ba0
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #4072]
+ldr x0, [x16, #0]
 .word 0xf9042fa0
 .word 0xaa1503e0
 .word 0xf90433a0
@@ -28608,7 +28558,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28627,9 +28577,9 @@ bl _p_22
 .word 0xaa1403e0
 .word 0xf9042ba0
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #4080]
+ldr x0, [x16, #8]
 .word 0xf9041fa0
 .word 0xf9405fa0
 .word 0xf90423a0
@@ -28657,7 +28607,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28676,9 +28626,9 @@ bl _p_22
 .word 0xaa1403e0
 .word 0xf9041ba0
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #4088]
+ldr x0, [x16, #16]
 .word 0xf9040fa0
 .word 0xf94063a0
 .word 0xf90413a0
@@ -28706,7 +28656,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28727,7 +28677,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #0]
+ldr x0, [x16, #24]
 .word 0xf903ffa0
 .word 0xf94067a0
 .word 0xf90403a0
@@ -28755,7 +28705,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28776,7 +28726,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #8]
+ldr x0, [x16, #32]
 .word 0xf903efa0
 .word 0xf9406ba0
 .word 0xf903f3a0
@@ -28804,7 +28754,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28825,7 +28775,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #16]
+ldr x0, [x16, #40]
 .word 0xf903dfa0
 .word 0xf9406fa0
 .word 0xf903e3a0
@@ -28853,7 +28803,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28874,7 +28824,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #24]
+ldr x0, [x16, #48]
 .word 0xf903cfa0
 .word 0xf94073a0
 .word 0xf903d3a0
@@ -28902,7 +28852,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -28979,16 +28929,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf9039ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf903a7a0
-bl _p_66
+bl _p_65
 .word 0xf9402fb1
 .word 0xf94c9e31
 .word 0xb4000051
@@ -28997,7 +28947,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -29012,7 +28962,7 @@ ldr x1, [x16, #808]
 .word 0xf943a3a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94cfa31
 .word 0xb4000051
@@ -29021,15 +28971,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #32]
+ldr x2, [x16, #56]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94d3631
 .word 0xb4000051
@@ -29041,7 +28991,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402fb1
 .word 0xf94d6231
 .word 0xb4000051
@@ -29230,7 +29180,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #40]
+ldr x1, [x16, #64]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -29318,7 +29268,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -29342,7 +29292,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #848]
+ldr x3, [x16, #840]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x5400bd41
@@ -29369,7 +29319,7 @@ ldr x3, [x16, #848]
 .word 0xf90047a3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_69
+bl _p_68
 .word 0xf9402fb1
 .word 0xf9523231
 .word 0xb4000051
@@ -29379,14 +29329,14 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf90327a0
 .word 0xd2800000
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94327a1
@@ -29394,7 +29344,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9528e31
 .word 0xb4000051
@@ -29403,10 +29353,10 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #48]
+ldr x1, [x16, #72]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402fb1
 .word 0xf952ba31
 .word 0xb4000051
@@ -29495,7 +29445,7 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400000
 .word 0xf90313a0
 
@@ -29631,7 +29581,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #40]
+ldr x1, [x16, #64]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -29719,7 +29669,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -29735,12 +29685,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 .word 0xf9408fa2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402fb1
 .word 0xf957a231
 .word 0xb4000051
@@ -29748,7 +29698,7 @@ bl _p_140
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf902aba0
 .word 0xf9402fb1
 .word 0xf957c631
@@ -29761,7 +29711,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -29774,10 +29724,10 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2000]
+ldr x1, [x16, #1992]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402fb1
 .word 0xf9582e31
 .word 0xb4000051
@@ -29866,7 +29816,7 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #56]
+ldr x0, [x16, #80]
 .word 0xf9400000
 .word 0xf90297a0
 
@@ -30002,7 +29952,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #40]
+ldr x1, [x16, #64]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -30090,7 +30040,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30106,12 +30056,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #56]
+ldr x0, [x16, #80]
 .word 0xf9400001
 .word 0xf9409ba2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402fb1
 .word 0xf95d1631
 .word 0xb4000051
@@ -30119,7 +30069,7 @@ bl _p_140
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9022fa0
 .word 0xf9402fb1
 .word 0xf95d3a31
@@ -30132,7 +30082,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30145,10 +30095,10 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2032]
+ldr x1, [x16, #2024]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402fb1
 .word 0xf95da231
 .word 0xb4000051
@@ -30237,7 +30187,7 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #64]
+ldr x0, [x16, #88]
 .word 0xf9400000
 .word 0xf9021ba0
 
@@ -30373,7 +30323,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #40]
+ldr x1, [x16, #64]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -30461,7 +30411,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30477,12 +30427,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #64]
+ldr x0, [x16, #88]
 .word 0xf9400001
 .word 0xf940a7a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402fb1
 .word 0xf9628a31
 .word 0xb4000051
@@ -30492,7 +30442,7 @@ bl _p_140
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #2400]
 .word 0xf9400000
 .word 0xf901aba0
 .word 0xd280001e
@@ -30503,7 +30453,7 @@ ldr x0, [x16, #920]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf941aba1
@@ -30512,7 +30462,7 @@ bl _p_3
 .word 0xfd000840
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf962fa31
 .word 0xb4000051
@@ -30520,7 +30470,7 @@ bl _p_67
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf901a7a0
 .word 0xf9402fb1
 .word 0xf9631e31
@@ -30533,7 +30483,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30546,15 +30496,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #72]
+ldr x2, [x16, #96]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9639631
 .word 0xb4000051
@@ -30569,7 +30519,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf941a3a1
 .word 0xf90197a1
@@ -30583,17 +30533,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #80]
+ldr x0, [x16, #104]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #88]
+ldr x0, [x16, #112]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #96]
+ldr x0, [x16, #120]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -30602,7 +30552,7 @@ ldr x0, [x16, #96]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf9644631
 .word 0xb4000051
@@ -30610,7 +30560,7 @@ bl _p_103
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf90193a0
 .word 0xf9402fb1
 .word 0xf9646a31
@@ -30623,7 +30573,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30635,7 +30585,7 @@ ldr x15, [x16, #912]
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9018fa0
 .word 0xf9402fb1
 .word 0xf964ca31
@@ -30648,7 +30598,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30661,15 +30611,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #104]
+ldr x2, [x16, #128]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9654231
 .word 0xb4000051
@@ -30681,7 +30631,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf9418ba1
 .word 0xf9017fa1
@@ -30695,17 +30645,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #112]
+ldr x0, [x16, #136]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #120]
+ldr x0, [x16, #144]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #128]
+ldr x0, [x16, #152]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -30714,7 +30664,7 @@ ldr x0, [x16, #128]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf965e631
 .word 0xb4000051
@@ -30722,7 +30672,7 @@ bl _p_103
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9017ba0
 .word 0xf9402fb1
 .word 0xf9660a31
@@ -30735,7 +30685,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30748,15 +30698,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #136]
+ldr x2, [x16, #160]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9668231
 .word 0xb4000051
@@ -30768,7 +30718,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf94177a1
 .word 0xf9016ba1
@@ -30782,17 +30732,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #144]
+ldr x0, [x16, #168]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #152]
+ldr x0, [x16, #176]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #160]
+ldr x0, [x16, #184]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -30801,7 +30751,7 @@ ldr x0, [x16, #160]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf9672631
 .word 0xb4000051
@@ -30809,7 +30759,7 @@ bl _p_103
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf90167a0
 .word 0xf9402fb1
 .word 0xf9674a31
@@ -30822,7 +30772,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30835,15 +30785,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #168]
+ldr x2, [x16, #192]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf967c231
 .word 0xb4000051
@@ -30855,7 +30805,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf94163a1
 .word 0xf90157a1
@@ -30869,17 +30819,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #176]
+ldr x0, [x16, #200]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #184]
+ldr x0, [x16, #208]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #192]
+ldr x0, [x16, #216]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -30888,7 +30838,7 @@ ldr x0, [x16, #192]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf9686631
 .word 0xb4000051
@@ -30896,7 +30846,7 @@ bl _p_103
 .word 0xaa1a03e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf90153a0
 .word 0xf9402fb1
 .word 0xf9688a31
@@ -30909,7 +30859,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -30922,7 +30872,7 @@ ldr x15, [x16, #912]
 .word 0xaa1a03e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf9402fb1
 .word 0xf968ea31
 .word 0xb4000051
@@ -30931,12 +30881,12 @@ bl _p_71
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xf94077a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9691e31
 .word 0xb4000051
@@ -30976,7 +30926,7 @@ IntentionJournal_ViewEntryPage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #224]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -30988,13 +30938,13 @@ ldr x16, [x16, #200]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #40]
+ldr x1, [x16, #64]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #208]
+ldr x15, [x16, #232]
 .word 0xaa1a03e0
-bl _p_293
+bl _p_294
 .word 0xf9400fb1
 .word 0xf9406a31
 .word 0xb4000051
@@ -31004,13 +30954,13 @@ bl _p_293
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #768]
+ldr x1, [x16, #760]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #968]
+ldr x15, [x16, #960]
 .word 0xaa1a03e0
-bl _p_73
+bl _p_72
 .word 0xf9005fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -31027,13 +30977,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4064]
+ldr x1, [x16, #4088]
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
+adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #216]
+ldr x15, [x16, #968]
 .word 0xaa1a03e0
-bl _p_294
+bl _p_73
 .word 0xf90057a0
 .word 0xf9400fb1
 .word 0xf940fa31
@@ -31048,13 +30998,13 @@ bl _p_35
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4072]
+ldr x1, [x16, #0]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2480]
+ldr x15, [x16, #2496]
 .word 0xaa1a03e0
 bl _p_175
 .word 0xf9004fa0
@@ -31071,15 +31021,15 @@ bl _p_35
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4080]
+ldr x1, [x16, #8]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #2504]
 .word 0xaa1a03e0
-bl _p_74
+bl _p_176
 .word 0xf90047a0
 .word 0xf9400fb1
 .word 0xf941a231
@@ -31094,15 +31044,15 @@ bl _p_35
 .word 0xaa1a03e0
 .word 0xaa1a03e0
 
-adrp x16, mono_aot_IntentionJournal_got@PAGE+0
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #4088]
+ldr x1, [x16, #16]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9003fa0
 .word 0xf9400fb1
 .word 0xf941f631
@@ -31119,13 +31069,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #0]
+ldr x1, [x16, #24]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2504]
+ldr x15, [x16, #2528]
 .word 0xaa1a03e0
-bl _p_178
+bl _p_179
 .word 0xf90037a0
 .word 0xf9400fb1
 .word 0xf9424a31
@@ -31142,13 +31092,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #8]
+ldr x1, [x16, #32]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf9429e31
@@ -31165,13 +31115,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #16]
+ldr x1, [x16, #40]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf942f231
@@ -31188,13 +31138,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #24]
+ldr x1, [x16, #48]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9434631
@@ -31232,7 +31182,7 @@ IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #240]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -31260,7 +31210,7 @@ ldr x16, [x16, #224]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #232]
+ldr x0, [x16, #248]
 .word 0x8b010000
 .word 0xf9400000
 .word 0xd61f0000
@@ -31274,7 +31224,7 @@ ldr x0, [x16, #232]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #240]
+ldr x0, [x16, #256]
 bl _p_3
 .word 0xf90073a0
 bl _p_295
@@ -31315,7 +31265,7 @@ bl _p_35
 .word 0xd2801be2
 .word 0xd2800802
 .word 0xd2801be3
-bl _p_180
+bl _p_181
 .word 0xf94017b1
 .word 0xf9416e31
 .word 0xb4000051
@@ -31325,7 +31275,7 @@ bl _p_180
 .word 0xf9417e31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_181
+bl _p_182
 .word 0xf90067a0
 .word 0xf94017b1
 .word 0xf9419631
@@ -31337,7 +31287,7 @@ bl _p_181
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2536]
+ldr x15, [x16, #2560]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -31370,17 +31320,17 @@ ldr x15, [x16, #2536]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2544]
+ldr x0, [x16, #2568]
 .word 0xf90067a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2552]
+ldr x0, [x16, #2576]
 .word 0xf9006ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf9006fa0
 .word 0xf94017b1
 .word 0xf9425a31
@@ -31390,7 +31340,7 @@ ldr x0, [x16, #2128]
 .word 0xf94067a1
 .word 0xf9406ba2
 .word 0xf9406fa3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf9427e31
 .word 0xb4000051
@@ -31412,7 +31362,7 @@ bl _p_146
 .word 0xd63f0220
 .word 0xf94013a0
 .word 0xf9006ba0
-bl _p_181
+bl _p_182
 .word 0xf90073a0
 .word 0xf94017b1
 .word 0xf942d231
@@ -31426,7 +31376,7 @@ bl _p_181
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2560]
+ldr x15, [x16, #2584]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -31441,7 +31391,7 @@ ldr x15, [x16, #2560]
 .word 0xf9004ba0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_182
+bl _p_183
 .word 0xf9404bbe
 .word 0xf90003c0
 .word 0xf94017b1
@@ -31462,8 +31412,8 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2568]
-bl _p_183
+ldr x15, [x16, #2592]
+bl _p_184
 .word 0x53001c00
 .word 0xf90063a0
 .word 0xf94017b1
@@ -31484,7 +31434,7 @@ bl _p_183
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #248]
+ldr x15, [x16, #264]
 bl _p_296
 .word 0xf94017b1
 .word 0xf943e631
@@ -31505,8 +31455,8 @@ bl _p_296
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2568]
-bl _p_185
+ldr x15, [x16, #2592]
+bl _p_186
 .word 0xf9006ba0
 .word 0xf94017b1
 .word 0xf9443a31
@@ -31560,7 +31510,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2584]
+ldr x0, [x16, #2608]
 bl _p_3
 .word 0xf94077a1
 .word 0xf90073a1
@@ -31573,17 +31523,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #256]
+ldr x1, [x16, #272]
 .word 0xf9001401
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #264]
+ldr x1, [x16, #280]
 .word 0xf9002001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #272]
+ldr x1, [x16, #288]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -31596,7 +31546,7 @@ ldr x1, [x16, #272]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9406ba0
-bl _p_186
+bl _p_187
 .word 0xf90063a0
 .word 0xf94017b1
 .word 0xf9458631
@@ -31606,7 +31556,7 @@ bl _p_186
 .word 0xf94067a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_161
+bl _p_160
 .word 0xf94017b1
 .word 0xf945aa31
 .word 0xb4000051
@@ -31624,17 +31574,17 @@ bl _p_161
 .word 0xf94013a0
 .word 0x91002000
 .word 0xf94047a1
-bl _p_112
+bl _p_110
 .word 0xf94017b1
 .word 0xf945f231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9005fa0
 .word 0xf9405fa0
 .word 0xb4000060
 .word 0xf9405fa0
-bl _p_114
+bl _p_112
 .word 0x14000016
 .loc 20 131 0
 .word 0xf9401bb1
@@ -31653,7 +31603,7 @@ bl _p_114
 .word 0xb900281e
 .word 0xf94013a0
 .word 0x91002000
-bl _p_115
+bl _p_113
 .word 0xf94017b1
 .word 0xf9466231
 .word 0xb4000051
@@ -31687,7 +31637,7 @@ IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_SetStateMachine_System
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #296]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -31698,7 +31648,7 @@ ldr x16, [x16, #280]
 .word 0xf9400ba0
 .word 0x91002000
 .word 0xf9400fa1
-bl _p_116
+bl _p_114
 .word 0xf94013b1
 .word 0xf9405631
 .word 0xb4000051
@@ -31723,7 +31673,7 @@ IntentionJournal_ViewEntryPage__pickGalleryImagec__async0__pickGalleryImagec__An
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -31759,7 +31709,7 @@ IntentionJournal_ViewEntryPage__pickGalleryImagec__async0__pickGalleryImagec__An
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #312]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -31795,7 +31745,7 @@ ldr x16, [x16, #296]
 .word 0xf94073a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_187
+bl _p_188
 .word 0xf9006fa0
 .word 0xf94023b1
 .word 0xf940c231
@@ -31811,10 +31761,10 @@ bl _p_187
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2640]
+ldr x0, [x16, #2664]
 bl _p_3
 .word 0xf9006ba0
-bl _p_188
+bl _p_189
 .word 0xf94023b1
 .word 0xf9410231
 .word 0xb4000051
@@ -31836,7 +31786,7 @@ bl _p_188
 .word 0xf94067a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_187
+bl _p_188
 .word 0xf90063a0
 .word 0xf94023b1
 .word 0xf9415a31
@@ -31852,7 +31802,7 @@ bl _p_187
 .word 0xf94063a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_189
+bl _p_190
 .loc 20 123 0
 .word 0xf94023b1
 .word 0xf9419631
@@ -31890,10 +31840,10 @@ bl _p_44
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2648]
+ldr x0, [x16, #2672]
 bl _p_3
 .word 0xf90053a0
-bl _p_190
+bl _p_191
 .word 0xf94023b1
 .word 0xf9422e31
 .word 0xb4000051
@@ -31913,7 +31863,7 @@ bl _p_190
 .word 0xaa1603e0
 .word 0xd2800021
 .word 0xf94002de
-bl _p_191
+bl _p_192
 .word 0xf94023b1
 .word 0xf9427e31
 .word 0xb4000051
@@ -31930,7 +31880,7 @@ bl _p_191
 .word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_192
+bl _p_193
 .word 0xf94023b1
 .word 0xf942c231
 .word 0xb4000051
@@ -31945,7 +31895,7 @@ bl _p_192
 .word 0xf94047a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_193
+bl _p_194
 .word 0x93407c00
 .word 0xf94023b1
 .word 0xf9430231
@@ -31966,8 +31916,8 @@ bl _p_193
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2656]
-bl _p_194
+ldr x15, [x16, #2680]
+bl _p_195
 .word 0x93407c00
 .word 0xf9003ba0
 .word 0xf94023b1
@@ -31987,7 +31937,7 @@ bl _p_3
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
-bl _p_167
+bl _p_166
 .loc 20 127 0
 .word 0xf94023b1
 .word 0xf9439a31
@@ -32003,7 +31953,7 @@ bl _p_167
 .word 0xf94033a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_195
+bl _p_196
 .loc 20 128 0
 .word 0xf94023b1
 .word 0xf943d631
@@ -32041,7 +31991,7 @@ IntentionJournal_ViewEntryPage__getImageFromDBc__AnonStorey2__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32075,7 +32025,7 @@ IntentionJournal_ViewEntryPage__getImageFromDBc__AnonStorey2__m__0:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #328]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32102,7 +32052,7 @@ ldr x16, [x16, #312]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2640]
+ldr x0, [x16, #2664]
 bl _p_3
 .word 0xf94027a1
 .word 0xf90023a0
@@ -32135,7 +32085,7 @@ IntentionJournal_TreeProgress__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32170,7 +32120,7 @@ IntentionJournal_TreeProgress_get_progressID:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #344]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32213,7 +32163,7 @@ IntentionJournal_TreeProgress_set_progressID_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #352]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32252,7 +32202,7 @@ IntentionJournal_TreeProgress_get_currentTreeScale:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #344]
+ldr x16, [x16, #360]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -32295,7 +32245,7 @@ IntentionJournal_TreeProgress_set_currentTreeScale_double:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #352]
+ldr x16, [x16, #368]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32337,7 +32287,7 @@ IntentionJournal_TreeGrowing__ctor_double:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #360]
+ldr x16, [x16, #376]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32413,7 +32363,7 @@ bl _p_299
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #368]
+ldr x0, [x16, #384]
 .word 0xf90043a0
 .word 0xf94017b1
 .word 0xf9414a31
@@ -32447,17 +32397,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #376]
+ldr x1, [x16, #392]
 .word 0xf9001401
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #384]
+ldr x1, [x16, #400]
 .word 0xf9002001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #392]
+ldr x1, [x16, #408]
 .word 0xf9401422
 .word 0xf9000c02
 .word 0xf9401021
@@ -32472,7 +32422,7 @@ ldr x1, [x16, #392]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #400]
+ldr x0, [x16, #416]
 bl _p_3
 .word 0xf9403ba1
 .word 0xf90033a0
@@ -32517,7 +32467,7 @@ ldr x15, [x16, #640]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #408]
+ldr x0, [x16, #424]
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf942c231
@@ -32571,7 +32521,7 @@ IntentionJournal_TreeGrowing_OnAppearing:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #416]
+ldr x16, [x16, #432]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32609,7 +32559,7 @@ bl _p_44
 .word 0xaa0203e0
 .word 0xd2800021
 .word 0xf940005e
-bl _p_162
+bl _p_161
 .word 0xf90027a0
 .word 0xf94017b1
 .word 0xf940c631
@@ -32639,7 +32589,7 @@ bl _p_162
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2680]
+ldr x0, [x16, #2704]
 .word 0xf90033a0
 .word 0xf94017b1
 .word 0xf9412e31
@@ -32679,10 +32629,10 @@ bl _p_44
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2200]
+ldr x0, [x16, #2192]
 bl _p_3
 .word 0xf9002fa0
-bl _p_163
+bl _p_162
 .word 0xf94017b1
 .word 0xf941ca31
 .word 0xb4000051
@@ -32702,7 +32652,7 @@ bl _p_163
 .word 0xaa1803e0
 .word 0xd2800021
 .word 0xf940031e
-bl _p_164
+bl _p_163
 .word 0xf94017b1
 .word 0xf9421a31
 .word 0xb4000051
@@ -32722,7 +32672,7 @@ bl _p_164
 .word 0xf2e7fe1e
 .word 0x9e6703c0
 .word 0xf940003e
-bl _p_165
+bl _p_164
 .word 0xf94017b1
 .word 0xf9426a31
 .word 0xb4000051
@@ -32737,7 +32687,7 @@ bl _p_165
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_199
+bl _p_200
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf942aa31
@@ -32762,7 +32712,7 @@ bl _p_199
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #424]
+ldr x0, [x16, #440]
 .word 0xf9002ba0
 .word 0xaa1903e0
 .word 0xf94017b1
@@ -32771,7 +32721,7 @@ ldr x0, [x16, #424]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_166
+bl _p_165
 .word 0xfd003ba0
 .word 0xf94017b1
 .word 0xf9432231
@@ -32780,7 +32730,7 @@ bl _p_166
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e1
 .word 0xf9402ba0
@@ -32807,7 +32757,7 @@ bl _p_49
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xf940033e
-bl _p_166
+bl _p_165
 .word 0xfd0037a0
 .word 0xf94017b1
 .word 0xf943aa31
@@ -32865,7 +32815,7 @@ IntentionJournal_TreeGrowing_ReloadTree_double:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #448]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -32927,7 +32877,7 @@ IntentionJournal_TreeGrowing_GrowTree_double:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #440]
+ldr x16, [x16, #456]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -32980,7 +32930,7 @@ bl _p_306
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #448]
+ldr x0, [x16, #464]
 .word 0xf90037a0
 .word 0xf94017b1
 .word 0xf940fa31
@@ -33002,10 +32952,10 @@ bl _p_44
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2200]
+ldr x0, [x16, #2192]
 bl _p_3
 .word 0xf90033a0
-bl _p_163
+bl _p_162
 .word 0xf94017b1
 .word 0xf9415231
 .word 0xb4000051
@@ -33025,7 +32975,7 @@ bl _p_163
 .word 0xaa1903e0
 .word 0xd2800021
 .word 0xf940033e
-bl _p_164
+bl _p_163
 .word 0xf94017b1
 .word 0xf941a231
 .word 0xb4000051
@@ -33042,7 +32992,7 @@ bl _p_164
 .word 0xfd402fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_165
+bl _p_164
 .word 0xf94017b1
 .word 0xf941e631
 .word 0xb4000051
@@ -33057,7 +33007,7 @@ bl _p_165
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_199
+bl _p_200
 .word 0x93407c00
 .word 0xf94017b1
 .word 0xf9422631
@@ -33098,7 +33048,7 @@ IntentionJournal_TreeGrowing_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #456]
+ldr x16, [x16, #472]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -33188,10 +33138,10 @@ bl _p_61
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1136]
+ldr x0, [x16, #1128]
 bl _p_3
 .word 0xf90147a0
-bl _p_90
+bl _p_88
 .word 0xf9402bb1
 .word 0xf941ae31
 .word 0xb4000051
@@ -33201,10 +33151,10 @@ bl _p_90
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2712]
+ldr x0, [x16, #2736]
 bl _p_3
 .word 0xf90143a0
-bl _p_205
+bl _p_206
 .word 0xf9402bb1
 .word 0xf941de31
 .word 0xb4000051
@@ -33254,7 +33204,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2352]
+ldr x0, [x16, #2360]
 .word 0xf9012fa0
 .word 0xaa1803e0
 .word 0xf90133a0
@@ -33282,7 +33232,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -33302,15 +33252,15 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #464]
+ldr x2, [x16, #480]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9436e31
 .word 0xb4000051
@@ -33322,7 +33272,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402bb1
 .word 0xf9439a31
 .word 0xb4000051
@@ -33513,7 +33463,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #472]
+ldr x1, [x16, #488]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -33601,7 +33551,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -33625,7 +33575,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #848]
+ldr x2, [x16, #840]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54002061
@@ -33652,7 +33602,7 @@ ldr x2, [x16, #848]
 .word 0xf90053a2
 .word 0xaa0103e2
 .word 0xf940035e
-bl _p_69
+bl _p_68
 .word 0xf9402bb1
 .word 0xf9487231
 .word 0xb4000051
@@ -33661,15 +33611,15 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2728]
+ldr x0, [x16, #2752]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #480]
+ldr x2, [x16, #496]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf948ae31
 .word 0xb4000051
@@ -33679,20 +33629,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xf9400000
 .word 0xf900b7a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0x910203a1
 .word 0xb9800000
 .word 0xb90083a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf940b7a1
@@ -33703,7 +33653,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9492a31
 .word 0xb4000051
@@ -33713,20 +33663,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf900afa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1024]
+ldr x0, [x16, #1016]
 .word 0x9101e3a1
 .word 0xb9800000
 .word 0xb9007ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf940afa1
@@ -33737,7 +33687,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf949a631
 .word 0xb4000051
@@ -33747,16 +33697,16 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1256]
+ldr x0, [x16, #1248]
 .word 0xf9400000
 .word 0xf9009fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1264]
+ldr x0, [x16, #1256]
 bl _p_3
 .word 0xf900aba0
-bl _p_98
+bl _p_96
 .word 0xf9402bb1
 .word 0xf949ea31
 .word 0xb4000051
@@ -33765,10 +33715,10 @@ bl _p_98
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2752]
+ldr x1, [x16, #2776]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_99
+bl _p_97
 .word 0xf900a3a0
 .word 0xf9402bb1
 .word 0xf94a1a31
@@ -33779,7 +33729,7 @@ bl _p_99
 .word 0xf940a7a3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94a4231
 .word 0xb4000051
@@ -33789,20 +33739,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf90097a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #896]
+ldr x0, [x16, #888]
 .word 0x9101c3a1
 .word 0xb9800000
 .word 0xb90073a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf94097a1
@@ -33813,7 +33763,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94abe31
 .word 0xb4000051
@@ -33823,20 +33773,20 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1200]
+ldr x0, [x16, #1192]
 .word 0xf9400000
 .word 0xf9008fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2744]
+ldr x0, [x16, #2768]
 .word 0x9101a3a1
 .word 0xb9800000
 .word 0xb9006ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #896]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf9408fa1
@@ -33847,7 +33797,7 @@ bl _p_3
 .word 0xb9000004
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94b3a31
 .word 0xb4000051
@@ -33855,7 +33805,7 @@ bl _p_67
 .word 0xaa1703e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_206
+bl _p_207
 .word 0xf9008ba0
 .word 0xf9402bb1
 .word 0xf94b5e31
@@ -33868,7 +33818,7 @@ bl _p_206
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -33881,12 +33831,12 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1703e2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94bce31
 .word 0xb4000051
@@ -33922,7 +33872,7 @@ IntentionJournal_TreeGrowing__TreeGrowingm__0:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #488]
+ldr x16, [x16, #504]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33945,7 +33895,7 @@ ldr x16, [x16, #488]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9401fa0
-bl _p_106
+bl _p_104
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9408631
@@ -33957,7 +33907,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #496]
+ldr x15, [x16, #512]
 .word 0x92800ff0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -33987,7 +33937,7 @@ IntentionJournal_TreeGrowing___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #504]
+ldr x16, [x16, #520]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -33999,11 +33949,11 @@ ldr x16, [x16, #504]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #472]
+ldr x1, [x16, #488]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #512]
+ldr x15, [x16, #528]
 .word 0xaa1a03e0
 bl _p_308
 .word 0xf9400fb1
@@ -34015,13 +33965,13 @@ bl _p_308
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2352]
+ldr x1, [x16, #2360]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2504]
+ldr x15, [x16, #2528]
 .word 0xaa1a03e0
-bl _p_178
+bl _p_179
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -34054,7 +34004,7 @@ IntentionJournal_QuoteObject__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #520]
+ldr x16, [x16, #536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34089,7 +34039,7 @@ IntentionJournal_QuoteObject_get_quoteID:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #528]
+ldr x16, [x16, #544]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34132,7 +34082,7 @@ IntentionJournal_QuoteObject_set_quoteID_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #536]
+ldr x16, [x16, #552]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34172,7 +34122,7 @@ IntentionJournal_QuoteObject_get_quoteString:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #544]
+ldr x16, [x16, #560]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34215,7 +34165,7 @@ IntentionJournal_QuoteObject_set_quoteString_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #552]
+ldr x16, [x16, #568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -34260,7 +34210,7 @@ IntentionJournal_AddQuotePage__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #560]
+ldr x16, [x16, #576]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -34317,7 +34267,7 @@ ldr x0, [x16, #240]
 .word 0xf9401fa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_59
+bl _p_142
 .loc 26 23 0
 .word 0xf9400fb1
 .word 0xf940fe31
@@ -34345,7 +34295,7 @@ IntentionJournal_AddQuotePage_SaveQuoteToDB:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #568]
+ldr x16, [x16, #584]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -34387,7 +34337,7 @@ ldr x16, [x16, #568]
 .word 0xf94047a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf9003fa0
 .word 0xf94017b1
 .word 0xf940ce31
@@ -34404,7 +34354,7 @@ ldr x0, [x16, #240]
 .word 0xd63f0220
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_148
+bl _p_147
 .word 0x53001c00
 .word 0xf9003ba0
 .word 0xf94017b1
@@ -34432,17 +34382,17 @@ bl _p_148
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9003fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #592]
 .word 0xf90043a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90047a0
 .word 0xf94017b1
 .word 0xf9419231
@@ -34452,7 +34402,7 @@ ldr x0, [x16, #2128]
 .word 0xf9403fa1
 .word 0xf94043a2
 .word 0xf94047a3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf941b631
 .word 0xb4000051
@@ -34480,7 +34430,7 @@ bl _p_146
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #584]
+ldr x0, [x16, #600]
 bl _p_3
 .word 0xf90057a0
 bl _p_310
@@ -34507,7 +34457,7 @@ bl _p_310
 .word 0xf94053a1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf9004ba0
 .word 0xf94017b1
 .word 0xf9428231
@@ -34563,7 +34513,7 @@ bl _p_312
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9403fa0
-bl _p_106
+bl _p_104
 .word 0xf9003ba0
 .word 0xf94017b1
 .word 0xf9435a31
@@ -34575,7 +34525,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3960]
+ldr x15, [x16, #3984]
 .word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -34619,7 +34569,7 @@ ldr x15, [x16, #3960]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #608]
 .word 0xf9004ba0
 .word 0xf94017b1
 .word 0xf9441e31
@@ -34637,17 +34587,17 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf9003fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #592]
 .word 0xf90043a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf90047a0
 .word 0xf94017b1
 .word 0xf9447e31
@@ -34657,7 +34607,7 @@ ldr x0, [x16, #2128]
 .word 0xf9403fa1
 .word 0xf94043a2
 .word 0xf94047a3
-bl _p_146
+bl _p_145
 .word 0xf94017b1
 .word 0xf944a231
 .word 0xb4000051
@@ -34667,12 +34617,12 @@ bl _p_146
 .word 0xf944b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf90033a0
 .word 0xf94033a0
 .word 0xb4000060
 .word 0xf94033a0
-bl _p_114
+bl _p_112
 .word 0x14000001
 .loc 26 53 0
 .word 0xf9401bb1
@@ -34713,7 +34663,7 @@ IntentionJournal_AddQuotePage_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #600]
+ldr x16, [x16, #616]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -34818,10 +34768,10 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #2312]
 bl _p_3
 .word 0xf9016fa0
-bl _p_63
+bl _p_172
 .word 0xf9402fb1
 .word 0xf941e631
 .word 0xb4000051
@@ -34836,10 +34786,10 @@ bl _p_63
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9016ba0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9422631
 .word 0xb4000051
@@ -34849,10 +34799,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 bl _p_3
 .word 0xf90167a0
-bl _p_64
+bl _p_63
 .word 0xf9402fb1
 .word 0xf9425631
 .word 0xb4000051
@@ -34862,10 +34812,10 @@ bl _p_64
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
 .word 0xf90163a0
-bl _p_65
+bl _p_64
 .word 0xf9402fb1
 .word 0xf9428631
 .word 0xb4000051
@@ -34928,7 +34878,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #608]
+ldr x0, [x16, #624]
 .word 0xf9014fa0
 .word 0xaa1703e0
 .word 0xf90153a0
@@ -34956,7 +34906,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -34977,7 +34927,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #632]
 .word 0xf9013fa0
 .word 0xaa1603e0
 .word 0xf90143a0
@@ -35005,7 +34955,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -35033,16 +34983,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf90127a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf90133a0
-bl _p_66
+bl _p_65
 .word 0xf9402fb1
 .word 0xf9452631
 .word 0xb4000051
@@ -35051,7 +35001,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -35066,7 +35016,7 @@ ldr x1, [x16, #808]
 .word 0xf9412fa3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9458231
 .word 0xb4000051
@@ -35075,15 +35025,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #624]
+ldr x2, [x16, #640]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf945be31
 .word 0xb4000051
@@ -35095,7 +35045,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402fb1
 .word 0xf945ea31
 .word 0xb4000051
@@ -35284,7 +35234,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #632]
+ldr x1, [x16, #648]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -35372,7 +35322,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -35396,7 +35346,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #848]
+ldr x3, [x16, #840]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x54002081
@@ -35423,7 +35373,7 @@ ldr x3, [x16, #848]
 .word 0xf90047a3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_69
+bl _p_68
 .word 0xf9402fb1
 .word 0xf94aba31
 .word 0xb4000051
@@ -35433,14 +35383,14 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf900b3a0
 .word 0xd2800000
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf940b3a1
@@ -35448,7 +35398,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94b1631
 .word 0xb4000051
@@ -35457,15 +35407,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #640]
+ldr x2, [x16, #656]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94b5231
 .word 0xb4000051
@@ -35473,7 +35423,7 @@ bl _p_67
 .word 0xaa1503e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900afa0
 .word 0xf9402fb1
 .word 0xf94b7631
@@ -35486,7 +35436,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -35500,7 +35450,7 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #2400]
 .word 0xf9400000
 .word 0xf900a3a0
 .word 0xd280001e
@@ -35511,7 +35461,7 @@ ldr x0, [x16, #920]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf940a3a1
@@ -35520,7 +35470,7 @@ bl _p_3
 .word 0xfd000840
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94c2231
 .word 0xb4000051
@@ -35528,7 +35478,7 @@ bl _p_67
 .word 0xaa1503e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9009fa0
 .word 0xf9402fb1
 .word 0xf94c4631
@@ -35541,7 +35491,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -35554,15 +35504,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #648]
+ldr x2, [x16, #664]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94cbe31
 .word 0xb4000051
@@ -35574,7 +35524,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf9409ba1
 .word 0xf9008fa1
@@ -35588,17 +35538,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #656]
+ldr x0, [x16, #672]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #664]
+ldr x0, [x16, #680]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #672]
+ldr x0, [x16, #688]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -35607,7 +35557,7 @@ ldr x0, [x16, #672]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf94d6231
 .word 0xb4000051
@@ -35615,7 +35565,7 @@ bl _p_103
 .word 0xaa1503e1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9008ba0
 .word 0xf9402fb1
 .word 0xf94d8631
@@ -35628,7 +35578,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -35641,7 +35591,7 @@ ldr x15, [x16, #912]
 .word 0xaa1503e1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf9402fb1
 .word 0xf94de631
 .word 0xb4000051
@@ -35650,12 +35600,12 @@ bl _p_71
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1403e2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94e1a31
 .word 0xb4000051
@@ -35692,7 +35642,7 @@ IntentionJournal_AddQuotePage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #680]
+ldr x16, [x16, #696]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35704,11 +35654,11 @@ ldr x16, [x16, #680]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #632]
+ldr x1, [x16, #648]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #688]
+ldr x15, [x16, #704]
 .word 0xaa1a03e0
 bl _p_314
 .word 0xf9400fb1
@@ -35720,13 +35670,13 @@ bl _p_314
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #608]
+ldr x1, [x16, #624]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #2504]
 .word 0xaa1a03e0
-bl _p_74
+bl _p_176
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -35743,13 +35693,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #616]
+ldr x1, [x16, #632]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940fa31
@@ -35784,7 +35734,7 @@ IntentionJournal_BrowseQuotesPage__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #696]
+ldr x16, [x16, #712]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -35847,7 +35797,7 @@ IntentionJournal_BrowseQuotesPage_OnAppearing:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #704]
+ldr x16, [x16, #720]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -35905,7 +35855,7 @@ bl _p_45
 .word 0xf94027a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_124
+bl _p_122
 .loc 28 25 0
 .word 0xf94013b1
 .word 0xf9410a31
@@ -35948,7 +35898,7 @@ IntentionJournal_BrowseQuotesPage_QuoteSelected_object_Xamarin_Forms_SelectedIte
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #712]
+ldr x16, [x16, #728]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -35977,7 +35927,7 @@ ldr x16, [x16, #712]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_126
+bl _p_124
 .word 0xf9002ba0
 .word 0xf9401fb1
 .word 0xf940aa31
@@ -36008,7 +35958,7 @@ bl _p_126
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_126
+bl _p_124
 .word 0xaa0003f7
 .word 0xf9401fb1
 .word 0xf9411a31
@@ -36022,7 +35972,7 @@ bl _p_126
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #720]
+ldr x1, [x16, #736]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000861
@@ -36039,7 +35989,7 @@ ldr x1, [x16, #720]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a0
-bl _p_106
+bl _p_104
 .word 0xf9002fa0
 .word 0xf9401fb1
 .word 0xf9418e31
@@ -36053,7 +36003,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #744]
 bl _p_3
 .word 0xf9002ba0
 .word 0xaa1703e1
@@ -36069,7 +36019,7 @@ bl _p_316
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1528]
+ldr x15, [x16, #1520]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -36121,7 +36071,7 @@ IntentionJournal_BrowseQuotesPage_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #736]
+ldr x16, [x16, #752]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -36215,10 +36165,10 @@ bl _p_61
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2888]
 bl _p_3
 .word 0xf90177a0
-bl _p_214
+bl _p_215
 .word 0xf9402bb1
 .word 0xf941be31
 .word 0xb4000051
@@ -36228,10 +36178,10 @@ bl _p_214
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1824]
+ldr x0, [x16, #1816]
 bl _p_3
 .word 0xf90173a0
-bl _p_131
+bl _p_129
 .word 0xf9402bb1
 .word 0xf941ee31
 .word 0xb4000051
@@ -36241,10 +36191,10 @@ bl _p_131
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1832]
+ldr x0, [x16, #1824]
 bl _p_3
 .word 0xf9016fa0
-bl _p_132
+bl _p_130
 .word 0xf9402bb1
 .word 0xf9421e31
 .word 0xb4000051
@@ -36287,7 +36237,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #760]
 .word 0xf9015ba0
 .word 0xaa1603e0
 .word 0xf9015fa0
@@ -36315,7 +36265,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -36356,16 +36306,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf90147a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf9014fa0
-bl _p_66
+bl _p_65
 .word 0xf9402bb1
 .word 0xf943e631
 .word 0xb4000051
@@ -36374,7 +36324,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -36388,7 +36338,7 @@ ldr x1, [x16, #808]
 .word 0xf9414ba2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9443e31
 .word 0xb4000051
@@ -36397,15 +36347,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #752]
+ldr x2, [x16, #768]
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9447a31
 .word 0xb4000051
@@ -36417,7 +36367,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402bb1
 .word 0xf944a631
 .word 0xb4000051
@@ -36607,7 +36557,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #760]
+ldr x1, [x16, #776]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -36695,7 +36645,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -36719,7 +36669,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #848]
+ldr x2, [x16, #840]
 .word 0xeb02003f
 .word 0x10000011
 .word 0x54001e01
@@ -36746,7 +36696,7 @@ ldr x2, [x16, #848]
 .word 0xf90043a2
 .word 0xaa0103e2
 .word 0xf940035e
-bl _p_69
+bl _p_68
 .word 0xf9402bb1
 .word 0xf9497a31
 .word 0xb4000051
@@ -36760,7 +36710,7 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1864]
+ldr x0, [x16, #1856]
 bl _p_3
 .word 0xf900101a
 .word 0xf900d3a0
@@ -36771,17 +36721,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #768]
+ldr x0, [x16, #784]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #776]
+ldr x0, [x16, #792]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #784]
+ldr x0, [x16, #800]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -36790,7 +36740,7 @@ ldr x0, [x16, #784]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_133
+bl _p_131
 .word 0xf9402bb1
 .word 0xf94a1a31
 .word 0xb4000051
@@ -36800,7 +36750,7 @@ bl _p_133
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #808]
 bl _p_3
 .word 0xf900cfa0
 bl _p_318
@@ -36884,7 +36834,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1904]
+ldr x0, [x16, #1896]
 bl _p_3
 .word 0xf940afa1
 .word 0xf900a3a1
@@ -36898,17 +36848,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #816]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #808]
+ldr x0, [x16, #824]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #832]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -36920,7 +36870,7 @@ ldr x0, [x16, #816]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1936]
+ldr x15, [x16, #1928]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -36933,12 +36883,12 @@ ldr x15, [x16, #1936]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1944]
+ldr x0, [x16, #1936]
 .word 0xf9400001
 .word 0xaa1703e2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94c4a31
 .word 0xb4000051
@@ -36947,12 +36897,12 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1603e2
 .word 0xaa1a03e0
 .word 0xf940035e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf94c7e31
 .word 0xb4000051
@@ -36992,7 +36942,7 @@ IntentionJournal_BrowseQuotesPage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #840]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37004,11 +36954,11 @@ ldr x16, [x16, #824]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #760]
+ldr x1, [x16, #776]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #832]
+ldr x15, [x16, #848]
 .word 0xaa1a03e0
 bl _p_319
 .word 0xf9400fb1
@@ -37020,13 +36970,13 @@ bl _p_319
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #744]
+ldr x1, [x16, #760]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1968]
+ldr x15, [x16, #1960]
 .word 0xaa1a03e0
-bl _p_136
+bl _p_134
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -37050,8 +37000,8 @@ bl _p_35
 Lme_92:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor
-IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor:
+	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor
+IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor:
 .loc 3 1 0
 .word 0xa9bd7bfd
 .word 0x910003fd
@@ -37059,7 +37009,7 @@ IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #856]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37083,8 +37033,8 @@ ldr x16, [x16, #840]
 Lme_93:
 .text
 	.align 4
-	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate
-IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate:
+	.no_dead_strip IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate
+IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate:
 .loc 3 1 0
 .word 0xa9a17bfd
 .word 0x910003fd
@@ -37096,7 +37046,7 @@ IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #864]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -37113,10 +37063,10 @@ ldr x16, [x16, #848]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf900f7a0
-bl _p_137
+bl _p_135
 .word 0xf9402bb1
 .word 0xf9408231
 .word 0xb4000051
@@ -37126,10 +37076,10 @@ bl _p_137
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2864]
+ldr x0, [x16, #2888]
 bl _p_3
 .word 0xf900f3a0
-bl _p_214
+bl _p_215
 .word 0xf9402bb1
 .word 0xf940b231
 .word 0xb4000051
@@ -37161,10 +37111,10 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #856]
+ldr x1, [x16, #872]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402bb1
 .word 0xf9413631
 .word 0xb4000051
@@ -37214,7 +37164,7 @@ bl _p_27
 .word 0xd2800001
 .word 0xaa1503e2
 .word 0xd2800023
-bl _p_139
+bl _p_137
 .word 0xf9402bb1
 .word 0xf941f231
 .word 0xb4000051
@@ -37234,7 +37184,7 @@ bl _p_139
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400000
 .word 0xf900e7a0
 
@@ -37370,7 +37320,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #864]
+ldr x1, [x16, #880]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -37458,7 +37408,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -37474,12 +37424,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2008]
+ldr x0, [x16, #2000]
 .word 0xf9400001
 .word 0xaa0203e0
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402bb1
 .word 0xf945d231
 .word 0xb4000051
@@ -37489,7 +37439,7 @@ bl _p_140
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2064]
+ldr x0, [x16, #2056]
 .word 0xf9400000
 .word 0xf9007ba0
 
@@ -37525,7 +37475,7 @@ bl _p_3
 .word 0xf9000c04
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9467e31
 .word 0xb4000051
@@ -37535,7 +37485,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2072]
+ldr x0, [x16, #2064]
 .word 0xf9400000
 .word 0xf90073a0
 
@@ -37571,7 +37521,7 @@ bl _p_3
 .word 0xf9000c04
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402bb1
 .word 0xf9472a31
 .word 0xb4000051
@@ -37604,7 +37554,7 @@ IntentionJournal_ViewQuotePage__ctor_IntentionJournal_QuoteObject:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #888]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -37667,7 +37617,7 @@ bl _p_35
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1903e0
-bl _p_285
+bl _p_286
 .loc 30 24 0
 .word 0xf94013b1
 .word 0xf9411a31
@@ -37694,7 +37644,7 @@ IntentionJournal_ViewQuotePage_UpdateQuoteToDB:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #880]
+ldr x16, [x16, #896]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -37734,7 +37684,7 @@ ldr x16, [x16, #880]
 .word 0xf9403fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf90037a0
 .word 0xf9400fb1
 .word 0xf940c231
@@ -37751,7 +37701,7 @@ ldr x0, [x16, #240]
 .word 0xd63f0220
 .word 0xf94037a0
 .word 0xf9403ba1
-bl _p_148
+bl _p_147
 .word 0x53001c00
 .word 0xf90033a0
 .word 0xf9400fb1
@@ -37779,17 +37729,17 @@ bl _p_148
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf90037a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #592]
 .word 0xf9003ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf9003fa0
 .word 0xf9400fb1
 .word 0xf9418631
@@ -37799,7 +37749,7 @@ ldr x0, [x16, #2128]
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xf9403fa3
-bl _p_146
+bl _p_145
 .word 0xf9400fb1
 .word 0xf941aa31
 .word 0xb4000051
@@ -37837,7 +37787,7 @@ bl _p_146
 .word 0xf9404ba1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_149
+bl _p_148
 .word 0xf90043a0
 .word 0xf9400fb1
 .word 0xf9423a31
@@ -37888,7 +37838,7 @@ bl _p_321
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94037a0
-bl _p_106
+bl _p_104
 .word 0xf90033a0
 .word 0xf9400fb1
 .word 0xf942fe31
@@ -37900,7 +37850,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3960]
+ldr x15, [x16, #3984]
 .word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -37944,7 +37894,7 @@ ldr x15, [x16, #3960]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #592]
+ldr x0, [x16, #608]
 .word 0xf90043a0
 .word 0xf9400fb1
 .word 0xf943c231
@@ -37962,17 +37912,17 @@ bl _p_49
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2112]
+ldr x0, [x16, #2104]
 .word 0xf90037a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #576]
+ldr x0, [x16, #592]
 .word 0xf9003ba0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2128]
+ldr x0, [x16, #2120]
 .word 0xf9003fa0
 .word 0xf9400fb1
 .word 0xf9442231
@@ -37982,7 +37932,7 @@ ldr x0, [x16, #2128]
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xf9403fa3
-bl _p_146
+bl _p_145
 .word 0xf9400fb1
 .word 0xf9444631
 .word 0xb4000051
@@ -37992,12 +37942,12 @@ bl _p_146
 .word 0xf9445631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf9002ba0
 .word 0xf9402ba0
 .word 0xb4000060
 .word 0xf9402ba0
-bl _p_114
+bl _p_112
 .word 0x14000001
 .loc 30 54 0
 .word 0xf94013b1
@@ -38029,7 +37979,7 @@ IntentionJournal_ViewQuotePage_DeleteQuoteFromDB:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #888]
+ldr x16, [x16, #904]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -38084,7 +38034,7 @@ bl _p_322
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_106
+bl _p_104
 .word 0xf9001ba0
 .word 0xf9400fb1
 .word 0xf9410231
@@ -38096,7 +38046,7 @@ bl _p_106
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #3960]
+ldr x15, [x16, #3984]
 .word 0x928005f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -38140,7 +38090,7 @@ IntentionJournal_ViewQuotePage_InitializeComponent:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #912]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -38250,10 +38200,10 @@ bl _p_62
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1992]
+ldr x0, [x16, #1984]
 bl _p_3
 .word 0xf90257a0
-bl _p_137
+bl _p_135
 .word 0xf9402fb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -38268,10 +38218,10 @@ bl _p_137
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #2312]
 bl _p_3
 .word 0xf90253a0
-bl _p_63
+bl _p_172
 .word 0xf9402fb1
 .word 0xf9423a31
 .word 0xb4000051
@@ -38281,10 +38231,10 @@ bl _p_63
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9024fa0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9426a31
 .word 0xb4000051
@@ -38294,10 +38244,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1152]
+ldr x0, [x16, #1144]
 bl _p_3
 .word 0xf9024ba0
-bl _p_92
+bl _p_90
 .word 0xf9402fb1
 .word 0xf9429a31
 .word 0xb4000051
@@ -38307,10 +38257,10 @@ bl _p_92
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #744]
 bl _p_3
 .word 0xf90247a0
-bl _p_64
+bl _p_63
 .word 0xf9402fb1
 .word 0xf942ca31
 .word 0xb4000051
@@ -38320,10 +38270,10 @@ bl _p_64
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #752]
 bl _p_3
 .word 0xf90243a0
-bl _p_65
+bl _p_64
 .word 0xf9402fb1
 .word 0xf942fa31
 .word 0xb4000051
@@ -38386,7 +38336,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #904]
+ldr x0, [x16, #920]
 .word 0xf9022fa0
 .word 0xaa1603e0
 .word 0xf90233a0
@@ -38414,7 +38364,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -38435,7 +38385,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #616]
+ldr x0, [x16, #632]
 .word 0xf9021fa0
 .word 0xaa1503e0
 .word 0xf90223a0
@@ -38463,7 +38413,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -38484,7 +38434,7 @@ bl _p_22
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #912]
+ldr x0, [x16, #928]
 .word 0xf9020fa0
 .word 0xf9405ba0
 .word 0xf90213a0
@@ -38512,7 +38462,7 @@ bl _p_17
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #776]
+ldr x15, [x16, #768]
 .word 0x928007f0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -38547,16 +38497,16 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #792]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xf901f3a0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #800]
+ldr x0, [x16, #792]
 bl _p_3
 .word 0xf901ffa0
-bl _p_66
+bl _p_65
 .word 0xf9402fb1
 .word 0xf9466e31
 .word 0xb4000051
@@ -38565,7 +38515,7 @@ bl _p_66
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #808]
+ldr x1, [x16, #800]
 .word 0xaa0203e0
 .word 0xf9400042
 .word 0xf9402c50
@@ -38580,7 +38530,7 @@ ldr x1, [x16, #808]
 .word 0xf941fba3
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf946ca31
 .word 0xb4000051
@@ -38589,15 +38539,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #816]
+ldr x0, [x16, #808]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #920]
+ldr x2, [x16, #936]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9470631
 .word 0xb4000051
@@ -38609,7 +38559,7 @@ add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x1, [x16, #376]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_68
+bl _p_67
 .word 0xf9402fb1
 .word 0xf9473231
 .word 0xb4000051
@@ -38798,7 +38748,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #928]
+ldr x1, [x16, #944]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -38886,7 +38836,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #840]
+ldr x15, [x16, #832]
 .word 0x928008f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -38910,7 +38860,7 @@ ldr x15, [x16, #840]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x3, [x16, #848]
+ldr x3, [x16, #840]
 .word 0xeb03003f
 .word 0x10000011
 .word 0x54005321
@@ -38937,7 +38887,7 @@ ldr x3, [x16, #848]
 .word 0xf90047a3
 .word 0xaa0103e3
 .word 0xf940005e
-bl _p_69
+bl _p_68
 .word 0xf9402fb1
 .word 0xf94c0231
 .word 0xb4000051
@@ -38947,14 +38897,14 @@ bl _p_69
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #856]
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf9017fa0
 .word 0xd2800000
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #864]
+ldr x0, [x16, #856]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf9417fa1
@@ -38962,7 +38912,7 @@ bl _p_3
 .word 0xb900105f
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94c5e31
 .word 0xb4000051
@@ -38971,15 +38921,15 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #872]
+ldr x0, [x16, #864]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #640]
+ldr x2, [x16, #656]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf94c9a31
 .word 0xb4000051
@@ -38987,7 +38937,7 @@ bl _p_67
 .word 0xf9405fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf9017ba0
 .word 0xf9402fb1
 .word 0xf94cbe31
@@ -39000,7 +38950,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -39013,10 +38963,10 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #856]
+ldr x1, [x16, #872]
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_138
+bl _p_136
 .word 0xf9402fb1
 .word 0xf94d2631
 .word 0xb4000051
@@ -39105,7 +39055,7 @@ bl _p_27
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #64]
+ldr x0, [x16, #88]
 .word 0xf9400000
 .word 0xf90167a0
 
@@ -39241,7 +39191,7 @@ bl _p_14
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #928]
+ldr x1, [x16, #944]
 .word 0xaa0103e0
 .word 0xf9400021
 .word 0xf941bc30
@@ -39329,7 +39279,7 @@ bl _p_16
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2024]
+ldr x15, [x16, #2016]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -39345,12 +39295,12 @@ ldr x15, [x16, #2024]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #64]
+ldr x0, [x16, #88]
 .word 0xf9400001
 .word 0xf94077a2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_140
+bl _p_138
 .word 0xf9402fb1
 .word 0xf9520e31
 .word 0xb4000051
@@ -39360,7 +39310,7 @@ bl _p_140
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #920]
+ldr x0, [x16, #2400]
 .word 0xf9400000
 .word 0xf900f7a0
 .word 0xd280001e
@@ -39371,7 +39321,7 @@ ldr x0, [x16, #920]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #928]
+ldr x0, [x16, #2200]
 bl _p_3
 .word 0xaa0003e2
 .word 0xf940f7a1
@@ -39380,7 +39330,7 @@ bl _p_3
 .word 0xfd000840
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9527e31
 .word 0xb4000051
@@ -39388,7 +39338,7 @@ bl _p_67
 .word 0xf9405fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900f3a0
 .word 0xf9402fb1
 .word 0xf952a231
@@ -39401,7 +39351,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -39414,15 +39364,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #936]
+ldr x2, [x16, #952]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9531a31
 .word 0xb4000051
@@ -39434,7 +39384,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf940efa1
 .word 0xf900e3a1
@@ -39448,17 +39398,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #944]
+ldr x0, [x16, #960]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #952]
+ldr x0, [x16, #968]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #976]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -39467,7 +39417,7 @@ ldr x0, [x16, #960]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf953be31
 .word 0xb4000051
@@ -39475,7 +39425,7 @@ bl _p_103
 .word 0xf9405fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900dfa0
 .word 0xf9402fb1
 .word 0xf953e231
@@ -39488,7 +39438,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -39501,15 +39451,15 @@ ldr x15, [x16, #912]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1440]
+ldr x0, [x16, #1432]
 .word 0xf9400001
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x2, [x16, #968]
+ldr x2, [x16, #984]
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf9545a31
 .word 0xb4000051
@@ -39521,7 +39471,7 @@ bl _p_67
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1296]
+ldr x0, [x16, #1288]
 bl _p_3
 .word 0xf940dba1
 .word 0xf900cfa1
@@ -39535,17 +39485,17 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #976]
+ldr x0, [x16, #992]
 .word 0xf9001420
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #984]
+ldr x0, [x16, #1000]
 .word 0xf9002020
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #992]
+ldr x0, [x16, #1008]
 .word 0xf9401403
 .word 0xf9000c23
 .word 0xf9401000
@@ -39554,7 +39504,7 @@ ldr x0, [x16, #992]
 .word 0x3901803f
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_103
+bl _p_101
 .word 0xf9402fb1
 .word 0xf954fe31
 .word 0xb4000051
@@ -39562,7 +39512,7 @@ bl _p_103
 .word 0xf9405fa1
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_70
+bl _p_69
 .word 0xf900cba0
 .word 0xf9402fb1
 .word 0xf9552231
@@ -39575,7 +39525,7 @@ bl _p_70
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #912]
+ldr x15, [x16, #904]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -39588,7 +39538,7 @@ ldr x15, [x16, #912]
 .word 0xf9405fa1
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_71
+bl _p_70
 .word 0xf9402fb1
 .word 0xf9558231
 .word 0xb4000051
@@ -39597,12 +39547,12 @@ bl _p_71
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #936]
+ldr x0, [x16, #928]
 .word 0xf9400001
 .word 0xaa1a03e2
 .word 0xaa0303e0
 .word 0xf940007e
-bl _p_67
+bl _p_66
 .word 0xf9402fb1
 .word 0xf955b631
 .word 0xb4000051
@@ -39639,7 +39589,7 @@ IntentionJournal_ViewQuotePage___InitComponentRuntime:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1016]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -39651,11 +39601,11 @@ ldr x16, [x16, #1000]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #928]
+ldr x1, [x16, #944]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1008]
+ldr x15, [x16, #1024]
 .word 0xaa1a03e0
 bl _p_324
 .word 0xf9400fb1
@@ -39667,13 +39617,13 @@ bl _p_324
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #904]
+ldr x1, [x16, #920]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #976]
+ldr x15, [x16, #2504]
 .word 0xaa1a03e0
-bl _p_74
+bl _p_176
 .word 0xf9002fa0
 .word 0xf9400fb1
 .word 0xf940a631
@@ -39690,13 +39640,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #616]
+ldr x1, [x16, #632]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf90027a0
 .word 0xf9400fb1
 .word 0xf940fa31
@@ -39713,13 +39663,13 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #912]
+ldr x1, [x16, #928]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2496]
+ldr x15, [x16, #2520]
 .word 0xaa1a03e0
-bl _p_177
+bl _p_178
 .word 0xf9001fa0
 .word 0xf9400fb1
 .word 0xf9414e31
@@ -39752,7 +39702,7 @@ IntentionJournal_ImageDataObject__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1032]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -39787,7 +39737,7 @@ IntentionJournal_ImageDataObject_get_picID:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1040]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39830,7 +39780,7 @@ IntentionJournal_ImageDataObject_set_picID_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1048]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39870,7 +39820,7 @@ IntentionJournal_ImageDataObject_get_pictureBytes:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1056]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39913,7 +39863,7 @@ IntentionJournal_ImageDataObject_set_pictureBytes_byte__:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1064]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -39961,7 +39911,7 @@ wrapper_delegate_invoke_System_Func_2_System_Type_string_invoke_TResult_T_System
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1072]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -39986,7 +39936,7 @@ ldr x16, [x16, #1056]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -40004,7 +39954,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -40203,7 +40153,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1088]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40247,7 +40197,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1096]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40285,7 +40235,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1104]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -40312,7 +40262,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -40335,7 +40285,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1112]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40362,7 +40312,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -40385,7 +40335,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -40412,7 +40362,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -40437,7 +40387,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1128]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -40491,7 +40441,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 101 0
 .word 0xf9401bb1
 .word 0xf9410a31
@@ -40645,7 +40595,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1136]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -40677,7 +40627,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 128 0
 .word 0xf94027b1
 .word 0xf940be31
@@ -40718,7 +40668,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 130 0
 .word 0xf94027b1
 .word 0xf9415a31
@@ -40796,7 +40746,7 @@ bl _p_326
 .word 0xd2800b20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 134 0
 .word 0xf94027b1
 .word 0xf9428a31
@@ -40837,7 +40787,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 136 0
 .word 0xf94027b1
 .word 0xf9432631
@@ -40874,7 +40824,7 @@ bl _p_327
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .loc 33 140 0
 .word 0xf94027b1
 .word 0xf943b231
@@ -40926,7 +40876,7 @@ bl _p_114
 .word 0xf94057a2
 .word 0xf9405ba3
 .word 0xf94067a4
-bl _p_139
+bl _p_137
 .word 0xf94027b1
 .word 0xf9447e31
 .word 0xb4000051
@@ -40956,7 +40906,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -41039,7 +40989,7 @@ wrapper_delegate_invoke_System_Predicate_1_string_invoke_bool_T_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1152]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -41064,7 +41014,7 @@ ldr x16, [x16, #1136]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -41082,7 +41032,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -41287,7 +41237,7 @@ wrapper_delegate_invoke_System_Action_1_string_invoke_void_T_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1160]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -41311,7 +41261,7 @@ ldr x16, [x16, #1144]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -41329,7 +41279,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -41507,7 +41457,7 @@ wrapper_delegate_invoke_System_Comparison_1_string_invoke_int_T_T_string_string:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1168]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -41532,7 +41482,7 @@ ldr x16, [x16, #1152]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -41550,7 +41500,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -41763,7 +41713,7 @@ wrapper_delegate_invoke_System_Predicate_1_IntentionJournal_QuoteObject_invoke_b
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1176]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -41788,7 +41738,7 @@ ldr x16, [x16, #1160]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -41806,7 +41756,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -42011,7 +41961,7 @@ wrapper_delegate_invoke_System_Action_1_IntentionJournal_QuoteObject_invoke_void
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1184]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -42035,7 +41985,7 @@ ldr x16, [x16, #1168]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -42053,7 +42003,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -42231,7 +42181,7 @@ wrapper_delegate_invoke_System_Comparison_1_IntentionJournal_QuoteObject_invoke_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1192]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -42256,7 +42206,7 @@ ldr x16, [x16, #1176]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -42274,7 +42224,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -42485,7 +42435,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1200]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -42512,7 +42462,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -42534,7 +42484,7 @@ System_Array_InternalArray__RemoveAt_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1208]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42561,7 +42511,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -42587,7 +42537,7 @@ System_Array_InternalArray__IndexOf_T_REF_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1216]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -42641,7 +42591,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 173 0
 .word 0xf94023b1
 .word 0xf9410e31
@@ -42842,7 +42792,7 @@ System_Array_InternalArray__get_Item_T_REF_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1224]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -42884,7 +42834,7 @@ bl _p_326
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 201 0
 .word 0xf94013b1
 .word 0xf940d631
@@ -42935,7 +42885,7 @@ System_Array_InternalArray__set_Item_T_REF_int_T_REF:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1232]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -42977,7 +42927,7 @@ bl _p_326
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 210 0
 .word 0xf9402bb1
 .word 0xf940e631
@@ -42998,13 +42948,13 @@ bl _p_114
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1224]
+ldr x1, [x16, #1240]
 .word 0xeb01001f
 .word 0x540000e1
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1232]
+ldr x0, [x16, #1248]
 .word 0xeb00029f
 .word 0x54000040
 .word 0xd2800016
@@ -43087,7 +43037,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bo
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1256]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -43112,7 +43062,7 @@ ldr x16, [x16, #1240]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -43130,7 +43080,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -43335,7 +43285,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1264]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -43359,7 +43309,7 @@ ldr x16, [x16, #1248]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -43377,7 +43327,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -43555,7 +43505,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_i
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1272]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -43580,7 +43530,7 @@ ldr x16, [x16, #1256]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -43598,7 +43548,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -43811,7 +43761,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1280]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -43836,7 +43786,7 @@ ldr x16, [x16, #1264]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -43854,7 +43804,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -44059,7 +44009,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_vo
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1288]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -44083,7 +44033,7 @@ ldr x16, [x16, #1272]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -44101,7 +44051,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -44279,7 +44229,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invok
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1296]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -44304,7 +44254,7 @@ ldr x16, [x16, #1280]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -44322,7 +44272,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -44537,7 +44487,7 @@ System_Array_InternalEnumerator_1_T_INST__ctor_System_Array:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1304]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -44598,7 +44548,7 @@ System_Array_InternalEnumerator_1_T_INST_Dispose:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44648,7 +44598,7 @@ System_Array_InternalEnumerator_1_T_INST_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1320]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -44762,7 +44712,7 @@ System_Array_InternalEnumerator_1_T_INST_get_Current:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1328]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -44802,7 +44752,7 @@ bl _p_326
 .word 0xd2802a00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 260 0
 .word 0xf94017b1
 .word 0xf940ca31
@@ -44832,7 +44782,7 @@ bl _p_326
 .word 0xd2802a00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 263 0
 .word 0xf94017b1
 .word 0xf9413a31
@@ -44913,7 +44863,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1336]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -44960,7 +44910,7 @@ System_Array_InternalEnumerator_1_T_INST_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1344]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45042,7 +44992,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_INST:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1352]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45127,7 +45077,7 @@ System_Tuple_2_T1_INT_T2_INT__ctor_T1_INT_T2_INT:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1360]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -45180,7 +45130,7 @@ System_Tuple_2_T1_INT_T2_INT_get_Item1:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1368]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45218,7 +45168,7 @@ System_Tuple_2_T1_INT_T2_INT_get_Item2:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1376]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45257,7 +45207,7 @@ System_Tuple_2_T1_INT_T2_INT_Equals_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1384]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45280,7 +45230,7 @@ ldr x16, [x16, #1368]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1376]
+ldr x15, [x16, #1392]
 bl _p_342
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -45295,7 +45245,7 @@ bl _p_342
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1384]
+ldr x15, [x16, #1400]
 .word 0x92800af0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -45332,7 +45282,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_Equals_obje
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1408]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -45427,7 +45377,7 @@ bl _p_331
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -45467,7 +45417,7 @@ bl _p_331
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1400]
+ldr x15, [x16, #1416]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -45509,7 +45459,7 @@ System_Tuple_2_T1_INT_T2_INT_System_IComparable_CompareTo_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1424]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45532,7 +45482,7 @@ ldr x16, [x16, #1408]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1416]
+ldr x15, [x16, #1432]
 bl _p_346
 .word 0xf9002ba0
 .word 0xf94013b1
@@ -45547,7 +45497,7 @@ bl _p_346
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1424]
+ldr x15, [x16, #1440]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -45585,7 +45535,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralComparable_CompareTo_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1448]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -45710,7 +45660,7 @@ bl _p_326
 .word 0xd2800b20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .loc 34 198 0
 .word 0xf9402bb1
 .word 0xf9422231
@@ -45749,7 +45699,7 @@ bl _p_331
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1440]
+ldr x15, [x16, #1456]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -45810,7 +45760,7 @@ bl _p_331
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1440]
+ldr x15, [x16, #1456]
 .word 0x928010f0
 .word 0xf2bffff0
 .word 0xf8706870
@@ -45846,7 +45796,7 @@ System_Tuple_2_T1_INT_T2_INT_GetHashCode:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1464]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -45867,7 +45817,7 @@ ldr x16, [x16, #1448]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1376]
+ldr x15, [x16, #1392]
 bl _p_342
 .word 0xf9001fa0
 .word 0xf9400fb1
@@ -45881,7 +45831,7 @@ bl _p_342
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1456]
+ldr x15, [x16, #1472]
 .word 0x928002f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -45915,7 +45865,7 @@ System_Tuple_2_T1_INT_T2_INT_System_Collections_IStructuralEquatable_GetHashCode
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1480]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -45947,7 +45897,7 @@ bl _p_331
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1472]
+ldr x15, [x16, #1488]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -45974,7 +45924,7 @@ bl _p_331
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1472]
+ldr x15, [x16, #1488]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -46017,7 +45967,7 @@ System_Tuple_2_T1_INT_T2_INT_ToString:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1496]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46037,7 +45987,7 @@ ldr x16, [x16, #1480]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1488]
+ldr x0, [x16, #1504]
 bl _p_3
 .word 0xf90027a0
 bl _p_354
@@ -46056,7 +46006,7 @@ bl _p_354
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1496]
+ldr x1, [x16, #1512]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_355
@@ -46076,7 +46026,7 @@ bl _p_355
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #1504]
+ldr x15, [x16, #1520]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -46110,7 +46060,7 @@ System_Tuple_2_T1_INT_T2_INT_System_ITuple_ToString_System_Text_StringBuilder:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1528]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -46153,7 +46103,7 @@ bl _p_357
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1520]
+ldr x1, [x16, #1536]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_355
@@ -46193,7 +46143,7 @@ bl _p_357
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #1528]
+ldr x1, [x16, #1544]
 .word 0xaa1a03e0
 .word 0xf940035e
 bl _p_355
@@ -46243,7 +46193,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Cell_invoke_bool_T_Xama
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1552]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -46268,7 +46218,7 @@ ldr x16, [x16, #1536]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -46286,7 +46236,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -46491,7 +46441,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Cell_invoke_void_T_Xamarin
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1560]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -46515,7 +46465,7 @@ ldr x16, [x16, #1544]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -46533,7 +46483,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -46711,7 +46661,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Cell_invoke_int_T_T_Xa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1568]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -46736,7 +46686,7 @@ ldr x16, [x16, #1552]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -46754,7 +46704,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -46967,7 +46917,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_TemplatedItemsList_2_Xa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1576]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -46992,7 +46942,7 @@ ldr x16, [x16, #1560]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -47010,7 +46960,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -47215,7 +47165,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_TemplatedItemsList_2_Xamar
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1584]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -47239,7 +47189,7 @@ ldr x16, [x16, #1568]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -47257,7 +47207,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -47435,7 +47385,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_TemplatedItemsList_2_X
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1592]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -47460,7 +47410,7 @@ ldr x16, [x16, #1576]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -47478,7 +47428,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -47689,7 +47639,7 @@ System_Array_InternalArray__ICollection_Add_T_INST_T_INST:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1600]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -47716,7 +47666,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -47740,7 +47690,7 @@ System_Array_InternalArray__ICollection_Remove_T_INST_T_INST:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1608]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -47767,7 +47717,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -47795,7 +47745,7 @@ System_Array_InternalArray__ICollection_Contains_T_INST_T_INST:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1616]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -47852,7 +47802,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 101 0
 .word 0xf9402fb1
 .word 0xf9412231
@@ -48101,7 +48051,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_INST_T_INST___int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1624]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -48133,7 +48083,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 128 0
 .word 0xf94027b1
 .word 0xf940be31
@@ -48174,7 +48124,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 130 0
 .word 0xf94027b1
 .word 0xf9415a31
@@ -48252,7 +48202,7 @@ bl _p_326
 .word 0xd2800b20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 134 0
 .word 0xf94027b1
 .word 0xf9428a31
@@ -48293,7 +48243,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 136 0
 .word 0xf94027b1
 .word 0xf9432631
@@ -48330,7 +48280,7 @@ bl _p_327
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .loc 33 140 0
 .word 0xf94027b1
 .word 0xf943b231
@@ -48382,7 +48332,7 @@ bl _p_114
 .word 0xf94057a2
 .word 0xf9405ba3
 .word 0xf94067a4
-bl _p_139
+bl _p_137
 .word 0xf94027b1
 .word 0xf9447e31
 .word 0xb4000051
@@ -48416,7 +48366,7 @@ wrapper_delegate_invoke_System_Predicate_1_object_invoke_bool_T_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1632]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -48441,7 +48391,7 @@ ldr x16, [x16, #1616]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -48459,7 +48409,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -48664,7 +48614,7 @@ wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1640]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -48688,7 +48638,7 @@ ldr x16, [x16, #1624]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -48706,7 +48656,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -48884,7 +48834,7 @@ wrapper_delegate_invoke_System_Comparison_1_object_invoke_int_T_T_object_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1648]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -48909,7 +48859,7 @@ ldr x16, [x16, #1632]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -48927,7 +48877,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -49141,7 +49091,7 @@ wrapper_delegate_invoke_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedE
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1656]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -49165,7 +49115,7 @@ ldr x16, [x16, #1640]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -49183,7 +49133,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -49365,7 +49315,7 @@ wrapper_delegate_invoke_System_Func_1_object_invoke_TResult:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1664]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -49390,7 +49340,7 @@ ldr x16, [x16, #1648]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -49408,7 +49358,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -49605,7 +49555,7 @@ wrapper_delegate_invoke_System_Func_2_object_Plugin_Media_Abstractions_MediaFile
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1672]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -49630,7 +49580,7 @@ ldr x16, [x16, #1656]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -49648,7 +49598,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -49850,7 +49800,7 @@ wrapper_delegate_invoke_System_Func_1_Plugin_Media_Abstractions_MediaFile_invoke
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1680]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -49875,7 +49825,7 @@ ldr x16, [x16, #1664]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -49893,7 +49843,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -50090,7 +50040,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_Plugin_Med
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1688]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50114,7 +50064,7 @@ ldr x16, [x16, #1672]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -50132,7 +50082,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -50309,7 +50259,7 @@ wrapper_delegate_invoke_System_Func_2_object_System_Threading_Tasks_Task_invoke_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1696]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50334,7 +50284,7 @@ ldr x16, [x16, #1680]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -50352,7 +50302,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -50554,7 +50504,7 @@ wrapper_delegate_invoke_System_Func_1_System_Threading_Tasks_Task_invoke_TResult
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1704]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50579,7 +50529,7 @@ ldr x16, [x16, #1688]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -50597,7 +50547,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -50794,7 +50744,7 @@ wrapper_delegate_invoke_System_Action_1_System_Threading_Tasks_Task_1_System_Thr
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1712]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -50818,7 +50768,7 @@ ldr x16, [x16, #1696]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -50836,7 +50786,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -51013,7 +50963,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_System_Threading_Tasks
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1720]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51038,7 +50988,7 @@ ldr x16, [x16, #1704]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -51056,7 +51006,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -51259,7 +51209,7 @@ wrapper_delegate_invoke_System_Action_1_System_IAsyncResult_invoke_void_T_System
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1728]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51283,7 +51233,7 @@ ldr x16, [x16, #1712]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -51301,7 +51251,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -51479,7 +51429,7 @@ wrapper_delegate_invoke_System_Func_3_System_AsyncCallback_object_System_IAsyncR
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1736]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51504,7 +51454,7 @@ ldr x16, [x16, #1720]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -51522,7 +51472,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -51732,7 +51682,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1744]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -51757,7 +51707,7 @@ ldr x16, [x16, #1728]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -51775,7 +51725,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -51978,7 +51928,7 @@ wrapper_delegate_invoke_System_Func_2_System_IAsyncResult_Plugin_Media_Abstracti
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1752]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52003,7 +51953,7 @@ ldr x16, [x16, #1736]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -52021,7 +51971,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -52224,7 +52174,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1760]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52249,7 +52199,7 @@ ldr x16, [x16, #1744]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -52267,7 +52217,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -52469,7 +52419,7 @@ wrapper_delegate_invoke_System_Func_1_System_IO_Stream_invoke_TResult:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1768]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -52494,7 +52444,7 @@ ldr x16, [x16, #1752]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -52512,7 +52462,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -52705,7 +52655,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1776]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -52749,7 +52699,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_System_Threading_Tasks_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1784]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -52796,7 +52746,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_TResult_BOOL:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1792]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -52861,7 +52811,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_bool_TResult_BOOL_System_Thread
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1800]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -52929,7 +52879,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_2_object_TResult_BO
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1808]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -53031,7 +52981,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_Syst
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1816]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -53116,7 +53066,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Func_1_TResult_BOOL_Syst
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1824]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -53186,7 +53136,7 @@ bl _p_371
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .word 0xf9402bb1
 .word 0xf9415231
 .word 0xb4000051
@@ -53216,7 +53166,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__ctor_System_Delegate_object_System_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1832]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -53285,7 +53235,7 @@ bl _p_371
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .word 0xf9402fb1
 .word 0xf9415231
 .word 0xb4000051
@@ -53317,7 +53267,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_StartNew_System_Threading_Tasks_Task_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1840]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -53352,7 +53302,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 35 399 0
 .word 0xf9402fb1
 .word 0xf940d631
@@ -53376,7 +53326,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 35 403 0
 .word 0xf9402fb1
 .word 0xf9412e31
@@ -53415,7 +53365,7 @@ bl _p_371
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .loc 35 410 0
 .word 0xf9402fb1
 .word 0xf941c231
@@ -53503,7 +53453,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetResult_TResult_BOOL:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1848]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -53668,7 +53618,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_DangerousSetResult_TResult_BOOL:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1856]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -53766,7 +53716,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_get_Result:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1864]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -53838,7 +53788,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_get_ResultOnSuccess:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1872]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -53877,7 +53827,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_GetResultCore_bool:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1880]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -54010,7 +53960,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetException_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1888]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54120,7 +54070,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_Cance
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1896]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54183,7 +54133,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_TrySetCanceled_System_Threading_Cance
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1904]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -54283,7 +54233,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_get_Factory:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1912]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -54330,7 +54280,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_InnerInvoke:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1920]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54469,7 +54419,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_GetAwaiter:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1928]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54537,7 +54487,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ConfigureAwait_bool:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1936]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -54615,7 +54565,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1944]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -54703,7 +54653,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1952]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -54787,7 +54737,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1960]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -54871,7 +54821,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL_ContinueWith_System_Action_1_System_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1968]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -54908,7 +54858,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 35 889 0
 .word 0xf9402bb1
 .word 0xf940d231
@@ -54932,7 +54882,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 35 896 0
 .word 0xf9402bb1
 .word 0xf9412a31
@@ -55029,7 +54979,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__cctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1976]
 .word 0xf9000bb0
 .word 0xf9400a11
 .word 0xf9000fb1
@@ -55111,7 +55061,7 @@ System_Threading_Tasks_Task_1_TResult_BOOL__TaskWhenAnyCastm__0_System_Threading
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1984]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -55132,7 +55082,7 @@ ldr x16, [x16, #1968]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1976]
+ldr x0, [x16, #1992]
 .word 0x3980ac10
 .word 0xd2800051
 .word 0x8a110210
@@ -55185,7 +55135,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2000]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -55255,7 +55205,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL__ctor_System_Threading_Cancell
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2008]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -55357,7 +55307,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_GetDefaultScheduler_System_Thr
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2016]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -55459,7 +55409,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_StartNew_System_Func_1_TResult
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2024]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -55590,7 +55540,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncCoreLogic_System_IAsy
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2032]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -55705,12 +55655,12 @@ ldr x16, [x16, #2016]
 .word 0xf941de31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf90077a0
 .word 0xf94077a0
 .word 0xb4000060
 .word 0xf94077a0
-bl _p_114
+bl _p_112
 .word 0x94000013
 .word 0x1400013f
 .word 0xf9005fa0
@@ -55722,12 +55672,12 @@ bl _p_114
 .word 0xd63f0220
 .word 0xf94047a0
 .word 0xf90037a0
-bl _p_113
+bl _p_111
 .word 0xf9007ba0
 .word 0xf9407ba0
 .word 0xb4000060
 .word 0xf9407ba0
-bl _p_114
+bl _p_112
 .word 0x94000002
 .word 0x1400012e
 .word 0xf90073be
@@ -55857,7 +55807,7 @@ bl _p_432
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2024]
+ldr x1, [x16, #2040]
 .word 0xeb01001f
 .word 0x54000060
 .word 0xf90053bf
@@ -55941,7 +55891,7 @@ bl _p_436
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2032]
+ldr x0, [x16, #2048]
 .word 0x39400000
 .word 0x340002a0
 .loc 36 580 0
@@ -56071,7 +56021,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsync_System_Func_3_System
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2056]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -56146,7 +56096,7 @@ System_Threading_Tasks_TaskFactory_1_TResult_BOOL_FromAsyncImpl_System_Func_3_Sy
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2064]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -56215,7 +56165,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 36 819 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -56251,7 +56201,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 36 824 0
 .word 0xf9402bb1
 .word 0xf9400231
@@ -56343,7 +56293,7 @@ bl _p_435
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2056]
+ldr x0, [x16, #2072]
 .word 0xf9005ba0
 .word 0xaa1603e0
 .word 0xaa1603e0
@@ -56390,7 +56340,7 @@ bl _p_448
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2032]
+ldr x0, [x16, #2048]
 .word 0x39400000
 .word 0x34000220
 .loc 36 833 0
@@ -56461,7 +56411,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2064]
+ldr x0, [x16, #2080]
 bl _p_3
 .word 0xf90073a0
 bl _p_453
@@ -56490,7 +56440,7 @@ bl _p_35
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2072]
+ldr x0, [x16, #2088]
 bl _p_3
 .word 0xf94067a1
 .word 0xf90063a1
@@ -56512,7 +56462,7 @@ bl _p_455
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2080]
+ldr x0, [x16, #2096]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -56546,7 +56496,7 @@ ldr x0, [x16, #2080]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2088]
+ldr x15, [x16, #2104]
 .word 0x928003f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -56628,7 +56578,7 @@ bl _p_458
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2072]
+ldr x0, [x16, #2088]
 bl _p_3
 .word 0xf94063a1
 .word 0xf9005fa1
@@ -56650,7 +56600,7 @@ bl _p_460
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2080]
+ldr x0, [x16, #2096]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -56733,7 +56683,7 @@ bl _p_436
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2032]
+ldr x0, [x16, #2048]
 .word 0x39400000
 .word 0x340002c0
 .loc 36 874 0
@@ -56843,7 +56793,7 @@ wrapper_delegate_invoke_System_Func_2_System_Threading_Tasks_Task_1_System_Threa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2112]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -56868,7 +56818,7 @@ ldr x16, [x16, #2096]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -56886,7 +56836,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -57091,7 +57041,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL__ctor_System_Threadin
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2120]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57139,7 +57089,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_get_IsCompleted:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2128]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -57193,7 +57143,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_UnsafeOnCompleted_Sys
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2136]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -57247,7 +57197,7 @@ System_Runtime_CompilerServices_TaskAwaiter_1_TResult_BOOL_GetResult:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2144]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -57322,7 +57272,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Element_invoke_bool_T_X
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2152]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -57347,7 +57297,7 @@ ldr x16, [x16, #2136]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -57365,7 +57315,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -57570,7 +57520,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Element_invoke_void_T_Xama
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2160]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -57594,7 +57544,7 @@ ldr x16, [x16, #2144]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -57612,7 +57562,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -57790,7 +57740,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Element_invoke_int_T_T
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2168]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -57815,7 +57765,7 @@ ldr x16, [x16, #2152]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -57833,7 +57783,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -58046,7 +57996,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_Page_invoke_bool_T_Xama
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2176]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -58071,7 +58021,7 @@ ldr x16, [x16, #2160]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -58089,7 +58039,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -58294,7 +58244,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_Page_invoke_void_T_Xamarin
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2184]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -58318,7 +58268,7 @@ ldr x16, [x16, #2168]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -58336,7 +58286,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -58514,7 +58464,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_Page_invoke_int_T_T_Xa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2192]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -58539,7 +58489,7 @@ ldr x16, [x16, #2176]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -58557,7 +58507,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -58770,7 +58720,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_TemplatedItemsList_2_Xa
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2200]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -58795,7 +58745,7 @@ ldr x16, [x16, #2184]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -58813,7 +58763,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -59018,7 +58968,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_TemplatedItemsList_2_Xamar
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2208]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -59042,7 +58992,7 @@ ldr x16, [x16, #2192]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -59060,7 +59010,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -59238,7 +59188,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_TemplatedItemsList_2_X
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2216]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -59263,7 +59213,7 @@ ldr x16, [x16, #2200]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -59281,7 +59231,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -59494,7 +59444,7 @@ wrapper_delegate_invoke_System_Predicate_1_SQLite_BaseTableQuery_Ordering_invoke
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2224]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -59519,7 +59469,7 @@ ldr x16, [x16, #2208]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -59537,7 +59487,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -59742,7 +59692,7 @@ wrapper_delegate_invoke_System_Action_1_SQLite_BaseTableQuery_Ordering_invoke_vo
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2232]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -59766,7 +59716,7 @@ ldr x16, [x16, #2216]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -59784,7 +59734,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -59962,7 +59912,7 @@ wrapper_delegate_invoke_System_Comparison_1_SQLite_BaseTableQuery_Ordering_invok
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2240]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -59987,7 +59937,7 @@ ldr x16, [x16, #2224]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -60005,7 +59955,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -60220,7 +60170,7 @@ System_Nullable_1_int__ctor_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2248]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -60273,7 +60223,7 @@ System_Nullable_1_int_get_HasValue:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2256]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60316,7 +60266,7 @@ System_Nullable_1_int_get_Value:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2264]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60351,7 +60301,7 @@ bl _p_326
 .word 0xd2802a00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 38 107 0
 .word 0xf9400fb1
 .word 0xf940b231
@@ -60387,7 +60337,7 @@ System_Nullable_1_int_Equals_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2272]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -60432,7 +60382,7 @@ ldr x16, [x16, #2256]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2264]
+ldr x1, [x16, #2280]
 .word 0xeb01001f
 .word 0x54000040
 .word 0xd2800017
@@ -60455,7 +60405,7 @@ ldr x1, [x16, #2264]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2272]
+ldr x15, [x16, #2288]
 .word 0x910123a0
 .word 0xf9002ba0
 .word 0xaa1a03e0
@@ -60465,7 +60415,7 @@ bl _p_467
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2272]
+ldr x15, [x16, #2288]
 .word 0xaa1903e0
 .word 0x910123a1
 .word 0xf94027a1
@@ -60505,7 +60455,7 @@ System_Nullable_1_int_Equals_System_Nullable_1_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2296]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -60604,7 +60554,7 @@ System_Nullable_1_int_GetHashCode:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60672,7 +60622,7 @@ System_Nullable_1_int_GetValueOrDefault:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60715,7 +60665,7 @@ System_Nullable_1_int_ToString:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2320]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -60758,7 +60708,7 @@ bl _p_471
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2312]
+ldr x0, [x16, #2328]
 .word 0xf9400000
 .word 0xf9400fb1
 .word 0xf940ce31
@@ -60785,7 +60735,7 @@ System_Nullable_1_int_Box_System_Nullable_1_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2336]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -60852,7 +60802,7 @@ System_Nullable_1_int_Unbox_object:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2344]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -60906,7 +60856,7 @@ ldr x16, [x16, #2328]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2264]
+ldr x1, [x16, #2280]
 .word 0xeb01001f
 .word 0x10000011
 .word 0x54000401
@@ -60919,7 +60869,7 @@ ldr x1, [x16, #2264]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2272]
+ldr x15, [x16, #2288]
 bl _p_472
 .word 0x910143a0
 .word 0x910103a0
@@ -60963,7 +60913,7 @@ wrapper_delegate_invoke_System_Func_2_SQLite_BaseTableQuery_Ordering_string_invo
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2352]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -60988,7 +60938,7 @@ ldr x16, [x16, #2336]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -61006,7 +60956,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -61209,7 +61159,7 @@ wrapper_delegate_invoke_System_Func_2_SQLite_TableQuery_1_CompileResult_Intentio
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2360]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -61234,7 +61184,7 @@ ldr x16, [x16, #2344]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -61252,7 +61202,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -61455,7 +61405,7 @@ wrapper_delegate_invoke_System_Predicate_1_IntentionJournal_EntryObject_invoke_b
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2368]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -61480,7 +61430,7 @@ ldr x16, [x16, #2352]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -61498,7 +61448,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -61703,7 +61653,7 @@ wrapper_delegate_invoke_System_Action_1_IntentionJournal_EntryObject_invoke_void
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2376]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -61727,7 +61677,7 @@ ldr x16, [x16, #2360]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -61745,7 +61695,7 @@ bl _p_325
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_114
+bl _p_112
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -61923,7 +61873,7 @@ wrapper_delegate_invoke_System_Comparison_1_IntentionJournal_EntryObject_invoke_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2384]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -61948,7 +61898,7 @@ ldr x16, [x16, #2368]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -61966,7 +61916,7 @@ bl _p_325
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_114
+bl _p_112
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -62179,7 +62129,7 @@ wrapper_delegate_invoke_System_Func_2_SQLite_TableQuery_1_CompileResult_Intentio
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2392]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -62204,7 +62154,7 @@ ldr x16, [x16, #2376]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -62222,7 +62172,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -62425,7 +62375,7 @@ wrapper_delegate_invoke_System_Func_2_SQLite_TableQuery_1_CompileResult_Intentio
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2400]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -62450,7 +62400,7 @@ ldr x16, [x16, #2384]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #1064]
+ldr x0, [x16, #1080]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -62468,7 +62418,7 @@ bl _p_325
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_114
+bl _p_112
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -62676,7 +62626,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_TStateMachine_GSHAR
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2408]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -62788,7 +62738,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 39 79 0
 .word 0xf94027b1
 .word 0xf9400231
@@ -62850,7 +62800,7 @@ bl _p_477
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2400]
+ldr x0, [x16, #2416]
 .word 0xf90073a0
 .word 0xf9403fa0
 bl _p_475
@@ -62916,7 +62866,7 @@ System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_TA
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2424]
 .word 0xf90033b0
 .word 0xf9400a11
 .word 0xf90037b1
@@ -63061,14 +63011,14 @@ bl _p_435
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2416]
+ldr x0, [x16, #2432]
 .word 0xf90073a0
 .word 0xf9402fa0
 .word 0xf9007fa0
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2424]
+ldr x0, [x16, #2440]
 .word 0xf90083a0
 .word 0xf9403fa0
 bl _p_483
@@ -63190,7 +63140,7 @@ bl _p_485
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2432]
+ldr x0, [x16, #2448]
 .word 0xf9006fa0
 .word 0xf9403fa0
 bl _p_486
@@ -63226,12 +63176,12 @@ bl _p_487
 .word 0xf944da31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_113
+bl _p_111
 .word 0xf90063a0
 .word 0xf94063a0
 .word 0xb4000060
 .word 0xf94063a0
-bl _p_114
+bl _p_112
 .word 0x14000001
 .word 0xf94033b1
 .word 0xf9450631
@@ -63263,7 +63213,7 @@ System_Linq_Enumerable_Count_TSource_BYTE_System_Collections_Generic_IEnumerable
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2456]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -63296,7 +63246,7 @@ ldr x16, [x16, #2440]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x0, [x16, #2448]
+ldr x0, [x16, #2464]
 .word 0xd2894aa1
 .word 0xd2894aa1
 bl _p_488
@@ -63307,7 +63257,7 @@ bl _p_489
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94053a0
-bl _p_114
+bl _p_112
 .loc 40 1219 0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -63377,7 +63327,7 @@ bl _p_491
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2456]
+ldr x1, [x16, #2472]
 .word 0xeb01001f
 .word 0x540001e3
 .word 0xf94043a0
@@ -63385,7 +63335,7 @@ ldr x1, [x16, #2456]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x1, [x16, #2456]
+ldr x1, [x16, #2472]
 .word 0x9343fc22
 .word 0x8b020000
 .word 0x39400000
@@ -63429,7 +63379,7 @@ ldr x1, [x16, #2456]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2464]
+ldr x15, [x16, #2480]
 .word 0x928006f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -63512,7 +63462,7 @@ bl _p_492
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2472]
+ldr x15, [x16, #2488]
 .word 0x92800ef0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -63536,7 +63486,7 @@ ldr x15, [x16, #2472]
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x15, [x16, #2480]
+ldr x15, [x16, #2496]
 .word 0x928004f0
 .word 0xf2bffff0
 .word 0xf8706830
@@ -63592,7 +63542,7 @@ System_Array_InternalEnumerator_1_T_BYTE__ctor_System_Array:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2504]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -63653,7 +63603,7 @@ System_Array_InternalEnumerator_1_T_BYTE_Dispose:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2512]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -63703,7 +63653,7 @@ System_Array_InternalEnumerator_1_T_BYTE_MoveNext:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2520]
 .word 0xf9001fb0
 .word 0xf9400a11
 .word 0xf90023b1
@@ -63817,7 +63767,7 @@ System_Array_InternalEnumerator_1_T_BYTE_get_Current:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2528]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -63857,7 +63807,7 @@ bl _p_326
 .word 0xd2802a00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 260 0
 .word 0xf9400fb1
 .word 0xf940ca31
@@ -63887,7 +63837,7 @@ bl _p_326
 .word 0xd2802a00
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 263 0
 .word 0xf9400fb1
 .word 0xf9413a31
@@ -63958,7 +63908,7 @@ System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_Reset:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2536]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -64005,7 +63955,7 @@ System_Array_InternalEnumerator_1_T_BYTE_System_Collections_IEnumerator_get_Curr
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2544]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -64068,7 +64018,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_BYTE:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2552]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -64152,7 +64102,7 @@ System_Array_InternalArray__ICollection_Add_T_BYTE_T_BYTE:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -64179,7 +64129,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -64202,7 +64152,7 @@ System_Array_InternalArray__ICollection_Remove_T_BYTE_T_BYTE:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2568]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -64229,7 +64179,7 @@ bl _p_326
 .word 0xd2802f60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -64256,7 +64206,7 @@ System_Array_InternalArray__ICollection_Contains_T_BYTE_T_BYTE:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2576]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -64310,7 +64260,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 101 0
 .word 0xf9402bb1
 .word 0xf9411231
@@ -64490,7 +64440,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_BYTE_T_BYTE___int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2584]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -64522,7 +64472,7 @@ bl _p_326
 .word 0xd2800b40
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 128 0
 .word 0xf94027b1
 .word 0xf940be31
@@ -64563,7 +64513,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 130 0
 .word 0xf94027b1
 .word 0xf9415a31
@@ -64641,7 +64591,7 @@ bl _p_326
 .word 0xd2800b20
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 134 0
 .word 0xf94027b1
 .word 0xf9428a31
@@ -64682,7 +64632,7 @@ bl _p_327
 .word 0xd2803100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 136 0
 .word 0xf94027b1
 .word 0xf9432631
@@ -64719,7 +64669,7 @@ bl _p_327
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_114
+bl _p_112
 .loc 33 140 0
 .word 0xf94027b1
 .word 0xf943b231
@@ -64771,7 +64721,7 @@ bl _p_114
 .word 0xf94057a2
 .word 0xf9405ba3
 .word 0xf94067a4
-bl _p_139
+bl _p_137
 .word 0xf94027b1
 .word 0xf9447e31
 .word 0xb4000051
@@ -64807,7 +64757,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2592]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -64866,7 +64816,7 @@ System_Array_InternalArray__get_Item_T_INST_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2600]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -64911,7 +64861,7 @@ bl _p_326
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 201 0
 .word 0xf9401bb1
 .word 0xf940e231
@@ -64995,7 +64945,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_TResult_BOOL__ctor_Sys
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2608]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -65085,7 +65035,7 @@ System_Threading_Tasks_ContinuationTaskFromResultTask_1_TAntecedentResult_BOOL__
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2616]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -65180,7 +65130,7 @@ System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey1_TResult_BOOL__
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2608]
+ldr x16, [x16, #2624]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -65213,7 +65163,7 @@ System_Threading_Tasks_TaskFactory_1__FromAsyncImplc__AnonStorey2_TResult_BOOL__
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2616]
+ldr x16, [x16, #2632]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -65249,7 +65199,7 @@ System_Array_InternalArray__get_Item_T_BYTE_int:
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2624]
+ldr x16, [x16, #2640]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -65291,7 +65241,7 @@ bl _p_326
 .word 0xd2800b60
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_114
+bl _p_112
 .loc 33 201 0
 .word 0xf94013b1
 .word 0xf940d631
@@ -65342,7 +65292,7 @@ System_Runtime_CompilerServices_ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter_
 
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2632]
+ldr x16, [x16, #2648]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -65433,8 +65383,8 @@ bl IntentionJournal_JournalPage_OnAppearing
 bl IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChangedEventArgs
 bl IntentionJournal_JournalPage_InitializeComponent
 bl IntentionJournal_JournalPage___InitComponentRuntime
-bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
-bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate
+bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor
+bl IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate
 bl IntentionJournal_AddEntryPage__ctor
 bl IntentionJournal_AddEntryPage_clearTextAreas
 bl IntentionJournal_AddEntryPage_onSaveClicked
@@ -65540,8 +65490,8 @@ bl IntentionJournal_BrowseQuotesPage_OnAppearing
 bl IntentionJournal_BrowseQuotesPage_QuoteSelected_object_Xamarin_Forms_SelectedItemChangedEventArgs
 bl IntentionJournal_BrowseQuotesPage_InitializeComponent
 bl IntentionJournal_BrowseQuotesPage___InitComponentRuntime
-bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor
-bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate
+bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor
+bl IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate
 bl IntentionJournal_ViewQuotePage__ctor_IntentionJournal_QuoteObject
 bl IntentionJournal_ViewQuotePage_UpdateQuoteToDB
 bl IntentionJournal_ViewQuotePage_DeleteQuoteFromDB
@@ -65810,65 +65760,67 @@ unwind_info:
 	.byte 44,12,31,0,84,14,160,36,157,196,4,158,195,4,68,13,29,68,147,194,4,148,193,4,68,149,192,4,150,191,4,68
 	.byte 151,190,4,152,189,4,68,153,188,4,154,187,4,16,12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12,16,12
 	.byte 31,0,68,14,48,157,6,158,5,68,13,29,68,154,4,34,12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147
-	.byte 40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34,154,33,34,12,31,0,84,14,128,6,157,96,158,95,68,13
-	.byte 29,68,147,94,148,93,68,149,92,150,91,68,151,90,152,89,68,153,88,154,87,13,12,31,0,68,14,64,157,8,158,7
+	.byte 40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34,154,33,34,12,31,0,84,14,192,5,157,88,158,87,68,13
+	.byte 29,68,147,86,148,85,68,149,84,150,83,68,151,82,152,81,68,153,80,154,79,13,12,31,0,68,14,64,157,8,158,7
 	.byte 68,13,29,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8,14,12,31,0,68,14,240,1,157,30,158,29
 	.byte 68,13,29,19,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,152,24,153,23,44,12,31,0,84,14,160,13,157
 	.byte 212,1,158,211,1,68,13,29,68,147,210,1,148,209,1,68,149,208,1,150,207,1,68,151,206,1,152,205,1,68,153,204
 	.byte 1,154,203,1,19,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19,19,12,31,0,68,14,192,1
 	.byte 157,24,158,23,68,13,29,68,153,22,154,21,16,12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,22,12,31
 	.byte 0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12,22,12,31,0,68,14,128,1,157,16,158,15
-	.byte 68,13,29,68,151,14,152,13,68,154,12,44,12,31,0,84,14,240,8,157,142,1,158,141,1,68,13,29,68,147,140,1
-	.byte 148,139,1,68,149,138,1,150,137,1,68,151,136,1,152,135,1,68,153,134,1,154,133,1,17,12,31,0,68,14,144,1
-	.byte 157,18,158,17,68,13,29,68,154,16,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,32,12,31,0,68
-	.byte 14,208,3,157,58,158,57,68,13,29,68,148,56,149,55,68,150,54,151,53,68,152,52,153,51,68,154,50,19,12,31,0
-	.byte 68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15,44,12,31,0,84,14,224,9,157,156,1,158,155,1,68,13
-	.byte 29,68,147,154,1,148,153,1,68,149,152,1,150,151,1,68,151,150,1,152,149,1,68,153,148,1,154,147,1,17,12,31
-	.byte 0,68,14,160,1,157,20,158,19,68,13,29,68,154,18,19,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,153
-	.byte 28,154,27,29,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,149,28,150,27,68,151,26,152,25,68,153,24,154
-	.byte 23,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,17,12,31,0,68,14,192,1,157
-	.byte 24,158,23,68,13,29,68,154,22,29,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,149,32,150,31,68,151,30
-	.byte 152,29,68,153,28,154,27,13,12,31,0,68,14,80,157,10,158,9,68,13,29,14,12,31,0,68,14,224,1,157,28,158
-	.byte 27,68,13,29,34,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41,68,151,40
-	.byte 152,39,68,153,38,154,37,19,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17,44,12,31,0,84
-	.byte 14,208,8,157,138,1,158,137,1,68,13,29,68,147,136,1,148,135,1,68,149,134,1,150,133,1,68,151,132,1,152,131
-	.byte 1,68,153,130,1,154,129,1,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,16,12,31,0,68,14,112
-	.byte 157,14,158,13,68,13,29,68,153,12,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,16,12
-	.byte 31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,27,12,31,0,68,14,224,1,157,28,158,27,68,13,29,68,147
-	.byte 26,68,149,25,150,24,68,151,23,152,22,22,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22,153,21,68
-	.byte 154,20,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,208,1,157,26,158,25,68
-	.byte 13,29,68,153,24,154,23,44,12,31,0,84,14,176,18,157,166,2,158,165,2,68,13,29,68,147,164,2,148,163,2,68
-	.byte 149,162,2,150,161,2,68,151,160,2,152,159,2,68,153,158,2,154,157,2,17,12,31,0,68,14,128,1,157,16,158,15
-	.byte 68,13,29,68,153,14,34,12,31,0,84,14,160,5,157,84,158,83,68,13,29,68,147,82,148,81,68,149,80,150,79,68
-	.byte 151,78,152,77,68,153,76,154,75,34,12,31,0,84,14,240,5,157,94,158,93,68,13,29,68,147,92,148,91,68,149,90
-	.byte 150,89,68,151,88,152,87,68,153,86,154,85,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12,154,11,21
-	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10,34,12,31,0,68,14,240,3,157,62,158
-	.byte 61,68,13,29,68,147,60,148,59,68,149,58,150,57,68,151,56,152,55,68,153,54,154,53,14,12,31,0,68,14,160,1
-	.byte 157,20,158,19,68,13,29,44,12,31,0,84,14,192,9,157,152,1,158,151,1,68,13,29,68,147,150,1,148,149,1,68
-	.byte 149,148,1,150,147,1,68,151,146,1,152,145,1,68,153,144,1,154,143,1,34,12,31,0,68,14,144,1,157,18,158,17
-	.byte 68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,30,12,31,0,68,14,240,1,157
-	.byte 30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23,14,12,31,0,68,14,144,1,157,18
-	.byte 158,17,68,13,29,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151
-	.byte 10,152,9,68,153,8,154,7,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152
-	.byte 17,68,153,16,154,15,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,32,12,31,0,68,14,128
-	.byte 1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,26,12,31,0,68,14
-	.byte 112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8,13,12,31,0,68,14,96,157,12,158,11
-	.byte 68,13,29,29,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,151,14,152,13,68,153,12,154
-	.byte 11,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,150,16,151,15,68,152,14,153,13,68
-	.byte 154,12,32,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,148,30,149,29,68,150,28,151,27,68,152,26,153,25
-	.byte 68,154,24,14,12,31,0,68,14,176,1,157,22,158,21,68,13,29,17,12,31,0,68,14,144,1,157,18,158,17,68,13
-	.byte 29,68,153,16,25,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,68,150,19,68,152,18,153,17,19,12
-	.byte 31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,68,154,9,18,12,31,0,68,14,80,157,10,158,9,68,13,29
-	.byte 68,153,8,154,7,13,12,31,0,68,14,112,157,14,158,13,68,13,29,14,12,31,0,68,14,128,1,157,16,158,15,68
-	.byte 13,29,24,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,18,12,31,0,68
-	.byte 14,112,157,14,158,13,68,13,29,68,152,12,153,11,17,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20
-	.byte 22,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,151,34,152,33,68,153,32,27,12,31,0,68,14,128,2,157
-	.byte 32,158,31,68,13,29,68,148,30,149,29,68,150,28,68,153,27,154,26,23,12,31,0,68,14,112,157,14,158,13,68,13
-	.byte 29,68,151,12,152,11,68,153,10,154,9,27,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,150,30,151,29,68
-	.byte 152,28,153,27,68,154,26,34,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149,30,150,29
-	.byte 68,151,28,152,27,68,153,26,154,25,34,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148,19,68,149
-	.byte 18,150,17,68,151,16,152,15,68,153,14,154,13,32,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149
-	.byte 15,68,150,14,151,13,68,152,12,153,11,68,154,10,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,152,18
+	.byte 68,13,29,68,151,14,152,13,68,154,12,34,12,31,0,84,14,128,6,157,96,158,95,68,13,29,68,147,94,148,93,68
+	.byte 149,92,150,91,68,151,90,152,89,68,153,88,154,87,44,12,31,0,84,14,240,8,157,142,1,158,141,1,68,13,29,68
+	.byte 147,140,1,148,139,1,68,149,138,1,150,137,1,68,151,136,1,152,135,1,68,153,134,1,154,133,1,17,12,31,0,68
+	.byte 14,144,1,157,18,158,17,68,13,29,68,154,16,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10,32,12
+	.byte 31,0,68,14,208,3,157,58,158,57,68,13,29,68,148,56,149,55,68,150,54,151,53,68,152,52,153,51,68,154,50,19
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,153,16,154,15,44,12,31,0,84,14,224,9,157,156,1,158,155
+	.byte 1,68,13,29,68,147,154,1,148,153,1,68,149,152,1,150,151,1,68,151,150,1,152,149,1,68,153,148,1,154,147,1
+	.byte 17,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,154,18,19,12,31,0,68,14,240,1,157,30,158,29,68,13
+	.byte 29,68,153,28,154,27,29,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,149,28,150,27,68,151,26,152,25,68
+	.byte 153,24,154,23,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,17,12,31,0,68,14
+	.byte 192,1,157,24,158,23,68,13,29,68,154,22,29,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,149,32,150,31
+	.byte 68,151,30,152,29,68,153,28,154,27,13,12,31,0,68,14,80,157,10,158,9,68,13,29,14,12,31,0,68,14,224,1
+	.byte 157,28,158,27,68,13,29,34,12,31,0,68,14,240,2,157,46,158,45,68,13,29,68,147,44,148,43,68,149,42,150,41
+	.byte 68,151,40,152,39,68,153,38,154,37,19,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,153,18,154,17,44,12
+	.byte 31,0,84,14,208,8,157,138,1,158,137,1,68,13,29,68,147,136,1,148,135,1,68,149,134,1,150,133,1,68,151,132
+	.byte 1,152,131,1,68,153,130,1,154,129,1,16,12,31,0,68,14,64,157,8,158,7,68,13,29,68,153,6,16,12,31,0
+	.byte 68,14,112,157,14,158,13,68,13,29,68,153,12,19,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152
+	.byte 13,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,27,12,31,0,68,14,224,1,157,28,158,27,68,13
+	.byte 29,68,147,26,68,149,25,150,24,68,151,23,152,22,22,12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,152,22
+	.byte 153,21,68,154,20,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,19,12,31,0,68,14,208,1,157,26
+	.byte 158,25,68,13,29,68,153,24,154,23,44,12,31,0,84,14,176,18,157,166,2,158,165,2,68,13,29,68,147,164,2,148
+	.byte 163,2,68,149,162,2,150,161,2,68,151,160,2,152,159,2,68,153,158,2,154,157,2,17,12,31,0,68,14,128,1,157
+	.byte 16,158,15,68,13,29,68,153,14,34,12,31,0,84,14,160,5,157,84,158,83,68,13,29,68,147,82,148,81,68,149,80
+	.byte 150,79,68,151,78,152,77,68,153,76,154,75,34,12,31,0,84,14,240,5,157,94,158,93,68,13,29,68,147,92,148,91
+	.byte 68,149,90,150,89,68,151,88,152,87,68,153,86,154,85,18,12,31,0,68,14,112,157,14,158,13,68,13,29,68,153,12
+	.byte 154,11,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,151,12,152,11,68,154,10,34,12,31,0,68,14,240,3
+	.byte 157,62,158,61,68,13,29,68,147,60,148,59,68,149,58,150,57,68,151,56,152,55,68,153,54,154,53,14,12,31,0,68
+	.byte 14,160,1,157,20,158,19,68,13,29,44,12,31,0,84,14,192,9,157,152,1,158,151,1,68,13,29,68,147,150,1,148
+	.byte 149,1,68,149,148,1,150,147,1,68,151,146,1,152,145,1,68,153,144,1,154,143,1,34,12,31,0,68,14,144,1,157
+	.byte 18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,30,12,31,0,68,14
+	.byte 240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23,14,12,31,0,68,14,144
+	.byte 1,157,18,158,17,68,13,29,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150
+	.byte 11,68,151,10,152,9,68,153,8,154,7,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68
+	.byte 151,18,152,17,68,153,16,154,15,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,32,12,31,0
+	.byte 68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8,26,12,31
+	.byte 0,68,14,112,157,14,158,13,68,13,29,68,150,12,151,11,68,152,10,153,9,68,154,8,13,12,31,0,68,14,96,157
+	.byte 12,158,11,68,13,29,29,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,148,16,149,15,68,151,14,152,13,68
+	.byte 153,12,154,11,32,12,31,0,68,14,160,1,157,20,158,19,68,13,29,68,147,18,148,17,68,150,16,151,15,68,152,14
+	.byte 153,13,68,154,12,32,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,148,30,149,29,68,150,28,151,27,68,152
+	.byte 26,153,25,68,154,24,14,12,31,0,68,14,176,1,157,22,158,21,68,13,29,17,12,31,0,68,14,144,1,157,18,158
+	.byte 17,68,13,29,68,153,16,25,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,68,150,19,68,152,18,153
+	.byte 17,19,12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,68,154,9,18,12,31,0,68,14,80,157,10,158,9
+	.byte 68,13,29,68,153,8,154,7,13,12,31,0,68,14,112,157,14,158,13,68,13,29,14,12,31,0,68,14,128,1,157,16
+	.byte 158,15,68,13,29,24,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17,18,12
+	.byte 31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,17,12,31,0,68,14,176,1,157,22,158,21,68,13,29
+	.byte 68,153,20,22,12,31,0,68,14,160,2,157,36,158,35,68,13,29,68,151,34,152,33,68,153,32,27,12,31,0,68,14
+	.byte 128,2,157,32,158,31,68,13,29,68,148,30,149,29,68,150,28,68,153,27,154,26,23,12,31,0,68,14,112,157,14,158
+	.byte 13,68,13,29,68,151,12,152,11,68,153,10,154,9,27,12,31,0,68,14,128,2,157,32,158,31,68,13,29,68,150,30
+	.byte 151,29,68,152,28,153,27,68,154,26,34,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,147,32,148,31,68,149
+	.byte 30,150,29,68,151,28,152,27,68,153,26,154,25,34,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,147,20,148
+	.byte 19,68,149,18,150,17,68,151,16,152,15,68,153,14,154,13,32,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68
+	.byte 148,16,149,15,68,150,14,151,13,68,152,12,153,11,68,154,10,17,12,31,0,68,14,160,1,157,20,158,19,68,13,29
+	.byte 68,152,18
 
 .text
 	.align 4
@@ -65879,4061 +65831,4061 @@ plt_Xamarin_Forms_Application__ctor:
 _p_1:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2648]
+ldr x16, [x16, #2664]
 br x16
-.word 11163
+.word 11189
 	.no_dead_strip plt_IntentionJournal_App_InitializeComponent
 plt_IntentionJournal_App_InitializeComponent:
 _p_2:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2656]
+ldr x16, [x16, #2672]
 br x16
-.word 11168
+.word 11194
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
 plt__jit_icall_ves_icall_object_new_fast:
 _p_3:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2664]
+ldr x16, [x16, #2680]
 br x16
-.word 11173
+.word 11199
 	.no_dead_strip plt_IntentionJournal_MainTabContainer__ctor
 plt_IntentionJournal_MainTabContainer__ctor:
 _p_4:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2672]
+ldr x16, [x16, #2688]
 br x16
-.word 11201
+.word 11227
 	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
 plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
 _p_5:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2680]
+ldr x16, [x16, #2696]
 br x16
-.word 11206
+.word 11232
 	.no_dead_strip plt_IntentionJournal_AppDatabase__ctor
 plt_IntentionJournal_AppDatabase__ctor:
 _p_6:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2688]
+ldr x16, [x16, #2704]
 br x16
-.word 11211
+.word 11237
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlLoader_get_XamlFileProvider
 plt_Xamarin_Forms_Xaml_Internals_XamlLoader_get_XamlFileProvider:
 _p_7:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2696]
+ldr x16, [x16, #2712]
 br x16
-.word 11216
+.word 11242
 	.no_dead_strip plt_IntentionJournal_App___InitComponentRuntime
 plt_IntentionJournal_App___InitComponentRuntime:
 _p_8:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2704]
+ldr x16, [x16, #2720]
 br x16
-.word 11221
+.word 11247
 	.no_dead_strip plt_Xamarin_Forms_Color__ctor_double_double_double_double
 plt_Xamarin_Forms_Color__ctor_double_double_double_double:
 _p_9:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2712]
+ldr x16, [x16, #2728]
 br x16
-.word 11226
+.word 11252
 	.no_dead_strip plt_Xamarin_Forms_Setter__ctor
 plt_Xamarin_Forms_Setter__ctor:
 _p_10:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2720]
+ldr x16, [x16, #2736]
 br x16
-.word 11231
+.word 11257
 	.no_dead_strip plt_Xamarin_Forms_TypeTypeConverter__ctor
 plt_Xamarin_Forms_TypeTypeConverter__ctor:
 _p_11:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2728]
+ldr x16, [x16, #2744]
 br x16
-.word 11236
+.word 11262
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider__ctor
 plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider__ctor:
 _p_12:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2736]
+ldr x16, [x16, #2752]
 br x16
-.word 11241
+.word 11267
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver__ctor
 plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver__ctor:
 _p_13:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2744]
+ldr x16, [x16, #2760]
 br x16
-.word 11246
+.word 11272
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver_Add_string_string
 plt_Xamarin_Forms_Xaml_Internals_XmlNamespaceResolver_Add_string_string:
 _p_14:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2752]
+ldr x16, [x16, #2768]
 br x16
-.word 11251
+.word 11277
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlTypeResolver__ctor_System_Xml_IXmlNamespaceResolver_System_Reflection_Assembly
 plt_Xamarin_Forms_Xaml_Internals_XamlTypeResolver__ctor_System_Xml_IXmlNamespaceResolver_System_Reflection_Assembly:
 _p_15:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2760]
+ldr x16, [x16, #2776]
 br x16
-.word 11256
+.word 11282
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider_Add_System_Type_object
 plt_Xamarin_Forms_Xaml_Internals_XamlServiceProvider_Add_System_Type_object:
 _p_16:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2768]
+ldr x16, [x16, #2784]
 br x16
-.word 11261
+.word 11287
 	.no_dead_strip plt_Xamarin_Forms_Xaml_XmlLineInfo__ctor_int_int
 plt_Xamarin_Forms_Xaml_XmlLineInfo__ctor_int_int:
 _p_17:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2776]
+ldr x16, [x16, #2792]
 br x16
-.word 11266
+.word 11292
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_XmlLineInfoProvider__ctor_System_Xml_IXmlLineInfo
 plt_Xamarin_Forms_Xaml_Internals_XmlLineInfoProvider__ctor_System_Xml_IXmlLineInfo:
 _p_18:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2784]
+ldr x16, [x16, #2800]
 br x16
-.word 11271
+.word 11297
 	.no_dead_strip plt_Xamarin_Forms_Style__ctor_System_Type
 plt_Xamarin_Forms_Style__ctor_System_Type:
 _p_19:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2792]
+ldr x16, [x16, #2808]
 br x16
-.word 11276
+.word 11302
 	.no_dead_strip plt_Xamarin_Forms_ResourceDictionary__ctor
 plt_Xamarin_Forms_ResourceDictionary__ctor:
 _p_20:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2800]
+ldr x16, [x16, #2816]
 br x16
-.word 11281
+.word 11307
 	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope__ctor
 plt_Xamarin_Forms_Internals_NameScope__ctor:
 _p_21:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2808]
+ldr x16, [x16, #2824]
 br x16
-.word 11286
+.word 11312
 	.no_dead_strip plt_Xamarin_Forms_Internals_NameScope_SetNameScope_Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_INameScope
 plt_Xamarin_Forms_Internals_NameScope_SetNameScope_Xamarin_Forms_BindableObject_Xamarin_Forms_Internals_INameScope:
 _p_22:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2816]
+ldr x16, [x16, #2832]
 br x16
-.word 11291
+.word 11317
 	.no_dead_strip plt_Xamarin_Forms_Application_set_Resources_Xamarin_Forms_ResourceDictionary
 plt_Xamarin_Forms_Application_set_Resources_Xamarin_Forms_ResourceDictionary:
 _p_23:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2824]
+ldr x16, [x16, #2840]
 br x16
-.word 11296
+.word 11322
 	.no_dead_strip plt_Xamarin_Forms_ResourceDictionary_Add_string_object
 plt_Xamarin_Forms_ResourceDictionary_Add_string_object:
 _p_24:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2832]
+ldr x16, [x16, #2848]
 br x16
-.word 11301
+.word 11327
 	.no_dead_strip plt_Xamarin_Forms_Setter_set_Property_Xamarin_Forms_BindableProperty
 plt_Xamarin_Forms_Setter_set_Property_Xamarin_Forms_BindableProperty:
 _p_25:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2840]
+ldr x16, [x16, #2856]
 br x16
-.word 11306
+.word 11332
 	.no_dead_strip plt_Xamarin_Forms_Setter_set_Value_object
 plt_Xamarin_Forms_Setter_set_Value_object:
 _p_26:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2848]
+ldr x16, [x16, #2864]
 br x16
-.word 11311
+.word 11337
 	.no_dead_strip plt__jit_icall_ves_icall_array_new_specific
 plt__jit_icall_ves_icall_array_new_specific:
 _p_27:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2856]
+ldr x16, [x16, #2872]
 br x16
-.word 11316
+.word 11342
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_SimpleValueTargetProvider__ctor_object___object
 plt_Xamarin_Forms_Xaml_Internals_SimpleValueTargetProvider__ctor_object___object:
 _p_28:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2864]
+ldr x16, [x16, #2880]
 br x16
-.word 11347
+.word 11373
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_NameScopeProvider__ctor
 plt_Xamarin_Forms_Xaml_Internals_NameScopeProvider__ctor:
 _p_29:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2872]
+ldr x16, [x16, #2888]
 br x16
-.word 11352
+.word 11378
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Internals_NameScopeProvider_set_NameScope_Xamarin_Forms_Internals_INameScope
 plt_Xamarin_Forms_Xaml_Internals_NameScopeProvider_set_NameScope_Xamarin_Forms_Internals_INameScope:
 _p_30:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2880]
+ldr x16, [x16, #2896]
 br x16
-.word 11357
+.word 11383
 	.no_dead_strip plt_Xamarin_Forms_Style_get_Setters
 plt_Xamarin_Forms_Style_get_Setters:
 _p_31:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2888]
+ldr x16, [x16, #2904]
 br x16
-.word 11362
+.word 11388
 	.no_dead_strip plt_Xamarin_Forms_ResourceDictionary_Add_Xamarin_Forms_Style
 plt_Xamarin_Forms_ResourceDictionary_Add_Xamarin_Forms_Style:
 _p_32:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2896]
+ldr x16, [x16, #2912]
 br x16
-.word 11367
+.word 11393
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_App_IntentionJournal_App_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_App_IntentionJournal_App_System_Type:
 _p_33:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2904]
+ldr x16, [x16, #2920]
 br x16
-.word 11372
+.word 11398
 	.no_dead_strip plt_System_Collections_Generic_List_1_string__ctor
 plt_System_Collections_Generic_List_1_string__ctor:
 _p_34:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2912]
+ldr x16, [x16, #2928]
 br x16
-.word 11384
+.word 11410
 	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
 plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_35:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2920]
+ldr x16, [x16, #2936]
 br x16
-.word 11395
+.word 11421
 	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
 plt_Xamarin_Forms_ContentPage__ctor:
 _p_36:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2928]
+ldr x16, [x16, #2944]
 br x16
-.word 11402
+.word 11428
 	.no_dead_strip plt_IntentionJournal_HomePage_InitializeComponent
 plt_IntentionJournal_HomePage_InitializeComponent:
 _p_37:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2936]
+ldr x16, [x16, #2952]
 br x16
-.word 11407
+.word 11433
 	.no_dead_strip plt_Xamarin_Forms_Page_get_ToolbarItems
 plt_Xamarin_Forms_Page_get_ToolbarItems:
 _p_38:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2944]
+ldr x16, [x16, #2960]
 br x16
-.word 11412
+.word 11438
 	.no_dead_strip plt_Xamarin_Forms_ToolbarItem__ctor_string_string_System_Action_Xamarin_Forms_ToolbarItemOrder_int
 plt_Xamarin_Forms_ToolbarItem__ctor_string_string_System_Action_Xamarin_Forms_ToolbarItemOrder_int:
 _p_39:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2952]
+ldr x16, [x16, #2968]
 br x16
-.word 11417
+.word 11443
 	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
 plt__jit_icall_mono_arch_throw_corlib_exception:
 _p_40:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2960]
+ldr x16, [x16, #2976]
 br x16
-.word 11422
+.word 11448
 	.no_dead_strip plt_IntentionJournal_HomePage_GetRandomQuote
 plt_IntentionJournal_HomePage_GetRandomQuote:
 _p_41:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2968]
+ldr x16, [x16, #2984]
 br x16
-.word 11457
+.word 11483
 	.no_dead_strip plt_Xamarin_Forms_Page_OnAppearing
 plt_Xamarin_Forms_Page_OnAppearing:
 _p_42:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2976]
+ldr x16, [x16, #2992]
 br x16
-.word 11462
+.word 11488
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_Clear
 plt_System_Collections_Generic_List_1_string_Clear:
 _p_43:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2984]
+ldr x16, [x16, #3000]
 br x16
-.word 11467
+.word 11493
 	.no_dead_strip plt_IntentionJournal_App_get_DBase
 plt_IntentionJournal_App_get_DBase:
 _p_44:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2992]
+ldr x16, [x16, #3008]
 br x16
-.word 11478
+.word 11504
 	.no_dead_strip plt_IntentionJournal_AppDatabase_GetAllQuotes
 plt_IntentionJournal_AppDatabase_GetAllQuotes:
 _p_45:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3000]
+ldr x16, [x16, #3016]
 br x16
-.word 11483
+.word 11509
 	.no_dead_strip plt_System_Collections_Generic_List_1_IntentionJournal_QuoteObject_GetEnumerator
 plt_System_Collections_Generic_List_1_IntentionJournal_QuoteObject_GetEnumerator:
 _p_46:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3008]
+ldr x16, [x16, #3024]
 br x16
-.word 11488
+.word 11514
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_QuoteObject_get_Current
 plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_QuoteObject_get_Current:
 _p_47:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3016]
+ldr x16, [x16, #3032]
 br x16
-.word 11499
+.word 11525
 	.no_dead_strip plt_IntentionJournal_QuoteObject_get_quoteString
 plt_IntentionJournal_QuoteObject_get_quoteString:
 _p_48:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3024]
+ldr x16, [x16, #3040]
 br x16
-.word 11510
+.word 11536
 	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_string
 plt_System_Diagnostics_Debug_WriteLine_string:
 _p_49:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3032]
+ldr x16, [x16, #3048]
 br x16
-.word 11515
+.word 11541
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_Add_string
 plt_System_Collections_Generic_List_1_string_Add_string:
 _p_50:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3040]
+ldr x16, [x16, #3056]
 br x16
-.word 11520
+.word 11546
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_QuoteObject_MoveNext
 plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_QuoteObject_MoveNext:
 _p_51:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3048]
+ldr x16, [x16, #3064]
 br x16
-.word 11531
+.word 11557
 	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_QuoteObject_Dispose
 plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_QuoteObject_Dispose:
 _p_52:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3056]
+ldr x16, [x16, #3072]
 br x16
-.word 11542
+.word 11568
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Count
 plt_System_Collections_Generic_List_1_string_get_Count:
 _p_53:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3064]
+ldr x16, [x16, #3080]
 br x16
-.word 11563
+.word 11589
 	.no_dead_strip plt_string_Concat_object_object
 plt_string_Concat_object_object:
 _p_54:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3072]
+ldr x16, [x16, #3088]
 br x16
-.word 11574
+.word 11600
 	.no_dead_strip plt_System_Random__ctor
 plt_System_Random__ctor:
 _p_55:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3080]
+ldr x16, [x16, #3096]
 br x16
-.word 11577
+.word 11603
 	.no_dead_strip plt_System_Collections_Generic_List_1_string_get_Item_int
 plt_System_Collections_Generic_List_1_string_get_Item_int:
 _p_56:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3088]
+ldr x16, [x16, #3104]
 br x16
-.word 11580
+.word 11606
 	.no_dead_strip plt_string_Concat_string_string
 plt_string_Concat_string_string:
 _p_57:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3096]
+ldr x16, [x16, #3112]
 br x16
-.word 11591
+.word 11617
 	.no_dead_strip plt_string_Concat_string_string_string
 plt_string_Concat_string_string_string:
 _p_58:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3104]
+ldr x16, [x16, #3120]
 br x16
-.word 11594
-	.no_dead_strip plt_Xamarin_Forms_Editor_set_Text_string
-plt_Xamarin_Forms_Editor_set_Text_string:
+.word 11620
+	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
+plt_Xamarin_Forms_Label_set_Text_string:
 _p_59:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3112]
+ldr x16, [x16, #3128]
 br x16
-.word 11597
+.word 11623
 	.no_dead_strip plt_IntentionJournal_HomePage___InitComponentRuntime
 plt_IntentionJournal_HomePage___InitComponentRuntime:
 _p_60:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3120]
+ldr x16, [x16, #3136]
 br x16
-.word 11602
+.word 11628
 	.no_dead_strip plt_Xamarin_Forms_Xaml_StaticResourceExtension__ctor
 plt_Xamarin_Forms_Xaml_StaticResourceExtension__ctor:
 _p_61:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3128]
+ldr x16, [x16, #3144]
 br x16
-.word 11607
+.word 11633
 	.no_dead_strip plt_Xamarin_Forms_Label__ctor
 plt_Xamarin_Forms_Label__ctor:
 _p_62:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3136]
-br x16
-.word 11612
-	.no_dead_strip plt_Xamarin_Forms_Editor__ctor
-plt_Xamarin_Forms_Editor__ctor:
-_p_63:
-adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #3144]
-br x16
-.word 11617
-	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
-plt_Xamarin_Forms_StackLayout__ctor:
-_p_64:
-adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3152]
 br x16
-.word 11622
-	.no_dead_strip plt_Xamarin_Forms_ScrollView__ctor
-plt_Xamarin_Forms_ScrollView__ctor:
-_p_65:
+.word 11638
+	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
+plt_Xamarin_Forms_StackLayout__ctor:
+_p_63:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3160]
 br x16
-.word 11627
-	.no_dead_strip plt_Xamarin_Forms_ThicknessTypeConverter__ctor
-plt_Xamarin_Forms_ThicknessTypeConverter__ctor:
-_p_66:
+.word 11643
+	.no_dead_strip plt_Xamarin_Forms_ScrollView__ctor
+plt_Xamarin_Forms_ScrollView__ctor:
+_p_64:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3168]
 br x16
-.word 11632
-	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
-plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
-_p_67:
+.word 11648
+	.no_dead_strip plt_Xamarin_Forms_ThicknessTypeConverter__ctor
+plt_Xamarin_Forms_ThicknessTypeConverter__ctor:
+_p_65:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3176]
 br x16
-.word 11637
-	.no_dead_strip plt_Xamarin_Forms_Xaml_StaticResourceExtension_set_Key_string
-plt_Xamarin_Forms_Xaml_StaticResourceExtension_set_Key_string:
-_p_68:
+.word 11653
+	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object
+plt_Xamarin_Forms_BindableObject_SetValue_Xamarin_Forms_BindableProperty_object:
+_p_66:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3184]
 br x16
-.word 11642
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
-plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
-_p_69:
+.word 11658
+	.no_dead_strip plt_Xamarin_Forms_Xaml_StaticResourceExtension_set_Key_string
+plt_Xamarin_Forms_Xaml_StaticResourceExtension_set_Key_string:
+_p_67:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3192]
 br x16
-.word 11647
-	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
-plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
-_p_70:
+.word 11663
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
+plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
+_p_68:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3200]
 br x16
-.word 11652
-	.no_dead_strip plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View
-plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View:
-_p_71:
+.word 11668
+	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
+plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
+_p_69:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3208]
 br x16
-.word 11663
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_HomePage_IntentionJournal_HomePage_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_HomePage_IntentionJournal_HomePage_System_Type:
-_p_72:
+.word 11673
+	.no_dead_strip plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View
+plt_Xamarin_Forms_ScrollView_set_Content_Xamarin_Forms_View:
+_p_70:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3216]
 br x16
-.word 11668
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
-_p_73:
+.word 11684
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_HomePage_IntentionJournal_HomePage_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_HomePage_IntentionJournal_HomePage_System_Type:
+_p_71:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3224]
 br x16
-.word 11680
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Editor_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Editor_Xamarin_Forms_Element_string:
-_p_74:
+.word 11689
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_StackLayout_Xamarin_Forms_Element_string:
+_p_72:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3232]
 br x16
-.word 11692
-	.no_dead_strip plt_IntentionJournal_BrowseMoodsPage_InitializeComponent
-plt_IntentionJournal_BrowseMoodsPage_InitializeComponent:
-_p_75:
+.word 11701
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
+_p_73:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3240]
 br x16
-.word 11704
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
-_p_76:
+.word 11713
+	.no_dead_strip plt_IntentionJournal_BrowseMoodsPage_InitializeComponent
+plt_IntentionJournal_BrowseMoodsPage_InitializeComponent:
+_p_74:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3248]
 br x16
-.word 11709
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_:
-_p_77:
+.word 11725
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Create:
+_p_75:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3256]
 br x16
-.word 11712
-	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
-plt_Xamarin_Forms_Label_set_Text_string:
-_p_78:
+.word 11730
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_:
+_p_76:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3264]
 br x16
-.word 11724
+.word 11733
 	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
-_p_79:
+_p_77:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3272]
 br x16
-.word 11729
+.word 11745
 	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
 plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
-_p_80:
+_p_78:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3280]
 br x16
-.word 11734
+.word 11750
 	.no_dead_strip plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color
 plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color:
-_p_81:
+_p_79:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3288]
 br x16
-.word 11739
+.word 11755
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_:
-_p_82:
+_p_80:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3296]
 br x16
-.word 11744
+.word 11760
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_:
-_p_83:
+_p_81:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3304]
 br x16
-.word 11756
+.word 11772
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_:
-_p_84:
+_p_82:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3312]
 br x16
-.word 11768
+.word 11784
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_:
-_p_85:
+_p_83:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3320]
 br x16
-.word 11780
+.word 11796
 	.no_dead_strip plt_IntentionJournal_BrowseMoodsPage___InitComponentRuntime
 plt_IntentionJournal_BrowseMoodsPage___InitComponentRuntime:
-_p_86:
+_p_84:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3328]
 br x16
-.word 11792
+.word 11808
 	.no_dead_strip plt_Xamarin_Forms_RowDefinition__ctor
 plt_Xamarin_Forms_RowDefinition__ctor:
-_p_87:
+_p_85:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3336]
 br x16
-.word 11797
+.word 11813
 	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition__ctor
 plt_Xamarin_Forms_ColumnDefinition__ctor:
-_p_88:
+_p_86:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3344]
 br x16
-.word 11802
+.word 11818
 	.no_dead_strip plt_Xamarin_Forms_TapGestureRecognizer__ctor
 plt_Xamarin_Forms_TapGestureRecognizer__ctor:
-_p_89:
+_p_87:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3352]
 br x16
-.word 11807
+.word 11823
 	.no_dead_strip plt_Xamarin_Forms_Image__ctor
 plt_Xamarin_Forms_Image__ctor:
-_p_90:
+_p_88:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3360]
 br x16
-.word 11812
+.word 11828
 	.no_dead_strip plt_Xamarin_Forms_Grid__ctor
 plt_Xamarin_Forms_Grid__ctor:
-_p_91:
+_p_89:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3368]
 br x16
-.word 11817
+.word 11833
 	.no_dead_strip plt_Xamarin_Forms_Button__ctor
 plt_Xamarin_Forms_Button__ctor:
-_p_92:
+_p_90:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3376]
 br x16
-.word 11822
+.word 11838
 	.no_dead_strip plt_Xamarin_Forms_GridLengthTypeConverter__ctor
 plt_Xamarin_Forms_GridLengthTypeConverter__ctor:
-_p_93:
+_p_91:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3384]
 br x16
-.word 11827
+.word 11843
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_RowDefinitions
 plt_Xamarin_Forms_Grid_get_RowDefinitions:
-_p_94:
+_p_92:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3392]
 br x16
-.word 11832
+.word 11848
 	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition
 plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition:
-_p_95:
+_p_93:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3400]
 br x16
-.word 11837
+.word 11853
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_ColumnDefinitions
 plt_Xamarin_Forms_Grid_get_ColumnDefinitions:
-_p_96:
+_p_94:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3408]
 br x16
-.word 11848
+.word 11864
 	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition
 plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition:
-_p_97:
+_p_95:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3416]
 br x16
-.word 11853
+.word 11869
 	.no_dead_strip plt_Xamarin_Forms_ImageSourceConverter__ctor
 plt_Xamarin_Forms_ImageSourceConverter__ctor:
-_p_98:
+_p_96:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3424]
 br x16
-.word 11864
+.word 11880
 	.no_dead_strip plt_Xamarin_Forms_ImageSourceConverter_ConvertFromInvariantString_string
 plt_Xamarin_Forms_ImageSourceConverter_ConvertFromInvariantString_string:
-_p_99:
+_p_97:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3432]
 br x16
-.word 11869
+.word 11885
 	.no_dead_strip plt_Xamarin_Forms_TapGestureRecognizer_add_Tapped_System_EventHandler
 plt_Xamarin_Forms_TapGestureRecognizer_add_Tapped_System_EventHandler:
-_p_100:
+_p_98:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3440]
 br x16
-.word 11874
+.word 11890
 	.no_dead_strip plt_Xamarin_Forms_View_get_GestureRecognizers
 plt_Xamarin_Forms_View_get_GestureRecognizers:
-_p_101:
+_p_99:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3448]
 br x16
-.word 11879
+.word 11895
 	.no_dead_strip plt_Xamarin_Forms_Grid_get_Children
 plt_Xamarin_Forms_Grid_get_Children:
-_p_102:
+_p_100:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3456]
 br x16
-.word 11884
+.word 11900
 	.no_dead_strip plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler
 plt_Xamarin_Forms_Button_add_Clicked_System_EventHandler:
-_p_103:
+_p_101:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3464]
 br x16
-.word 11889
+.word 11905
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_BrowseMoodsPage_IntentionJournal_BrowseMoodsPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_BrowseMoodsPage_IntentionJournal_BrowseMoodsPage_System_Type:
-_p_104:
+_p_102:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3472]
 br x16
-.word 11894
+.word 11910
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Grid_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Grid_Xamarin_Forms_Element_string:
-_p_105:
+_p_103:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3480]
 br x16
-.word 11906
+.word 11922
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Navigation
 plt_Xamarin_Forms_VisualElement_get_Navigation:
-_p_106:
+_p_104:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3488]
 br x16
-.word 11918
+.word 11934
 	.no_dead_strip plt_IntentionJournal_JournalPage__ctor
 plt_IntentionJournal_JournalPage__ctor:
-_p_107:
+_p_105:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3496]
 br x16
-.word 11923
+.word 11939
 	.no_dead_strip plt_System_Threading_Tasks_Task_GetAwaiter
 plt_System_Threading_Tasks_Task_GetAwaiter:
-_p_108:
+_p_106:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3504]
 br x16
-.word 11928
+.word 11944
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted
 plt_System_Runtime_CompilerServices_TaskAwaiter_get_IsCompleted:
-_p_109:
+_p_107:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3512]
 br x16
-.word 11931
+.word 11947
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_:
-_p_110:
+_p_108:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3520]
 br x16
-.word 11934
+.word 11950
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult
 plt_System_Runtime_CompilerServices_TaskAwaiter_GetResult:
-_p_111:
+_p_109:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3528]
 br x16
-.word 11946
+.word 11962
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetException_System_Exception:
-_p_112:
+_p_110:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3536]
 br x16
-.word 11949
+.word 11965
 	.no_dead_strip plt__jit_icall_mono_thread_get_undeniable_exception
 plt__jit_icall_mono_thread_get_undeniable_exception:
-_p_113:
+_p_111:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3544]
 br x16
-.word 11952
+.word 11968
 	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
 plt__jit_icall_mono_arch_throw_exception:
-_p_114:
+_p_112:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3552]
 br x16
-.word 11991
+.word 12007
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetResult:
-_p_115:
+_p_113:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3560]
 br x16
-.word 12019
+.word 12035
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine:
-_p_116:
+_p_114:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3568]
 br x16
-.word 12022
+.word 12038
 	.no_dead_strip plt_IntentionJournal_JournalPage__ctor_string
 plt_IntentionJournal_JournalPage__ctor_string:
-_p_117:
+_p_115:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3576]
 br x16
-.word 12025
+.word 12041
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_:
-_p_118:
+_p_116:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3584]
 br x16
-.word 12030
+.word 12046
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_:
-_p_119:
+_p_117:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3592]
 br x16
-.word 12042
+.word 12058
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_:
-_p_120:
+_p_118:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3600]
 br x16
-.word 12054
+.word 12070
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_System_Runtime_CompilerServices_TaskAwaiter__IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_:
-_p_121:
+_p_119:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3608]
 br x16
-.word 12066
+.word 12082
 	.no_dead_strip plt_IntentionJournal_JournalPage_InitializeComponent
 plt_IntentionJournal_JournalPage_InitializeComponent:
-_p_122:
+_p_120:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3616]
 br x16
-.word 12078
+.word 12094
 	.no_dead_strip plt_IntentionJournal_AppDatabase_GetAllEntries
 plt_IntentionJournal_AppDatabase_GetAllEntries:
-_p_123:
+_p_121:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3624]
 br x16
-.word 12083
+.word 12099
 	.no_dead_strip plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable
 plt_Xamarin_Forms_ItemsView_1_Xamarin_Forms_Cell_set_ItemsSource_System_Collections_IEnumerable:
-_p_124:
+_p_122:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3632]
 br x16
-.word 12088
+.word 12104
 	.no_dead_strip plt_IntentionJournal_AppDatabase_GetEntriesForSingleMood_string
 plt_IntentionJournal_AppDatabase_GetEntriesForSingleMood_string:
-_p_125:
+_p_123:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3640]
 br x16
-.word 12099
+.word 12115
 	.no_dead_strip plt_Xamarin_Forms_SelectedItemChangedEventArgs_get_SelectedItem
 plt_Xamarin_Forms_SelectedItemChangedEventArgs_get_SelectedItem:
-_p_126:
+_p_124:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3648]
 br x16
-.word 12104
+.word 12120
 	.no_dead_strip plt_IntentionJournal_EntryObject_get_entryTitle
 plt_IntentionJournal_EntryObject_get_entryTitle:
-_p_127:
+_p_125:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3656]
 br x16
-.word 12109
+.word 12125
 	.no_dead_strip plt_IntentionJournal_ViewEntryPage__ctor_IntentionJournal_EntryObject
 plt_IntentionJournal_ViewEntryPage__ctor_IntentionJournal_EntryObject:
-_p_128:
+_p_126:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3664]
 br x16
-.word 12114
+.word 12130
 	.no_dead_strip plt_IntentionJournal_JournalPage___InitComponentRuntime
 plt_IntentionJournal_JournalPage___InitComponentRuntime:
-_p_129:
+_p_127:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3672]
 br x16
-.word 12119
+.word 12135
 	.no_dead_strip plt_Xamarin_Forms_ImageCell__ctor
 plt_Xamarin_Forms_ImageCell__ctor:
-_p_130:
+_p_128:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3680]
 br x16
-.word 12124
+.word 12140
 	.no_dead_strip plt_Xamarin_Forms_DataTemplate__ctor
 plt_Xamarin_Forms_DataTemplate__ctor:
-_p_131:
+_p_129:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3688]
 br x16
-.word 12129
+.word 12145
 	.no_dead_strip plt_Xamarin_Forms_ListView__ctor
 plt_Xamarin_Forms_ListView__ctor:
-_p_132:
+_p_130:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3696]
 br x16
-.word 12134
+.word 12150
 	.no_dead_strip plt_Xamarin_Forms_ListView_add_ItemSelected_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs
 plt_Xamarin_Forms_ListView_add_ItemSelected_System_EventHandler_1_Xamarin_Forms_SelectedItemChangedEventArgs:
-_p_133:
+_p_131:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3704]
 br x16
-.word 12139
-	.no_dead_strip plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
-plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor:
-_p_134:
+.word 12155
+	.no_dead_strip plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor
+plt_IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor:
+_p_132:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3712]
 br x16
-.word 12144
+.word 12160
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_JournalPage_IntentionJournal_JournalPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_JournalPage_IntentionJournal_JournalPage_System_Type:
-_p_135:
+_p_133:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3720]
 br x16
-.word 12149
+.word 12165
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_ListView_Xamarin_Forms_Element_string:
-_p_136:
+_p_134:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3728]
 br x16
-.word 12161
+.word 12177
 	.no_dead_strip plt_Xamarin_Forms_Xaml_BindingExtension__ctor
 plt_Xamarin_Forms_Xaml_BindingExtension__ctor:
-_p_137:
+_p_135:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3736]
 br x16
-.word 12173
+.word 12189
 	.no_dead_strip plt_Xamarin_Forms_Xaml_BindingExtension_set_Path_string
 plt_Xamarin_Forms_Xaml_BindingExtension_set_Path_string:
-_p_138:
+_p_136:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3744]
 br x16
-.word 12178
+.word 12194
 	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
 plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_139:
+_p_137:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3752]
 br x16
-.word 12183
+.word 12199
 	.no_dead_strip plt_Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase
 plt_Xamarin_Forms_BindableObject_SetBinding_Xamarin_Forms_BindableProperty_Xamarin_Forms_BindingBase:
-_p_140:
+_p_138:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3760]
 br x16
-.word 12186
+.word 12202
 	.no_dead_strip plt_IntentionJournal_AddEntryPage_InitializeComponent
 plt_IntentionJournal_AddEntryPage_InitializeComponent:
-_p_141:
+_p_139:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3768]
 br x16
-.word 12191
+.word 12207
 	.no_dead_strip plt_Xamarin_Forms_Picker_get_Items
 plt_Xamarin_Forms_Picker_get_Items:
-_p_142:
+_p_140:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3776]
 br x16
-.word 12196
+.word 12212
 	.no_dead_strip plt_Xamarin_Forms_Entry_set_Text_string
 plt_Xamarin_Forms_Entry_set_Text_string:
-_p_143:
+_p_141:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3784]
 br x16
-.word 12201
-	.no_dead_strip plt_Xamarin_Forms_Picker_set_SelectedIndex_int
-plt_Xamarin_Forms_Picker_set_SelectedIndex_int:
-_p_144:
+.word 12217
+	.no_dead_strip plt_Xamarin_Forms_Editor_set_Text_string
+plt_Xamarin_Forms_Editor_set_Text_string:
+_p_142:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3792]
 br x16
-.word 12206
-	.no_dead_strip plt_Xamarin_Forms_Picker_get_SelectedIndex
-plt_Xamarin_Forms_Picker_get_SelectedIndex:
-_p_145:
+.word 12222
+	.no_dead_strip plt_Xamarin_Forms_Picker_set_SelectedIndex_int
+plt_Xamarin_Forms_Picker_set_SelectedIndex_int:
+_p_143:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3800]
 br x16
-.word 12211
-	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
-plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
-_p_146:
+.word 12227
+	.no_dead_strip plt_Xamarin_Forms_Picker_get_SelectedIndex
+plt_Xamarin_Forms_Picker_get_SelectedIndex:
+_p_144:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3808]
 br x16
-.word 12216
-	.no_dead_strip plt_Xamarin_Forms_Entry_get_Text
-plt_Xamarin_Forms_Entry_get_Text:
-_p_147:
+.word 12232
+	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string
+plt_Xamarin_Forms_Page_DisplayAlert_string_string_string:
+_p_145:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3816]
 br x16
-.word 12221
-	.no_dead_strip plt_string_op_Equality_string_string
-plt_string_op_Equality_string_string:
-_p_148:
+.word 12237
+	.no_dead_strip plt_Xamarin_Forms_Entry_get_Text
+plt_Xamarin_Forms_Entry_get_Text:
+_p_146:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3824]
 br x16
-.word 12226
-	.no_dead_strip plt_Xamarin_Forms_Editor_get_Text
-plt_Xamarin_Forms_Editor_get_Text:
-_p_149:
+.word 12242
+	.no_dead_strip plt_string_op_Equality_string_string
+plt_string_op_Equality_string_string:
+_p_147:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3832]
 br x16
-.word 12229
-	.no_dead_strip plt_IntentionJournal_AppDatabase_getTempImage_int
-plt_IntentionJournal_AppDatabase_getTempImage_int:
-_p_150:
+.word 12247
+	.no_dead_strip plt_Xamarin_Forms_Editor_get_Text
+plt_Xamarin_Forms_Editor_get_Text:
+_p_148:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3840]
 br x16
-.word 12234
-	.no_dead_strip plt_IntentionJournal_ImageDataObject_get_pictureBytes
-plt_IntentionJournal_ImageDataObject_get_pictureBytes:
-_p_151:
+.word 12250
+	.no_dead_strip plt_IntentionJournal_AppDatabase_getTempImage_int
+plt_IntentionJournal_AppDatabase_getTempImage_int:
+_p_149:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3848]
 br x16
-.word 12239
-	.no_dead_strip plt_IntentionJournal_EntryObject__ctor
-plt_IntentionJournal_EntryObject__ctor:
-_p_152:
+.word 12255
+	.no_dead_strip plt_IntentionJournal_ImageDataObject_get_pictureBytes
+plt_IntentionJournal_ImageDataObject_get_pictureBytes:
+_p_150:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3856]
 br x16
-.word 12244
-	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryCategory_string
-plt_IntentionJournal_EntryObject_set_entryCategory_string:
-_p_153:
+.word 12260
+	.no_dead_strip plt_IntentionJournal_EntryObject__ctor
+plt_IntentionJournal_EntryObject__ctor:
+_p_151:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3864]
 br x16
-.word 12249
-	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryTitle_string
-plt_IntentionJournal_EntryObject_set_entryTitle_string:
-_p_154:
+.word 12265
+	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryCategory_string
+plt_IntentionJournal_EntryObject_set_entryCategory_string:
+_p_152:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3872]
 br x16
-.word 12254
-	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryContent_string
-plt_IntentionJournal_EntryObject_set_entryContent_string:
-_p_155:
+.word 12270
+	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryTitle_string
+plt_IntentionJournal_EntryObject_set_entryTitle_string:
+_p_153:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3880]
 br x16
-.word 12259
-	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryImageFile_string
-plt_IntentionJournal_EntryObject_set_entryImageFile_string:
-_p_156:
+.word 12275
+	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryContent_string
+plt_IntentionJournal_EntryObject_set_entryContent_string:
+_p_154:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3888]
 br x16
-.word 12264
-	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryPictureBytes_byte__
-plt_IntentionJournal_EntryObject_set_entryPictureBytes_byte__:
-_p_157:
+.word 12280
+	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryImageFile_string
+plt_IntentionJournal_EntryObject_set_entryImageFile_string:
+_p_155:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3896]
 br x16
-.word 12269
-	.no_dead_strip plt_IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject
-plt_IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject:
-_p_158:
+.word 12285
+	.no_dead_strip plt_IntentionJournal_EntryObject_set_entryPictureBytes_byte__
+plt_IntentionJournal_EntryObject_set_entryPictureBytes_byte__:
+_p_156:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3904]
 br x16
-.word 12274
-	.no_dead_strip plt_IntentionJournal_AppDatabase_ClearImageBuffer
-plt_IntentionJournal_AppDatabase_ClearImageBuffer:
-_p_159:
+.word 12290
+	.no_dead_strip plt_IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject
+plt_IntentionJournal_AppDatabase_SaveEntry_IntentionJournal_EntryObject:
+_p_157:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3912]
 br x16
-.word 12279
-	.no_dead_strip plt_IntentionJournal_AddEntryPage_clearTextAreas
-plt_IntentionJournal_AddEntryPage_clearTextAreas:
-_p_160:
+.word 12295
+	.no_dead_strip plt_IntentionJournal_AppDatabase_ClearImageBuffer
+plt_IntentionJournal_AppDatabase_ClearImageBuffer:
+_p_158:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3920]
 br x16
-.word 12284
-	.no_dead_strip plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource
-plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource:
-_p_161:
+.word 12300
+	.no_dead_strip plt_IntentionJournal_AddEntryPage_clearTextAreas
+plt_IntentionJournal_AddEntryPage_clearTextAreas:
+_p_159:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3928]
 br x16
-.word 12289
-	.no_dead_strip plt_IntentionJournal_AppDatabase_getTreeProgress_int
-plt_IntentionJournal_AppDatabase_getTreeProgress_int:
-_p_162:
+.word 12305
+	.no_dead_strip plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource
+plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource:
+_p_160:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3936]
 br x16
-.word 12294
-	.no_dead_strip plt_IntentionJournal_TreeProgress__ctor
-plt_IntentionJournal_TreeProgress__ctor:
-_p_163:
+.word 12310
+	.no_dead_strip plt_IntentionJournal_AppDatabase_getTreeProgress_int
+plt_IntentionJournal_AppDatabase_getTreeProgress_int:
+_p_161:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3944]
 br x16
-.word 12299
-	.no_dead_strip plt_IntentionJournal_TreeProgress_set_progressID_int
-plt_IntentionJournal_TreeProgress_set_progressID_int:
-_p_164:
+.word 12315
+	.no_dead_strip plt_IntentionJournal_TreeProgress__ctor
+plt_IntentionJournal_TreeProgress__ctor:
+_p_162:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3952]
 br x16
-.word 12304
-	.no_dead_strip plt_IntentionJournal_TreeProgress_set_currentTreeScale_double
-plt_IntentionJournal_TreeProgress_set_currentTreeScale_double:
-_p_165:
+.word 12320
+	.no_dead_strip plt_IntentionJournal_TreeProgress_set_progressID_int
+plt_IntentionJournal_TreeProgress_set_progressID_int:
+_p_163:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3960]
 br x16
-.word 12309
-	.no_dead_strip plt_IntentionJournal_TreeProgress_get_currentTreeScale
-plt_IntentionJournal_TreeProgress_get_currentTreeScale:
-_p_166:
+.word 12325
+	.no_dead_strip plt_IntentionJournal_TreeProgress_set_currentTreeScale_double
+plt_IntentionJournal_TreeProgress_set_currentTreeScale_double:
+_p_164:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3968]
 br x16
-.word 12314
-	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_object
-plt_System_Diagnostics_Debug_WriteLine_object:
-_p_167:
+.word 12330
+	.no_dead_strip plt_IntentionJournal_TreeProgress_get_currentTreeScale
+plt_IntentionJournal_TreeProgress_get_currentTreeScale:
+_p_165:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3976]
 br x16
-.word 12319
-	.no_dead_strip plt_IntentionJournal_TreeGrowing__ctor_double
-plt_IntentionJournal_TreeGrowing__ctor_double:
-_p_168:
+.word 12335
+	.no_dead_strip plt_System_Diagnostics_Debug_WriteLine_object
+plt_System_Diagnostics_Debug_WriteLine_object:
+_p_166:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3984]
 br x16
-.word 12324
-	.no_dead_strip plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page
-plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page:
-_p_169:
+.word 12340
+	.no_dead_strip plt_IntentionJournal_TreeGrowing__ctor_double
+plt_IntentionJournal_TreeGrowing__ctor_double:
+_p_167:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #3992]
 br x16
-.word 12329
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_:
-_p_170:
+.word 12345
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page
+plt_Xamarin_Forms_NavigationPage__ctor_Xamarin_Forms_Page:
+_p_168:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4000]
 br x16
-.word 12334
-	.no_dead_strip plt_IntentionJournal_AddEntryPage___InitComponentRuntime
-plt_IntentionJournal_AddEntryPage___InitComponentRuntime:
-_p_171:
+.word 12350
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_:
+_p_169:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4008]
 br x16
-.word 12346
-	.no_dead_strip plt_Xamarin_Forms_Entry__ctor
-plt_Xamarin_Forms_Entry__ctor:
-_p_172:
+.word 12355
+	.no_dead_strip plt_IntentionJournal_AddEntryPage___InitComponentRuntime
+plt_IntentionJournal_AddEntryPage___InitComponentRuntime:
+_p_170:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4016]
 br x16
-.word 12351
+.word 12367
+	.no_dead_strip plt_Xamarin_Forms_Entry__ctor
+plt_Xamarin_Forms_Entry__ctor:
+_p_171:
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x16, [x16, #4024]
+br x16
+.word 12372
+	.no_dead_strip plt_Xamarin_Forms_Editor__ctor
+plt_Xamarin_Forms_Editor__ctor:
+_p_172:
+adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x16, [x16, #4032]
+br x16
+.word 12377
 	.no_dead_strip plt_Xamarin_Forms_Picker__ctor
 plt_Xamarin_Forms_Picker__ctor:
 _p_173:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #4024]
+ldr x16, [x16, #4040]
 br x16
-.word 12356
+.word 12382
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_AddEntryPage_IntentionJournal_AddEntryPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_AddEntryPage_IntentionJournal_AddEntryPage_System_Type:
 _p_174:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #4032]
+ldr x16, [x16, #4048]
 br x16
-.word 12361
+.word 12387
 	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string
 plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Entry_Xamarin_Forms_Element_string:
 _p_175:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #4040]
-br x16
-.word 12373
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Picker_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Picker_Xamarin_Forms_Element_string:
-_p_176:
-adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #4048]
-br x16
-.word 12385
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string:
-_p_177:
-adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
-add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4056]
 br x16
-.word 12397
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
-_p_178:
+.word 12399
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Editor_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Editor_Xamarin_Forms_Element_string:
+_p_176:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4064]
 br x16
-.word 12409
-	.no_dead_strip plt_IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__ctor
-plt_IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__ctor:
-_p_179:
+.word 12411
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Picker_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Picker_Xamarin_Forms_Element_string:
+_p_177:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4072]
 br x16
-.word 12421
-	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
-plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
-_p_180:
+.word 12423
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Button_Xamarin_Forms_Element_string:
+_p_178:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4080]
 br x16
-.word 12426
-	.no_dead_strip plt_Plugin_Media_CrossMedia_get_Current
-plt_Plugin_Media_CrossMedia_get_Current:
-_p_181:
+.word 12435
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Image_Xamarin_Forms_Element_string:
+_p_179:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+4096
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #4088]
 br x16
-.word 12463
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter
-plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter:
-_p_182:
+.word 12447
+	.no_dead_strip plt_IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__ctor
+plt_IntentionJournal_AddEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__ctor:
+_p_180:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #0]
 br x16
-.word 12468
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted:
-_p_183:
+.word 12459
+	.no_dead_strip plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap
+plt__jit_icall_mono_gc_wbarrier_value_copy_bitmap:
+_p_181:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #8]
 br x16
-.word 12479
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__IntentionJournal_AddEntryPage__pickGalleryImagec__async0_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__IntentionJournal_AddEntryPage__pickGalleryImagec__async0_:
-_p_184:
+.word 12464
+	.no_dead_strip plt_Plugin_Media_CrossMedia_get_Current
+plt_Plugin_Media_CrossMedia_get_Current:
+_p_182:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #16]
 br x16
-.word 12490
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult:
-_p_185:
+.word 12501
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter
+plt_System_Threading_Tasks_Task_1_Plugin_Media_Abstractions_MediaFile_GetAwaiter:
+_p_183:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #24]
 br x16
-.word 12502
-	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromStream_System_Func_1_System_IO_Stream
-plt_Xamarin_Forms_ImageSource_FromStream_System_Func_1_System_IO_Stream:
-_p_186:
+.word 12506
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_get_IsCompleted:
+_p_184:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #32]
 br x16
-.word 12513
-	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile_GetStream
-plt_Plugin_Media_Abstractions_MediaFile_GetStream:
-_p_187:
+.word 12517
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__IntentionJournal_AddEntryPage__pickGalleryImagec__async0_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_IntentionJournal_AddEntryPage__pickGalleryImagec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__IntentionJournal_AddEntryPage__pickGalleryImagec__async0_:
+_p_185:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #40]
 br x16
-.word 12518
-	.no_dead_strip plt_System_IO_MemoryStream__ctor
-plt_System_IO_MemoryStream__ctor:
-_p_188:
+.word 12528
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_GetResult:
+_p_186:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #48]
 br x16
-.word 12523
-	.no_dead_strip plt_System_IO_Stream_CopyTo_System_IO_Stream
-plt_System_IO_Stream_CopyTo_System_IO_Stream:
-_p_189:
+.word 12540
+	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromStream_System_Func_1_System_IO_Stream
+plt_Xamarin_Forms_ImageSource_FromStream_System_Func_1_System_IO_Stream:
+_p_187:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #56]
 br x16
-.word 12526
-	.no_dead_strip plt_IntentionJournal_ImageDataObject__ctor
-plt_IntentionJournal_ImageDataObject__ctor:
-_p_190:
+.word 12551
+	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile_GetStream
+plt_Plugin_Media_Abstractions_MediaFile_GetStream:
+_p_188:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #64]
 br x16
-.word 12529
-	.no_dead_strip plt_IntentionJournal_ImageDataObject_set_picID_int
-plt_IntentionJournal_ImageDataObject_set_picID_int:
-_p_191:
+.word 12556
+	.no_dead_strip plt_System_IO_MemoryStream__ctor
+plt_System_IO_MemoryStream__ctor:
+_p_189:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #72]
 br x16
-.word 12534
-	.no_dead_strip plt_IntentionJournal_ImageDataObject_set_pictureBytes_byte__
-plt_IntentionJournal_ImageDataObject_set_pictureBytes_byte__:
-_p_192:
+.word 12561
+	.no_dead_strip plt_System_IO_Stream_CopyTo_System_IO_Stream
+plt_System_IO_Stream_CopyTo_System_IO_Stream:
+_p_190:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #80]
 br x16
-.word 12539
-	.no_dead_strip plt_IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject
-plt_IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject:
-_p_193:
+.word 12564
+	.no_dead_strip plt_IntentionJournal_ImageDataObject__ctor
+plt_IntentionJournal_ImageDataObject__ctor:
+_p_191:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #88]
 br x16
-.word 12544
-	.no_dead_strip plt_System_Linq_Enumerable_Count_byte_System_Collections_Generic_IEnumerable_1_byte
-plt_System_Linq_Enumerable_Count_byte_System_Collections_Generic_IEnumerable_1_byte:
-_p_194:
+.word 12567
+	.no_dead_strip plt_IntentionJournal_ImageDataObject_set_picID_int
+plt_IntentionJournal_ImageDataObject_set_picID_int:
+_p_192:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #96]
 br x16
-.word 12549
-	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile_Dispose
-plt_Plugin_Media_Abstractions_MediaFile_Dispose:
-_p_195:
+.word 12572
+	.no_dead_strip plt_IntentionJournal_ImageDataObject_set_pictureBytes_byte__
+plt_IntentionJournal_ImageDataObject_set_pictureBytes_byte__:
+_p_193:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #104]
 br x16
-.word 12561
-	.no_dead_strip plt_IntentionJournal_Tree_InitializeComponent
-plt_IntentionJournal_Tree_InitializeComponent:
-_p_196:
+.word 12577
+	.no_dead_strip plt_IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject
+plt_IntentionJournal_AppDatabase_InsertTemporaryImage_IntentionJournal_ImageDataObject:
+_p_194:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #112]
 br x16
-.word 12566
-	.no_dead_strip plt_Xamarin_Forms_NavigationPage_SetHasBackButton_Xamarin_Forms_Page_bool
-plt_Xamarin_Forms_NavigationPage_SetHasBackButton_Xamarin_Forms_Page_bool:
-_p_197:
+.word 12582
+	.no_dead_strip plt_System_Linq_Enumerable_Count_byte_System_Collections_Generic_IEnumerable_1_byte
+plt_System_Linq_Enumerable_Count_byte_System_Collections_Generic_IEnumerable_1_byte:
+_p_195:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #120]
 br x16
-.word 12571
-	.no_dead_strip plt_IntentionJournal_Tree_ReloadTree_double
-plt_IntentionJournal_Tree_ReloadTree_double:
-_p_198:
+.word 12587
+	.no_dead_strip plt_Plugin_Media_Abstractions_MediaFile_Dispose
+plt_Plugin_Media_Abstractions_MediaFile_Dispose:
+_p_196:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #128]
 br x16
-.word 12576
-	.no_dead_strip plt_IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress
-plt_IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress:
-_p_199:
+.word 12599
+	.no_dead_strip plt_IntentionJournal_Tree_InitializeComponent
+plt_IntentionJournal_Tree_InitializeComponent:
+_p_197:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #136]
 br x16
-.word 12581
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Height
-plt_Xamarin_Forms_VisualElement_get_Height:
-_p_200:
+.word 12604
+	.no_dead_strip plt_Xamarin_Forms_NavigationPage_SetHasBackButton_Xamarin_Forms_Page_bool
+plt_Xamarin_Forms_NavigationPage_SetHasBackButton_Xamarin_Forms_Page_bool:
+_p_198:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #144]
 br x16
-.word 12586
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_HeightRequest_double
-plt_Xamarin_Forms_VisualElement_set_HeightRequest_double:
-_p_201:
+.word 12609
+	.no_dead_strip plt_IntentionJournal_Tree_ReloadTree_double
+plt_IntentionJournal_Tree_ReloadTree_double:
+_p_199:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #152]
 br x16
-.word 12591
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Width
-plt_Xamarin_Forms_VisualElement_get_Width:
-_p_202:
+.word 12614
+	.no_dead_strip plt_IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress
+plt_IntentionJournal_AppDatabase_UpdateTreeProgress_IntentionJournal_TreeProgress:
+_p_200:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #160]
 br x16
-.word 12596
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_WidthRequest_double
-plt_Xamarin_Forms_VisualElement_set_WidthRequest_double:
-_p_203:
+.word 12619
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Height
+plt_Xamarin_Forms_VisualElement_get_Height:
+_p_201:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #168]
 br x16
-.word 12601
-	.no_dead_strip plt_IntentionJournal_Tree___InitComponentRuntime
-plt_IntentionJournal_Tree___InitComponentRuntime:
-_p_204:
+.word 12624
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_HeightRequest_double
+plt_Xamarin_Forms_VisualElement_set_HeightRequest_double:
+_p_202:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #176]
 br x16
-.word 12606
-	.no_dead_strip plt_Xamarin_Forms_AbsoluteLayout__ctor
-plt_Xamarin_Forms_AbsoluteLayout__ctor:
-_p_205:
+.word 12629
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Width
+plt_Xamarin_Forms_VisualElement_get_Width:
+_p_203:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #184]
 br x16
-.word 12611
-	.no_dead_strip plt_Xamarin_Forms_AbsoluteLayout_get_Children
-plt_Xamarin_Forms_AbsoluteLayout_get_Children:
-_p_206:
+.word 12634
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_WidthRequest_double
+plt_Xamarin_Forms_VisualElement_set_WidthRequest_double:
+_p_204:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #192]
 br x16
-.word 12616
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Tree_IntentionJournal_Tree_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Tree_IntentionJournal_Tree_System_Type:
-_p_207:
+.word 12639
+	.no_dead_strip plt_IntentionJournal_Tree___InitComponentRuntime
+plt_IntentionJournal_Tree___InitComponentRuntime:
+_p_205:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #200]
 br x16
-.word 12621
-	.no_dead_strip plt_IntentionJournal_Settings_InitializeComponent
-plt_IntentionJournal_Settings_InitializeComponent:
-_p_208:
+.word 12644
+	.no_dead_strip plt_Xamarin_Forms_AbsoluteLayout__ctor
+plt_Xamarin_Forms_AbsoluteLayout__ctor:
+_p_206:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #208]
 br x16
-.word 12633
-	.no_dead_strip plt_IntentionJournal_AddQuotePage__ctor
-plt_IntentionJournal_AddQuotePage__ctor:
-_p_209:
+.word 12649
+	.no_dead_strip plt_Xamarin_Forms_AbsoluteLayout_get_Children
+plt_Xamarin_Forms_AbsoluteLayout_get_Children:
+_p_207:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #216]
 br x16
-.word 12638
-	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage__ctor
-plt_IntentionJournal_BrowseQuotesPage__ctor:
-_p_210:
+.word 12654
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Tree_IntentionJournal_Tree_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Tree_IntentionJournal_Tree_System_Type:
+_p_208:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #224]
 br x16
-.word 12643
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_:
-_p_211:
+.word 12659
+	.no_dead_strip plt_IntentionJournal_Settings_InitializeComponent
+plt_IntentionJournal_Settings_InitializeComponent:
+_p_209:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #232]
 br x16
-.word 12648
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_:
-_p_212:
+.word 12671
+	.no_dead_strip plt_IntentionJournal_AddQuotePage__ctor
+plt_IntentionJournal_AddQuotePage__ctor:
+_p_210:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #240]
 br x16
-.word 12660
-	.no_dead_strip plt_IntentionJournal_Settings___InitComponentRuntime
-plt_IntentionJournal_Settings___InitComponentRuntime:
-_p_213:
+.word 12676
+	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage__ctor
+plt_IntentionJournal_BrowseQuotesPage__ctor:
+_p_211:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #248]
 br x16
-.word 12672
-	.no_dead_strip plt_Xamarin_Forms_TextCell__ctor
-plt_Xamarin_Forms_TextCell__ctor:
-_p_214:
+.word 12681
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_:
+_p_212:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #256]
 br x16
-.word 12677
-	.no_dead_strip plt_Xamarin_Forms_TableSection__ctor
-plt_Xamarin_Forms_TableSection__ctor:
-_p_215:
+.word 12686
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_:
+_p_213:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #264]
 br x16
-.word 12682
-	.no_dead_strip plt_Xamarin_Forms_TableRoot__ctor
-plt_Xamarin_Forms_TableRoot__ctor:
-_p_216:
+.word 12698
+	.no_dead_strip plt_IntentionJournal_Settings___InitComponentRuntime
+plt_IntentionJournal_Settings___InitComponentRuntime:
+_p_214:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #272]
 br x16
-.word 12687
-	.no_dead_strip plt_Xamarin_Forms_TableView__ctor
-plt_Xamarin_Forms_TableView__ctor:
-_p_217:
+.word 12710
+	.no_dead_strip plt_Xamarin_Forms_TextCell__ctor
+plt_Xamarin_Forms_TextCell__ctor:
+_p_215:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #280]
 br x16
-.word 12692
-	.no_dead_strip plt_Xamarin_Forms_TableView_set_Intent_Xamarin_Forms_TableIntent
-plt_Xamarin_Forms_TableView_set_Intent_Xamarin_Forms_TableIntent:
-_p_218:
+.word 12715
+	.no_dead_strip plt_Xamarin_Forms_TableSection__ctor
+plt_Xamarin_Forms_TableSection__ctor:
+_p_216:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #288]
 br x16
-.word 12697
-	.no_dead_strip plt_Xamarin_Forms_Cell_add_Tapped_System_EventHandler
-plt_Xamarin_Forms_Cell_add_Tapped_System_EventHandler:
-_p_219:
+.word 12720
+	.no_dead_strip plt_Xamarin_Forms_TableRoot__ctor
+plt_Xamarin_Forms_TableRoot__ctor:
+_p_217:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #296]
 br x16
-.word 12702
-	.no_dead_strip plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_Cell_Add_Xamarin_Forms_Cell
-plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_Cell_Add_Xamarin_Forms_Cell:
-_p_220:
+.word 12725
+	.no_dead_strip plt_Xamarin_Forms_TableView__ctor
+plt_Xamarin_Forms_TableView__ctor:
+_p_218:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #304]
 br x16
-.word 12707
-	.no_dead_strip plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_TableSection_Add_Xamarin_Forms_TableSection
-plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_TableSection_Add_Xamarin_Forms_TableSection:
-_p_221:
+.word 12730
+	.no_dead_strip plt_Xamarin_Forms_TableView_set_Intent_Xamarin_Forms_TableIntent
+plt_Xamarin_Forms_TableView_set_Intent_Xamarin_Forms_TableIntent:
+_p_219:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #312]
 br x16
-.word 12718
-	.no_dead_strip plt_Xamarin_Forms_TableView_set_Root_Xamarin_Forms_TableRoot
-plt_Xamarin_Forms_TableView_set_Root_Xamarin_Forms_TableRoot:
-_p_222:
+.word 12735
+	.no_dead_strip plt_Xamarin_Forms_Cell_add_Tapped_System_EventHandler
+plt_Xamarin_Forms_Cell_add_Tapped_System_EventHandler:
+_p_220:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #320]
 br x16
-.word 12729
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Settings_IntentionJournal_Settings_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Settings_IntentionJournal_Settings_System_Type:
-_p_223:
+.word 12740
+	.no_dead_strip plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_Cell_Add_Xamarin_Forms_Cell
+plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_Cell_Add_Xamarin_Forms_Cell:
+_p_221:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #328]
 br x16
-.word 12734
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_TableView_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_TableView_Xamarin_Forms_Element_string:
-_p_224:
+.word 12745
+	.no_dead_strip plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_TableSection_Add_Xamarin_Forms_TableSection
+plt_Xamarin_Forms_TableSectionBase_1_Xamarin_Forms_TableSection_Add_Xamarin_Forms_TableSection:
+_p_222:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #336]
 br x16
-.word 12746
-	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string
-plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string:
-_p_225:
+.word 12756
+	.no_dead_strip plt_Xamarin_Forms_TableView_set_Root_Xamarin_Forms_TableRoot
+plt_Xamarin_Forms_TableView_set_Root_Xamarin_Forms_TableRoot:
+_p_223:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #344]
 br x16
-.word 12758
-	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
-plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
-_p_226:
+.word 12767
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Settings_IntentionJournal_Settings_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_Settings_IntentionJournal_Settings_System_Type:
+_p_224:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #352]
 br x16
-.word 12763
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted:
-_p_227:
+.word 12772
+	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_TableView_Xamarin_Forms_Element_string
+plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_TableView_Xamarin_Forms_Element_string:
+_p_225:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #360]
 br x16
-.word 12774
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearQuotesCellSelectedc__async0_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearQuotesCellSelectedc__async0_:
-_p_228:
+.word 12784
+	.no_dead_strip plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string
+plt_Xamarin_Forms_Page_DisplayAlert_string_string_string_string:
+_p_226:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #368]
 br x16
-.word 12785
-	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
-plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
-_p_229:
+.word 12796
+	.no_dead_strip plt_System_Threading_Tasks_Task_1_bool_GetAwaiter
+plt_System_Threading_Tasks_Task_1_bool_GetAwaiter:
+_p_227:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #376]
 br x16
-.word 12797
-	.no_dead_strip plt_IntentionJournal_AppDatabase_deleteAllQuotes
-plt_IntentionJournal_AppDatabase_deleteAllQuotes:
-_p_230:
+.word 12801
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_get_IsCompleted:
+_p_228:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #384]
 br x16
-.word 12808
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearEntriesCellSelectedc__async1_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearEntriesCellSelectedc__async1_:
-_p_231:
+.word 12812
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearQuotesCellSelectedc__async0_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearQuotesCellSelectedc__async0_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearQuotesCellSelectedc__async0_:
+_p_229:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #392]
 br x16
-.word 12813
-	.no_dead_strip plt_IntentionJournal_AppDatabase_deleteAllEntries
-plt_IntentionJournal_AppDatabase_deleteAllEntries:
-_p_232:
+.word 12823
+	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult
+plt_System_Runtime_CompilerServices_TaskAwaiter_1_bool_GetResult:
+_p_230:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #400]
 br x16
-.word 12825
-	.no_dead_strip plt_Xamarin_Forms_TabbedPage__ctor
-plt_Xamarin_Forms_TabbedPage__ctor:
-_p_233:
+.word 12835
+	.no_dead_strip plt_IntentionJournal_AppDatabase_deleteAllQuotes
+plt_IntentionJournal_AppDatabase_deleteAllQuotes:
+_p_231:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #408]
 br x16
-.word 12830
-	.no_dead_strip plt_IntentionJournal_MainTabContainer_InitializeComponent
-plt_IntentionJournal_MainTabContainer_InitializeComponent:
-_p_234:
+.word 12846
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearEntriesCellSelectedc__async1_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_bool_IntentionJournal_Settings__clearEntriesCellSelectedc__async1_System_Runtime_CompilerServices_TaskAwaiter_1_bool__IntentionJournal_Settings__clearEntriesCellSelectedc__async1_:
+_p_232:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #416]
 br x16
-.word 12835
-	.no_dead_strip plt_Xamarin_Forms_Page_set_Title_string
-plt_Xamarin_Forms_Page_set_Title_string:
-_p_235:
+.word 12851
+	.no_dead_strip plt_IntentionJournal_AppDatabase_deleteAllEntries
+plt_IntentionJournal_AppDatabase_deleteAllEntries:
+_p_233:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #424]
 br x16
-.word 12840
-	.no_dead_strip plt_IntentionJournal_MainTabContainer___InitComponentRuntime
-plt_IntentionJournal_MainTabContainer___InitComponentRuntime:
-_p_236:
+.word 12863
+	.no_dead_strip plt_Xamarin_Forms_TabbedPage__ctor
+plt_Xamarin_Forms_TabbedPage__ctor:
+_p_234:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #432]
 br x16
-.word 12845
-	.no_dead_strip plt_Xamarin_Forms_OnPlatform_1_string__ctor
-plt_Xamarin_Forms_OnPlatform_1_string__ctor:
-_p_237:
+.word 12868
+	.no_dead_strip plt_IntentionJournal_MainTabContainer_InitializeComponent
+plt_IntentionJournal_MainTabContainer_InitializeComponent:
+_p_235:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #440]
 br x16
-.word 12850
-	.no_dead_strip plt_IntentionJournal_HomePage__ctor
-plt_IntentionJournal_HomePage__ctor:
-_p_238:
+.word 12873
+	.no_dead_strip plt_Xamarin_Forms_Page_set_Title_string
+plt_Xamarin_Forms_Page_set_Title_string:
+_p_236:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #448]
 br x16
-.word 12861
-	.no_dead_strip plt_IntentionJournal_BrowseMoodsPage__ctor
-plt_IntentionJournal_BrowseMoodsPage__ctor:
-_p_239:
+.word 12878
+	.no_dead_strip plt_IntentionJournal_MainTabContainer___InitComponentRuntime
+plt_IntentionJournal_MainTabContainer___InitComponentRuntime:
+_p_237:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #456]
 br x16
-.word 12866
-	.no_dead_strip plt_IntentionJournal_AddEntryPage__ctor
-plt_IntentionJournal_AddEntryPage__ctor:
-_p_240:
+.word 12883
+	.no_dead_strip plt_Xamarin_Forms_OnPlatform_1_string__ctor
+plt_Xamarin_Forms_OnPlatform_1_string__ctor:
+_p_238:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #464]
 br x16
-.word 12871
-	.no_dead_strip plt_IntentionJournal_Tree__ctor
-plt_IntentionJournal_Tree__ctor:
-_p_241:
+.word 12888
+	.no_dead_strip plt_IntentionJournal_HomePage__ctor
+plt_IntentionJournal_HomePage__ctor:
+_p_239:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #472]
 br x16
-.word 12876
-	.no_dead_strip plt_IntentionJournal_Settings__ctor
-plt_IntentionJournal_Settings__ctor:
-_p_242:
+.word 12899
+	.no_dead_strip plt_IntentionJournal_BrowseMoodsPage__ctor
+plt_IntentionJournal_BrowseMoodsPage__ctor:
+_p_240:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #480]
 br x16
-.word 12881
-	.no_dead_strip plt_Xamarin_Forms_FileImageSourceConverter__ctor
-plt_Xamarin_Forms_FileImageSourceConverter__ctor:
-_p_243:
+.word 12904
+	.no_dead_strip plt_IntentionJournal_AddEntryPage__ctor
+plt_IntentionJournal_AddEntryPage__ctor:
+_p_241:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #488]
 br x16
-.word 12886
-	.no_dead_strip plt_Xamarin_Forms_FileImageSourceConverter_ConvertFromInvariantString_string
-plt_Xamarin_Forms_FileImageSourceConverter_ConvertFromInvariantString_string:
-_p_244:
+.word 12909
+	.no_dead_strip plt_IntentionJournal_Tree__ctor
+plt_IntentionJournal_Tree__ctor:
+_p_242:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #496]
 br x16
-.word 12891
-	.no_dead_strip plt_Xamarin_Forms_OnPlatform_1_string_set_iOS_string
-plt_Xamarin_Forms_OnPlatform_1_string_set_iOS_string:
-_p_245:
+.word 12914
+	.no_dead_strip plt_IntentionJournal_Settings__ctor
+plt_IntentionJournal_Settings__ctor:
+_p_243:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #504]
 br x16
-.word 12896
-	.no_dead_strip plt_Xamarin_Forms_OnPlatform_1_string_op_Implicit_Xamarin_Forms_OnPlatform_1_string
-plt_Xamarin_Forms_OnPlatform_1_string_op_Implicit_Xamarin_Forms_OnPlatform_1_string:
-_p_246:
+.word 12919
+	.no_dead_strip plt_Xamarin_Forms_FileImageSourceConverter__ctor
+plt_Xamarin_Forms_FileImageSourceConverter__ctor:
+_p_244:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #512]
 br x16
-.word 12907
-	.no_dead_strip plt_Xamarin_Forms_MultiPage_1_Xamarin_Forms_Page_get_Children
-plt_Xamarin_Forms_MultiPage_1_Xamarin_Forms_Page_get_Children:
-_p_247:
+.word 12924
+	.no_dead_strip plt_Xamarin_Forms_FileImageSourceConverter_ConvertFromInvariantString_string
+plt_Xamarin_Forms_FileImageSourceConverter_ConvertFromInvariantString_string:
+_p_245:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #520]
 br x16
-.word 12918
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_MainTabContainer_IntentionJournal_MainTabContainer_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_MainTabContainer_IntentionJournal_MainTabContainer_System_Type:
-_p_248:
+.word 12929
+	.no_dead_strip plt_Xamarin_Forms_OnPlatform_1_string_set_iOS_string
+plt_Xamarin_Forms_OnPlatform_1_string_set_iOS_string:
+_p_246:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #528]
 br x16
-.word 12929
-	.no_dead_strip plt_Xamarin_Forms_DependencyService_Get_IntentionJournal_ISQLite_Xamarin_Forms_DependencyFetchTarget
-plt_Xamarin_Forms_DependencyService_Get_IntentionJournal_ISQLite_Xamarin_Forms_DependencyFetchTarget:
-_p_249:
+.word 12934
+	.no_dead_strip plt_Xamarin_Forms_OnPlatform_1_string_op_Implicit_Xamarin_Forms_OnPlatform_1_string
+plt_Xamarin_Forms_OnPlatform_1_string_op_Implicit_Xamarin_Forms_OnPlatform_1_string:
+_p_247:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #536]
 br x16
-.word 12941
-	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_EntryObject_SQLite_CreateFlags
-plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_EntryObject_SQLite_CreateFlags:
-_p_250:
+.word 12945
+	.no_dead_strip plt_Xamarin_Forms_MultiPage_1_Xamarin_Forms_Page_get_Children
+plt_Xamarin_Forms_MultiPage_1_Xamarin_Forms_Page_get_Children:
+_p_248:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #544]
 br x16
-.word 12953
-	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_TreeProgress_SQLite_CreateFlags
-plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_TreeProgress_SQLite_CreateFlags:
-_p_251:
+.word 12956
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_MainTabContainer_IntentionJournal_MainTabContainer_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_MainTabContainer_IntentionJournal_MainTabContainer_System_Type:
+_p_249:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #552]
 br x16
-.word 12965
-	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_QuoteObject_SQLite_CreateFlags
-plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_QuoteObject_SQLite_CreateFlags:
-_p_252:
+.word 12967
+	.no_dead_strip plt_Xamarin_Forms_DependencyService_Get_IntentionJournal_ISQLite_Xamarin_Forms_DependencyFetchTarget
+plt_Xamarin_Forms_DependencyService_Get_IntentionJournal_ISQLite_Xamarin_Forms_DependencyFetchTarget:
+_p_250:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #560]
 br x16
-.word 12977
-	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_ImageDataObject_SQLite_CreateFlags
-plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_ImageDataObject_SQLite_CreateFlags:
-_p_253:
+.word 12979
+	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_EntryObject_SQLite_CreateFlags
+plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_EntryObject_SQLite_CreateFlags:
+_p_251:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #568]
 br x16
-.word 12989
-	.no_dead_strip plt_SQLite_SQLiteConnection_Query_IntentionJournal_EntryObject_string_object__
-plt_SQLite_SQLiteConnection_Query_IntentionJournal_EntryObject_string_object__:
-_p_254:
+.word 12991
+	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_TreeProgress_SQLite_CreateFlags
+plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_TreeProgress_SQLite_CreateFlags:
+_p_252:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #576]
 br x16
-.word 13001
-	.no_dead_strip plt_SQLite_SQLiteConnection_Insert_object
-plt_SQLite_SQLiteConnection_Insert_object:
-_p_255:
+.word 13003
+	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_QuoteObject_SQLite_CreateFlags
+plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_QuoteObject_SQLite_CreateFlags:
+_p_253:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #584]
 br x16
-.word 13013
-	.no_dead_strip plt_SQLite_SQLiteConnection_Delete_object
-plt_SQLite_SQLiteConnection_Delete_object:
-_p_256:
+.word 13015
+	.no_dead_strip plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_ImageDataObject_SQLite_CreateFlags
+plt_SQLite_SQLiteConnection_CreateTable_IntentionJournal_ImageDataObject_SQLite_CreateFlags:
+_p_254:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #592]
 br x16
-.word 13018
-	.no_dead_strip plt_SQLite_SQLiteConnection_Update_object
-plt_SQLite_SQLiteConnection_Update_object:
-_p_257:
+.word 13027
+	.no_dead_strip plt_SQLite_SQLiteConnection_Query_IntentionJournal_EntryObject_string_object__
+plt_SQLite_SQLiteConnection_Query_IntentionJournal_EntryObject_string_object__:
+_p_255:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #600]
 br x16
-.word 13023
-	.no_dead_strip plt_IntentionJournal_AppDatabase__GetEntryc__AnonStorey0__ctor
-plt_IntentionJournal_AppDatabase__GetEntryc__AnonStorey0__ctor:
-_p_258:
+.word 13039
+	.no_dead_strip plt_SQLite_SQLiteConnection_Insert_object
+plt_SQLite_SQLiteConnection_Insert_object:
+_p_256:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #608]
 br x16
-.word 13028
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Parameter_System_Type_string
-plt_System_Linq_Expressions_Expression_Parameter_System_Type_string:
-_p_259:
+.word 13051
+	.no_dead_strip plt_SQLite_SQLiteConnection_Delete_object
+plt_SQLite_SQLiteConnection_Delete_object:
+_p_257:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #616]
 br x16
-.word 13033
-	.no_dead_strip plt_SQLite_SQLiteConnection_Table_IntentionJournal_EntryObject
-plt_SQLite_SQLiteConnection_Table_IntentionJournal_EntryObject:
-_p_260:
+.word 13056
+	.no_dead_strip plt_SQLite_SQLiteConnection_Update_object
+plt_SQLite_SQLiteConnection_Update_object:
+_p_258:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #624]
 br x16
-.word 13038
-	.no_dead_strip plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle
-plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle:
-_p_261:
+.word 13061
+	.no_dead_strip plt_IntentionJournal_AppDatabase__GetEntryc__AnonStorey0__ctor
+plt_IntentionJournal_AppDatabase__GetEntryc__AnonStorey0__ctor:
+_p_259:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #632]
 br x16
-.word 13050
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo
-plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo:
-_p_262:
+.word 13066
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Parameter_System_Type_string
+plt_System_Linq_Expressions_Expression_Parameter_System_Type_string:
+_p_260:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #640]
 br x16
-.word 13053
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Constant_object
-plt_System_Linq_Expressions_Expression_Constant_object:
-_p_263:
+.word 13071
+	.no_dead_strip plt_SQLite_SQLiteConnection_Table_IntentionJournal_EntryObject
+plt_SQLite_SQLiteConnection_Table_IntentionJournal_EntryObject:
+_p_261:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #648]
 br x16
-.word 13058
-	.no_dead_strip plt_System_Reflection_FieldInfo_GetFieldFromHandle_System_RuntimeFieldHandle
-plt_System_Reflection_FieldInfo_GetFieldFromHandle_System_RuntimeFieldHandle:
-_p_264:
+.word 13076
+	.no_dead_strip plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle
+plt_System_Reflection_MethodBase_GetMethodFromHandle_System_RuntimeMethodHandle:
+_p_262:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #656]
 br x16
-.word 13063
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Field_System_Linq_Expressions_Expression_System_Reflection_FieldInfo
-plt_System_Linq_Expressions_Expression_Field_System_Linq_Expressions_Expression_System_Reflection_FieldInfo:
-_p_265:
+.word 13088
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo
+plt_System_Linq_Expressions_Expression_Property_System_Linq_Expressions_Expression_System_Reflection_MethodInfo:
+_p_263:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #664]
 br x16
-.word 13066
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression
-plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression:
-_p_266:
+.word 13091
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Constant_object
+plt_System_Linq_Expressions_Expression_Constant_object:
+_p_264:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #672]
 br x16
-.word 13071
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_EntryObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
-plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_EntryObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
-_p_267:
+.word 13096
+	.no_dead_strip plt_System_Reflection_FieldInfo_GetFieldFromHandle_System_RuntimeFieldHandle
+plt_System_Reflection_FieldInfo_GetFieldFromHandle_System_RuntimeFieldHandle:
+_p_265:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #680]
 br x16
-.word 13076
-	.no_dead_strip plt_SQLite_TableQuery_1_IntentionJournal_EntryObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_EntryObject_bool
-plt_SQLite_TableQuery_1_IntentionJournal_EntryObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_EntryObject_bool:
-_p_268:
+.word 13101
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Field_System_Linq_Expressions_Expression_System_Reflection_FieldInfo
+plt_System_Linq_Expressions_Expression_Field_System_Linq_Expressions_Expression_System_Reflection_FieldInfo:
+_p_266:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #688]
 br x16
-.word 13088
-	.no_dead_strip plt_System_Collections_Generic_List_1_IntentionJournal_EntryObject_GetEnumerator
-plt_System_Collections_Generic_List_1_IntentionJournal_EntryObject_GetEnumerator:
-_p_269:
+.word 13104
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression
+plt_System_Linq_Expressions_Expression_Equal_System_Linq_Expressions_Expression_System_Linq_Expressions_Expression:
+_p_267:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #696]
 br x16
-.word 13099
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_get_Current
-plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_get_Current:
-_p_270:
+.word 13109
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_EntryObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
+plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_EntryObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
+_p_268:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #704]
 br x16
-.word 13110
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_MoveNext
-plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_MoveNext:
-_p_271:
+.word 13114
+	.no_dead_strip plt_SQLite_TableQuery_1_IntentionJournal_EntryObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_EntryObject_bool
+plt_SQLite_TableQuery_1_IntentionJournal_EntryObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_EntryObject_bool:
+_p_269:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #712]
 br x16
-.word 13121
-	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_Dispose
-plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_Dispose:
-_p_272:
+.word 13126
+	.no_dead_strip plt_System_Collections_Generic_List_1_IntentionJournal_EntryObject_GetEnumerator
+plt_System_Collections_Generic_List_1_IntentionJournal_EntryObject_GetEnumerator:
+_p_270:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #720]
 br x16
-.word 13132
-	.no_dead_strip plt_IntentionJournal_AppDatabase__getTreeProgressc__AnonStorey1__ctor
-plt_IntentionJournal_AppDatabase__getTreeProgressc__AnonStorey1__ctor:
-_p_273:
+.word 13137
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_get_Current
+plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_get_Current:
+_p_271:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #728]
 br x16
-.word 13153
-	.no_dead_strip plt_SQLite_SQLiteConnection_Table_IntentionJournal_TreeProgress
-plt_SQLite_SQLiteConnection_Table_IntentionJournal_TreeProgress:
-_p_274:
+.word 13148
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_MoveNext
+plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_MoveNext:
+_p_272:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #736]
 br x16
-.word 13158
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_TreeProgress_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
-plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_TreeProgress_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
-_p_275:
+.word 13159
+	.no_dead_strip plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_Dispose
+plt_System_Collections_Generic_List_1_Enumerator_IntentionJournal_EntryObject_Dispose:
+_p_273:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #744]
 br x16
 .word 13170
-	.no_dead_strip plt_SQLite_TableQuery_1_IntentionJournal_TreeProgress_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_TreeProgress_bool
-plt_SQLite_TableQuery_1_IntentionJournal_TreeProgress_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_TreeProgress_bool:
-_p_276:
+	.no_dead_strip plt_IntentionJournal_AppDatabase__getTreeProgressc__AnonStorey1__ctor
+plt_IntentionJournal_AppDatabase__getTreeProgressc__AnonStorey1__ctor:
+_p_274:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #752]
 br x16
-.word 13182
-	.no_dead_strip plt_SQLite_SQLiteConnection_InsertOrReplace_object
-plt_SQLite_SQLiteConnection_InsertOrReplace_object:
-_p_277:
+.word 13191
+	.no_dead_strip plt_SQLite_SQLiteConnection_Table_IntentionJournal_TreeProgress
+plt_SQLite_SQLiteConnection_Table_IntentionJournal_TreeProgress:
+_p_275:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #760]
 br x16
-.word 13193
-	.no_dead_strip plt_SQLite_SQLiteConnection_Query_IntentionJournal_QuoteObject_string_object__
-plt_SQLite_SQLiteConnection_Query_IntentionJournal_QuoteObject_string_object__:
-_p_278:
+.word 13196
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_TreeProgress_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
+plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_TreeProgress_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
+_p_276:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #768]
 br x16
-.word 13198
-	.no_dead_strip plt_IntentionJournal_AppDatabase__getTempImagec__AnonStorey2__ctor
-plt_IntentionJournal_AppDatabase__getTempImagec__AnonStorey2__ctor:
-_p_279:
+.word 13208
+	.no_dead_strip plt_SQLite_TableQuery_1_IntentionJournal_TreeProgress_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_TreeProgress_bool
+plt_SQLite_TableQuery_1_IntentionJournal_TreeProgress_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_TreeProgress_bool:
+_p_277:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #776]
 br x16
-.word 13210
-	.no_dead_strip plt_SQLite_SQLiteConnection_Table_IntentionJournal_ImageDataObject
-plt_SQLite_SQLiteConnection_Table_IntentionJournal_ImageDataObject:
-_p_280:
+.word 13220
+	.no_dead_strip plt_SQLite_SQLiteConnection_InsertOrReplace_object
+plt_SQLite_SQLiteConnection_InsertOrReplace_object:
+_p_278:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #784]
 br x16
-.word 13215
-	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_ImageDataObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
-plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_ImageDataObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
-_p_281:
+.word 13231
+	.no_dead_strip plt_SQLite_SQLiteConnection_Query_IntentionJournal_QuoteObject_string_object__
+plt_SQLite_SQLiteConnection_Query_IntentionJournal_QuoteObject_string_object__:
+_p_279:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #792]
 br x16
-.word 13227
-	.no_dead_strip plt_SQLite_TableQuery_1_IntentionJournal_ImageDataObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_ImageDataObject_bool
-plt_SQLite_TableQuery_1_IntentionJournal_ImageDataObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_ImageDataObject_bool:
-_p_282:
+.word 13236
+	.no_dead_strip plt_IntentionJournal_AppDatabase__getTempImagec__AnonStorey2__ctor
+plt_IntentionJournal_AppDatabase__getTempImagec__AnonStorey2__ctor:
+_p_280:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #800]
 br x16
-.word 13239
-	.no_dead_strip plt_SQLite_SQLiteConnection_DeleteAll_IntentionJournal_ImageDataObject
-plt_SQLite_SQLiteConnection_DeleteAll_IntentionJournal_ImageDataObject:
-_p_283:
+.word 13248
+	.no_dead_strip plt_SQLite_SQLiteConnection_Table_IntentionJournal_ImageDataObject
+plt_SQLite_SQLiteConnection_Table_IntentionJournal_ImageDataObject:
+_p_281:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #808]
 br x16
-.word 13250
-	.no_dead_strip plt_IntentionJournal_ViewEntryPage_InitializeComponent
-plt_IntentionJournal_ViewEntryPage_InitializeComponent:
-_p_284:
+.word 13253
+	.no_dead_strip plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_ImageDataObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__
+plt_System_Linq_Expressions_Expression_Lambda_System_Func_2_IntentionJournal_ImageDataObject_bool_System_Linq_Expressions_Expression_System_Linq_Expressions_ParameterExpression__:
+_p_282:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #816]
 br x16
-.word 13262
-	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
-plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
-_p_285:
+.word 13265
+	.no_dead_strip plt_SQLite_TableQuery_1_IntentionJournal_ImageDataObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_ImageDataObject_bool
+plt_SQLite_TableQuery_1_IntentionJournal_ImageDataObject_FirstOrDefault_System_Linq_Expressions_Expression_1_System_Func_2_IntentionJournal_ImageDataObject_bool:
+_p_283:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #824]
 br x16
-.word 13267
-	.no_dead_strip plt_IntentionJournal_ViewEntryPage_getImageFromDB
-plt_IntentionJournal_ViewEntryPage_getImageFromDB:
-_p_286:
+.word 13277
+	.no_dead_strip plt_SQLite_SQLiteConnection_DeleteAll_IntentionJournal_ImageDataObject
+plt_SQLite_SQLiteConnection_DeleteAll_IntentionJournal_ImageDataObject:
+_p_284:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #832]
 br x16
-.word 13272
-	.no_dead_strip plt_IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject
-plt_IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject:
-_p_287:
+.word 13288
+	.no_dead_strip plt_IntentionJournal_ViewEntryPage_InitializeComponent
+plt_IntentionJournal_ViewEntryPage_InitializeComponent:
+_p_285:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #840]
 br x16
-.word 13277
-	.no_dead_strip plt_IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject
-plt_IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject:
-_p_288:
+.word 13300
+	.no_dead_strip plt_Xamarin_Forms_BindableObject_set_BindingContext_object
+plt_Xamarin_Forms_BindableObject_set_BindingContext_object:
+_p_286:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #848]
 br x16
-.word 13282
-	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_
-plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_:
-_p_289:
+.word 13305
+	.no_dead_strip plt_IntentionJournal_ViewEntryPage_getImageFromDB
+plt_IntentionJournal_ViewEntryPage_getImageFromDB:
+_p_287:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #856]
 br x16
-.word 13287
-	.no_dead_strip plt_IntentionJournal_ViewEntryPage__getImageFromDBc__AnonStorey2__ctor
-plt_IntentionJournal_ViewEntryPage__getImageFromDBc__AnonStorey2__ctor:
-_p_290:
+.word 13310
+	.no_dead_strip plt_IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject
+plt_IntentionJournal_AppDatabase_EditEntry_IntentionJournal_EntryObject:
+_p_288:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #864]
 br x16
-.word 13299
-	.no_dead_strip plt_IntentionJournal_EntryObject_get_entryPictureBytes
-plt_IntentionJournal_EntryObject_get_entryPictureBytes:
-_p_291:
+.word 13315
+	.no_dead_strip plt_IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject
+plt_IntentionJournal_AppDatabase_DeleteEntry_IntentionJournal_EntryObject:
+_p_289:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #872]
 br x16
-.word 13304
-	.no_dead_strip plt_IntentionJournal_ViewEntryPage___InitComponentRuntime
-plt_IntentionJournal_ViewEntryPage___InitComponentRuntime:
-_p_292:
+.word 13320
+	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_
+plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_Start_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_:
+_p_290:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #880]
 br x16
-.word 13309
-	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_ViewEntryPage_IntentionJournal_ViewEntryPage_System_Type
-plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_ViewEntryPage_IntentionJournal_ViewEntryPage_System_Type:
-_p_293:
+.word 13325
+	.no_dead_strip plt_IntentionJournal_ViewEntryPage__getImageFromDBc__AnonStorey2__ctor
+plt_IntentionJournal_ViewEntryPage__getImageFromDBc__AnonStorey2__ctor:
+_p_291:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #888]
 br x16
-.word 13314
-	.no_dead_strip plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string
-plt_Xamarin_Forms_NameScopeExtensions_FindByName_Xamarin_Forms_Label_Xamarin_Forms_Element_string:
-_p_294:
+.word 13337
+	.no_dead_strip plt_IntentionJournal_EntryObject_get_entryPictureBytes
+plt_IntentionJournal_EntryObject_get_entryPictureBytes:
+_p_292:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
 ldr x16, [x16, #896]
 br x16
-.word 13326
+.word 13342
+	.no_dead_strip plt_IntentionJournal_ViewEntryPage___InitComponentRuntime
+plt_IntentionJournal_ViewEntryPage___InitComponentRuntime:
+_p_293:
+adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x16, [x16, #904]
+br x16
+.word 13347
+	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_ViewEntryPage_IntentionJournal_ViewEntryPage_System_Type
+plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_ViewEntryPage_IntentionJournal_ViewEntryPage_System_Type:
+_p_294:
+adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
+add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
+ldr x16, [x16, #912]
+br x16
+.word 13352
 	.no_dead_strip plt_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__ctor
 plt_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0__pickGalleryImagec__AnonStorey1__ctor:
 _p_295:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #920]
 br x16
-.word 13338
+.word 13364
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_AwaitUnsafeOnCompleted_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile_IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_System_Runtime_CompilerServices_TaskAwaiter_1_Plugin_Media_Abstractions_MediaFile__IntentionJournal_ViewEntryPage__pickGalleryImagec__async0_:
 _p_296:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #928]
 br x16
-.word 13343
+.word 13369
 	.no_dead_strip plt_System_IO_MemoryStream__ctor_byte__
 plt_System_IO_MemoryStream__ctor_byte__:
 _p_297:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #936]
 br x16
-.word 13355
+.word 13381
 	.no_dead_strip plt_IntentionJournal_TreeGrowing_InitializeComponent
 plt_IntentionJournal_TreeGrowing_InitializeComponent:
 _p_298:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #944]
 br x16
-.word 13358
+.word 13384
 	.no_dead_strip plt_Xamarin_Forms_ToolbarItem__ctor
 plt_Xamarin_Forms_ToolbarItem__ctor:
 _p_299:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #952]
 br x16
-.word 13363
+.word 13389
 	.no_dead_strip plt_Xamarin_Forms_MenuItem_set_Text_string
 plt_Xamarin_Forms_MenuItem_set_Text_string:
 _p_300:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #960]
 br x16
-.word 13368
+.word 13394
 	.no_dead_strip plt_Xamarin_Forms_Command__ctor_System_Action
 plt_Xamarin_Forms_Command__ctor_System_Action:
 _p_301:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #968]
 br x16
-.word 13373
+.word 13399
 	.no_dead_strip plt_Xamarin_Forms_MenuItem_set_Command_System_Windows_Input_ICommand
 plt_Xamarin_Forms_MenuItem_set_Command_System_Windows_Input_ICommand:
 _p_302:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #960]
+ldr x16, [x16, #976]
 br x16
-.word 13378
+.word 13404
 	.no_dead_strip plt_IntentionJournal_TreeGrowing_GrowTree_double
 plt_IntentionJournal_TreeGrowing_GrowTree_double:
 _p_303:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #984]
 br x16
-.word 13383
+.word 13409
 	.no_dead_strip plt_IntentionJournal_TreeGrowing_ReloadTree_double
 plt_IntentionJournal_TreeGrowing_ReloadTree_double:
 _p_304:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #992]
 br x16
-.word 13388
+.word 13414
 	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_Scale_double
 plt_Xamarin_Forms_VisualElement_set_Scale_double:
 _p_305:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1000]
 br x16
-.word 13393
+.word 13419
 	.no_dead_strip plt_Xamarin_Forms_ViewExtensions_ScaleTo_Xamarin_Forms_VisualElement_double_uint_Xamarin_Forms_Easing
 plt_Xamarin_Forms_ViewExtensions_ScaleTo_Xamarin_Forms_VisualElement_double_uint_Xamarin_Forms_Easing:
 _p_306:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1008]
 br x16
-.word 13398
+.word 13424
 	.no_dead_strip plt_IntentionJournal_TreeGrowing___InitComponentRuntime
 plt_IntentionJournal_TreeGrowing___InitComponentRuntime:
 _p_307:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1016]
 br x16
-.word 13403
+.word 13429
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_TreeGrowing_IntentionJournal_TreeGrowing_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_TreeGrowing_IntentionJournal_TreeGrowing_System_Type:
 _p_308:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1024]
 br x16
-.word 13408
+.word 13434
 	.no_dead_strip plt_IntentionJournal_AddQuotePage_InitializeComponent
 plt_IntentionJournal_AddQuotePage_InitializeComponent:
 _p_309:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1032]
 br x16
-.word 13420
+.word 13446
 	.no_dead_strip plt_IntentionJournal_QuoteObject__ctor
 plt_IntentionJournal_QuoteObject__ctor:
 _p_310:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1040]
 br x16
-.word 13425
+.word 13451
 	.no_dead_strip plt_IntentionJournal_QuoteObject_set_quoteString_string
 plt_IntentionJournal_QuoteObject_set_quoteString_string:
 _p_311:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1032]
+ldr x16, [x16, #1048]
 br x16
-.word 13430
+.word 13456
 	.no_dead_strip plt_IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject
 plt_IntentionJournal_AppDatabase_SaveQuote_IntentionJournal_QuoteObject:
 _p_312:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1056]
 br x16
-.word 13435
+.word 13461
 	.no_dead_strip plt_IntentionJournal_AddQuotePage___InitComponentRuntime
 plt_IntentionJournal_AddQuotePage___InitComponentRuntime:
 _p_313:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1064]
 br x16
-.word 13440
+.word 13466
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_AddQuotePage_IntentionJournal_AddQuotePage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_AddQuotePage_IntentionJournal_AddQuotePage_System_Type:
 _p_314:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1072]
 br x16
-.word 13445
+.word 13471
 	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage_InitializeComponent
 plt_IntentionJournal_BrowseQuotesPage_InitializeComponent:
 _p_315:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1080]
 br x16
-.word 13457
+.word 13483
 	.no_dead_strip plt_IntentionJournal_ViewQuotePage__ctor_IntentionJournal_QuoteObject
 plt_IntentionJournal_ViewQuotePage__ctor_IntentionJournal_QuoteObject:
 _p_316:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1088]
 br x16
-.word 13462
+.word 13488
 	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage___InitComponentRuntime
 plt_IntentionJournal_BrowseQuotesPage___InitComponentRuntime:
 _p_317:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1096]
 br x16
-.word 13467
-	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor
-plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor:
+.word 13493
+	.no_dead_strip plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor
+plt_IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor:
 _p_318:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1104]
 br x16
-.word 13472
+.word 13498
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_BrowseQuotesPage_IntentionJournal_BrowseQuotesPage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_BrowseQuotesPage_IntentionJournal_BrowseQuotesPage_System_Type:
 _p_319:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1096]
+ldr x16, [x16, #1112]
 br x16
-.word 13477
+.word 13503
 	.no_dead_strip plt_IntentionJournal_ViewQuotePage_InitializeComponent
 plt_IntentionJournal_ViewQuotePage_InitializeComponent:
 _p_320:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1104]
+ldr x16, [x16, #1120]
 br x16
-.word 13489
+.word 13515
 	.no_dead_strip plt_IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject
 plt_IntentionJournal_AppDatabase_EditQuote_IntentionJournal_QuoteObject:
 _p_321:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1112]
+ldr x16, [x16, #1128]
 br x16
-.word 13494
+.word 13520
 	.no_dead_strip plt_IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject
 plt_IntentionJournal_AppDatabase_DeleteQuote_IntentionJournal_QuoteObject:
 _p_322:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1120]
+ldr x16, [x16, #1136]
 br x16
-.word 13499
+.word 13525
 	.no_dead_strip plt_IntentionJournal_ViewQuotePage___InitComponentRuntime
 plt_IntentionJournal_ViewQuotePage___InitComponentRuntime:
 _p_323:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1128]
+ldr x16, [x16, #1144]
 br x16
-.word 13504
+.word 13530
 	.no_dead_strip plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_ViewQuotePage_IntentionJournal_ViewQuotePage_System_Type
 plt_Xamarin_Forms_Xaml_Extensions_LoadFromXaml_IntentionJournal_ViewQuotePage_IntentionJournal_ViewQuotePage_System_Type:
 _p_324:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1136]
+ldr x16, [x16, #1152]
 br x16
-.word 13509
+.word 13535
 	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
 plt__jit_icall_mono_thread_interruption_checkpoint:
 _p_325:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1144]
+ldr x16, [x16, #1160]
 br x16
-.word 13521
+.word 13547
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
 plt__jit_icall_mono_helper_ldstr_mscorlib:
 _p_326:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1152]
+ldr x16, [x16, #1168]
 br x16
-.word 13559
+.word 13585
 	.no_dead_strip plt_Locale_GetText_string
 plt_Locale_GetText_string:
 _p_327:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1160]
+ldr x16, [x16, #1176]
 br x16
-.word 13588
+.word 13614
 	.no_dead_strip plt__rgctx_fetch_0
 plt__rgctx_fetch_0:
 _p_328:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1168]
+ldr x16, [x16, #1184]
 br x16
-.word 13608
+.word 13634
 	.no_dead_strip plt__rgctx_fetch_1
 plt__rgctx_fetch_1:
 _p_329:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1176]
+ldr x16, [x16, #1192]
 br x16
-.word 13657
+.word 13683
 	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 _p_330:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1184]
+ldr x16, [x16, #1200]
 br x16
-.word 13665
+.word 13691
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_331:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1192]
+ldr x16, [x16, #1208]
 br x16
-.word 13684
+.word 13710
 	.no_dead_strip plt__rgctx_fetch_2
 plt__rgctx_fetch_2:
 _p_332:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1200]
+ldr x16, [x16, #1216]
 br x16
-.word 13734
+.word 13760
 	.no_dead_strip plt__rgctx_fetch_3
 plt__rgctx_fetch_3:
 _p_333:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1208]
+ldr x16, [x16, #1224]
 br x16
-.word 13775
+.word 13801
 	.no_dead_strip plt__rgctx_fetch_4
 plt__rgctx_fetch_4:
 _p_334:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1216]
+ldr x16, [x16, #1232]
 br x16
-.word 13816
+.word 13842
 	.no_dead_strip plt__rgctx_fetch_5
 plt__rgctx_fetch_5:
 _p_335:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1224]
+ldr x16, [x16, #1240]
 br x16
-.word 13857
+.word 13883
 	.no_dead_strip plt__rgctx_fetch_6
 plt__rgctx_fetch_6:
 _p_336:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1232]
+ldr x16, [x16, #1248]
 br x16
-.word 13880
+.word 13906
 	.no_dead_strip plt__rgctx_fetch_7
 plt__rgctx_fetch_7:
 _p_337:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1240]
+ldr x16, [x16, #1256]
 br x16
-.word 13921
+.word 13947
 	.no_dead_strip plt__rgctx_fetch_8
 plt__rgctx_fetch_8:
 _p_338:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1248]
+ldr x16, [x16, #1264]
 br x16
-.word 13929
+.word 13955
 	.no_dead_strip plt__rgctx_fetch_9
 plt__rgctx_fetch_9:
 _p_339:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1256]
+ldr x16, [x16, #1272]
 br x16
-.word 13952
+.word 13978
 	.no_dead_strip plt__rgctx_fetch_10
 plt__rgctx_fetch_10:
 _p_340:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1264]
+ldr x16, [x16, #1280]
 br x16
-.word 13986
+.word 14012
 	.no_dead_strip plt__rgctx_fetch_11
 plt__rgctx_fetch_11:
 _p_341:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1272]
+ldr x16, [x16, #1288]
 br x16
-.word 13994
+.word 14020
 	.no_dead_strip plt_System_Collections_Generic_EqualityComparer_1_object_get_Default
 plt_System_Collections_Generic_EqualityComparer_1_object_get_Default:
 _p_342:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1280]
+ldr x16, [x16, #1296]
 br x16
-.word 14017
+.word 14043
 	.no_dead_strip plt__rgctx_fetch_12
 plt__rgctx_fetch_12:
 _p_343:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1288]
+ldr x16, [x16, #1304]
 br x16
-.word 14057
+.word 14083
 	.no_dead_strip plt__rgctx_fetch_13
 plt__rgctx_fetch_13:
 _p_344:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1296]
+ldr x16, [x16, #1312]
 br x16
-.word 14065
+.word 14091
 	.no_dead_strip plt__rgctx_fetch_14
 plt__rgctx_fetch_14:
 _p_345:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1304]
+ldr x16, [x16, #1320]
 br x16
-.word 14073
+.word 14099
 	.no_dead_strip plt_System_Collections_Generic_Comparer_1_object_get_Default
 plt_System_Collections_Generic_Comparer_1_object_get_Default:
 _p_346:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1312]
+ldr x16, [x16, #1328]
 br x16
-.word 14081
+.word 14107
 	.no_dead_strip plt__rgctx_fetch_15
 plt__rgctx_fetch_15:
 _p_347:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1320]
+ldr x16, [x16, #1336]
 br x16
-.word 14121
+.word 14147
 	.no_dead_strip plt_System_Environment_GetResourceString_string_object__
 plt_System_Environment_GetResourceString_string_object__:
 _p_348:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1328]
+ldr x16, [x16, #1344]
 br x16
-.word 14129
+.word 14155
 	.no_dead_strip plt__rgctx_fetch_16
 plt__rgctx_fetch_16:
 _p_349:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1336]
+ldr x16, [x16, #1352]
 br x16
-.word 14132
+.word 14158
 	.no_dead_strip plt__rgctx_fetch_17
 plt__rgctx_fetch_17:
 _p_350:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1344]
+ldr x16, [x16, #1360]
 br x16
-.word 14140
+.word 14166
 	.no_dead_strip plt__rgctx_fetch_18
 plt__rgctx_fetch_18:
 _p_351:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1352]
+ldr x16, [x16, #1368]
 br x16
-.word 14169
+.word 14195
 	.no_dead_strip plt__rgctx_fetch_19
 plt__rgctx_fetch_19:
 _p_352:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1360]
+ldr x16, [x16, #1376]
 br x16
-.word 14177
+.word 14203
 	.no_dead_strip plt_System_Tuple_CombineHashCodes_int_int
 plt_System_Tuple_CombineHashCodes_int_int:
 _p_353:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1368]
+ldr x16, [x16, #1384]
 br x16
-.word 14185
+.word 14211
 	.no_dead_strip plt_System_Text_StringBuilder__ctor
 plt_System_Text_StringBuilder__ctor:
 _p_354:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1376]
+ldr x16, [x16, #1392]
 br x16
-.word 14188
+.word 14214
 	.no_dead_strip plt_System_Text_StringBuilder_Append_string
 plt_System_Text_StringBuilder_Append_string:
 _p_355:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1384]
+ldr x16, [x16, #1400]
 br x16
-.word 14191
+.word 14217
 	.no_dead_strip plt__rgctx_fetch_20
 plt__rgctx_fetch_20:
 _p_356:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1392]
+ldr x16, [x16, #1408]
 br x16
-.word 14215
+.word 14241
 	.no_dead_strip plt_System_Text_StringBuilder_Append_object
 plt_System_Text_StringBuilder_Append_object:
 _p_357:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1400]
+ldr x16, [x16, #1416]
 br x16
-.word 14223
+.word 14249
 	.no_dead_strip plt__rgctx_fetch_21
 plt__rgctx_fetch_21:
 _p_358:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1408]
+ldr x16, [x16, #1424]
 br x16
-.word 14226
+.word 14252
 	.no_dead_strip plt__rgctx_fetch_22
 plt__rgctx_fetch_22:
 _p_359:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1416]
+ldr x16, [x16, #1432]
 br x16
-.word 14252
+.word 14278
 	.no_dead_strip plt__rgctx_fetch_23
 plt__rgctx_fetch_23:
 _p_360:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1424]
+ldr x16, [x16, #1440]
 br x16
-.word 14275
+.word 14301
 	.no_dead_strip plt__rgctx_fetch_24
 plt__rgctx_fetch_24:
 _p_361:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1432]
+ldr x16, [x16, #1448]
 br x16
-.word 14283
+.word 14309
 	.no_dead_strip plt__rgctx_fetch_25
 plt__rgctx_fetch_25:
 _p_362:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1440]
+ldr x16, [x16, #1456]
 br x16
-.word 14295
+.word 14321
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor
 plt_System_Threading_Tasks_Task__ctor:
 _p_363:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1448]
+ldr x16, [x16, #1464]
 br x16
-.word 14307
+.word 14333
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_Task__ctor_object_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_364:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1456]
+ldr x16, [x16, #1472]
 br x16
-.word 14310
+.word 14336
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task__ctor_bool_System_Threading_Tasks_TaskCreationOptions_System_Threading_CancellationToken:
 _p_365:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1464]
+ldr x16, [x16, #1480]
 br x16
-.word 14313
+.word 14339
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_Task_InternalCurrentIfAttached_System_Threading_Tasks_TaskCreationOptions:
 _p_366:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1472]
+ldr x16, [x16, #1488]
 br x16
-.word 14316
+.word 14342
 	.no_dead_strip plt__rgctx_fetch_26
 plt__rgctx_fetch_26:
 _p_367:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1480]
+ldr x16, [x16, #1496]
 br x16
-.word 14337
+.word 14363
 	.no_dead_strip plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_
 plt_System_Threading_Tasks_Task_PossiblyCaptureContext_System_Threading_StackCrawlMark_:
 _p_368:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1488]
+ldr x16, [x16, #1504]
 br x16
-.word 14360
+.word 14386
 	.no_dead_strip plt__rgctx_fetch_27
 plt__rgctx_fetch_27:
 _p_369:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1496]
+ldr x16, [x16, #1512]
 br x16
-.word 14381
+.word 14407
 	.no_dead_strip plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler
 plt_System_Threading_Tasks_Task__ctor_System_Delegate_object_System_Threading_Tasks_Task_System_Threading_CancellationToken_System_Threading_Tasks_TaskCreationOptions_System_Threading_Tasks_InternalTaskOptions_System_Threading_Tasks_TaskScheduler:
 _p_370:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1504]
+ldr x16, [x16, #1520]
 br x16
-.word 14404
+.word 14430
 	.no_dead_strip plt_System_Environment_GetResourceString_string
 plt_System_Environment_GetResourceString_string:
 _p_371:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1512]
+ldr x16, [x16, #1528]
 br x16
-.word 14407
+.word 14433
 	.no_dead_strip plt__rgctx_fetch_28
 plt__rgctx_fetch_28:
 _p_372:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1520]
+ldr x16, [x16, #1536]
 br x16
-.word 14428
+.word 14454
 	.no_dead_strip plt__rgctx_fetch_29
 plt__rgctx_fetch_29:
 _p_373:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1528]
+ldr x16, [x16, #1544]
 br x16
-.word 14436
+.word 14462
 	.no_dead_strip plt_System_Threading_Tasks_Task_ScheduleAndStart_bool
 plt_System_Threading_Tasks_Task_ScheduleAndStart_bool:
 _p_374:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1536]
+ldr x16, [x16, #1552]
 br x16
-.word 14459
+.word 14485
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsCompleted
 plt_System_Threading_Tasks_Task_get_IsCompleted:
 _p_375:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1544]
+ldr x16, [x16, #1560]
 br x16
-.word 14462
+.word 14488
 	.no_dead_strip plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int
 plt_System_Threading_Tasks_Task_AtomicStateUpdate_int_int:
 _p_376:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1552]
+ldr x16, [x16, #1568]
 br x16
-.word 14465
+.word 14491
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted
 plt_System_Threading_Tasks_Task_ContingentProperties_SetCompleted:
 _p_377:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1560]
+ldr x16, [x16, #1576]
 br x16
-.word 14468
+.word 14494
 	.no_dead_strip plt_System_Threading_Tasks_Task_FinishStageThree
 plt_System_Threading_Tasks_Task_FinishStageThree:
 _p_378:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1568]
+ldr x16, [x16, #1584]
 br x16
-.word 14471
+.word 14497
 	.no_dead_strip plt__rgctx_fetch_30
 plt__rgctx_fetch_30:
 _p_379:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1576]
+ldr x16, [x16, #1592]
 br x16
-.word 14492
+.word 14518
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsWaitNotificationEnabledOrNotRanToCompletion:
 _p_380:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1584]
+ldr x16, [x16, #1600]
 br x16
-.word 14515
+.word 14541
 	.no_dead_strip plt__rgctx_fetch_31
 plt__rgctx_fetch_31:
 _p_381:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1592]
+ldr x16, [x16, #1608]
 br x16
-.word 14536
+.word 14562
 	.no_dead_strip plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken
 plt_System_Threading_Tasks_Task_InternalWait_int_System_Threading_CancellationToken:
 _p_382:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1600]
+ldr x16, [x16, #1616]
 br x16
-.word 14559
+.word 14585
 	.no_dead_strip plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary
 plt_System_Threading_Tasks_Task_NotifyDebuggerOfWaitCompletionIfNecessary:
 _p_383:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1608]
+ldr x16, [x16, #1624]
 br x16
-.word 14562
+.word 14588
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_IsRanToCompletion
 plt_System_Threading_Tasks_Task_get_IsRanToCompletion:
 _p_384:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1616]
+ldr x16, [x16, #1632]
 br x16
-.word 14565
+.word 14591
 	.no_dead_strip plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool
 plt_System_Threading_Tasks_Task_ThrowIfExceptional_bool:
 _p_385:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1624]
+ldr x16, [x16, #1640]
 br x16
-.word 14568
+.word 14594
 	.no_dead_strip plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool
 plt_System_Threading_Tasks_Task_EnsureContingentPropertiesInitialized_bool:
 _p_386:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1632]
+ldr x16, [x16, #1648]
 br x16
-.word 14571
+.word 14597
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddException_object
 plt_System_Threading_Tasks_Task_AddException_object:
 _p_387:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1640]
+ldr x16, [x16, #1656]
 br x16
-.word 14574
+.word 14600
 	.no_dead_strip plt_System_Threading_Tasks_Task_Finish_bool
 plt_System_Threading_Tasks_Task_Finish_bool:
 _p_388:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1648]
+ldr x16, [x16, #1664]
 br x16
-.word 14577
+.word 14603
 	.no_dead_strip plt__rgctx_fetch_32
 plt__rgctx_fetch_32:
 _p_389:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1656]
+ldr x16, [x16, #1672]
 br x16
-.word 14598
+.word 14624
 	.no_dead_strip plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object
 plt_System_Threading_Tasks_Task_RecordInternalCancellationRequest_System_Threading_CancellationToken_object:
 _p_390:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1664]
+ldr x16, [x16, #1680]
 br x16
-.word 14621
+.word 14647
 	.no_dead_strip plt_System_Threading_Tasks_Task_CancellationCleanupLogic
 plt_System_Threading_Tasks_Task_CancellationCleanupLogic:
 _p_391:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1672]
+ldr x16, [x16, #1688]
 br x16
-.word 14624
+.word 14650
 	.no_dead_strip plt__rgctx_fetch_33
 plt__rgctx_fetch_33:
 _p_392:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1680]
+ldr x16, [x16, #1696]
 br x16
-.word 14645
+.word 14671
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_393:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1688]
+ldr x16, [x16, #1704]
 br x16
-.word 14653
+.word 14679
 	.no_dead_strip plt__rgctx_fetch_34
 plt__rgctx_fetch_34:
 _p_394:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1696]
+ldr x16, [x16, #1712]
 br x16
-.word 14679
+.word 14705
 	.no_dead_strip plt__rgctx_fetch_35
 plt__rgctx_fetch_35:
 _p_395:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1704]
+ldr x16, [x16, #1720]
 br x16
-.word 14712
+.word 14738
 	.no_dead_strip plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr
 plt_wrapper_castclass_object___isinst_with_cache_object_intptr_intptr:
 _p_396:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1712]
+ldr x16, [x16, #1728]
 br x16
-.word 14720
+.word 14746
 	.no_dead_strip plt__rgctx_fetch_36
 plt__rgctx_fetch_36:
 _p_397:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1720]
+ldr x16, [x16, #1736]
 br x16
-.word 14738
+.word 14764
 	.no_dead_strip plt__rgctx_fetch_37
 plt__rgctx_fetch_37:
 _p_398:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1728]
+ldr x16, [x16, #1744]
 br x16
-.word 14772
+.word 14798
 	.no_dead_strip plt__rgctx_fetch_38
 plt__rgctx_fetch_38:
 _p_399:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1736]
+ldr x16, [x16, #1752]
 br x16
-.word 14780
+.word 14806
 	.no_dead_strip plt__rgctx_fetch_39
 plt__rgctx_fetch_39:
 _p_400:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1744]
+ldr x16, [x16, #1760]
 br x16
-.word 14829
+.word 14855
 	.no_dead_strip plt__rgctx_fetch_40
 plt__rgctx_fetch_40:
 _p_401:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1752]
+ldr x16, [x16, #1768]
 br x16
-.word 14837
+.word 14863
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Current
 plt_System_Threading_Tasks_TaskScheduler_get_Current:
 _p_402:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1760]
+ldr x16, [x16, #1776]
 br x16
-.word 14860
+.word 14886
 	.no_dead_strip plt__rgctx_fetch_41
 plt__rgctx_fetch_41:
 _p_403:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1768]
+ldr x16, [x16, #1784]
 br x16
-.word 14881
+.word 14907
 	.no_dead_strip plt__rgctx_fetch_42
 plt__rgctx_fetch_42:
 _p_404:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1776]
+ldr x16, [x16, #1792]
 br x16
-.word 14922
+.word 14948
 	.no_dead_strip plt__rgctx_fetch_43
 plt__rgctx_fetch_43:
 _p_405:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1784]
+ldr x16, [x16, #1800]
 br x16
-.word 14963
+.word 14989
 	.no_dead_strip plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_
 plt_System_Threading_Tasks_Task_CreationOptionsFromContinuationOptions_System_Threading_Tasks_TaskContinuationOptions_System_Threading_Tasks_TaskCreationOptions__System_Threading_Tasks_InternalTaskOptions_:
 _p_406:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1792]
+ldr x16, [x16, #1808]
 br x16
-.word 14986
+.word 15012
 	.no_dead_strip plt__rgctx_fetch_44
 plt__rgctx_fetch_44:
 _p_407:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1800]
+ldr x16, [x16, #1816]
 br x16
-.word 15015
+.word 15041
 	.no_dead_strip plt__rgctx_fetch_45
 plt__rgctx_fetch_45:
 _p_408:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1808]
+ldr x16, [x16, #1824]
 br x16
-.word 15023
+.word 15049
 	.no_dead_strip plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_Task_ContinueWithCore_System_Threading_Tasks_Task_System_Threading_Tasks_TaskScheduler_System_Threading_CancellationToken_System_Threading_Tasks_TaskContinuationOptions:
 _p_409:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1816]
+ldr x16, [x16, #1832]
 br x16
-.word 15046
+.word 15072
 	.no_dead_strip plt__rgctx_fetch_46
 plt__rgctx_fetch_46:
 _p_410:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1824]
+ldr x16, [x16, #1840]
 br x16
-.word 15075
+.word 15101
 	.no_dead_strip plt__rgctx_fetch_47
 plt__rgctx_fetch_47:
 _p_411:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1832]
+ldr x16, [x16, #1848]
 br x16
-.word 15083
+.word 15109
 	.no_dead_strip plt__rgctx_fetch_48
 plt__rgctx_fetch_48:
 _p_412:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1840]
+ldr x16, [x16, #1856]
 br x16
-.word 15106
+.word 15132
 	.no_dead_strip plt__rgctx_fetch_49
 plt__rgctx_fetch_49:
 _p_413:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1848]
+ldr x16, [x16, #1864]
 br x16
-.word 15114
+.word 15140
 	.no_dead_strip plt__jit_icall_mono_ldftn
 plt__jit_icall_mono_ldftn:
 _p_414:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1856]
+ldr x16, [x16, #1872]
 br x16
-.word 15137
+.word 15163
 	.no_dead_strip plt__rgctx_fetch_50
 plt__rgctx_fetch_50:
 _p_415:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1864]
+ldr x16, [x16, #1880]
 br x16
-.word 15160
+.word 15186
 	.no_dead_strip plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr
 plt_System_Func_2_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_System_Threading_Tasks_Task_1_TResult_BOOL__ctor_object_intptr:
 _p_416:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1872]
+ldr x16, [x16, #1888]
 br x16
-.word 15168
+.word 15194
 	.no_dead_strip plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result
 plt_System_Threading_Tasks_Task_1_System_Threading_Tasks_Task_get_Result:
 _p_417:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1880]
+ldr x16, [x16, #1896]
 br x16
-.word 15190
+.word 15216
 	.no_dead_strip plt__rgctx_fetch_51
 plt__rgctx_fetch_51:
 _p_418:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1888]
+ldr x16, [x16, #1904]
 br x16
-.word 15227
+.word 15253
 	.no_dead_strip plt__rgctx_fetch_52
 plt__rgctx_fetch_52:
 _p_419:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1896]
+ldr x16, [x16, #1912]
 br x16
-.word 15253
+.word 15279
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckMultiTaskContinuationOptions_System_Threading_Tasks_TaskContinuationOptions:
 _p_420:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1904]
+ldr x16, [x16, #1920]
 br x16
-.word 15276
+.word 15302
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions
 plt_System_Threading_Tasks_TaskFactory_CheckCreationOptions_System_Threading_Tasks_TaskCreationOptions:
 _p_421:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1912]
+ldr x16, [x16, #1928]
 br x16
-.word 15279
+.word 15305
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_CreationOptions
 plt_System_Threading_Tasks_Task_get_CreationOptions:
 _p_422:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1920]
+ldr x16, [x16, #1936]
 br x16
-.word 15282
+.word 15308
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_ExecutingTaskScheduler
 plt_System_Threading_Tasks_Task_get_ExecutingTaskScheduler:
 _p_423:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1928]
+ldr x16, [x16, #1944]
 br x16
-.word 15285
+.word 15311
 	.no_dead_strip plt_System_Threading_Tasks_TaskScheduler_get_Default
 plt_System_Threading_Tasks_TaskScheduler_get_Default:
 _p_424:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1936]
+ldr x16, [x16, #1952]
 br x16
-.word 15288
+.word 15314
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_InternalCurrent
 plt_System_Threading_Tasks_Task_get_InternalCurrent:
 _p_425:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1944]
+ldr x16, [x16, #1960]
 br x16
-.word 15291
+.word 15317
 	.no_dead_strip plt__rgctx_fetch_53
 plt__rgctx_fetch_53:
 _p_426:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1952]
+ldr x16, [x16, #1968]
 br x16
-.word 15312
+.word 15338
 	.no_dead_strip plt__rgctx_fetch_54
 plt__rgctx_fetch_54:
 _p_427:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1960]
+ldr x16, [x16, #1976]
 br x16
-.word 15343
+.word 15369
 	.no_dead_strip plt__rgctx_fetch_55
 plt__rgctx_fetch_55:
 _p_428:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1968]
+ldr x16, [x16, #1984]
 br x16
-.word 15351
+.word 15377
 	.no_dead_strip plt_System_OperationCanceledException_get_CancellationToken
 plt_System_OperationCanceledException_get_CancellationToken:
 _p_429:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1976]
+ldr x16, [x16, #1992]
 br x16
-.word 15374
+.word 15400
 	.no_dead_strip plt__rgctx_fetch_56
 plt__rgctx_fetch_56:
 _p_430:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1984]
+ldr x16, [x16, #2000]
 br x16
-.word 15395
+.word 15421
 	.no_dead_strip plt__rgctx_fetch_57
 plt__rgctx_fetch_57:
 _p_431:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #1992]
+ldr x16, [x16, #2008]
 br x16
-.word 15403
+.word 15429
 	.no_dead_strip plt__rgctx_fetch_58
 plt__rgctx_fetch_58:
 _p_432:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2000]
+ldr x16, [x16, #2016]
 br x16
-.word 15426
+.word 15452
 	.no_dead_strip plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool
 plt_System_Threading_Tasks_TaskExceptionHolder_MarkAsHandled_bool:
 _p_433:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2008]
+ldr x16, [x16, #2024]
 br x16
-.word 15449
+.word 15475
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn
 plt_System_Threading_Tasks_AsyncCausalityTracer_get_LoggingOn:
 _p_434:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2016]
+ldr x16, [x16, #2032]
 br x16
-.word 15452
+.word 15478
 	.no_dead_strip plt_System_Threading_Tasks_Task_get_Id
 plt_System_Threading_Tasks_Task_get_Id:
 _p_435:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2024]
+ldr x16, [x16, #2040]
 br x16
-.word 15455
+.word 15481
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCompletion_System_Threading_Tasks_CausalityTraceLevel_int_System_Threading_Tasks_AsyncCausalityStatus:
 _p_436:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2032]
+ldr x16, [x16, #2048]
 br x16
-.word 15458
+.word 15484
 	.no_dead_strip plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int
 plt_System_Threading_Tasks_Task_RemoveFromActiveTasks_int:
 _p_437:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2040]
+ldr x16, [x16, #2056]
 br x16
-.word 15461
+.word 15487
 	.no_dead_strip plt__rgctx_fetch_59
 plt__rgctx_fetch_59:
 _p_438:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2048]
+ldr x16, [x16, #2064]
 br x16
-.word 15464
+.word 15490
 	.no_dead_strip plt__rgctx_fetch_60
 plt__rgctx_fetch_60:
 _p_439:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2056]
+ldr x16, [x16, #2072]
 br x16
-.word 15487
+.word 15513
 	.no_dead_strip plt__rgctx_fetch_61
 plt__rgctx_fetch_61:
 _p_440:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2064]
+ldr x16, [x16, #2080]
 br x16
-.word 15528
+.word 15554
 	.no_dead_strip plt__rgctx_fetch_62
 plt__rgctx_fetch_62:
 _p_441:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2072]
+ldr x16, [x16, #2088]
 br x16
-.word 15536
+.word 15562
 	.no_dead_strip plt__rgctx_fetch_63
 plt__rgctx_fetch_63:
 _p_442:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2080]
+ldr x16, [x16, #2096]
 br x16
-.word 15585
+.word 15611
 	.no_dead_strip plt__rgctx_fetch_64
 plt__rgctx_fetch_64:
 _p_443:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2088]
+ldr x16, [x16, #2104]
 br x16
-.word 15593
+.word 15619
 	.no_dead_strip plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool
 plt_System_Threading_Tasks_TaskFactory_CheckFromAsyncOptions_System_Threading_Tasks_TaskCreationOptions_bool:
 _p_444:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2096]
+ldr x16, [x16, #2112]
 br x16
-.word 15616
+.word 15642
 	.no_dead_strip plt__rgctx_fetch_65
 plt__rgctx_fetch_65:
 _p_445:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2104]
+ldr x16, [x16, #2120]
 br x16
-.word 15619
+.word 15645
 	.no_dead_strip plt__rgctx_fetch_66
 plt__rgctx_fetch_66:
 _p_446:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2112]
+ldr x16, [x16, #2128]
 br x16
-.word 15627
+.word 15653
 	.no_dead_strip plt_System_Delegate_get_Method
 plt_System_Delegate_get_Method:
 _p_447:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2120]
+ldr x16, [x16, #2136]
 br x16
-.word 15650
+.word 15676
 	.no_dead_strip plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong
 plt_System_Threading_Tasks_AsyncCausalityTracer_TraceOperationCreation_System_Threading_Tasks_CausalityTraceLevel_int_string_ulong:
 _p_448:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2128]
+ldr x16, [x16, #2144]
 br x16
-.word 15653
+.word 15679
 	.no_dead_strip plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task
 plt_System_Threading_Tasks_Task_AddToActiveTasks_System_Threading_Tasks_Task:
 _p_449:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2136]
+ldr x16, [x16, #2152]
 br x16
-.word 15656
+.word 15682
 	.no_dead_strip plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5
 plt_System_Runtime_Versioning_BinaryCompatibility_get_TargetsAtLeast_Desktop_V4_5:
 _p_450:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2144]
+ldr x16, [x16, #2160]
 br x16
-.word 15659
+.word 15685
 	.no_dead_strip plt__rgctx_fetch_67
 plt__rgctx_fetch_67:
 _p_451:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2152]
+ldr x16, [x16, #2168]
 br x16
-.word 15670
+.word 15696
 	.no_dead_strip plt__rgctx_fetch_68
 plt__rgctx_fetch_68:
 _p_452:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2160]
+ldr x16, [x16, #2176]
 br x16
-.word 15678
+.word 15704
 	.no_dead_strip plt_System_Threading_AtomicBoolean__ctor
 plt_System_Threading_AtomicBoolean__ctor:
 _p_453:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2168]
+ldr x16, [x16, #2184]
 br x16
-.word 15701
+.word 15727
 	.no_dead_strip plt__rgctx_fetch_69
 plt__rgctx_fetch_69:
 _p_454:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2176]
+ldr x16, [x16, #2192]
 br x16
-.word 15703
+.word 15729
 	.no_dead_strip plt__rgctx_fetch_70
 plt__rgctx_fetch_70:
 _p_455:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2184]
+ldr x16, [x16, #2200]
 br x16
-.word 15726
+.word 15752
 	.no_dead_strip plt_System_Threading_AtomicBoolean_TryRelaxedSet
 plt_System_Threading_AtomicBoolean_TryRelaxedSet:
 _p_456:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2192]
+ldr x16, [x16, #2208]
 br x16
-.word 15749
+.word 15775
 	.no_dead_strip plt__rgctx_fetch_71
 plt__rgctx_fetch_71:
 _p_457:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2200]
+ldr x16, [x16, #2216]
 br x16
-.word 15751
+.word 15777
 	.no_dead_strip plt__rgctx_fetch_72
 plt__rgctx_fetch_72:
 _p_458:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2208]
+ldr x16, [x16, #2224]
 br x16
-.word 15759
+.word 15785
 	.no_dead_strip plt__rgctx_fetch_73
 plt__rgctx_fetch_73:
 _p_459:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2216]
+ldr x16, [x16, #2232]
 br x16
-.word 15782
+.word 15808
 	.no_dead_strip plt__rgctx_fetch_74
 plt__rgctx_fetch_74:
 _p_460:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2224]
+ldr x16, [x16, #2240]
 br x16
-.word 15805
+.word 15831
 	.no_dead_strip plt__rgctx_fetch_75
 plt__rgctx_fetch_75:
 _p_461:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2232]
+ldr x16, [x16, #2248]
 br x16
-.word 15828
+.word 15854
 	.no_dead_strip plt__jit_icall_mono_arch_rethrow_exception
 plt__jit_icall_mono_arch_rethrow_exception:
 _p_462:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2240]
+ldr x16, [x16, #2256]
 br x16
-.word 15851
+.word 15877
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool
 plt_System_Runtime_CompilerServices_TaskAwaiter_OnCompletedInternal_System_Threading_Tasks_Task_System_Action_bool_bool:
 _p_463:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2248]
+ldr x16, [x16, #2264]
 br x16
-.word 15881
+.word 15907
 	.no_dead_strip plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_TaskAwaiter_ValidateEnd_System_Threading_Tasks_Task:
 _p_464:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2256]
+ldr x16, [x16, #2272]
 br x16
-.word 15884
+.word 15910
 	.no_dead_strip plt__rgctx_fetch_76
 plt__rgctx_fetch_76:
 _p_465:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2264]
+ldr x16, [x16, #2280]
 br x16
-.word 15913
+.word 15939
 	.no_dead_strip plt__rgctx_fetch_77
 plt__rgctx_fetch_77:
 _p_466:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2272]
+ldr x16, [x16, #2288]
 br x16
-.word 15921
+.word 15947
 	.no_dead_strip plt_System_Nullable_1_int_Unbox_object
 plt_System_Nullable_1_int_Unbox_object:
 _p_467:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2280]
+ldr x16, [x16, #2296]
 br x16
-.word 15944
+.word 15970
 	.no_dead_strip plt_System_Nullable_1_int_Equals_System_Nullable_1_int
 plt_System_Nullable_1_int_Equals_System_Nullable_1_int:
 _p_468:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2288]
+ldr x16, [x16, #2304]
 br x16
-.word 15963
+.word 15989
 	.no_dead_strip plt_int_Equals_object
 plt_int_Equals_object:
 _p_469:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2296]
+ldr x16, [x16, #2312]
 br x16
-.word 15982
+.word 16008
 	.no_dead_strip plt_int_GetHashCode
 plt_int_GetHashCode:
 _p_470:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2304]
+ldr x16, [x16, #2320]
 br x16
-.word 15985
+.word 16011
 	.no_dead_strip plt_int_ToString
 plt_int_ToString:
 _p_471:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2312]
+ldr x16, [x16, #2328]
 br x16
-.word 15988
+.word 16014
 	.no_dead_strip plt_System_Nullable_1_int__ctor_int
 plt_System_Nullable_1_int__ctor_int:
 _p_472:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2320]
+ldr x16, [x16, #2336]
 br x16
-.word 15991
+.word 16017
 	.no_dead_strip plt__rgctx_fetch_78
 plt__rgctx_fetch_78:
 _p_473:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2328]
+ldr x16, [x16, #2344]
 br x16
-.word 16028
+.word 16054
 	.no_dead_strip plt__rgctx_fetch_79
 plt__rgctx_fetch_79:
 _p_474:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2336]
+ldr x16, [x16, #2352]
 br x16
-.word 16074
+.word 16100
 	.no_dead_strip plt__rgctx_fetch_80
 plt__rgctx_fetch_80:
 _p_475:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2344]
+ldr x16, [x16, #2360]
 br x16
-.word 16082
+.word 16108
 	.no_dead_strip plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions
 plt_System_Runtime_CompilerServices_RuntimeHelpers_PrepareConstrainedRegions:
 _p_476:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2352]
+ldr x16, [x16, #2368]
 br x16
-.word 16090
+.word 16116
 	.no_dead_strip plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_
 plt_System_Threading_ExecutionContext_EstablishCopyOnWriteScope_System_Threading_ExecutionContextSwitcher_:
 _p_477:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2360]
+ldr x16, [x16, #2376]
 br x16
-.word 16093
+.word 16119
 	.no_dead_strip plt__jit_icall_mono_gsharedvt_constrained_call
 plt__jit_icall_mono_gsharedvt_constrained_call:
 _p_478:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2368]
+ldr x16, [x16, #2384]
 br x16
-.word 16096
+.word 16122
 	.no_dead_strip plt_System_Threading_ExecutionContextSwitcher_Undo
 plt_System_Threading_ExecutionContextSwitcher_Undo:
 _p_479:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2376]
+ldr x16, [x16, #2392]
 br x16
-.word 16130
+.word 16156
 	.no_dead_strip plt__rgctx_fetch_81
 plt__rgctx_fetch_81:
 _p_480:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2384]
+ldr x16, [x16, #2400]
 br x16
-.word 16154
+.word 16180
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task
 plt_System_Runtime_CompilerServices_AsyncVoidMethodBuilder_get_Task:
 _p_481:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2392]
+ldr x16, [x16, #2408]
 br x16
-.word 16203
+.word 16229
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_GetCompletionAction_System_Threading_Tasks_Task_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_:
 _p_482:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2400]
+ldr x16, [x16, #2416]
 br x16
-.word 16206
+.word 16232
 	.no_dead_strip plt__rgctx_fetch_82
 plt__rgctx_fetch_82:
 _p_483:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2408]
+ldr x16, [x16, #2424]
 br x16
-.word 16209
+.word 16235
 	.no_dead_strip plt__rgctx_fetch_83
 plt__rgctx_fetch_83:
 _p_484:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2416]
+ldr x16, [x16, #2432]
 br x16
-.word 16217
+.word 16243
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_PostBoxInitialization_System_Runtime_CompilerServices_IAsyncStateMachine_System_Runtime_CompilerServices_AsyncMethodBuilderCore_MoveNextRunner_System_Threading_Tasks_Task:
 _p_485:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2424]
+ldr x16, [x16, #2440]
 br x16
-.word 16225
+.word 16251
 	.no_dead_strip plt__rgctx_fetch_84
 plt__rgctx_fetch_84:
 _p_486:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2432]
+ldr x16, [x16, #2448]
 br x16
-.word 16228
+.word 16254
 	.no_dead_strip plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext
 plt_System_Runtime_CompilerServices_AsyncMethodBuilderCore_ThrowAsync_System_Exception_System_Threading_SynchronizationContext:
 _p_487:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2440]
+ldr x16, [x16, #2456]
 br x16
-.word 16236
+.word 16262
 	.no_dead_strip plt__jit_icall_mono_helper_ldstr
 plt__jit_icall_mono_helper_ldstr:
 _p_488:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2448]
+ldr x16, [x16, #2464]
 br x16
-.word 16239
+.word 16265
 	.no_dead_strip plt_System_Linq_Error_ArgumentNull_string
 plt_System_Linq_Error_ArgumentNull_string:
 _p_489:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2456]
+ldr x16, [x16, #2472]
 br x16
-.word 16259
+.word 16285
 	.no_dead_strip plt__rgctx_fetch_85
 plt__rgctx_fetch_85:
 _p_490:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2464]
+ldr x16, [x16, #2480]
 br x16
-.word 16291
+.word 16317
 	.no_dead_strip plt__rgctx_fetch_86
 plt__rgctx_fetch_86:
 _p_491:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2472]
+ldr x16, [x16, #2488]
 br x16
-.word 16299
+.word 16325
 	.no_dead_strip plt__rgctx_fetch_87
 plt__rgctx_fetch_87:
 _p_492:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2480]
+ldr x16, [x16, #2496]
 br x16
-.word 16330
+.word 16356
 	.no_dead_strip plt__rgctx_fetch_88
 plt__rgctx_fetch_88:
 _p_493:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2488]
+ldr x16, [x16, #2504]
 br x16
-.word 16371
+.word 16397
 	.no_dead_strip plt__rgctx_fetch_89
 plt__rgctx_fetch_89:
 _p_494:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2496]
+ldr x16, [x16, #2512]
 br x16
-.word 16394
+.word 16420
 	.no_dead_strip plt__rgctx_fetch_90
 plt__rgctx_fetch_90:
 _p_495:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2504]
+ldr x16, [x16, #2520]
 br x16
-.word 16435
+.word 16461
 	.no_dead_strip plt__rgctx_fetch_91
 plt__rgctx_fetch_91:
 _p_496:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2512]
+ldr x16, [x16, #2528]
 br x16
-.word 16445
+.word 16471
 	.no_dead_strip plt__rgctx_fetch_92
 plt__rgctx_fetch_92:
 _p_497:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2520]
+ldr x16, [x16, #2536]
 br x16
-.word 16470
+.word 16496
 	.no_dead_strip plt__rgctx_fetch_93
 plt__rgctx_fetch_93:
 _p_498:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2528]
+ldr x16, [x16, #2544]
 br x16
-.word 16506
+.word 16532
 	.no_dead_strip plt__rgctx_fetch_94
 plt__rgctx_fetch_94:
 _p_499:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2536]
+ldr x16, [x16, #2552]
 br x16
-.word 16518
+.word 16544
 	.no_dead_strip plt__rgctx_fetch_95
 plt__rgctx_fetch_95:
 _p_500:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2544]
+ldr x16, [x16, #2560]
 br x16
-.word 16563
+.word 16589
 	.no_dead_strip plt__rgctx_fetch_96
 plt__rgctx_fetch_96:
 _p_501:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2552]
+ldr x16, [x16, #2568]
 br x16
-.word 16588
+.word 16614
 	.no_dead_strip plt__rgctx_fetch_97
 plt__rgctx_fetch_97:
 _p_502:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2560]
+ldr x16, [x16, #2576]
 br x16
-.word 16598
+.word 16624
 	.no_dead_strip plt__rgctx_fetch_98
 plt__rgctx_fetch_98:
 _p_503:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2568]
+ldr x16, [x16, #2584]
 br x16
-.word 16612
+.word 16638
 	.no_dead_strip plt__rgctx_fetch_99
 plt__rgctx_fetch_99:
 _p_504:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2576]
+ldr x16, [x16, #2592]
 br x16
-.word 16644
+.word 16670
 	.no_dead_strip plt__rgctx_fetch_100
 plt__rgctx_fetch_100:
 _p_505:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2584]
+ldr x16, [x16, #2600]
 br x16
-.word 16695
+.word 16721
 	.no_dead_strip plt__rgctx_fetch_101
 plt__rgctx_fetch_101:
 _p_506:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2592]
+ldr x16, [x16, #2608]
 br x16
-.word 16707
+.word 16733
 	.no_dead_strip plt__rgctx_fetch_102
 plt__rgctx_fetch_102:
 _p_507:
 adrp x16, mono_aot_IntentionJournal_got@PAGE+8192
 add x16, x16, mono_aot_IntentionJournal_got@PAGEOFF
-ldr x16, [x16, #2600]
+ldr x16, [x16, #2616]
 br x16
-.word 16752
+.word 16778
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_IntentionJournal_got, 10800
+.lcomm mono_aot_IntentionJournal_got, 10816
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -69964,7 +69916,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "3E8E7DA3-4D0B-4ED6-8181-B9D30A7C964E"
+	.asciz "973206E1-A98A-4C2D-BBF0-98438977BA83"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -70041,13 +69993,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 842,10800,508,339,70,923871743,0,110382
-	.long 128,8,8,10,0,14,119024,8632
+	.long 844,10816,508,339,70,923871743,0,110372
+	.long 128,8,8,10,0,14,119016,8632
 	.long 7888,5656,0,7096,7800,5976,0,4216
 	.long 496,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 72,154,159,52,101,18,63,51,228,170,24,192,24,102,244,92
+	.byte 208,187,158,244,208,132,6,180,217,226,205,206,236,189,227,102
 	.globl _mono_aot_module_IntentionJournal_info
 	.align 3
 _mono_aot_module_IntentionJournal_info:
@@ -76476,189 +76428,138 @@ LTDIE_158_REFERENCE:
 	.byte 14
 LDIFF_SYM1142=LTDIE_158 - Ldebug_info_start
 	.long LDIFF_SYM1142
-LTDIE_170:
-
-	.byte 5
-	.asciz "Xamarin_Forms_InputView"
-
-	.byte 232,2,16
-LDIFF_SYM1143=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1143
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_InputView"
-
-LDIFF_SYM1144=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1144
-LTDIE_170_POINTER:
-
-	.byte 13
-LDIFF_SYM1145=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1145
-LTDIE_170_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1146=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1146
-LTDIE_172:
+LTDIE_171:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1147=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1147
+LDIFF_SYM1143=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1143
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1148=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1148
-LTDIE_172_POINTER:
+LDIFF_SYM1144=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1144
+LTDIE_171_POINTER:
 
 	.byte 13
-LDIFF_SYM1149=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1149
-LTDIE_172_REFERENCE:
+LDIFF_SYM1145=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1145
+LTDIE_171_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1150=LTDIE_172 - Ldebug_info_start
-	.long LDIFF_SYM1150
-LTDIE_171:
+LDIFF_SYM1146=LTDIE_171 - Ldebug_info_start
+	.long LDIFF_SYM1146
+LTDIE_170:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1151=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1151
+LDIFF_SYM1147=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1147
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM1152=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1152
+LDIFF_SYM1148=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1148
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM1153=LTDIE_172_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1153
+LDIFF_SYM1149=LTDIE_171_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1149
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM1154=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1154
+LDIFF_SYM1150=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1150
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1155=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1155
-LTDIE_171_POINTER:
+LDIFF_SYM1151=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1151
+LTDIE_170_POINTER:
 
 	.byte 13
-LDIFF_SYM1156=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1156
-LTDIE_171_REFERENCE:
+LDIFF_SYM1152=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1152
+LTDIE_170_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1157=LTDIE_171 - Ldebug_info_start
-	.long LDIFF_SYM1157
-LTDIE_173:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM1158=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1158
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM1159=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1159
-LTDIE_173_POINTER:
-
-	.byte 13
-LDIFF_SYM1160=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1160
-LTDIE_173_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1161=LTDIE_173 - Ldebug_info_start
-	.long LDIFF_SYM1161
+LDIFF_SYM1153=LTDIE_170 - Ldebug_info_start
+	.long LDIFF_SYM1153
 LTDIE_169:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Editor"
+	.asciz "Xamarin_Forms_Label"
 
-	.byte 128,3,16
-LDIFF_SYM1162=LTDIE_170 - Ldebug_info_start
-	.long LDIFF_SYM1162
+	.byte 248,2,16
+LDIFF_SYM1154=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1154
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1163=LTDIE_171_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1163
+LDIFF_SYM1155=LTDIE_170_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1155
 	.byte 3,35,232,2,6
-	.asciz "Completed"
+	.asciz "_cancelEvents"
 
-LDIFF_SYM1164=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1164
-	.byte 3,35,240,2,6
-	.asciz "TextChanged"
+LDIFF_SYM1156=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1156
+	.byte 3,35,240,2,0,7
+	.asciz "Xamarin_Forms_Label"
 
-LDIFF_SYM1165=LTDIE_173_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1165
-	.byte 3,35,248,2,0,7
-	.asciz "Xamarin_Forms_Editor"
-
-LDIFF_SYM1166=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1166
+LDIFF_SYM1157=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1157
 LTDIE_169_POINTER:
 
 	.byte 13
-LDIFF_SYM1167=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1167
+LDIFF_SYM1158=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1158
 LTDIE_169_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1168=LTDIE_169 - Ldebug_info_start
-	.long LDIFF_SYM1168
+LDIFF_SYM1159=LTDIE_169 - Ldebug_info_start
+	.long LDIFF_SYM1159
 LTDIE_154:
 
 	.byte 5
 	.asciz "IntentionJournal_HomePage"
 
 	.byte 224,3,16
-LDIFF_SYM1169=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1169
+LDIFF_SYM1160=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1160
 	.byte 2,35,0,6
 	.asciz "quoteStringList"
 
-LDIFF_SYM1170=LTDIE_157_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1170
+LDIFF_SYM1161=LTDIE_157_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1161
 	.byte 3,35,200,3,6
 	.asciz "stacklayout"
 
-LDIFF_SYM1171=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1171
+LDIFF_SYM1162=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1162
 	.byte 3,35,208,3,6
-	.asciz "randomQuoteEditor"
+	.asciz "multiLineLabel"
 
-LDIFF_SYM1172=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1172
+LDIFF_SYM1163=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1163
 	.byte 3,35,216,3,0,7
 	.asciz "IntentionJournal_HomePage"
 
-LDIFF_SYM1173=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1173
+LDIFF_SYM1164=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1164
 LTDIE_154_POINTER:
 
 	.byte 13
-LDIFF_SYM1174=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1174
+LDIFF_SYM1165=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1165
 LTDIE_154_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1175=LTDIE_154 - Ldebug_info_start
-	.long LDIFF_SYM1175
+LDIFF_SYM1166=LTDIE_154 - Ldebug_info_start
+	.long LDIFF_SYM1166
 	.byte 2
 	.asciz "IntentionJournal.HomePage:.ctor"
 	.asciz "IntentionJournal_HomePage__ctor"
@@ -76670,22 +76571,22 @@ LDIFF_SYM1175=LTDIE_154 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1176=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1176
+LDIFF_SYM1167=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1167
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1177=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM1177
+LDIFF_SYM1168=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM1168
 Lfde7_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_HomePage__ctor
 
-LDIFF_SYM1178=Lme_7 - IntentionJournal_HomePage__ctor
-	.long LDIFF_SYM1178
+LDIFF_SYM1169=Lme_7 - IntentionJournal_HomePage__ctor
+	.long LDIFF_SYM1169
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,154,12
 	.align 3
@@ -76697,178 +76598,178 @@ Lfde7_end:
 	.asciz "IntentionJournal.HomePage:OnAppearing"
 	.asciz "IntentionJournal_HomePage_OnAppearing"
 
-	.byte 3,31
+	.byte 3,32
 	.quad IntentionJournal_HomePage_OnAppearing
 	.quad Lme_8
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1179=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1179
+LDIFF_SYM1170=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1170
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1180=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM1180
+LDIFF_SYM1171=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM1171
 Lfde8_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_HomePage_OnAppearing
 
-LDIFF_SYM1181=Lme_8 - IntentionJournal_HomePage_OnAppearing
-	.long LDIFF_SYM1181
+LDIFF_SYM1172=Lme_8 - IntentionJournal_HomePage_OnAppearing
+	.long LDIFF_SYM1172
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde8_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_174:
+LTDIE_172:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1182=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1182
+LDIFF_SYM1173=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1173
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1183=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1183
+LDIFF_SYM1174=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1174
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1184=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1184
+LDIFF_SYM1175=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1175
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1185=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1185
+LDIFF_SYM1176=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1176
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1186=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1186
+LDIFF_SYM1177=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1177
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1187=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1187
-LTDIE_174_POINTER:
+LDIFF_SYM1178=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1178
+LTDIE_172_POINTER:
 
 	.byte 13
-LDIFF_SYM1188=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1188
-LTDIE_174_REFERENCE:
+LDIFF_SYM1179=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1179
+LTDIE_172_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1189=LTDIE_174 - Ldebug_info_start
-	.long LDIFF_SYM1189
-LTDIE_175:
+LDIFF_SYM1180=LTDIE_172 - Ldebug_info_start
+	.long LDIFF_SYM1180
+LTDIE_173:
 
 	.byte 5
 	.asciz "IntentionJournal_QuoteObject"
 
 	.byte 32,16
-LDIFF_SYM1190=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1190
+LDIFF_SYM1181=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1181
 	.byte 2,35,0,6
 	.asciz "<quoteID>k__BackingField"
 
-LDIFF_SYM1191=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1191
+LDIFF_SYM1182=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1182
 	.byte 2,35,24,6
 	.asciz "<quoteString>k__BackingField"
 
-LDIFF_SYM1192=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1192
+LDIFF_SYM1183=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1183
 	.byte 2,35,16,0,7
 	.asciz "IntentionJournal_QuoteObject"
 
-LDIFF_SYM1193=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1193
-LTDIE_175_POINTER:
+LDIFF_SYM1184=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1184
+LTDIE_173_POINTER:
 
 	.byte 13
-LDIFF_SYM1194=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1194
-LTDIE_175_REFERENCE:
+LDIFF_SYM1185=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1185
+LTDIE_173_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1195=LTDIE_175 - Ldebug_info_start
-	.long LDIFF_SYM1195
+LDIFF_SYM1186=LTDIE_173 - Ldebug_info_start
+	.long LDIFF_SYM1186
 	.byte 2
 	.asciz "IntentionJournal.HomePage:GetRandomQuote"
 	.asciz "IntentionJournal_HomePage_GetRandomQuote"
 
-	.byte 3,41
+	.byte 3,42
 	.quad IntentionJournal_HomePage_GetRandomQuote
 	.quad Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1196=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1196
+LDIFF_SYM1187=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1187
 	.byte 1,106,11
 	.asciz "fullQuoteObjectList"
 
-LDIFF_SYM1197=LTDIE_174_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1197
+LDIFF_SYM1188=LTDIE_172_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1188
 	.byte 1,105,11
 	.asciz "quoteObjVal"
 
-LDIFF_SYM1198=LTDIE_175_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1198
+LDIFF_SYM1189=LTDIE_173_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1189
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM1199=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1199
+LDIFF_SYM1190=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1190
 	.byte 3,141,128,1,11
 	.asciz "stringToAdd"
 
-LDIFF_SYM1200=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1200
+LDIFF_SYM1191=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1191
 	.byte 1,103,11
 	.asciz "noOfStrings"
 
-LDIFF_SYM1201=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1201
+LDIFF_SYM1192=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1192
 	.byte 1,102,11
 	.asciz "random"
 
-LDIFF_SYM1202=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1202
+LDIFF_SYM1193=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1193
 	.byte 1,101,11
 	.asciz "randomIndexToPick"
 
-LDIFF_SYM1203=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1203
+LDIFF_SYM1194=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1194
 	.byte 1,100,11
 	.asciz "randomlySelectedQuote"
 
-LDIFF_SYM1204=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1204
+LDIFF_SYM1195=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1195
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1205=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM1205
+LDIFF_SYM1196=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM1196
 Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_HomePage_GetRandomQuote
 
-LDIFF_SYM1206=Lme_9 - IntentionJournal_HomePage_GetRandomQuote
-	.long LDIFF_SYM1206
+LDIFF_SYM1197=Lme_9 - IntentionJournal_HomePage_GetRandomQuote
+	.long LDIFF_SYM1197
 	.long 0
 	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34
 	.byte 154,33
@@ -76876,339 +76777,245 @@ LDIFF_SYM1206=Lme_9 - IntentionJournal_HomePage_GetRandomQuote
 Lfde9_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_176:
+LTDIE_174:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Xaml_StaticResourceExtension"
 
 	.byte 24,16
-LDIFF_SYM1207=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1207
+LDIFF_SYM1198=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1198
 	.byte 2,35,0,6
 	.asciz "<Key>k__BackingField"
 
-LDIFF_SYM1208=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1208
+LDIFF_SYM1199=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1199
 	.byte 2,35,16,0,7
 	.asciz "Xamarin_Forms_Xaml_StaticResourceExtension"
 
-LDIFF_SYM1209=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1209
-LTDIE_176_POINTER:
+LDIFF_SYM1200=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1200
+LTDIE_174_POINTER:
 
 	.byte 13
-LDIFF_SYM1210=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1210
-LTDIE_176_REFERENCE:
+LDIFF_SYM1201=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1201
+LTDIE_174_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1211=LTDIE_176 - Ldebug_info_start
-	.long LDIFF_SYM1211
-LTDIE_179:
-
-	.byte 5
-	.asciz "System_Func`1"
-
-	.byte 112,16
-LDIFF_SYM1212=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1212
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
-
-LDIFF_SYM1213=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1213
-LTDIE_179_POINTER:
-
-	.byte 13
-LDIFF_SYM1214=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1214
-LTDIE_179_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1215=LTDIE_179 - Ldebug_info_start
-	.long LDIFF_SYM1215
-LTDIE_178:
-
-	.byte 5
-	.asciz "System_Lazy`1"
-
-	.byte 40,16
-LDIFF_SYM1216=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1216
-	.byte 2,35,0,6
-	.asciz "m_boxed"
-
-LDIFF_SYM1217=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1217
-	.byte 2,35,16,6
-	.asciz "m_valueFactory"
-
-LDIFF_SYM1218=LTDIE_179_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1218
-	.byte 2,35,24,6
-	.asciz "m_threadSafeObj"
-
-LDIFF_SYM1219=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1219
-	.byte 2,35,32,0,7
-	.asciz "System_Lazy`1"
-
-LDIFF_SYM1220=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1220
-LTDIE_178_POINTER:
-
-	.byte 13
-LDIFF_SYM1221=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1221
-LTDIE_178_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1222=LTDIE_178 - Ldebug_info_start
-	.long LDIFF_SYM1222
+LDIFF_SYM1202=LTDIE_174 - Ldebug_info_start
+	.long LDIFF_SYM1202
 LTDIE_177:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Label"
-
-	.byte 248,2,16
-LDIFF_SYM1223=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1223
-	.byte 2,35,0,6
-	.asciz "_platformConfigurationRegistry"
-
-LDIFF_SYM1224=LTDIE_178_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1224
-	.byte 3,35,232,2,6
-	.asciz "_cancelEvents"
-
-LDIFF_SYM1225=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1225
-	.byte 3,35,240,2,0,7
-	.asciz "Xamarin_Forms_Label"
-
-LDIFF_SYM1226=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1226
-LTDIE_177_POINTER:
-
-	.byte 13
-LDIFF_SYM1227=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1227
-LTDIE_177_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1228=LTDIE_177 - Ldebug_info_start
-	.long LDIFF_SYM1228
-LTDIE_182:
-
-	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1229=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1229
+LDIFF_SYM1203=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1203
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1230=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1230
-LTDIE_182_POINTER:
+LDIFF_SYM1204=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1204
+LTDIE_177_POINTER:
 
 	.byte 13
-LDIFF_SYM1231=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1231
-LTDIE_182_REFERENCE:
+LDIFF_SYM1205=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1205
+LTDIE_177_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1232=LTDIE_182 - Ldebug_info_start
-	.long LDIFF_SYM1232
-LTDIE_181:
+LDIFF_SYM1206=LTDIE_177 - Ldebug_info_start
+	.long LDIFF_SYM1206
+LTDIE_176:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1233=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1233
+LDIFF_SYM1207=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1207
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM1234=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1234
+LDIFF_SYM1208=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1208
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM1235=LTDIE_182_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1235
+LDIFF_SYM1209=LTDIE_177_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1209
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM1236=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1236
+LDIFF_SYM1210=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1210
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1237=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1237
-LTDIE_181_POINTER:
+LDIFF_SYM1211=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1211
+LTDIE_176_POINTER:
 
 	.byte 13
-LDIFF_SYM1238=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1238
-LTDIE_181_REFERENCE:
+LDIFF_SYM1212=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1212
+LTDIE_176_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1239=LTDIE_181 - Ldebug_info_start
-	.long LDIFF_SYM1239
-LTDIE_184:
+LDIFF_SYM1213=LTDIE_176 - Ldebug_info_start
+	.long LDIFF_SYM1213
+LTDIE_179:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_Task`1"
 
 	.byte 80,16
-LDIFF_SYM1240=LTDIE_32 - Ldebug_info_start
-	.long LDIFF_SYM1240
+LDIFF_SYM1214=LTDIE_32 - Ldebug_info_start
+	.long LDIFF_SYM1214
 	.byte 2,35,0,6
 	.asciz "m_result"
 
-LDIFF_SYM1241=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1241
+LDIFF_SYM1215=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1215
 	.byte 2,35,72,0,7
 	.asciz "System_Threading_Tasks_Task`1"
 
-LDIFF_SYM1242=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1242
-LTDIE_184_POINTER:
+LDIFF_SYM1216=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1216
+LTDIE_179_POINTER:
 
 	.byte 13
-LDIFF_SYM1243=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1243
-LTDIE_184_REFERENCE:
+LDIFF_SYM1217=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1217
+LTDIE_179_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1244=LTDIE_184 - Ldebug_info_start
-	.long LDIFF_SYM1244
-LTDIE_183:
+LDIFF_SYM1218=LTDIE_179 - Ldebug_info_start
+	.long LDIFF_SYM1218
+LTDIE_178:
 
 	.byte 5
 	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
 	.byte 24,16
-LDIFF_SYM1245=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1245
+LDIFF_SYM1219=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1219
 	.byte 2,35,0,6
 	.asciz "m_task"
 
-LDIFF_SYM1246=LTDIE_184_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1246
+LDIFF_SYM1220=LTDIE_179_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1220
 	.byte 2,35,16,0,7
 	.asciz "System_Threading_Tasks_TaskCompletionSource`1"
 
-LDIFF_SYM1247=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1247
-LTDIE_183_POINTER:
+LDIFF_SYM1221=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1221
+LTDIE_178_POINTER:
 
 	.byte 13
-LDIFF_SYM1248=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1248
-LTDIE_183_REFERENCE:
+LDIFF_SYM1222=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1222
+LTDIE_178_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1249=LTDIE_183 - Ldebug_info_start
-	.long LDIFF_SYM1249
-LTDIE_185:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM1250=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1250
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM1251=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1251
-LTDIE_185_POINTER:
-
-	.byte 13
-LDIFF_SYM1252=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1252
-LTDIE_185_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1253=LTDIE_185 - Ldebug_info_start
-	.long LDIFF_SYM1253
-LTDIE_186:
-
-	.byte 5
-	.asciz "System_EventHandler`1"
-
-	.byte 112,16
-LDIFF_SYM1254=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1254
-	.byte 2,35,0,0,7
-	.asciz "System_EventHandler`1"
-
-LDIFF_SYM1255=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1255
-LTDIE_186_POINTER:
-
-	.byte 13
-LDIFF_SYM1256=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1256
-LTDIE_186_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1257=LTDIE_186 - Ldebug_info_start
-	.long LDIFF_SYM1257
+LDIFF_SYM1223=LTDIE_178 - Ldebug_info_start
+	.long LDIFF_SYM1223
 LTDIE_180:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM1224=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1224
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1225=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1225
+LTDIE_180_POINTER:
+
+	.byte 13
+LDIFF_SYM1226=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1226
+LTDIE_180_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1227=LTDIE_180 - Ldebug_info_start
+	.long LDIFF_SYM1227
+LTDIE_181:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM1228=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1228
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1229=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1229
+LTDIE_181_POINTER:
+
+	.byte 13
+LDIFF_SYM1230=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1230
+LTDIE_181_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1231=LTDIE_181 - Ldebug_info_start
+	.long LDIFF_SYM1231
+LTDIE_175:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ScrollView"
 
 	.byte 192,3,16
-LDIFF_SYM1258=LTDIE_160 - Ldebug_info_start
-	.long LDIFF_SYM1258
+LDIFF_SYM1232=LTDIE_160 - Ldebug_info_start
+	.long LDIFF_SYM1232
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1259=LTDIE_181_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1259
+LDIFF_SYM1233=LTDIE_176_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1233
 	.byte 3,35,152,3,6
 	.asciz "_content"
 
-LDIFF_SYM1260=LTDIE_161_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1260
+LDIFF_SYM1234=LTDIE_161_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1234
 	.byte 3,35,160,3,6
 	.asciz "_scrollCompletionSource"
 
-LDIFF_SYM1261=LTDIE_183_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1261
+LDIFF_SYM1235=LTDIE_178_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1235
 	.byte 3,35,168,3,6
 	.asciz "Scrolled"
 
-LDIFF_SYM1262=LTDIE_185_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1262
+LDIFF_SYM1236=LTDIE_180_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1236
 	.byte 3,35,176,3,6
 	.asciz "ScrollToRequested"
 
-LDIFF_SYM1263=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1263
+LDIFF_SYM1237=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1237
 	.byte 3,35,184,3,0,7
 	.asciz "Xamarin_Forms_ScrollView"
 
-LDIFF_SYM1264=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1264
-LTDIE_180_POINTER:
+LDIFF_SYM1238=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1238
+LTDIE_175_POINTER:
 
 	.byte 13
-LDIFF_SYM1265=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1265
-LTDIE_180_REFERENCE:
+LDIFF_SYM1239=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1239
+LTDIE_175_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1266=LTDIE_180 - Ldebug_info_start
-	.long LDIFF_SYM1266
+LDIFF_SYM1240=LTDIE_175 - Ldebug_info_start
+	.long LDIFF_SYM1240
 	.byte 2
 	.asciz "IntentionJournal.HomePage:InitializeComponent"
 	.asciz "IntentionJournal_HomePage_InitializeComponent"
@@ -77220,75 +77027,75 @@ LDIFF_SYM1266=LTDIE_180 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1267=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1267
+LDIFF_SYM1241=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1241
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1268=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1268
+LDIFF_SYM1242=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1242
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM1269=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1269
+LDIFF_SYM1243=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1243
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM1270=LTDIE_169_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1270
+LDIFF_SYM1244=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1244
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM1271=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1271
+LDIFF_SYM1245=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1245
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM1272=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1272
+LDIFF_SYM1246=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1246
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM1273=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1273
+LDIFF_SYM1247=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1247
 	.byte 1,100,11
 	.asciz ""
 
-LDIFF_SYM1274=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1274
+LDIFF_SYM1248=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1248
 	.byte 1,99,11
 	.asciz ""
 
-LDIFF_SYM1275=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1275
-	.byte 3,141,208,1,11
+LDIFF_SYM1249=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1249
+	.byte 3,141,176,1,11
 	.asciz ""
 
-LDIFF_SYM1276=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1276
-	.byte 3,141,216,1,11
+LDIFF_SYM1250=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1250
+	.byte 3,141,184,1,11
 	.asciz ""
 
-LDIFF_SYM1277=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1277
-	.byte 3,141,224,1,0
+LDIFF_SYM1251=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1251
+	.byte 3,141,192,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1278=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM1278
+LDIFF_SYM1252=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM1252
 Lfde10_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_HomePage_InitializeComponent
 
-LDIFF_SYM1279=Lme_a - IntentionJournal_HomePage_InitializeComponent
-	.long LDIFF_SYM1279
+LDIFF_SYM1253=Lme_a - IntentionJournal_HomePage_InitializeComponent
+	.long LDIFF_SYM1253
 	.long 0
-	.byte 12,31,0,84,14,128,6,157,96,158,95,68,13,29,68,147,94,148,93,68,149,92,150,91,68,151,90,152,89,68,153,88
-	.byte 154,87
+	.byte 12,31,0,84,14,192,5,157,88,158,87,68,13,29,68,147,86,148,85,68,149,84,150,83,68,151,82,152,81,68,153,80
+	.byte 154,79
 	.align 3
 Lfde10_end:
 
@@ -77305,22 +77112,22 @@ Lfde10_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1280=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1280
+LDIFF_SYM1254=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1254
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1281=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM1281
+LDIFF_SYM1255=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM1255
 Lfde11_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_HomePage__HomePagem__0
 
-LDIFF_SYM1282=Lme_b - IntentionJournal_HomePage__HomePagem__0
-	.long LDIFF_SYM1282
+LDIFF_SYM1256=Lme_b - IntentionJournal_HomePage__HomePagem__0
+	.long LDIFF_SYM1256
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
@@ -77339,213 +77146,213 @@ Lfde11_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1283=LTDIE_154_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1283
+LDIFF_SYM1257=LTDIE_154_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1257
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1284=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM1284
+LDIFF_SYM1258=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM1258
 Lfde12_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_HomePage___InitComponentRuntime
 
-LDIFF_SYM1285=Lme_c - IntentionJournal_HomePage___InitComponentRuntime
-	.long LDIFF_SYM1285
+LDIFF_SYM1259=Lme_c - IntentionJournal_HomePage___InitComponentRuntime
+	.long LDIFF_SYM1259
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
 Lfde12_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_189:
+LTDIE_184:
 
 	.byte 5
 	.asciz "_GridElementCollection"
 
 	.byte 48,16
-LDIFF_SYM1286=LTDIE_166 - Ldebug_info_start
-	.long LDIFF_SYM1286
+LDIFF_SYM1260=LTDIE_166 - Ldebug_info_start
+	.long LDIFF_SYM1260
 	.byte 2,35,0,6
 	.asciz "<Parent>k__BackingField"
 
-LDIFF_SYM1287=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1287
+LDIFF_SYM1261=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1261
 	.byte 2,35,40,0,7
 	.asciz "_GridElementCollection"
 
-LDIFF_SYM1288=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1288
-LTDIE_189_POINTER:
+LDIFF_SYM1262=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1262
+LTDIE_184_POINTER:
 
 	.byte 13
-LDIFF_SYM1289=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1289
-LTDIE_189_REFERENCE:
+LDIFF_SYM1263=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1263
+LTDIE_184_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1290=LTDIE_189 - Ldebug_info_start
-	.long LDIFF_SYM1290
-LTDIE_190:
+LDIFF_SYM1264=LTDIE_184 - Ldebug_info_start
+	.long LDIFF_SYM1264
+LTDIE_185:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1291=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1291
+LDIFF_SYM1265=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1265
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1292=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1292
+LDIFF_SYM1266=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1266
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1293=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1293
+LDIFF_SYM1267=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1267
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1294=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1294
+LDIFF_SYM1268=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1268
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1295=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1295
+LDIFF_SYM1269=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1269
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1296=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1296
-LTDIE_190_POINTER:
+LDIFF_SYM1270=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1270
+LTDIE_185_POINTER:
 
 	.byte 13
-LDIFF_SYM1297=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1297
-LTDIE_190_REFERENCE:
+LDIFF_SYM1271=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1271
+LTDIE_185_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1298=LTDIE_190 - Ldebug_info_start
-	.long LDIFF_SYM1298
-LTDIE_191:
+LDIFF_SYM1272=LTDIE_185 - Ldebug_info_start
+	.long LDIFF_SYM1272
+LTDIE_186:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1299=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1299
+LDIFF_SYM1273=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1273
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1300=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1300
+LDIFF_SYM1274=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1274
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1301=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1301
+LDIFF_SYM1275=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1275
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1302=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1302
+LDIFF_SYM1276=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1276
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1303=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1303
+LDIFF_SYM1277=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1277
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1304=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1304
-LTDIE_191_POINTER:
+LDIFF_SYM1278=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1278
+LTDIE_186_POINTER:
 
 	.byte 13
-LDIFF_SYM1305=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1305
-LTDIE_191_REFERENCE:
+LDIFF_SYM1279=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1279
+LTDIE_186_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1306=LTDIE_191 - Ldebug_info_start
-	.long LDIFF_SYM1306
-LTDIE_188:
+LDIFF_SYM1280=LTDIE_186 - Ldebug_info_start
+	.long LDIFF_SYM1280
+LTDIE_183:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Grid"
 
 	.byte 184,3,16
-LDIFF_SYM1307=LTDIE_159 - Ldebug_info_start
-	.long LDIFF_SYM1307
+LDIFF_SYM1281=LTDIE_159 - Ldebug_info_start
+	.long LDIFF_SYM1281
 	.byte 2,35,0,6
 	.asciz "_children"
 
-LDIFF_SYM1308=LTDIE_189_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1308
+LDIFF_SYM1282=LTDIE_184_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1282
 	.byte 3,35,160,3,6
 	.asciz "_columns"
 
-LDIFF_SYM1309=LTDIE_190_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1309
+LDIFF_SYM1283=LTDIE_185_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1283
 	.byte 3,35,168,3,6
 	.asciz "_rows"
 
-LDIFF_SYM1310=LTDIE_191_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1310
+LDIFF_SYM1284=LTDIE_186_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1284
 	.byte 3,35,176,3,0,7
 	.asciz "Xamarin_Forms_Grid"
 
-LDIFF_SYM1311=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1311
-LTDIE_188_POINTER:
+LDIFF_SYM1285=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1285
+LTDIE_183_POINTER:
 
 	.byte 13
-LDIFF_SYM1312=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1312
-LTDIE_188_REFERENCE:
+LDIFF_SYM1286=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1286
+LTDIE_183_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1313=LTDIE_188 - Ldebug_info_start
-	.long LDIFF_SYM1313
-LTDIE_187:
+LDIFF_SYM1287=LTDIE_183 - Ldebug_info_start
+	.long LDIFF_SYM1287
+LTDIE_182:
 
 	.byte 5
 	.asciz "IntentionJournal_BrowseMoodsPage"
 
 	.byte 216,3,16
-LDIFF_SYM1314=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1314
+LDIFF_SYM1288=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1288
 	.byte 2,35,0,6
 	.asciz "StackLayoutMap"
 
-LDIFF_SYM1315=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1315
+LDIFF_SYM1289=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1289
 	.byte 3,35,200,3,6
 	.asciz "gridView"
 
-LDIFF_SYM1316=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1316
+LDIFF_SYM1290=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1290
 	.byte 3,35,208,3,0,7
 	.asciz "IntentionJournal_BrowseMoodsPage"
 
-LDIFF_SYM1317=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1317
-LTDIE_187_POINTER:
+LDIFF_SYM1291=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1291
+LTDIE_182_POINTER:
 
 	.byte 13
-LDIFF_SYM1318=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1318
-LTDIE_187_REFERENCE:
+LDIFF_SYM1292=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1292
+LTDIE_182_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1319=LTDIE_187 - Ldebug_info_start
-	.long LDIFF_SYM1319
+LDIFF_SYM1293=LTDIE_182 - Ldebug_info_start
+	.long LDIFF_SYM1293
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage:.ctor"
 	.asciz "IntentionJournal_BrowseMoodsPage__ctor"
@@ -77557,51 +77364,51 @@ LDIFF_SYM1319=LTDIE_187 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1320=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1320
+LDIFF_SYM1294=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1294
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1321=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM1321
+LDIFF_SYM1295=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM1295
 Lfde13_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__ctor
 
-LDIFF_SYM1322=Lme_d - IntentionJournal_BrowseMoodsPage__ctor
-	.long LDIFF_SYM1322
+LDIFF_SYM1296=Lme_d - IntentionJournal_BrowseMoodsPage__ctor
+	.long LDIFF_SYM1296
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
 Lfde13_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_192:
+LTDIE_187:
 
 	.byte 5
 	.asciz "System_EventArgs"
 
 	.byte 16,16
-LDIFF_SYM1323=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1323
+LDIFF_SYM1297=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1297
 	.byte 2,35,0,0,7
 	.asciz "System_EventArgs"
 
-LDIFF_SYM1324=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1324
-LTDIE_192_POINTER:
+LDIFF_SYM1298=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1298
+LTDIE_187_POINTER:
 
 	.byte 13
-LDIFF_SYM1325=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1325
-LTDIE_192_REFERENCE:
+LDIFF_SYM1299=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1299
+LTDIE_187_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1326=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1326
+LDIFF_SYM1300=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1300
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage:OnJournalButtonClicked"
 	.asciz "IntentionJournal_BrowseMoodsPage_OnJournalButtonClicked_object_System_EventArgs"
@@ -77613,37 +77420,37 @@ LDIFF_SYM1326=LTDIE_192 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1327=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1327
+LDIFF_SYM1301=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1301
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1328=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1328
+LDIFF_SYM1302=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1302
 	.byte 2,141,24,3
 	.asciz "e"
 
-LDIFF_SYM1329=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1329
+LDIFF_SYM1303=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1303
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1330=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1330
+LDIFF_SYM1304=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1304
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1331=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM1331
+LDIFF_SYM1305=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM1305
 Lfde14_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_OnJournalButtonClicked_object_System_EventArgs
 
-LDIFF_SYM1332=Lme_e - IntentionJournal_BrowseMoodsPage_OnJournalButtonClicked_object_System_EventArgs
-	.long LDIFF_SYM1332
+LDIFF_SYM1306=Lme_e - IntentionJournal_BrowseMoodsPage_OnJournalButtonClicked_object_System_EventArgs
+	.long LDIFF_SYM1306
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
@@ -77662,32 +77469,32 @@ Lfde14_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1333=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1333
+LDIFF_SYM1307=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1307
 	.byte 2,141,32,11
 	.asciz "label"
 
-LDIFF_SYM1334=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1334
+LDIFF_SYM1308=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1308
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM1335=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1335
+LDIFF_SYM1309=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1309
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1336=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM1336
+LDIFF_SYM1310=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM1310
 Lfde15_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_MakeComponent
 
-LDIFF_SYM1337=Lme_f - IntentionJournal_BrowseMoodsPage_MakeComponent
-	.long LDIFF_SYM1337
+LDIFF_SYM1311=Lme_f - IntentionJournal_BrowseMoodsPage_MakeComponent
+	.long LDIFF_SYM1311
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,152,24,153,23
 	.align 3
@@ -77706,37 +77513,37 @@ Lfde15_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1338=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1338
+LDIFF_SYM1312=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1312
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1339=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1339
+LDIFF_SYM1313=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1313
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM1340=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1340
+LDIFF_SYM1314=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1314
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1341=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1341
+LDIFF_SYM1315=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1315
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1342=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM1342
+LDIFF_SYM1316=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM1316
 Lfde16_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedCreative_object_System_EventArgs
 
-LDIFF_SYM1343=Lme_10 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedCreative_object_System_EventArgs
-	.long LDIFF_SYM1343
+LDIFF_SYM1317=Lme_10 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedCreative_object_System_EventArgs
+	.long LDIFF_SYM1317
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
@@ -77755,37 +77562,37 @@ Lfde16_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1344=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1344
+LDIFF_SYM1318=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1318
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1345=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1345
+LDIFF_SYM1319=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1319
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM1346=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1346
+LDIFF_SYM1320=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1320
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1347=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1347
+LDIFF_SYM1321=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1321
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1348=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM1348
+LDIFF_SYM1322=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM1322
 Lfde17_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedInspired_object_System_EventArgs
 
-LDIFF_SYM1349=Lme_11 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedInspired_object_System_EventArgs
-	.long LDIFF_SYM1349
+LDIFF_SYM1323=Lme_11 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedInspired_object_System_EventArgs
+	.long LDIFF_SYM1323
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
@@ -77804,37 +77611,37 @@ Lfde17_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1350=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1350
+LDIFF_SYM1324=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1324
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1351=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1351
+LDIFF_SYM1325=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1325
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM1352=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1352
+LDIFF_SYM1326=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1326
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1353=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1353
+LDIFF_SYM1327=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1327
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1354=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM1354
+LDIFF_SYM1328=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM1328
 Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedJoyful_object_System_EventArgs
 
-LDIFF_SYM1355=Lme_12 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedJoyful_object_System_EventArgs
-	.long LDIFF_SYM1355
+LDIFF_SYM1329=Lme_12 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedJoyful_object_System_EventArgs
+	.long LDIFF_SYM1329
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
@@ -77853,358 +77660,358 @@ Lfde18_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1356=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1356
+LDIFF_SYM1330=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1330
 	.byte 2,141,16,3
 	.asciz "sender"
 
-LDIFF_SYM1357=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1357
+LDIFF_SYM1331=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1331
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM1358=LTDIE_192_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1358
+LDIFF_SYM1332=LTDIE_187_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1332
 	.byte 2,141,32,11
 	.asciz "V_0"
 
-LDIFF_SYM1359=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1359
+LDIFF_SYM1333=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1333
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1360=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM1360
+LDIFF_SYM1334=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM1334
 Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedGrateful_object_System_EventArgs
 
-LDIFF_SYM1361=Lme_13 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedGrateful_object_System_EventArgs
-	.long LDIFF_SYM1361
+LDIFF_SYM1335=Lme_13 - IntentionJournal_BrowseMoodsPage_OnTapGestureRecognizerTappedGrateful_object_System_EventArgs
+	.long LDIFF_SYM1335
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29
 	.align 3
 Lfde19_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_193:
+LTDIE_188:
 
 	.byte 5
 	.asciz "Xamarin_Forms_RowDefinition"
 
 	.byte 88,16
-LDIFF_SYM1362=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1362
+LDIFF_SYM1336=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1336
 	.byte 2,35,0,6
 	.asciz "<ActualHeight>k__BackingField"
 
-LDIFF_SYM1363=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1363
+LDIFF_SYM1337=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1337
 	.byte 2,35,72,6
 	.asciz "<MinimumHeight>k__BackingField"
 
-LDIFF_SYM1364=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1364
+LDIFF_SYM1338=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1338
 	.byte 2,35,80,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM1365=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1365
+LDIFF_SYM1339=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1339
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_RowDefinition"
 
-LDIFF_SYM1366=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1366
-LTDIE_193_POINTER:
+LDIFF_SYM1340=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1340
+LTDIE_188_POINTER:
 
 	.byte 13
-LDIFF_SYM1367=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1367
-LTDIE_193_REFERENCE:
+LDIFF_SYM1341=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1341
+LTDIE_188_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1368=LTDIE_193 - Ldebug_info_start
-	.long LDIFF_SYM1368
-LTDIE_194:
+LDIFF_SYM1342=LTDIE_188 - Ldebug_info_start
+	.long LDIFF_SYM1342
+LTDIE_189:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ColumnDefinition"
 
 	.byte 88,16
-LDIFF_SYM1369=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1369
+LDIFF_SYM1343=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1343
 	.byte 2,35,0,6
 	.asciz "<ActualWidth>k__BackingField"
 
-LDIFF_SYM1370=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1370
+LDIFF_SYM1344=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1344
 	.byte 2,35,72,6
 	.asciz "<MinimumWidth>k__BackingField"
 
-LDIFF_SYM1371=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1371
+LDIFF_SYM1345=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1345
 	.byte 2,35,80,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM1372=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1372
+LDIFF_SYM1346=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1346
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_ColumnDefinition"
 
-LDIFF_SYM1373=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1373
-LTDIE_194_POINTER:
+LDIFF_SYM1347=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1347
+LTDIE_189_POINTER:
 
 	.byte 13
-LDIFF_SYM1374=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1374
-LTDIE_194_REFERENCE:
+LDIFF_SYM1348=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1348
+LTDIE_189_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1375=LTDIE_194 - Ldebug_info_start
-	.long LDIFF_SYM1375
-LTDIE_196:
+LDIFF_SYM1349=LTDIE_189 - Ldebug_info_start
+	.long LDIFF_SYM1349
+LTDIE_191:
 
 	.byte 5
 	.asciz "Xamarin_Forms_GestureRecognizer"
 
 	.byte 216,1,16
-LDIFF_SYM1376=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1376
+LDIFF_SYM1350=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1350
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_GestureRecognizer"
 
-LDIFF_SYM1377=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1377
-LTDIE_196_POINTER:
+LDIFF_SYM1351=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1351
+LTDIE_191_POINTER:
 
 	.byte 13
-LDIFF_SYM1378=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1378
-LTDIE_196_REFERENCE:
+LDIFF_SYM1352=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1352
+LTDIE_191_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1379=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1379
-LTDIE_195:
+LDIFF_SYM1353=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1353
+LTDIE_190:
 
 	.byte 5
 	.asciz "Xamarin_Forms_TapGestureRecognizer"
 
 	.byte 224,1,16
-LDIFF_SYM1380=LTDIE_196 - Ldebug_info_start
-	.long LDIFF_SYM1380
+LDIFF_SYM1354=LTDIE_191 - Ldebug_info_start
+	.long LDIFF_SYM1354
 	.byte 2,35,0,6
 	.asciz "Tapped"
 
-LDIFF_SYM1381=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1381
+LDIFF_SYM1355=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1355
 	.byte 3,35,216,1,0,7
 	.asciz "Xamarin_Forms_TapGestureRecognizer"
 
-LDIFF_SYM1382=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1382
-LTDIE_195_POINTER:
+LDIFF_SYM1356=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1356
+LTDIE_190_POINTER:
 
 	.byte 13
-LDIFF_SYM1383=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1383
-LTDIE_195_REFERENCE:
+LDIFF_SYM1357=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1357
+LTDIE_190_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1384=LTDIE_195 - Ldebug_info_start
-	.long LDIFF_SYM1384
-LTDIE_199:
+LDIFF_SYM1358=LTDIE_190 - Ldebug_info_start
+	.long LDIFF_SYM1358
+LTDIE_194:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1385=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1385
+LDIFF_SYM1359=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1359
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1386=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1386
-LTDIE_199_POINTER:
+LDIFF_SYM1360=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1360
+LTDIE_194_POINTER:
 
 	.byte 13
-LDIFF_SYM1387=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1387
-LTDIE_199_REFERENCE:
+LDIFF_SYM1361=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1361
+LTDIE_194_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1388=LTDIE_199 - Ldebug_info_start
-	.long LDIFF_SYM1388
-LTDIE_198:
+LDIFF_SYM1362=LTDIE_194 - Ldebug_info_start
+	.long LDIFF_SYM1362
+LTDIE_193:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1389=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1389
+LDIFF_SYM1363=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1363
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM1390=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1390
+LDIFF_SYM1364=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1364
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM1391=LTDIE_199_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1391
+LDIFF_SYM1365=LTDIE_194_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1365
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM1392=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1392
+LDIFF_SYM1366=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1366
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1393=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1393
-LTDIE_198_POINTER:
+LDIFF_SYM1367=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1367
+LTDIE_193_POINTER:
 
 	.byte 13
-LDIFF_SYM1394=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1394
-LTDIE_198_REFERENCE:
+LDIFF_SYM1368=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1368
+LTDIE_193_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1395=LTDIE_198 - Ldebug_info_start
-	.long LDIFF_SYM1395
-LTDIE_197:
+LDIFF_SYM1369=LTDIE_193 - Ldebug_info_start
+	.long LDIFF_SYM1369
+LTDIE_192:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Image"
 
 	.byte 240,2,16
-LDIFF_SYM1396=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1396
+LDIFF_SYM1370=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1370
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1397=LTDIE_198_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1397
+LDIFF_SYM1371=LTDIE_193_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1371
 	.byte 3,35,232,2,0,7
 	.asciz "Xamarin_Forms_Image"
 
-LDIFF_SYM1398=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1398
-LTDIE_197_POINTER:
+LDIFF_SYM1372=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1372
+LTDIE_192_POINTER:
 
 	.byte 13
-LDIFF_SYM1399=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1399
-LTDIE_197_REFERENCE:
+LDIFF_SYM1373=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1373
+LTDIE_192_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1400=LTDIE_197 - Ldebug_info_start
-	.long LDIFF_SYM1400
-LTDIE_202:
+LDIFF_SYM1374=LTDIE_192 - Ldebug_info_start
+	.long LDIFF_SYM1374
+LTDIE_197:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1401=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1401
+LDIFF_SYM1375=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1375
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1402=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1402
-LTDIE_202_POINTER:
+LDIFF_SYM1376=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1376
+LTDIE_197_POINTER:
 
 	.byte 13
-LDIFF_SYM1403=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1403
-LTDIE_202_REFERENCE:
+LDIFF_SYM1377=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1377
+LTDIE_197_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1404=LTDIE_202 - Ldebug_info_start
-	.long LDIFF_SYM1404
-LTDIE_201:
+LDIFF_SYM1378=LTDIE_197 - Ldebug_info_start
+	.long LDIFF_SYM1378
+LTDIE_196:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1405=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1405
+LDIFF_SYM1379=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1379
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM1406=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1406
+LDIFF_SYM1380=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1380
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM1407=LTDIE_202_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1407
+LDIFF_SYM1381=LTDIE_197_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1381
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM1408=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1408
+LDIFF_SYM1382=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1382
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1409=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1409
-LTDIE_201_POINTER:
+LDIFF_SYM1383=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1383
+LTDIE_196_POINTER:
 
 	.byte 13
-LDIFF_SYM1410=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1410
-LTDIE_201_REFERENCE:
+LDIFF_SYM1384=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1384
+LTDIE_196_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1411=LTDIE_201 - Ldebug_info_start
-	.long LDIFF_SYM1411
-LTDIE_200:
+LDIFF_SYM1385=LTDIE_196 - Ldebug_info_start
+	.long LDIFF_SYM1385
+LTDIE_195:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Button"
 
 	.byte 128,3,16
-LDIFF_SYM1412=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1412
+LDIFF_SYM1386=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1386
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1413=LTDIE_201_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1413
+LDIFF_SYM1387=LTDIE_196_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1387
 	.byte 3,35,232,2,6
 	.asciz "_cancelEvents"
 
-LDIFF_SYM1414=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1414
+LDIFF_SYM1388=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1388
 	.byte 3,35,248,2,6
 	.asciz "Clicked"
 
-LDIFF_SYM1415=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1415
+LDIFF_SYM1389=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1389
 	.byte 3,35,240,2,0,7
 	.asciz "Xamarin_Forms_Button"
 
-LDIFF_SYM1416=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1416
-LTDIE_200_POINTER:
+LDIFF_SYM1390=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1390
+LTDIE_195_POINTER:
 
 	.byte 13
-LDIFF_SYM1417=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1417
-LTDIE_200_REFERENCE:
+LDIFF_SYM1391=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1391
+LTDIE_195_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1418=LTDIE_200 - Ldebug_info_start
-	.long LDIFF_SYM1418
+LDIFF_SYM1392=LTDIE_195 - Ldebug_info_start
+	.long LDIFF_SYM1392
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage:InitializeComponent"
 	.asciz "IntentionJournal_BrowseMoodsPage_InitializeComponent"
@@ -78216,137 +78023,137 @@ LDIFF_SYM1418=LTDIE_200 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1419=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1419
+LDIFF_SYM1393=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1393
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM1420=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1420
+LDIFF_SYM1394=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1394
 	.byte 3,141,208,1,11
 	.asciz ""
 
-LDIFF_SYM1421=LTDIE_177_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1421
+LDIFF_SYM1395=LTDIE_169_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1395
 	.byte 3,141,216,1,11
 	.asciz ""
 
-LDIFF_SYM1422=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1422
+LDIFF_SYM1396=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1396
 	.byte 3,141,224,1,11
 	.asciz ""
 
-LDIFF_SYM1423=LTDIE_193_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1423
+LDIFF_SYM1397=LTDIE_188_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1397
 	.byte 3,141,232,1,11
 	.asciz ""
 
-LDIFF_SYM1424=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1424
+LDIFF_SYM1398=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1398
 	.byte 3,141,240,1,11
 	.asciz ""
 
-LDIFF_SYM1425=LTDIE_194_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1425
+LDIFF_SYM1399=LTDIE_189_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1399
 	.byte 3,141,248,1,11
 	.asciz ""
 
-LDIFF_SYM1426=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1426
+LDIFF_SYM1400=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1400
 	.byte 3,141,128,2,11
 	.asciz ""
 
-LDIFF_SYM1427=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1427
+LDIFF_SYM1401=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1401
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1428=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1428
+LDIFF_SYM1402=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1402
 	.byte 3,141,136,2,11
 	.asciz ""
 
-LDIFF_SYM1429=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1429
+LDIFF_SYM1403=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1403
 	.byte 1,99,11
 	.asciz ""
 
-LDIFF_SYM1430=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1430
+LDIFF_SYM1404=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1404
 	.byte 3,141,144,2,11
 	.asciz ""
 
-LDIFF_SYM1431=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1431
+LDIFF_SYM1405=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1405
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM1432=LTDIE_195_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1432
+LDIFF_SYM1406=LTDIE_190_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1406
 	.byte 3,141,152,2,11
 	.asciz ""
 
-LDIFF_SYM1433=LTDIE_197_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1433
+LDIFF_SYM1407=LTDIE_192_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1407
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM1434=LTDIE_188_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1434
+LDIFF_SYM1408=LTDIE_183_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1408
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM1435=LTDIE_200_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1435
+LDIFF_SYM1409=LTDIE_195_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1409
 	.byte 3,141,160,2,11
 	.asciz ""
 
-LDIFF_SYM1436=LTDIE_158_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1436
+LDIFF_SYM1410=LTDIE_158_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1410
 	.byte 1,100,11
 	.asciz ""
 
-LDIFF_SYM1437=LTDIE_180_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1437
+LDIFF_SYM1411=LTDIE_175_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1411
 	.byte 3,141,168,2,11
 	.asciz ""
 
-LDIFF_SYM1438=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1438
+LDIFF_SYM1412=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1412
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM1439=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1439
+LDIFF_SYM1413=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1413
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM1440=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1440
+LDIFF_SYM1414=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1414
 	.byte 3,141,176,2,11
 	.asciz ""
 
-LDIFF_SYM1441=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1441
+LDIFF_SYM1415=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1415
 	.byte 3,141,184,2,11
 	.asciz ""
 
-LDIFF_SYM1442=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1442
+LDIFF_SYM1416=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1416
 	.byte 3,141,192,2,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1443=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM1443
+LDIFF_SYM1417=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM1417
 Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage_InitializeComponent
 
-LDIFF_SYM1444=Lme_14 - IntentionJournal_BrowseMoodsPage_InitializeComponent
-	.long LDIFF_SYM1444
+LDIFF_SYM1418=Lme_14 - IntentionJournal_BrowseMoodsPage_InitializeComponent
+	.long LDIFF_SYM1418
 	.long 0
 	.byte 12,31,0,84,14,160,13,157,212,1,158,211,1,68,13,29,68,147,210,1,148,209,1,68,149,208,1,150,207,1,68,151
 	.byte 206,1,152,205,1,68,153,204,1,154,203,1
@@ -78366,99 +78173,99 @@ Lfde20_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1445=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1445
+LDIFF_SYM1419=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1419
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1446=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM1446
+LDIFF_SYM1420=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM1420
 Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage___InitComponentRuntime
 
-LDIFF_SYM1447=Lme_15 - IntentionJournal_BrowseMoodsPage___InitComponentRuntime
-	.long LDIFF_SYM1447
+LDIFF_SYM1421=Lme_15 - IntentionJournal_BrowseMoodsPage___InitComponentRuntime
+	.long LDIFF_SYM1421
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
 	.align 3
 Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_203:
+LTDIE_198:
 
 	.byte 5
 	.asciz "_<OnJournalButtonClicked>c__async0"
 
 	.byte 72,16
-LDIFF_SYM1448=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1448
+LDIFF_SYM1422=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1422
 	.byte 2,35,0,6
 	.asciz "$this"
 
-LDIFF_SYM1449=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1449
+LDIFF_SYM1423=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1423
 	.byte 2,35,0,6
 	.asciz "$builder"
 
-LDIFF_SYM1450=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1450
+LDIFF_SYM1424=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1424
 	.byte 2,35,8,6
 	.asciz "$PC"
 
-LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1451
+LDIFF_SYM1425=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1425
 	.byte 2,35,40,6
 	.asciz "$awaiter0"
 
-LDIFF_SYM1452=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1452
+LDIFF_SYM1426=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1426
 	.byte 2,35,48,0,7
 	.asciz "_<OnJournalButtonClicked>c__async0"
 
-LDIFF_SYM1453=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1453
-LTDIE_203_POINTER:
+LDIFF_SYM1427=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1427
+LTDIE_198_POINTER:
 
 	.byte 13
-LDIFF_SYM1454=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1454
-LTDIE_203_REFERENCE:
+LDIFF_SYM1428=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1428
+LTDIE_198_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1455=LTDIE_203 - Ldebug_info_start
-	.long LDIFF_SYM1455
-LTDIE_204:
+LDIFF_SYM1429=LTDIE_198 - Ldebug_info_start
+	.long LDIFF_SYM1429
+LTDIE_199:
 
 	.byte 5
 	.asciz "System_UInt32"
 
 	.byte 20,16
-LDIFF_SYM1456=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1456
+LDIFF_SYM1430=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1430
 	.byte 2,35,0,6
 	.asciz "m_value"
 
-LDIFF_SYM1457=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1457
+LDIFF_SYM1431=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1431
 	.byte 2,35,16,0,7
 	.asciz "System_UInt32"
 
-LDIFF_SYM1458=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1458
-LTDIE_204_POINTER:
+LDIFF_SYM1432=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1432
+LTDIE_199_POINTER:
 
 	.byte 13
-LDIFF_SYM1459=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1459
-LTDIE_204_REFERENCE:
+LDIFF_SYM1433=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1433
+LTDIE_199_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1460=LTDIE_204 - Ldebug_info_start
-	.long LDIFF_SYM1460
+LDIFF_SYM1434=LTDIE_199 - Ldebug_info_start
+	.long LDIFF_SYM1434
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage/<OnJournalButtonClicked>c__async0:MoveNext"
 	.asciz "IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_MoveNext"
@@ -78470,39 +78277,39 @@ LDIFF_SYM1460=LTDIE_204 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1461=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1461
+LDIFF_SYM1435=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1435
 	.byte 2,141,32,11
 	.asciz ""
 
-LDIFF_SYM1462=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1462
+LDIFF_SYM1436=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1436
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1463=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1463
+LDIFF_SYM1437=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1437
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1464=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM1464
+LDIFF_SYM1438=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM1438
 Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_MoveNext
 
-LDIFF_SYM1465=Lme_16 - IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_MoveNext
-	.long LDIFF_SYM1465
+LDIFF_SYM1439=Lme_16 - IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_MoveNext
+	.long LDIFF_SYM1439
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,153,20,154,19
 	.align 3
 Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_205:
+LTDIE_200:
 
 	.byte 17
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
@@ -78510,18 +78317,18 @@ LTDIE_205:
 	.byte 16,7
 	.asciz "System_Runtime_CompilerServices_IAsyncStateMachine"
 
-LDIFF_SYM1466=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1466
-LTDIE_205_POINTER:
+LDIFF_SYM1440=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1440
+LTDIE_200_POINTER:
 
 	.byte 13
-LDIFF_SYM1467=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1467
-LTDIE_205_REFERENCE:
+LDIFF_SYM1441=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1441
+LTDIE_200_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1468=LTDIE_205 - Ldebug_info_start
-	.long LDIFF_SYM1468
+LDIFF_SYM1442=LTDIE_200 - Ldebug_info_start
+	.long LDIFF_SYM1442
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage/<OnJournalButtonClicked>c__async0:SetStateMachine"
 	.asciz "IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine"
@@ -78533,76 +78340,76 @@ LDIFF_SYM1468=LTDIE_205 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1469=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1469
+LDIFF_SYM1443=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1443
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1470=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1470
+LDIFF_SYM1444=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1444
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1471=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM1471
+LDIFF_SYM1445=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM1445
 Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1472=Lme_17 - IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1472
+LDIFF_SYM1446=Lme_17 - IntentionJournal_BrowseMoodsPage__OnJournalButtonClickedc__async0_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1446
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_206:
+LTDIE_201:
 
 	.byte 5
 	.asciz "_<OnTapGestureRecognizerTappedCreative>c__async1"
 
 	.byte 72,16
-LDIFF_SYM1473=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1473
+LDIFF_SYM1447=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1447
 	.byte 2,35,0,6
 	.asciz "$this"
 
-LDIFF_SYM1474=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1474
+LDIFF_SYM1448=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1448
 	.byte 2,35,0,6
 	.asciz "$builder"
 
-LDIFF_SYM1475=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1475
+LDIFF_SYM1449=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1449
 	.byte 2,35,8,6
 	.asciz "$PC"
 
-LDIFF_SYM1476=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1476
+LDIFF_SYM1450=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1450
 	.byte 2,35,40,6
 	.asciz "$awaiter0"
 
-LDIFF_SYM1477=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1477
+LDIFF_SYM1451=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1451
 	.byte 2,35,48,0,7
 	.asciz "_<OnTapGestureRecognizerTappedCreative>c__async1"
 
-LDIFF_SYM1478=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1478
-LTDIE_206_POINTER:
+LDIFF_SYM1452=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1452
+LTDIE_201_POINTER:
 
 	.byte 13
-LDIFF_SYM1479=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1479
-LTDIE_206_REFERENCE:
+LDIFF_SYM1453=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1453
+LTDIE_201_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1480=LTDIE_206 - Ldebug_info_start
-	.long LDIFF_SYM1480
+LDIFF_SYM1454=LTDIE_201 - Ldebug_info_start
+	.long LDIFF_SYM1454
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage/<OnTapGestureRecognizerTappedCreative>c__async1:MoveNext"
 	.asciz "IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_MoveNext"
@@ -78614,32 +78421,32 @@ LDIFF_SYM1480=LTDIE_206 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1481=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1481
+LDIFF_SYM1455=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1455
 	.byte 2,141,32,11
 	.asciz ""
 
-LDIFF_SYM1482=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1482
+LDIFF_SYM1456=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1456
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1483=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1483
+LDIFF_SYM1457=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1457
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1484=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM1484
+LDIFF_SYM1458=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM1458
 Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_MoveNext
 
-LDIFF_SYM1485=Lme_18 - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_MoveNext
-	.long LDIFF_SYM1485
+LDIFF_SYM1459=Lme_18 - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_MoveNext
+	.long LDIFF_SYM1459
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
 	.align 3
@@ -78658,76 +78465,76 @@ Lfde24_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1486=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1486
+LDIFF_SYM1460=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1460
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1487=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1487
+LDIFF_SYM1461=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1461
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1488=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM1488
+LDIFF_SYM1462=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM1462
 Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1489=Lme_19 - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1489
+LDIFF_SYM1463=Lme_19 - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedCreativec__async1_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1463
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_207:
+LTDIE_202:
 
 	.byte 5
 	.asciz "_<OnTapGestureRecognizerTappedInspired>c__async2"
 
 	.byte 72,16
-LDIFF_SYM1490=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1490
+LDIFF_SYM1464=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1464
 	.byte 2,35,0,6
 	.asciz "$this"
 
-LDIFF_SYM1491=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1491
+LDIFF_SYM1465=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1465
 	.byte 2,35,0,6
 	.asciz "$builder"
 
-LDIFF_SYM1492=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1492
+LDIFF_SYM1466=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1466
 	.byte 2,35,8,6
 	.asciz "$PC"
 
-LDIFF_SYM1493=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1493
+LDIFF_SYM1467=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1467
 	.byte 2,35,40,6
 	.asciz "$awaiter0"
 
-LDIFF_SYM1494=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1494
+LDIFF_SYM1468=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1468
 	.byte 2,35,48,0,7
 	.asciz "_<OnTapGestureRecognizerTappedInspired>c__async2"
 
-LDIFF_SYM1495=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1495
-LTDIE_207_POINTER:
+LDIFF_SYM1469=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1469
+LTDIE_202_POINTER:
 
 	.byte 13
-LDIFF_SYM1496=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1496
-LTDIE_207_REFERENCE:
+LDIFF_SYM1470=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1470
+LTDIE_202_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1497=LTDIE_207 - Ldebug_info_start
-	.long LDIFF_SYM1497
+LDIFF_SYM1471=LTDIE_202 - Ldebug_info_start
+	.long LDIFF_SYM1471
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage/<OnTapGestureRecognizerTappedInspired>c__async2:MoveNext"
 	.asciz "IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_MoveNext"
@@ -78739,32 +78546,32 @@ LDIFF_SYM1497=LTDIE_207 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1498=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1498
+LDIFF_SYM1472=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1472
 	.byte 2,141,32,11
 	.asciz ""
 
-LDIFF_SYM1499=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1499
+LDIFF_SYM1473=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1473
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1500=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1500
+LDIFF_SYM1474=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1474
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1501=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM1501
+LDIFF_SYM1475=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM1475
 Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_MoveNext
 
-LDIFF_SYM1502=Lme_1a - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_MoveNext
-	.long LDIFF_SYM1502
+LDIFF_SYM1476=Lme_1a - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_MoveNext
+	.long LDIFF_SYM1476
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
 	.align 3
@@ -78783,76 +78590,76 @@ Lfde26_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1503=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1503
+LDIFF_SYM1477=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1477
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1504=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1504
+LDIFF_SYM1478=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1478
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1505=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM1505
+LDIFF_SYM1479=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM1479
 Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1506=Lme_1b - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1506
+LDIFF_SYM1480=Lme_1b - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedInspiredc__async2_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1480
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_208:
+LTDIE_203:
 
 	.byte 5
 	.asciz "_<OnTapGestureRecognizerTappedJoyful>c__async3"
 
 	.byte 72,16
-LDIFF_SYM1507=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1507
+LDIFF_SYM1481=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1481
 	.byte 2,35,0,6
 	.asciz "$this"
 
-LDIFF_SYM1508=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1508
+LDIFF_SYM1482=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1482
 	.byte 2,35,0,6
 	.asciz "$builder"
 
-LDIFF_SYM1509=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1509
+LDIFF_SYM1483=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1483
 	.byte 2,35,8,6
 	.asciz "$PC"
 
-LDIFF_SYM1510=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1510
+LDIFF_SYM1484=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1484
 	.byte 2,35,40,6
 	.asciz "$awaiter0"
 
-LDIFF_SYM1511=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1511
+LDIFF_SYM1485=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1485
 	.byte 2,35,48,0,7
 	.asciz "_<OnTapGestureRecognizerTappedJoyful>c__async3"
 
-LDIFF_SYM1512=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1512
-LTDIE_208_POINTER:
+LDIFF_SYM1486=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1486
+LTDIE_203_POINTER:
 
 	.byte 13
-LDIFF_SYM1513=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1513
-LTDIE_208_REFERENCE:
+LDIFF_SYM1487=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1487
+LTDIE_203_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1514=LTDIE_208 - Ldebug_info_start
-	.long LDIFF_SYM1514
+LDIFF_SYM1488=LTDIE_203 - Ldebug_info_start
+	.long LDIFF_SYM1488
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage/<OnTapGestureRecognizerTappedJoyful>c__async3:MoveNext"
 	.asciz "IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_MoveNext"
@@ -78864,32 +78671,32 @@ LDIFF_SYM1514=LTDIE_208 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1515=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1515
+LDIFF_SYM1489=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1489
 	.byte 2,141,32,11
 	.asciz ""
 
-LDIFF_SYM1516=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1516
+LDIFF_SYM1490=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1490
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1517=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1517
+LDIFF_SYM1491=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1491
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1518=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM1518
+LDIFF_SYM1492=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM1492
 Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_MoveNext
 
-LDIFF_SYM1519=Lme_1c - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_MoveNext
-	.long LDIFF_SYM1519
+LDIFF_SYM1493=Lme_1c - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_MoveNext
+	.long LDIFF_SYM1493
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
 	.align 3
@@ -78908,76 +78715,76 @@ Lfde28_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1520=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1520
+LDIFF_SYM1494=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1494
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1521=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1521
+LDIFF_SYM1495=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1495
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1522=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM1522
+LDIFF_SYM1496=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM1496
 Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1523=Lme_1d - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1523
+LDIFF_SYM1497=Lme_1d - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedJoyfulc__async3_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1497
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_209:
+LTDIE_204:
 
 	.byte 5
 	.asciz "_<OnTapGestureRecognizerTappedGrateful>c__async4"
 
 	.byte 72,16
-LDIFF_SYM1524=LTDIE_7 - Ldebug_info_start
-	.long LDIFF_SYM1524
+LDIFF_SYM1498=LTDIE_7 - Ldebug_info_start
+	.long LDIFF_SYM1498
 	.byte 2,35,0,6
 	.asciz "$this"
 
-LDIFF_SYM1525=LTDIE_187_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1525
+LDIFF_SYM1499=LTDIE_182_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1499
 	.byte 2,35,0,6
 	.asciz "$builder"
 
-LDIFF_SYM1526=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1526
+LDIFF_SYM1500=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1500
 	.byte 2,35,8,6
 	.asciz "$PC"
 
-LDIFF_SYM1527=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1527
+LDIFF_SYM1501=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1501
 	.byte 2,35,40,6
 	.asciz "$awaiter0"
 
-LDIFF_SYM1528=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1528
+LDIFF_SYM1502=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1502
 	.byte 2,35,48,0,7
 	.asciz "_<OnTapGestureRecognizerTappedGrateful>c__async4"
 
-LDIFF_SYM1529=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1529
-LTDIE_209_POINTER:
+LDIFF_SYM1503=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1503
+LTDIE_204_POINTER:
 
 	.byte 13
-LDIFF_SYM1530=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1530
-LTDIE_209_REFERENCE:
+LDIFF_SYM1504=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1504
+LTDIE_204_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1531=LTDIE_209 - Ldebug_info_start
-	.long LDIFF_SYM1531
+LDIFF_SYM1505=LTDIE_204 - Ldebug_info_start
+	.long LDIFF_SYM1505
 	.byte 2
 	.asciz "IntentionJournal.BrowseMoodsPage/<OnTapGestureRecognizerTappedGrateful>c__async4:MoveNext"
 	.asciz "IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_MoveNext"
@@ -78989,32 +78796,32 @@ LDIFF_SYM1531=LTDIE_209 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1532=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1532
+LDIFF_SYM1506=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1506
 	.byte 2,141,32,11
 	.asciz ""
 
-LDIFF_SYM1533=LDIE_U4 - Ldebug_info_start
-	.long LDIFF_SYM1533
+LDIFF_SYM1507=LDIE_U4 - Ldebug_info_start
+	.long LDIFF_SYM1507
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1534=LTDIE_63_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1534
+LDIFF_SYM1508=LTDIE_63_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1508
 	.byte 3,141,200,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1535=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM1535
+LDIFF_SYM1509=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM1509
 Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_MoveNext
 
-LDIFF_SYM1536=Lme_1e - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_MoveNext
-	.long LDIFF_SYM1536
+LDIFF_SYM1510=Lme_1e - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_MoveNext
+	.long LDIFF_SYM1510
 	.long 0
 	.byte 12,31,0,68,14,192,1,157,24,158,23,68,13,29,68,153,22,154,21
 	.align 3
@@ -79033,125 +78840,125 @@ Lfde30_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1537=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1537
+LDIFF_SYM1511=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1511
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM1538=LTDIE_205_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1538
+LDIFF_SYM1512=LTDIE_200_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1512
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1539=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM1539
+LDIFF_SYM1513=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM1513
 Lfde31_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
 
-LDIFF_SYM1540=Lme_1f - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
-	.long LDIFF_SYM1540
+LDIFF_SYM1514=Lme_1f - IntentionJournal_BrowseMoodsPage__OnTapGestureRecognizerTappedGratefulc__async4_SetStateMachine_System_Runtime_CompilerServices_IAsyncStateMachine
+	.long LDIFF_SYM1514
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
 Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_214:
+LTDIE_209:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1541=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1541
+LDIFF_SYM1515=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1515
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1542=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1542
+LDIFF_SYM1516=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1516
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1543=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1543
+LDIFF_SYM1517=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1517
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1544=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1544
+LDIFF_SYM1518=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1518
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1545=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1545
+LDIFF_SYM1519=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1519
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1546=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1546
-LTDIE_214_POINTER:
+LDIFF_SYM1520=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1520
+LTDIE_209_POINTER:
 
 	.byte 13
-LDIFF_SYM1547=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1547
-LTDIE_214_REFERENCE:
+LDIFF_SYM1521=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1521
+LTDIE_209_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1548=LTDIE_214 - Ldebug_info_start
-	.long LDIFF_SYM1548
-LTDIE_215:
+LDIFF_SYM1522=LTDIE_209 - Ldebug_info_start
+	.long LDIFF_SYM1522
+LTDIE_210:
 
 	.byte 5
 	.asciz "Xamarin_Forms_BindingBase"
 
 	.byte 40,16
-LDIFF_SYM1549=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1549
+LDIFF_SYM1523=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1523
 	.byte 2,35,0,6
 	.asciz "_mode"
 
-LDIFF_SYM1550=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1550
+LDIFF_SYM1524=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1524
 	.byte 2,35,32,6
 	.asciz "_stringFormat"
 
-LDIFF_SYM1551=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1551
+LDIFF_SYM1525=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1525
 	.byte 2,35,16,6
 	.asciz "<AllowChaining>k__BackingField"
 
-LDIFF_SYM1552=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1552
+LDIFF_SYM1526=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1526
 	.byte 2,35,36,6
 	.asciz "<Context>k__BackingField"
 
-LDIFF_SYM1553=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1553
+LDIFF_SYM1527=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1527
 	.byte 2,35,24,6
 	.asciz "<IsApplied>k__BackingField"
 
-LDIFF_SYM1554=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1554
+LDIFF_SYM1528=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1528
 	.byte 2,35,37,0,7
 	.asciz "Xamarin_Forms_BindingBase"
 
-LDIFF_SYM1555=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1555
-LTDIE_215_POINTER:
+LDIFF_SYM1529=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1529
+LTDIE_210_POINTER:
 
 	.byte 13
-LDIFF_SYM1556=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1556
-LTDIE_215_REFERENCE:
+LDIFF_SYM1530=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1530
+LTDIE_210_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1557=LTDIE_215 - Ldebug_info_start
-	.long LDIFF_SYM1557
-LTDIE_218:
+LDIFF_SYM1531=LTDIE_210 - Ldebug_info_start
+	.long LDIFF_SYM1531
+LTDIE_213:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
@@ -79159,191 +78966,191 @@ LTDIE_218:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1558=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1558
-LTDIE_218_POINTER:
+LDIFF_SYM1532=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1532
+LTDIE_213_POINTER:
 
 	.byte 13
-LDIFF_SYM1559=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1559
-LTDIE_218_REFERENCE:
+LDIFF_SYM1533=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1533
+LTDIE_213_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1560=LTDIE_218 - Ldebug_info_start
-	.long LDIFF_SYM1560
-LTDIE_219:
+LDIFF_SYM1534=LTDIE_213 - Ldebug_info_start
+	.long LDIFF_SYM1534
+LTDIE_214:
 
 	.byte 5
 	.asciz "_KeyCollection"
 
 	.byte 24,16
-LDIFF_SYM1561=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1561
+LDIFF_SYM1535=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1535
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1562=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1562
+LDIFF_SYM1536=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1536
 	.byte 2,35,16,0,7
 	.asciz "_KeyCollection"
 
-LDIFF_SYM1563=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1563
-LTDIE_219_POINTER:
+LDIFF_SYM1537=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1537
+LTDIE_214_POINTER:
 
 	.byte 13
-LDIFF_SYM1564=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1564
-LTDIE_219_REFERENCE:
+LDIFF_SYM1538=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1538
+LTDIE_214_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1565=LTDIE_219 - Ldebug_info_start
-	.long LDIFF_SYM1565
-LTDIE_220:
+LDIFF_SYM1539=LTDIE_214 - Ldebug_info_start
+	.long LDIFF_SYM1539
+LTDIE_215:
 
 	.byte 5
 	.asciz "_ValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1566=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1566
+LDIFF_SYM1540=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1540
 	.byte 2,35,0,6
 	.asciz "dictionary"
 
-LDIFF_SYM1567=LTDIE_217_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1567
+LDIFF_SYM1541=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1541
 	.byte 2,35,16,0,7
 	.asciz "_ValueCollection"
 
-LDIFF_SYM1568=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1568
-LTDIE_220_POINTER:
+LDIFF_SYM1542=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1542
+LTDIE_215_POINTER:
 
 	.byte 13
-LDIFF_SYM1569=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1569
-LTDIE_220_REFERENCE:
+LDIFF_SYM1543=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1543
+LTDIE_215_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1570=LTDIE_220 - Ldebug_info_start
-	.long LDIFF_SYM1570
-LTDIE_217:
+LDIFF_SYM1544=LTDIE_215 - Ldebug_info_start
+	.long LDIFF_SYM1544
+LTDIE_212:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM1571=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1571
+LDIFF_SYM1545=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1545
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1572=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1572
+LDIFF_SYM1546=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1546
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1573=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1573
+LDIFF_SYM1547=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1547
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1574=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1574
+LDIFF_SYM1548=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1548
 	.byte 2,35,64,6
 	.asciz "version"
 
-LDIFF_SYM1575=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1575
+LDIFF_SYM1549=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1549
 	.byte 2,35,68,6
 	.asciz "freeList"
 
-LDIFF_SYM1576=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1576
+LDIFF_SYM1550=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1550
 	.byte 2,35,72,6
 	.asciz "freeCount"
 
-LDIFF_SYM1577=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1577
+LDIFF_SYM1551=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1551
 	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM1578=LTDIE_218_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1578
+LDIFF_SYM1552=LTDIE_213_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1552
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1579=LTDIE_219_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1579
+LDIFF_SYM1553=LTDIE_214_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1553
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1580=LTDIE_220_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1580
+LDIFF_SYM1554=LTDIE_215_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1554
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1581=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1581
+LDIFF_SYM1555=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1555
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1582=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1582
-LTDIE_217_POINTER:
+LDIFF_SYM1556=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1556
+LTDIE_212_POINTER:
 
 	.byte 13
-LDIFF_SYM1583=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1583
-LTDIE_217_REFERENCE:
+LDIFF_SYM1557=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1557
+LTDIE_212_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1584=LTDIE_217 - Ldebug_info_start
-	.long LDIFF_SYM1584
-LTDIE_221:
+LDIFF_SYM1558=LTDIE_212 - Ldebug_info_start
+	.long LDIFF_SYM1558
+LTDIE_216:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1585=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1585
+LDIFF_SYM1559=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1559
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1586=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1586
+LDIFF_SYM1560=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1560
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1587=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1587
+LDIFF_SYM1561=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1561
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1588=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1588
+LDIFF_SYM1562=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1562
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1589=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1589
+LDIFF_SYM1563=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1563
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1590=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1590
-LTDIE_221_POINTER:
+LDIFF_SYM1564=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1564
+LTDIE_216_POINTER:
 
 	.byte 13
-LDIFF_SYM1591=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1591
-LTDIE_221_REFERENCE:
+LDIFF_SYM1565=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1565
+LTDIE_216_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1592=LTDIE_221 - Ldebug_info_start
-	.long LDIFF_SYM1592
-LTDIE_222:
+LDIFF_SYM1566=LTDIE_216 - Ldebug_info_start
+	.long LDIFF_SYM1566
+LTDIE_217:
 
 	.byte 17
 	.asciz "System_Collections_Generic_ICollection`1"
@@ -79351,66 +79158,215 @@ LTDIE_222:
 	.byte 16,7
 	.asciz "System_Collections_Generic_ICollection`1"
 
-LDIFF_SYM1593=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1593
-LTDIE_222_POINTER:
+LDIFF_SYM1567=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1567
+LTDIE_217_POINTER:
 
 	.byte 13
-LDIFF_SYM1594=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1594
-LTDIE_222_REFERENCE:
+LDIFF_SYM1568=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1568
+LTDIE_217_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1595=LTDIE_222 - Ldebug_info_start
-	.long LDIFF_SYM1595
-LTDIE_223:
+LDIFF_SYM1569=LTDIE_217 - Ldebug_info_start
+	.long LDIFF_SYM1569
+LTDIE_218:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
 	.byte 32,16
-LDIFF_SYM1596=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1596
+LDIFF_SYM1570=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1570
 	.byte 2,35,0,6
 	.asciz "list"
 
-LDIFF_SYM1597=LTDIE_66_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1597
+LDIFF_SYM1571=LTDIE_66_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1571
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1598=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1598
+LDIFF_SYM1572=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1572
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_ReadOnlyCollection`1"
 
-LDIFF_SYM1599=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1599
-LTDIE_223_POINTER:
+LDIFF_SYM1573=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1573
+LTDIE_218_POINTER:
 
 	.byte 13
-LDIFF_SYM1600=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1600
-LTDIE_223_REFERENCE:
+LDIFF_SYM1574=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1574
+LTDIE_218_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1601=LTDIE_223 - Ldebug_info_start
-	.long LDIFF_SYM1601
-LTDIE_224:
+LDIFF_SYM1575=LTDIE_218 - Ldebug_info_start
+	.long LDIFF_SYM1575
+LTDIE_219:
 
 	.byte 5
 	.asciz "_ReadOnlyValueCollection"
 
 	.byte 24,16
-LDIFF_SYM1602=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1602
+LDIFF_SYM1576=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1576
 	.byte 2,35,0,6
 	.asciz "_odict"
 
-LDIFF_SYM1603=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1603
+LDIFF_SYM1577=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1577
 	.byte 2,35,16,0,7
 	.asciz "_ReadOnlyValueCollection"
+
+LDIFF_SYM1578=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1578
+LTDIE_219_POINTER:
+
+	.byte 13
+LDIFF_SYM1579=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1579
+LTDIE_219_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1580=LTDIE_219 - Ldebug_info_start
+	.long LDIFF_SYM1580
+LTDIE_211:
+
+	.byte 5
+	.asciz "Cadenza_Collections_OrderedDictionary`2"
+
+	.byte 56,16
+LDIFF_SYM1581=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1581
+	.byte 2,35,0,6
+	.asciz "_dict"
+
+LDIFF_SYM1582=LTDIE_212_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1582
+	.byte 2,35,16,6
+	.asciz "_keyOrder"
+
+LDIFF_SYM1583=LTDIE_216_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1583
+	.byte 2,35,24,6
+	.asciz "_kvpCollection"
+
+LDIFF_SYM1584=LTDIE_217_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1584
+	.byte 2,35,32,6
+	.asciz "_roKeys"
+
+LDIFF_SYM1585=LTDIE_218_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1585
+	.byte 2,35,40,6
+	.asciz "_roValues"
+
+LDIFF_SYM1586=LTDIE_219_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1586
+	.byte 2,35,48,0,7
+	.asciz "Cadenza_Collections_OrderedDictionary`2"
+
+LDIFF_SYM1587=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1587
+LTDIE_211_POINTER:
+
+	.byte 13
+LDIFF_SYM1588=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1588
+LTDIE_211_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1589=LTDIE_211 - Ldebug_info_start
+	.long LDIFF_SYM1589
+LTDIE_222:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM1590=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1590
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1591=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1591
+LTDIE_222_POINTER:
+
+	.byte 13
+LDIFF_SYM1592=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1592
+LTDIE_222_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1593=LTDIE_222 - Ldebug_info_start
+	.long LDIFF_SYM1593
+LTDIE_221:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ElementTemplate"
+
+	.byte 40,16
+LDIFF_SYM1594=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1594
+	.byte 2,35,0,6
+	.asciz "_changeHandlers"
+
+LDIFF_SYM1595=LTDIE_20_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1595
+	.byte 2,35,16,6
+	.asciz "_parent"
+
+LDIFF_SYM1596=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1596
+	.byte 2,35,24,6
+	.asciz "<LoadTemplate>k__BackingField"
+
+LDIFF_SYM1597=LTDIE_222_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1597
+	.byte 2,35,32,0,7
+	.asciz "Xamarin_Forms_ElementTemplate"
+
+LDIFF_SYM1598=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1598
+LTDIE_221_POINTER:
+
+	.byte 13
+LDIFF_SYM1599=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1599
+LTDIE_221_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1600=LTDIE_221 - Ldebug_info_start
+	.long LDIFF_SYM1600
+LTDIE_223:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IDictionary`2"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IDictionary`2"
+
+LDIFF_SYM1601=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1601
+LTDIE_223_POINTER:
+
+	.byte 13
+LDIFF_SYM1602=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1602
+LTDIE_223_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1603=LTDIE_223 - Ldebug_info_start
+	.long LDIFF_SYM1603
+LTDIE_224:
+
+	.byte 17
+	.asciz "System_Collections_Generic_IDictionary`2"
+
+	.byte 16,7
+	.asciz "System_Collections_Generic_IDictionary`2"
 
 LDIFF_SYM1604=LTDIE_224 - Ldebug_info_start
 	.long LDIFF_SYM1604
@@ -79424,142 +79380,137 @@ LTDIE_224_REFERENCE:
 	.byte 14
 LDIFF_SYM1606=LTDIE_224 - Ldebug_info_start
 	.long LDIFF_SYM1606
-LTDIE_216:
+LTDIE_220:
 
 	.byte 5
-	.asciz "Cadenza_Collections_OrderedDictionary`2"
+	.asciz "Xamarin_Forms_DataTemplate"
 
 	.byte 56,16
-LDIFF_SYM1607=LTDIE_4 - Ldebug_info_start
+LDIFF_SYM1607=LTDIE_221 - Ldebug_info_start
 	.long LDIFF_SYM1607
 	.byte 2,35,0,6
-	.asciz "_dict"
+	.asciz "<Bindings>k__BackingField"
 
-LDIFF_SYM1608=LTDIE_217_REFERENCE - Ldebug_info_start
+LDIFF_SYM1608=LTDIE_223_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1608
-	.byte 2,35,16,6
-	.asciz "_keyOrder"
-
-LDIFF_SYM1609=LTDIE_221_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1609
-	.byte 2,35,24,6
-	.asciz "_kvpCollection"
-
-LDIFF_SYM1610=LTDIE_222_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1610
-	.byte 2,35,32,6
-	.asciz "_roKeys"
-
-LDIFF_SYM1611=LTDIE_223_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1611
 	.byte 2,35,40,6
-	.asciz "_roValues"
+	.asciz "<Values>k__BackingField"
 
-LDIFF_SYM1612=LTDIE_224_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1612
+LDIFF_SYM1609=LTDIE_224_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1609
 	.byte 2,35,48,0,7
-	.asciz "Cadenza_Collections_OrderedDictionary`2"
+	.asciz "Xamarin_Forms_DataTemplate"
 
-LDIFF_SYM1613=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1613
-LTDIE_216_POINTER:
+LDIFF_SYM1610=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1610
+LTDIE_220_POINTER:
 
 	.byte 13
-LDIFF_SYM1614=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1614
-LTDIE_216_REFERENCE:
+LDIFF_SYM1611=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1611
+LTDIE_220_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1615=LTDIE_216 - Ldebug_info_start
-	.long LDIFF_SYM1615
+LDIFF_SYM1612=LTDIE_220 - Ldebug_info_start
+	.long LDIFF_SYM1612
 LTDIE_227:
 
-	.byte 5
-	.asciz "System_Func`1"
+	.byte 17
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-	.byte 112,16
-LDIFF_SYM1616=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1616
-	.byte 2,35,0,0,7
-	.asciz "System_Func`1"
+	.byte 16,7
+	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
-LDIFF_SYM1617=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1617
+LDIFF_SYM1613=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1613
 LTDIE_227_POINTER:
 
 	.byte 13
-LDIFF_SYM1618=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1618
+LDIFF_SYM1614=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1614
 LTDIE_227_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1619=LTDIE_227 - Ldebug_info_start
-	.long LDIFF_SYM1619
+LDIFF_SYM1615=LTDIE_227 - Ldebug_info_start
+	.long LDIFF_SYM1615
 LTDIE_226:
 
 	.byte 5
-	.asciz "Xamarin_Forms_ElementTemplate"
+	.asciz "System_Collections_Generic_HashSet`1"
 
-	.byte 40,16
-LDIFF_SYM1620=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1620
+	.byte 64,16
+LDIFF_SYM1616=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1616
 	.byte 2,35,0,6
-	.asciz "_changeHandlers"
+	.asciz "m_buckets"
 
-LDIFF_SYM1621=LTDIE_20_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1621
+LDIFF_SYM1617=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1617
 	.byte 2,35,16,6
-	.asciz "_parent"
+	.asciz "m_slots"
 
-LDIFF_SYM1622=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1622
+LDIFF_SYM1618=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1618
 	.byte 2,35,24,6
-	.asciz "<LoadTemplate>k__BackingField"
+	.asciz "m_count"
 
-LDIFF_SYM1623=LTDIE_227_REFERENCE - Ldebug_info_start
+LDIFF_SYM1619=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1619
+	.byte 2,35,48,6
+	.asciz "m_lastIndex"
+
+LDIFF_SYM1620=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1620
+	.byte 2,35,52,6
+	.asciz "m_freeList"
+
+LDIFF_SYM1621=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1621
+	.byte 2,35,56,6
+	.asciz "m_comparer"
+
+LDIFF_SYM1622=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1622
+	.byte 2,35,32,6
+	.asciz "m_version"
+
+LDIFF_SYM1623=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM1623
-	.byte 2,35,32,0,7
-	.asciz "Xamarin_Forms_ElementTemplate"
+	.byte 2,35,60,6
+	.asciz "m_siInfo"
 
-LDIFF_SYM1624=LTDIE_226 - Ldebug_info_start
+LDIFF_SYM1624=LTDIE_67_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1624
+	.byte 2,35,40,0,7
+	.asciz "System_Collections_Generic_HashSet`1"
+
+LDIFF_SYM1625=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1625
 LTDIE_226_POINTER:
 
 	.byte 13
-LDIFF_SYM1625=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1625
+LDIFF_SYM1626=LTDIE_226 - Ldebug_info_start
+	.long LDIFF_SYM1626
 LTDIE_226_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1626=LTDIE_226 - Ldebug_info_start
-	.long LDIFF_SYM1626
-LTDIE_228:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IDictionary`2"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IDictionary`2"
-
-LDIFF_SYM1627=LTDIE_228 - Ldebug_info_start
+LDIFF_SYM1627=LTDIE_226 - Ldebug_info_start
 	.long LDIFF_SYM1627
-LTDIE_228_POINTER:
-
-	.byte 13
-LDIFF_SYM1628=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1628
-LTDIE_228_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1629=LTDIE_228 - Ldebug_info_start
-	.long LDIFF_SYM1629
 LTDIE_229:
 
-	.byte 17
-	.asciz "System_Collections_Generic_IDictionary`2"
+	.byte 5
+	.asciz "_KeyCollection"
 
-	.byte 16,7
-	.asciz "System_Collections_Generic_IDictionary`2"
+	.byte 24,16
+LDIFF_SYM1628=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1628
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM1629=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1629
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
 
 LDIFF_SYM1630=LTDIE_229 - Ldebug_info_start
 	.long LDIFF_SYM1630
@@ -79573,499 +79524,355 @@ LTDIE_229_REFERENCE:
 	.byte 14
 LDIFF_SYM1632=LTDIE_229 - Ldebug_info_start
 	.long LDIFF_SYM1632
-LTDIE_225:
+LTDIE_230:
 
 	.byte 5
-	.asciz "Xamarin_Forms_DataTemplate"
+	.asciz "_ValueCollection"
 
-	.byte 56,16
-LDIFF_SYM1633=LTDIE_226 - Ldebug_info_start
+	.byte 24,16
+LDIFF_SYM1633=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM1633
 	.byte 2,35,0,6
-	.asciz "<Bindings>k__BackingField"
+	.asciz "dictionary"
 
 LDIFF_SYM1634=LTDIE_228_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1634
-	.byte 2,35,40,6
-	.asciz "<Values>k__BackingField"
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
 
-LDIFF_SYM1635=LTDIE_229_REFERENCE - Ldebug_info_start
+LDIFF_SYM1635=LTDIE_230 - Ldebug_info_start
 	.long LDIFF_SYM1635
-	.byte 2,35,48,0,7
-	.asciz "Xamarin_Forms_DataTemplate"
+LTDIE_230_POINTER:
 
-LDIFF_SYM1636=LTDIE_225 - Ldebug_info_start
+	.byte 13
+LDIFF_SYM1636=LTDIE_230 - Ldebug_info_start
 	.long LDIFF_SYM1636
-LTDIE_225_POINTER:
+LTDIE_230_REFERENCE:
 
-	.byte 13
-LDIFF_SYM1637=LTDIE_225 - Ldebug_info_start
+	.byte 14
+LDIFF_SYM1637=LTDIE_230 - Ldebug_info_start
 	.long LDIFF_SYM1637
-LTDIE_225_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1638=LTDIE_225 - Ldebug_info_start
-	.long LDIFF_SYM1638
-LTDIE_232:
-
-	.byte 17
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-	.byte 16,7
-	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM1639=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1639
-LTDIE_232_POINTER:
-
-	.byte 13
-LDIFF_SYM1640=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1640
-LTDIE_232_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1641=LTDIE_232 - Ldebug_info_start
-	.long LDIFF_SYM1641
-LTDIE_231:
-
-	.byte 5
-	.asciz "System_Collections_Generic_HashSet`1"
-
-	.byte 64,16
-LDIFF_SYM1642=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1642
-	.byte 2,35,0,6
-	.asciz "m_buckets"
-
-LDIFF_SYM1643=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1643
-	.byte 2,35,16,6
-	.asciz "m_slots"
-
-LDIFF_SYM1644=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1644
-	.byte 2,35,24,6
-	.asciz "m_count"
-
-LDIFF_SYM1645=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1645
-	.byte 2,35,48,6
-	.asciz "m_lastIndex"
-
-LDIFF_SYM1646=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1646
-	.byte 2,35,52,6
-	.asciz "m_freeList"
-
-LDIFF_SYM1647=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1647
-	.byte 2,35,56,6
-	.asciz "m_comparer"
-
-LDIFF_SYM1648=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1648
-	.byte 2,35,32,6
-	.asciz "m_version"
-
-LDIFF_SYM1649=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1649
-	.byte 2,35,60,6
-	.asciz "m_siInfo"
-
-LDIFF_SYM1650=LTDIE_67_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1650
-	.byte 2,35,40,0,7
-	.asciz "System_Collections_Generic_HashSet`1"
-
-LDIFF_SYM1651=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1651
-LTDIE_231_POINTER:
-
-	.byte 13
-LDIFF_SYM1652=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1652
-LTDIE_231_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1653=LTDIE_231 - Ldebug_info_start
-	.long LDIFF_SYM1653
-LTDIE_234:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM1654=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1654
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM1655=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1655
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM1656=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1656
-LTDIE_234_POINTER:
-
-	.byte 13
-LDIFF_SYM1657=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1657
-LTDIE_234_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1658=LTDIE_234 - Ldebug_info_start
-	.long LDIFF_SYM1658
-LTDIE_235:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM1659=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1659
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM1660=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1660
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
-
-LDIFF_SYM1661=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1661
-LTDIE_235_POINTER:
-
-	.byte 13
-LDIFF_SYM1662=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1662
-LTDIE_235_REFERENCE:
-
-	.byte 14
-LDIFF_SYM1663=LTDIE_235 - Ldebug_info_start
-	.long LDIFF_SYM1663
-LTDIE_233:
+LTDIE_228:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM1664=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1664
+LDIFF_SYM1638=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1638
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM1665=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1665
+LDIFF_SYM1639=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1639
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM1666=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1666
+LDIFF_SYM1640=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1640
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM1667=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1667
+LDIFF_SYM1641=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1641
 	.byte 2,35,64,6
 	.asciz "version"
 
-LDIFF_SYM1668=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1668
+LDIFF_SYM1642=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1642
 	.byte 2,35,68,6
 	.asciz "freeList"
 
-LDIFF_SYM1669=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1669
+LDIFF_SYM1643=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1643
 	.byte 2,35,72,6
 	.asciz "freeCount"
 
-LDIFF_SYM1670=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1670
+LDIFF_SYM1644=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1644
 	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM1671=LTDIE_232_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1671
+LDIFF_SYM1645=LTDIE_227_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1645
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM1672=LTDIE_234_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1672
+LDIFF_SYM1646=LTDIE_229_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1646
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM1673=LTDIE_235_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1673
+LDIFF_SYM1647=LTDIE_230_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1647
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1674=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1674
+LDIFF_SYM1648=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1648
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM1675=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1675
-LTDIE_233_POINTER:
+LDIFF_SYM1649=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1649
+LTDIE_228_POINTER:
 
 	.byte 13
-LDIFF_SYM1676=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1676
-LTDIE_233_REFERENCE:
+LDIFF_SYM1650=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1650
+LTDIE_228_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1677=LTDIE_233 - Ldebug_info_start
-	.long LDIFF_SYM1677
-LTDIE_230:
+LDIFF_SYM1651=LTDIE_228 - Ldebug_info_start
+	.long LDIFF_SYM1651
+LTDIE_225:
 
 	.byte 5
 	.asciz "_ShortNamesProxy"
 
 	.byte 56,16
-LDIFF_SYM1678=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1678
+LDIFF_SYM1652=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1652
 	.byte 2,35,0,6
 	.asciz "_attachedItems"
 
-LDIFF_SYM1679=LTDIE_231_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1679
+LDIFF_SYM1653=LTDIE_226_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1653
 	.byte 2,35,16,6
 	.asciz "_itemsList"
 
-LDIFF_SYM1680=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1680
+LDIFF_SYM1654=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1654
 	.byte 2,35,24,6
 	.asciz "_oldNames"
 
-LDIFF_SYM1681=LTDIE_233_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1681
+LDIFF_SYM1655=LTDIE_228_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1655
 	.byte 2,35,32,6
 	.asciz "_disposed"
 
-LDIFF_SYM1682=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1682
+LDIFF_SYM1656=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1656
 	.byte 2,35,48,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM1683=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1683
+LDIFF_SYM1657=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1657
 	.byte 2,35,40,0,7
 	.asciz "_ShortNamesProxy"
 
-LDIFF_SYM1684=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1684
-LTDIE_230_POINTER:
+LDIFF_SYM1658=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1658
+LTDIE_225_POINTER:
 
 	.byte 13
-LDIFF_SYM1685=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1685
-LTDIE_230_REFERENCE:
+LDIFF_SYM1659=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1659
+LTDIE_225_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1686=LTDIE_230 - Ldebug_info_start
-	.long LDIFF_SYM1686
-LTDIE_213:
+LDIFF_SYM1660=LTDIE_225 - Ldebug_info_start
+	.long LDIFF_SYM1660
+LTDIE_208:
 
 	.byte 5
 	.asciz "Xamarin_Forms_TemplatedItemsList`2"
 
 	.byte 192,1,16
-LDIFF_SYM1687=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM1687
+LDIFF_SYM1661=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1661
 	.byte 2,35,0,6
 	.asciz "_itemSourceProperty"
 
-LDIFF_SYM1688=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1688
+LDIFF_SYM1662=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1662
 	.byte 2,35,64,6
 	.asciz "_itemTemplateProperty"
 
-LDIFF_SYM1689=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1689
+LDIFF_SYM1663=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1663
 	.byte 2,35,72,6
 	.asciz "_itemsView"
 
-LDIFF_SYM1690=LTDIE_212_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1690
+LDIFF_SYM1664=LTDIE_207_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1664
 	.byte 2,35,80,6
 	.asciz "_templatedObjects"
 
-LDIFF_SYM1691=LTDIE_214_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1691
+LDIFF_SYM1665=LTDIE_209_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1665
 	.byte 2,35,88,6
 	.asciz "_disposed"
 
-LDIFF_SYM1692=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1692
+LDIFF_SYM1666=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1666
 	.byte 3,35,184,1,6
 	.asciz "_groupDisplayBinding"
 
-LDIFF_SYM1693=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1693
+LDIFF_SYM1667=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1667
 	.byte 2,35,96,6
 	.asciz "_groupedItems"
 
-LDIFF_SYM1694=LTDIE_216_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1694
+LDIFF_SYM1668=LTDIE_211_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1668
 	.byte 2,35,104,6
 	.asciz "_groupHeaderTemplate"
 
-LDIFF_SYM1695=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1695
+LDIFF_SYM1669=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1669
 	.byte 2,35,112,6
 	.asciz "_groupShortNameBinding"
 
-LDIFF_SYM1696=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1696
+LDIFF_SYM1670=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1670
 	.byte 2,35,120,6
 	.asciz "_shortNames"
 
-LDIFF_SYM1697=LTDIE_230_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1697
+LDIFF_SYM1671=LTDIE_225_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1671
 	.byte 3,35,128,1,6
 	.asciz "<GroupHeaderTemplateProperty>k__BackingField"
 
-LDIFF_SYM1698=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1698
+LDIFF_SYM1672=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1672
 	.byte 3,35,136,1,6
 	.asciz "<IsGroupingEnabledProperty>k__BackingField"
 
-LDIFF_SYM1699=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1699
+LDIFF_SYM1673=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1673
 	.byte 3,35,144,1,6
 	.asciz "<Parent>k__BackingField"
 
-LDIFF_SYM1700=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1700
+LDIFF_SYM1674=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1674
 	.byte 3,35,152,1,6
 	.asciz "<ProgressiveLoadingProperty>k__BackingField"
 
-LDIFF_SYM1701=LTDIE_140_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1701
+LDIFF_SYM1675=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1675
 	.byte 3,35,160,1,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM1702=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1702
+LDIFF_SYM1676=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1676
 	.byte 3,35,168,1,6
 	.asciz "GroupedCollectionChanged"
 
-LDIFF_SYM1703=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1703
+LDIFF_SYM1677=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1677
 	.byte 3,35,176,1,0,7
 	.asciz "Xamarin_Forms_TemplatedItemsList`2"
 
-LDIFF_SYM1704=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1704
-LTDIE_213_POINTER:
+LDIFF_SYM1678=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1678
+LTDIE_208_POINTER:
 
 	.byte 13
-LDIFF_SYM1705=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1705
-LTDIE_213_REFERENCE:
+LDIFF_SYM1679=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1679
+LTDIE_208_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1706=LTDIE_213 - Ldebug_info_start
-	.long LDIFF_SYM1706
-LTDIE_212:
+LDIFF_SYM1680=LTDIE_208 - Ldebug_info_start
+	.long LDIFF_SYM1680
+LTDIE_207:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ItemsView`1"
 
 	.byte 240,2,16
-LDIFF_SYM1707=LTDIE_161 - Ldebug_info_start
-	.long LDIFF_SYM1707
+LDIFF_SYM1681=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1681
 	.byte 2,35,0,6
 	.asciz "<TemplatedItems>k__BackingField"
 
-LDIFF_SYM1708=LTDIE_213_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1708
+LDIFF_SYM1682=LTDIE_208_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1682
 	.byte 3,35,232,2,0,7
 	.asciz "Xamarin_Forms_ItemsView`1"
 
-LDIFF_SYM1709=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1709
-LTDIE_212_POINTER:
+LDIFF_SYM1683=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1683
+LTDIE_207_POINTER:
 
 	.byte 13
-LDIFF_SYM1710=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1710
-LTDIE_212_REFERENCE:
+LDIFF_SYM1684=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1684
+LTDIE_207_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1711=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1711
-LTDIE_237:
+LDIFF_SYM1685=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1685
+LTDIE_232:
 
 	.byte 5
 	.asciz "System_Func`1"
 
 	.byte 112,16
-LDIFF_SYM1712=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1712
+LDIFF_SYM1686=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1686
 	.byte 2,35,0,0,7
 	.asciz "System_Func`1"
 
-LDIFF_SYM1713=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1713
-LTDIE_237_POINTER:
+LDIFF_SYM1687=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1687
+LTDIE_232_POINTER:
 
 	.byte 13
-LDIFF_SYM1714=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1714
-LTDIE_237_REFERENCE:
+LDIFF_SYM1688=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1688
+LTDIE_232_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1715=LTDIE_237 - Ldebug_info_start
-	.long LDIFF_SYM1715
-LTDIE_236:
+LDIFF_SYM1689=LTDIE_232 - Ldebug_info_start
+	.long LDIFF_SYM1689
+LTDIE_231:
 
 	.byte 5
 	.asciz "System_Lazy`1"
 
 	.byte 40,16
-LDIFF_SYM1716=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1716
+LDIFF_SYM1690=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1690
 	.byte 2,35,0,6
 	.asciz "m_boxed"
 
-LDIFF_SYM1717=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1717
+LDIFF_SYM1691=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1691
 	.byte 2,35,16,6
 	.asciz "m_valueFactory"
 
-LDIFF_SYM1718=LTDIE_237_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1718
+LDIFF_SYM1692=LTDIE_232_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1692
 	.byte 2,35,24,6
 	.asciz "m_threadSafeObj"
 
-LDIFF_SYM1719=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1719
+LDIFF_SYM1693=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1693
 	.byte 2,35,32,0,7
 	.asciz "System_Lazy`1"
 
-LDIFF_SYM1720=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1720
-LTDIE_236_POINTER:
+LDIFF_SYM1694=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1694
+LTDIE_231_POINTER:
 
 	.byte 13
-LDIFF_SYM1721=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1721
-LTDIE_236_REFERENCE:
+LDIFF_SYM1695=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1695
+LTDIE_231_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1722=LTDIE_236 - Ldebug_info_start
-	.long LDIFF_SYM1722
-LTDIE_239:
+LDIFF_SYM1696=LTDIE_231 - Ldebug_info_start
+	.long LDIFF_SYM1696
+LTDIE_234:
 
 	.byte 8
 	.asciz "Xamarin_Forms_ScrollToMode"
 
 	.byte 4
-LDIFF_SYM1723=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1723
+LDIFF_SYM1697=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1697
 	.byte 9
 	.asciz "Element"
 
@@ -80075,26 +79882,26 @@ LDIFF_SYM1723=LDIE_I4 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "Xamarin_Forms_ScrollToMode"
 
-LDIFF_SYM1724=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1724
-LTDIE_239_POINTER:
+LDIFF_SYM1698=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1698
+LTDIE_234_POINTER:
 
 	.byte 13
-LDIFF_SYM1725=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1725
-LTDIE_239_REFERENCE:
+LDIFF_SYM1699=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1699
+LTDIE_234_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1726=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1726
-LTDIE_240:
+LDIFF_SYM1700=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1700
+LTDIE_235:
 
 	.byte 8
 	.asciz "Xamarin_Forms_ScrollToPosition"
 
 	.byte 4
-LDIFF_SYM1727=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1727
+LDIFF_SYM1701=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1701
 	.byte 9
 	.asciz "MakeVisible"
 
@@ -80110,89 +79917,89 @@ LDIFF_SYM1727=LDIE_I4 - Ldebug_info_start
 	.byte 3,0,7
 	.asciz "Xamarin_Forms_ScrollToPosition"
 
-LDIFF_SYM1728=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM1728
-LTDIE_240_POINTER:
+LDIFF_SYM1702=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1702
+LTDIE_235_POINTER:
 
 	.byte 13
-LDIFF_SYM1729=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM1729
-LTDIE_240_REFERENCE:
+LDIFF_SYM1703=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1703
+LTDIE_235_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1730=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM1730
-LTDIE_238:
+LDIFF_SYM1704=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1704
+LTDIE_233:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ScrollToRequestedEventArgs"
 
 	.byte 72,16
-LDIFF_SYM1731=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1731
+LDIFF_SYM1705=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1705
 	.byte 2,35,0,6
 	.asciz "<Element>k__BackingField"
 
-LDIFF_SYM1732=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1732
+LDIFF_SYM1706=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1706
 	.byte 2,35,16,6
 	.asciz "<Mode>k__BackingField"
 
-LDIFF_SYM1733=LTDIE_239 - Ldebug_info_start
-	.long LDIFF_SYM1733
+LDIFF_SYM1707=LTDIE_234 - Ldebug_info_start
+	.long LDIFF_SYM1707
 	.byte 2,35,40,6
 	.asciz "<Position>k__BackingField"
 
-LDIFF_SYM1734=LTDIE_240 - Ldebug_info_start
-	.long LDIFF_SYM1734
+LDIFF_SYM1708=LTDIE_235 - Ldebug_info_start
+	.long LDIFF_SYM1708
 	.byte 2,35,44,6
 	.asciz "<ScrollX>k__BackingField"
 
-LDIFF_SYM1735=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1735
+LDIFF_SYM1709=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1709
 	.byte 2,35,48,6
 	.asciz "<ScrollY>k__BackingField"
 
-LDIFF_SYM1736=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1736
+LDIFF_SYM1710=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1710
 	.byte 2,35,56,6
 	.asciz "<ShouldAnimate>k__BackingField"
 
-LDIFF_SYM1737=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1737
+LDIFF_SYM1711=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1711
 	.byte 2,35,64,6
 	.asciz "<Group>k__BackingField"
 
-LDIFF_SYM1738=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1738
+LDIFF_SYM1712=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1712
 	.byte 2,35,24,6
 	.asciz "<Item>k__BackingField"
 
-LDIFF_SYM1739=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1739
+LDIFF_SYM1713=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1713
 	.byte 2,35,32,0,7
 	.asciz "Xamarin_Forms_ScrollToRequestedEventArgs"
 
-LDIFF_SYM1740=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1740
-LTDIE_238_POINTER:
+LDIFF_SYM1714=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1714
+LTDIE_233_POINTER:
 
 	.byte 13
-LDIFF_SYM1741=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1741
-LTDIE_238_REFERENCE:
+LDIFF_SYM1715=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1715
+LTDIE_233_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1742=LTDIE_238 - Ldebug_info_start
-	.long LDIFF_SYM1742
-LTDIE_241:
+LDIFF_SYM1716=LTDIE_233 - Ldebug_info_start
+	.long LDIFF_SYM1716
+LTDIE_236:
 
 	.byte 8
 	.asciz "Xamarin_Forms_ListViewCachingStrategy"
 
 	.byte 4
-LDIFF_SYM1743=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1743
+LDIFF_SYM1717=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1717
 	.byte 9
 	.asciz "RetainElement"
 
@@ -80202,223 +80009,223 @@ LDIFF_SYM1743=LDIE_I4 - Ldebug_info_start
 	.byte 1,0,7
 	.asciz "Xamarin_Forms_ListViewCachingStrategy"
 
-LDIFF_SYM1744=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM1744
-LTDIE_241_POINTER:
+LDIFF_SYM1718=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1718
+LTDIE_236_POINTER:
 
 	.byte 13
-LDIFF_SYM1745=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM1745
-LTDIE_241_REFERENCE:
+LDIFF_SYM1719=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1719
+LTDIE_236_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1746=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM1746
-LTDIE_242:
+LDIFF_SYM1720=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1720
+LTDIE_237:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1747=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1747
+LDIFF_SYM1721=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1721
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1748=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM1748
-LTDIE_242_POINTER:
+LDIFF_SYM1722=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1722
+LTDIE_237_POINTER:
 
 	.byte 13
-LDIFF_SYM1749=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM1749
-LTDIE_242_REFERENCE:
+LDIFF_SYM1723=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1723
+LTDIE_237_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1750=LTDIE_242 - Ldebug_info_start
-	.long LDIFF_SYM1750
-LTDIE_243:
+LDIFF_SYM1724=LTDIE_237 - Ldebug_info_start
+	.long LDIFF_SYM1724
+LTDIE_238:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1751=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1751
+LDIFF_SYM1725=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1725
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1752=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM1752
-LTDIE_243_POINTER:
+LDIFF_SYM1726=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1726
+LTDIE_238_POINTER:
 
 	.byte 13
-LDIFF_SYM1753=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM1753
-LTDIE_243_REFERENCE:
+LDIFF_SYM1727=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1727
+LTDIE_238_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1754=LTDIE_243 - Ldebug_info_start
-	.long LDIFF_SYM1754
-LTDIE_244:
+LDIFF_SYM1728=LTDIE_238 - Ldebug_info_start
+	.long LDIFF_SYM1728
+LTDIE_239:
 
 	.byte 5
 	.asciz "System_EventHandler`1"
 
 	.byte 112,16
-LDIFF_SYM1755=LTDIE_10 - Ldebug_info_start
-	.long LDIFF_SYM1755
+LDIFF_SYM1729=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1729
 	.byte 2,35,0,0,7
 	.asciz "System_EventHandler`1"
 
-LDIFF_SYM1756=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM1756
-LTDIE_244_POINTER:
+LDIFF_SYM1730=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1730
+LTDIE_239_POINTER:
 
 	.byte 13
-LDIFF_SYM1757=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM1757
-LTDIE_244_REFERENCE:
+LDIFF_SYM1731=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1731
+LTDIE_239_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1758=LTDIE_244 - Ldebug_info_start
-	.long LDIFF_SYM1758
-LTDIE_211:
+LDIFF_SYM1732=LTDIE_239 - Ldebug_info_start
+	.long LDIFF_SYM1732
+LTDIE_206:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ListView"
 
 	.byte 224,3,16
-LDIFF_SYM1759=LTDIE_212 - Ldebug_info_start
-	.long LDIFF_SYM1759
+LDIFF_SYM1733=LTDIE_207 - Ldebug_info_start
+	.long LDIFF_SYM1733
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
 
-LDIFF_SYM1760=LTDIE_236_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1760
+LDIFF_SYM1734=LTDIE_231_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1734
 	.byte 3,35,240,2,6
 	.asciz "_groupDisplayBinding"
 
-LDIFF_SYM1761=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1761
+LDIFF_SYM1735=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1735
 	.byte 3,35,248,2,6
 	.asciz "_groupShortNameBinding"
 
-LDIFF_SYM1762=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1762
+LDIFF_SYM1736=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1736
 	.byte 3,35,128,3,6
 	.asciz "_headerElement"
 
-LDIFF_SYM1763=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1763
+LDIFF_SYM1737=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1737
 	.byte 3,35,136,3,6
 	.asciz "_footerElement"
 
-LDIFF_SYM1764=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1764
+LDIFF_SYM1738=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1738
 	.byte 3,35,144,3,6
 	.asciz "_pendingScroll"
 
-LDIFF_SYM1765=LTDIE_238_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1765
+LDIFF_SYM1739=LTDIE_233_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1739
 	.byte 3,35,152,3,6
 	.asciz "_previousGroupSelected"
 
-LDIFF_SYM1766=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1766
+LDIFF_SYM1740=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1740
 	.byte 3,35,208,3,6
 	.asciz "_previousRowSelected"
 
-LDIFF_SYM1767=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1767
+LDIFF_SYM1741=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1741
 	.byte 3,35,212,3,6
 	.asciz "_refreshAllowed"
 
-LDIFF_SYM1768=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1768
+LDIFF_SYM1742=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1742
 	.byte 3,35,216,3,6
 	.asciz "<CachingStrategy>k__BackingField"
 
-LDIFF_SYM1769=LTDIE_241 - Ldebug_info_start
-	.long LDIFF_SYM1769
+LDIFF_SYM1743=LTDIE_236 - Ldebug_info_start
+	.long LDIFF_SYM1743
 	.byte 3,35,220,3,6
 	.asciz "ItemAppearing"
 
-LDIFF_SYM1770=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1770
+LDIFF_SYM1744=LTDIE_237_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1744
 	.byte 3,35,160,3,6
 	.asciz "ItemDisappearing"
 
-LDIFF_SYM1771=LTDIE_242_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1771
+LDIFF_SYM1745=LTDIE_237_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1745
 	.byte 3,35,168,3,6
 	.asciz "ItemSelected"
 
-LDIFF_SYM1772=LTDIE_243_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1772
+LDIFF_SYM1746=LTDIE_238_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1746
 	.byte 3,35,176,3,6
 	.asciz "ItemTapped"
 
-LDIFF_SYM1773=LTDIE_244_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1773
+LDIFF_SYM1747=LTDIE_239_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1747
 	.byte 3,35,184,3,6
 	.asciz "Refreshing"
 
-LDIFF_SYM1774=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1774
+LDIFF_SYM1748=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1748
 	.byte 3,35,192,3,6
 	.asciz "ScrollToRequested"
 
-LDIFF_SYM1775=LTDIE_186_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1775
+LDIFF_SYM1749=LTDIE_181_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1749
 	.byte 3,35,200,3,0,7
 	.asciz "Xamarin_Forms_ListView"
 
-LDIFF_SYM1776=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1776
-LTDIE_211_POINTER:
+LDIFF_SYM1750=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1750
+LTDIE_206_POINTER:
 
 	.byte 13
-LDIFF_SYM1777=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1777
-LTDIE_211_REFERENCE:
+LDIFF_SYM1751=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1751
+LTDIE_206_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1778=LTDIE_211 - Ldebug_info_start
-	.long LDIFF_SYM1778
-LTDIE_210:
+LDIFF_SYM1752=LTDIE_206 - Ldebug_info_start
+	.long LDIFF_SYM1752
+LTDIE_205:
 
 	.byte 5
 	.asciz "IntentionJournal_JournalPage"
 
 	.byte 216,3,16
-LDIFF_SYM1779=LTDIE_155 - Ldebug_info_start
-	.long LDIFF_SYM1779
+LDIFF_SYM1753=LTDIE_155 - Ldebug_info_start
+	.long LDIFF_SYM1753
 	.byte 2,35,0,6
 	.asciz "currentInMood"
 
-LDIFF_SYM1780=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1780
+LDIFF_SYM1754=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1754
 	.byte 3,35,200,3,6
 	.asciz "listView"
 
-LDIFF_SYM1781=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1781
+LDIFF_SYM1755=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1755
 	.byte 3,35,208,3,0,7
 	.asciz "IntentionJournal_JournalPage"
 
-LDIFF_SYM1782=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1782
-LTDIE_210_POINTER:
+LDIFF_SYM1756=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1756
+LTDIE_205_POINTER:
 
 	.byte 13
-LDIFF_SYM1783=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1783
-LTDIE_210_REFERENCE:
+LDIFF_SYM1757=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1757
+LTDIE_205_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1784=LTDIE_210 - Ldebug_info_start
-	.long LDIFF_SYM1784
+LDIFF_SYM1758=LTDIE_205 - Ldebug_info_start
+	.long LDIFF_SYM1758
 	.byte 2
 	.asciz "IntentionJournal.JournalPage:.ctor"
 	.asciz "IntentionJournal_JournalPage__ctor"
@@ -80430,22 +80237,22 @@ LDIFF_SYM1784=LTDIE_210 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1785=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1785
+LDIFF_SYM1759=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1759
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1786=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM1786
+LDIFF_SYM1760=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM1760
 Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage__ctor
 
-LDIFF_SYM1787=Lme_20 - IntentionJournal_JournalPage__ctor
-	.long LDIFF_SYM1787
+LDIFF_SYM1761=Lme_20 - IntentionJournal_JournalPage__ctor
+	.long LDIFF_SYM1761
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -80464,34 +80271,34 @@ Lfde32_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1788=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1788
+LDIFF_SYM1762=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1762
 	.byte 1,105,3
 	.asciz "inMood"
 
-LDIFF_SYM1789=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1789
+LDIFF_SYM1763=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1763
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1790=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM1790
+LDIFF_SYM1764=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM1764
 Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage__ctor_string
 
-LDIFF_SYM1791=Lme_21 - IntentionJournal_JournalPage__ctor_string
-	.long LDIFF_SYM1791
+LDIFF_SYM1765=Lme_21 - IntentionJournal_JournalPage__ctor_string
+	.long LDIFF_SYM1765
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
 Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_247:
+LTDIE_242:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -80499,117 +80306,117 @@ LTDIE_247:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM1792=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM1792
-LTDIE_247_POINTER:
+LDIFF_SYM1766=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1766
+LTDIE_242_POINTER:
 
 	.byte 13
-LDIFF_SYM1793=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM1793
-LTDIE_247_REFERENCE:
+LDIFF_SYM1767=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1767
+LTDIE_242_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1794=LTDIE_247 - Ldebug_info_start
-	.long LDIFF_SYM1794
-LTDIE_246:
+LDIFF_SYM1768=LTDIE_242 - Ldebug_info_start
+	.long LDIFF_SYM1768
+LTDIE_241:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
 	.byte 32,16
-LDIFF_SYM1795=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1795
+LDIFF_SYM1769=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1769
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM1796=LTDIE_247_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1796
+LDIFF_SYM1770=LTDIE_242_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1770
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1797=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1797
+LDIFF_SYM1771=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1771
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
-LDIFF_SYM1798=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM1798
-LTDIE_246_POINTER:
+LDIFF_SYM1772=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1772
+LTDIE_241_POINTER:
 
 	.byte 13
-LDIFF_SYM1799=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM1799
-LTDIE_246_REFERENCE:
+LDIFF_SYM1773=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1773
+LTDIE_241_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1800=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM1800
-LTDIE_248:
+LDIFF_SYM1774=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1774
+LTDIE_243:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
 
 	.byte 20,16
-LDIFF_SYM1801=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1801
+LDIFF_SYM1775=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1775
 	.byte 2,35,0,6
 	.asciz "_busyCount"
 
-LDIFF_SYM1802=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1802
+LDIFF_SYM1776=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1776
 	.byte 2,35,16,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM1803=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM1803
-LTDIE_248_POINTER:
+LDIFF_SYM1777=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1777
+LTDIE_243_POINTER:
 
 	.byte 13
-LDIFF_SYM1804=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM1804
-LTDIE_248_REFERENCE:
+LDIFF_SYM1778=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1778
+LTDIE_243_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1805=LTDIE_248 - Ldebug_info_start
-	.long LDIFF_SYM1805
-LTDIE_245:
+LDIFF_SYM1779=LTDIE_243 - Ldebug_info_start
+	.long LDIFF_SYM1779
+LTDIE_240:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
 	.byte 56,16
-LDIFF_SYM1806=LTDIE_246 - Ldebug_info_start
-	.long LDIFF_SYM1806
+LDIFF_SYM1780=LTDIE_241 - Ldebug_info_start
+	.long LDIFF_SYM1780
 	.byte 2,35,0,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM1807=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1807
+LDIFF_SYM1781=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1781
 	.byte 2,35,32,6
 	.asciz "PropertyChanged"
 
-LDIFF_SYM1808=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1808
+LDIFF_SYM1782=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1782
 	.byte 2,35,40,6
 	.asciz "_monitor"
 
-LDIFF_SYM1809=LTDIE_248_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1809
+LDIFF_SYM1783=LTDIE_243_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1783
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM1810=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM1810
-LTDIE_245_POINTER:
+LDIFF_SYM1784=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1784
+LTDIE_240_POINTER:
 
 	.byte 13
-LDIFF_SYM1811=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM1811
-LTDIE_245_REFERENCE:
+LDIFF_SYM1785=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1785
+LTDIE_240_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1812=LTDIE_245 - Ldebug_info_start
-	.long LDIFF_SYM1812
+LDIFF_SYM1786=LTDIE_240 - Ldebug_info_start
+	.long LDIFF_SYM1786
 	.byte 2
 	.asciz "IntentionJournal.JournalPage:get_entries"
 	.asciz "IntentionJournal_JournalPage_get_entries"
@@ -80621,22 +80428,22 @@ LDIFF_SYM1812=LTDIE_245 - Ldebug_info_start
 	.byte 2,118,16,11
 	.asciz ""
 
-LDIFF_SYM1813=LTDIE_245_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1813
+LDIFF_SYM1787=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1787
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1814=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM1814
+LDIFF_SYM1788=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM1788
 Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage_get_entries
 
-LDIFF_SYM1815=Lme_22 - IntentionJournal_JournalPage_get_entries
-	.long LDIFF_SYM1815
+LDIFF_SYM1789=Lme_22 - IntentionJournal_JournalPage_get_entries
+	.long LDIFF_SYM1789
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,68,154,4
 	.align 3
@@ -80655,71 +80462,71 @@ Lfde34_end:
 	.byte 2,118,16,3
 	.asciz "value"
 
-LDIFF_SYM1816=LTDIE_245_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1816
+LDIFF_SYM1790=LTDIE_240_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1790
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1817=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM1817
+LDIFF_SYM1791=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM1791
 Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage_set_entries_System_Collections_ObjectModel_ObservableCollection_1_Xamarin_Forms_Entry
 
-LDIFF_SYM1818=Lme_23 - IntentionJournal_JournalPage_set_entries_System_Collections_ObjectModel_ObservableCollection_1_Xamarin_Forms_Entry
-	.long LDIFF_SYM1818
+LDIFF_SYM1792=Lme_23 - IntentionJournal_JournalPage_set_entries_System_Collections_ObjectModel_ObservableCollection_1_Xamarin_Forms_Entry
+	.long LDIFF_SYM1792
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_249:
+LTDIE_244:
 
 	.byte 5
 	.asciz "System_Collections_Generic_List`1"
 
 	.byte 40,16
-LDIFF_SYM1819=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1819
+LDIFF_SYM1793=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1793
 	.byte 2,35,0,6
 	.asciz "_items"
 
-LDIFF_SYM1820=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1820
+LDIFF_SYM1794=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1794
 	.byte 2,35,16,6
 	.asciz "_size"
 
-LDIFF_SYM1821=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1821
+LDIFF_SYM1795=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1795
 	.byte 2,35,32,6
 	.asciz "_version"
 
-LDIFF_SYM1822=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1822
+LDIFF_SYM1796=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1796
 	.byte 2,35,36,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1823=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1823
+LDIFF_SYM1797=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1797
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_Generic_List`1"
 
-LDIFF_SYM1824=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM1824
-LTDIE_249_POINTER:
+LDIFF_SYM1798=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1798
+LTDIE_244_POINTER:
 
 	.byte 13
-LDIFF_SYM1825=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM1825
-LTDIE_249_REFERENCE:
+LDIFF_SYM1799=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1799
+LTDIE_244_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1826=LTDIE_249 - Ldebug_info_start
-	.long LDIFF_SYM1826
+LDIFF_SYM1800=LTDIE_244 - Ldebug_info_start
+	.long LDIFF_SYM1800
 	.byte 2
 	.asciz "IntentionJournal.JournalPage:OnAppearing"
 	.asciz "IntentionJournal_JournalPage_OnAppearing"
@@ -80731,119 +80538,119 @@ LDIFF_SYM1826=LTDIE_249 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1827=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1827
+LDIFF_SYM1801=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1801
 	.byte 1,106,11
 	.asciz "entList"
 
-LDIFF_SYM1828=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1828
+LDIFF_SYM1802=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1802
 	.byte 1,105,11
 	.asciz "entList"
 
-LDIFF_SYM1829=LTDIE_249_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1829
+LDIFF_SYM1803=LTDIE_244_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1803
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1830=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1830
+LDIFF_SYM1804=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM1804
 Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage_OnAppearing
 
-LDIFF_SYM1831=Lme_24 - IntentionJournal_JournalPage_OnAppearing
-	.long LDIFF_SYM1831
+LDIFF_SYM1805=Lme_24 - IntentionJournal_JournalPage_OnAppearing
+	.long LDIFF_SYM1805
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,152,14,153,13,68,154,12
 	.align 3
 Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_250:
+LTDIE_245:
 
 	.byte 5
 	.asciz "Xamarin_Forms_SelectedItemChangedEventArgs"
 
 	.byte 24,16
-LDIFF_SYM1832=LTDIE_192 - Ldebug_info_start
-	.long LDIFF_SYM1832
+LDIFF_SYM1806=LTDIE_187 - Ldebug_info_start
+	.long LDIFF_SYM1806
 	.byte 2,35,0,6
 	.asciz "<SelectedItem>k__BackingField"
 
-LDIFF_SYM1833=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1833
+LDIFF_SYM1807=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1807
 	.byte 2,35,16,0,7
 	.asciz "Xamarin_Forms_SelectedItemChangedEventArgs"
 
-LDIFF_SYM1834=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM1834
-LTDIE_250_POINTER:
+LDIFF_SYM1808=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1808
+LTDIE_245_POINTER:
 
 	.byte 13
-LDIFF_SYM1835=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM1835
-LTDIE_250_REFERENCE:
+LDIFF_SYM1809=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1809
+LTDIE_245_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1836=LTDIE_250 - Ldebug_info_start
-	.long LDIFF_SYM1836
-LTDIE_251:
+LDIFF_SYM1810=LTDIE_245 - Ldebug_info_start
+	.long LDIFF_SYM1810
+LTDIE_246:
 
 	.byte 5
 	.asciz "IntentionJournal_EntryObject"
 
 	.byte 64,16
-LDIFF_SYM1837=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1837
+LDIFF_SYM1811=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1811
 	.byte 2,35,0,6
 	.asciz "<ID>k__BackingField"
 
-LDIFF_SYM1838=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1838
+LDIFF_SYM1812=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1812
 	.byte 2,35,56,6
 	.asciz "<entryTitle>k__BackingField"
 
-LDIFF_SYM1839=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1839
+LDIFF_SYM1813=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1813
 	.byte 2,35,16,6
 	.asciz "<entryContent>k__BackingField"
 
-LDIFF_SYM1840=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1840
+LDIFF_SYM1814=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1814
 	.byte 2,35,24,6
 	.asciz "<entryCategory>k__BackingField"
 
-LDIFF_SYM1841=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1841
+LDIFF_SYM1815=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1815
 	.byte 2,35,32,6
 	.asciz "<entryImageFile>k__BackingField"
 
-LDIFF_SYM1842=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1842
+LDIFF_SYM1816=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1816
 	.byte 2,35,40,6
 	.asciz "<entryPictureBytes>k__BackingField"
 
-LDIFF_SYM1843=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1843
+LDIFF_SYM1817=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1817
 	.byte 2,35,48,0,7
 	.asciz "IntentionJournal_EntryObject"
 
-LDIFF_SYM1844=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM1844
-LTDIE_251_POINTER:
+LDIFF_SYM1818=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1818
+LTDIE_246_POINTER:
 
 	.byte 13
-LDIFF_SYM1845=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM1845
-LTDIE_251_REFERENCE:
+LDIFF_SYM1819=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1819
+LTDIE_246_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1846=LTDIE_251 - Ldebug_info_start
-	.long LDIFF_SYM1846
+LDIFF_SYM1820=LTDIE_246 - Ldebug_info_start
+	.long LDIFF_SYM1820
 	.byte 2
 	.asciz "IntentionJournal.JournalPage:listSelection"
 	.asciz "IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChangedEventArgs"
@@ -80855,44 +80662,44 @@ LDIFF_SYM1846=LTDIE_251 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1847=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1847
+LDIFF_SYM1821=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1821
 	.byte 2,141,40,3
 	.asciz "sender"
 
-LDIFF_SYM1848=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1848
+LDIFF_SYM1822=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1822
 	.byte 2,141,48,3
 	.asciz "e"
 
-LDIFF_SYM1849=LTDIE_250_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1849
+LDIFF_SYM1823=LTDIE_245_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1823
 	.byte 1,106,11
 	.asciz "selectedItem"
 
-LDIFF_SYM1850=LTDIE_251_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1850
+LDIFF_SYM1824=LTDIE_246_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1824
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1851=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1851
+LDIFF_SYM1825=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM1825
 Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChangedEventArgs
 
-LDIFF_SYM1852=Lme_25 - IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChangedEventArgs
-	.long LDIFF_SYM1852
+LDIFF_SYM1826=Lme_25 - IntentionJournal_JournalPage_listSelection_object_Xamarin_Forms_SelectedItemChangedEventArgs
+	.long LDIFF_SYM1826
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,68,154,12
 	.align 3
 Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_257:
+LTDIE_252:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IList`1"
@@ -80900,221 +80707,221 @@ LTDIE_257:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM1853=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM1853
-LTDIE_257_POINTER:
+LDIFF_SYM1827=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM1827
+LTDIE_252_POINTER:
 
 	.byte 13
-LDIFF_SYM1854=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM1854
-LTDIE_257_REFERENCE:
+LDIFF_SYM1828=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM1828
+LTDIE_252_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1855=LTDIE_257 - Ldebug_info_start
-	.long LDIFF_SYM1855
-LTDIE_256:
+LDIFF_SYM1829=LTDIE_252 - Ldebug_info_start
+	.long LDIFF_SYM1829
+LTDIE_251:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
 	.byte 32,16
-LDIFF_SYM1856=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1856
+LDIFF_SYM1830=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1830
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM1857=LTDIE_257_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1857
+LDIFF_SYM1831=LTDIE_252_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1831
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM1858=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1858
+LDIFF_SYM1832=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1832
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
-LDIFF_SYM1859=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM1859
-LTDIE_256_POINTER:
+LDIFF_SYM1833=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1833
+LTDIE_251_POINTER:
 
 	.byte 13
-LDIFF_SYM1860=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM1860
-LTDIE_256_REFERENCE:
+LDIFF_SYM1834=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1834
+LTDIE_251_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1861=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM1861
-LTDIE_258:
+LDIFF_SYM1835=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1835
+LTDIE_253:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
 
 	.byte 20,16
-LDIFF_SYM1862=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1862
+LDIFF_SYM1836=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1836
 	.byte 2,35,0,6
 	.asciz "_busyCount"
 
-LDIFF_SYM1863=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1863
+LDIFF_SYM1837=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1837
 	.byte 2,35,16,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM1864=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM1864
-LTDIE_258_POINTER:
+LDIFF_SYM1838=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM1838
+LTDIE_253_POINTER:
 
 	.byte 13
-LDIFF_SYM1865=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM1865
-LTDIE_258_REFERENCE:
+LDIFF_SYM1839=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM1839
+LTDIE_253_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1866=LTDIE_258 - Ldebug_info_start
-	.long LDIFF_SYM1866
-LTDIE_255:
+LDIFF_SYM1840=LTDIE_253 - Ldebug_info_start
+	.long LDIFF_SYM1840
+LTDIE_250:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
 	.byte 56,16
-LDIFF_SYM1867=LTDIE_256 - Ldebug_info_start
-	.long LDIFF_SYM1867
+LDIFF_SYM1841=LTDIE_251 - Ldebug_info_start
+	.long LDIFF_SYM1841
 	.byte 2,35,0,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM1868=LTDIE_27_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1868
+LDIFF_SYM1842=LTDIE_27_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1842
 	.byte 2,35,32,6
 	.asciz "PropertyChanged"
 
-LDIFF_SYM1869=LTDIE_9_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1869
+LDIFF_SYM1843=LTDIE_9_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1843
 	.byte 2,35,40,6
 	.asciz "_monitor"
 
-LDIFF_SYM1870=LTDIE_258_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1870
+LDIFF_SYM1844=LTDIE_253_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1844
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM1871=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM1871
-LTDIE_255_POINTER:
+LDIFF_SYM1845=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1845
+LTDIE_250_POINTER:
 
 	.byte 13
-LDIFF_SYM1872=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM1872
-LTDIE_255_REFERENCE:
+LDIFF_SYM1846=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1846
+LTDIE_250_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1873=LTDIE_255 - Ldebug_info_start
-	.long LDIFF_SYM1873
-LTDIE_254:
+LDIFF_SYM1847=LTDIE_250 - Ldebug_info_start
+	.long LDIFF_SYM1847
+LTDIE_249:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Cell"
 
 	.byte 144,2,16
-LDIFF_SYM1874=LTDIE_2 - Ldebug_info_start
-	.long LDIFF_SYM1874
+LDIFF_SYM1848=LTDIE_2 - Ldebug_info_start
+	.long LDIFF_SYM1848
 	.byte 2,35,0,6
 	.asciz "_contextActions"
 
-LDIFF_SYM1875=LTDIE_255_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1875
+LDIFF_SYM1849=LTDIE_250_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1849
 	.byte 3,35,216,1,6
 	.asciz "_height"
 
-LDIFF_SYM1876=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1876
+LDIFF_SYM1850=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1850
 	.byte 3,35,128,2,6
 	.asciz "_nextCallToForceUpdateSizeQueued"
 
-LDIFF_SYM1877=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1877
+LDIFF_SYM1851=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1851
 	.byte 3,35,136,2,6
 	.asciz "Appearing"
 
-LDIFF_SYM1878=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1878
+LDIFF_SYM1852=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1852
 	.byte 3,35,224,1,6
 	.asciz "Disappearing"
 
-LDIFF_SYM1879=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1879
+LDIFF_SYM1853=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1853
 	.byte 3,35,232,1,6
 	.asciz "ForceUpdateSizeRequested"
 
-LDIFF_SYM1880=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1880
+LDIFF_SYM1854=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1854
 	.byte 3,35,240,1,6
 	.asciz "Tapped"
 
-LDIFF_SYM1881=LTDIE_17_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1881
+LDIFF_SYM1855=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1855
 	.byte 3,35,248,1,0,7
 	.asciz "Xamarin_Forms_Cell"
 
-LDIFF_SYM1882=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM1882
-LTDIE_254_POINTER:
+LDIFF_SYM1856=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1856
+LTDIE_249_POINTER:
 
 	.byte 13
-LDIFF_SYM1883=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM1883
-LTDIE_254_REFERENCE:
+LDIFF_SYM1857=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1857
+LTDIE_249_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1884=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM1884
-LTDIE_253:
+LDIFF_SYM1858=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1858
+LTDIE_248:
 
 	.byte 5
 	.asciz "Xamarin_Forms_TextCell"
 
 	.byte 144,2,16
-LDIFF_SYM1885=LTDIE_254 - Ldebug_info_start
-	.long LDIFF_SYM1885
+LDIFF_SYM1859=LTDIE_249 - Ldebug_info_start
+	.long LDIFF_SYM1859
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_TextCell"
 
-LDIFF_SYM1886=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM1886
-LTDIE_253_POINTER:
+LDIFF_SYM1860=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1860
+LTDIE_248_POINTER:
 
 	.byte 13
-LDIFF_SYM1887=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM1887
-LTDIE_253_REFERENCE:
+LDIFF_SYM1861=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1861
+LTDIE_248_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1888=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM1888
-LTDIE_252:
+LDIFF_SYM1862=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1862
+LTDIE_247:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ImageCell"
 
 	.byte 144,2,16
-LDIFF_SYM1889=LTDIE_253 - Ldebug_info_start
-	.long LDIFF_SYM1889
+LDIFF_SYM1863=LTDIE_248 - Ldebug_info_start
+	.long LDIFF_SYM1863
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_ImageCell"
 
-LDIFF_SYM1890=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM1890
-LTDIE_252_POINTER:
+LDIFF_SYM1864=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM1864
+LTDIE_247_POINTER:
 
 	.byte 13
-LDIFF_SYM1891=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM1891
-LTDIE_252_REFERENCE:
+LDIFF_SYM1865=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM1865
+LTDIE_247_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1892=LTDIE_252 - Ldebug_info_start
-	.long LDIFF_SYM1892
+LDIFF_SYM1866=LTDIE_247 - Ldebug_info_start
+	.long LDIFF_SYM1866
 	.byte 2
 	.asciz "IntentionJournal.JournalPage:InitializeComponent"
 	.asciz "IntentionJournal_JournalPage_InitializeComponent"
@@ -81126,82 +80933,82 @@ LDIFF_SYM1892=LTDIE_252 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1893=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1893
+LDIFF_SYM1867=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1867
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM1894=LTDIE_176_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1894
+LDIFF_SYM1868=LTDIE_174_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1868
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM1895=LTDIE_252_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1895
+LDIFF_SYM1869=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1869
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM1896=LTDIE_225_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1896
+LDIFF_SYM1870=LTDIE_220_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1870
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM1897=LTDIE_211_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1897
+LDIFF_SYM1871=LTDIE_206_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1871
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM1898=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1898
+LDIFF_SYM1872=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1872
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM1899=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1899
+LDIFF_SYM1873=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1873
 	.byte 1,100,11
 	.asciz ""
 
-LDIFF_SYM1900=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1900
+LDIFF_SYM1874=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1874
 	.byte 1,99,11
 	.asciz ""
 
-LDIFF_SYM1901=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1901
+LDIFF_SYM1875=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1875
 	.byte 3,141,168,1,11
 	.asciz ""
 
-LDIFF_SYM1902=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1902
+LDIFF_SYM1876=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1876
 	.byte 3,141,176,1,11
 	.asciz ""
 
-LDIFF_SYM1903=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1903
+LDIFF_SYM1877=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1877
 	.byte 3,141,184,1,11
 	.asciz ""
 
-LDIFF_SYM1904=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1904
+LDIFF_SYM1878=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1878
 	.byte 3,141,192,1,11
 	.asciz ""
 
-LDIFF_SYM1905=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1905
+LDIFF_SYM1879=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1879
 	.byte 3,141,200,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1906=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1906
+LDIFF_SYM1880=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM1880
 Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage_InitializeComponent
 
-LDIFF_SYM1907=Lme_26 - IntentionJournal_JournalPage_InitializeComponent
-	.long LDIFF_SYM1907
+LDIFF_SYM1881=Lme_26 - IntentionJournal_JournalPage_InitializeComponent
+	.long LDIFF_SYM1881
 	.long 0
 	.byte 12,31,0,84,14,128,6,157,96,158,95,68,13,29,68,147,94,148,93,68,149,92,150,91,68,151,90,152,89,68,153,88
 	.byte 154,87
@@ -81221,95 +81028,95 @@ Lfde38_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1908=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1908
+LDIFF_SYM1882=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1882
 	.byte 1,106,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1909=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1909
+LDIFF_SYM1883=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1883
 Lfde39_start:
 
 	.long 0
 	.align 3
 	.quad IntentionJournal_JournalPage___InitComponentRuntime
 
-LDIFF_SYM1910=Lme_27 - IntentionJournal_JournalPage___InitComponentRuntime
-	.long LDIFF_SYM1910
+LDIFF_SYM1884=Lme_27 - IntentionJournal_JournalPage___InitComponentRuntime
+	.long LDIFF_SYM1884
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29,68,154,6
 	.align 3
 Lfde39_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_259:
+LTDIE_254:
 
 	.byte 5
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_28"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_38"
 
 	.byte 32,16
-LDIFF_SYM1911=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1911
+LDIFF_SYM1885=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1885
 	.byte 2,35,0,6
 	.asciz "parentValues"
 
-LDIFF_SYM1912=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1912
+LDIFF_SYM1886=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1886
 	.byte 2,35,16,6
 	.asciz "root"
 
-LDIFF_SYM1913=LTDIE_210_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1913
+LDIFF_SYM1887=LTDIE_205_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1887
 	.byte 2,35,24,0,7
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_28"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_38"
 
-LDIFF_SYM1914=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM1914
-LTDIE_259_POINTER:
+LDIFF_SYM1888=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM1888
+LTDIE_254_POINTER:
 
 	.byte 13
-LDIFF_SYM1915=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM1915
-LTDIE_259_REFERENCE:
+LDIFF_SYM1889=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM1889
+LTDIE_254_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1916=LTDIE_259 - Ldebug_info_start
-	.long LDIFF_SYM1916
+LDIFF_SYM1890=LTDIE_254 - Ldebug_info_start
+	.long LDIFF_SYM1890
 	.byte 2
-	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_28:.ctor"
-	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor"
+	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_38:.ctor"
+	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor"
 
 	.byte 0,0
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor
 	.quad Lme_28
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1917=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1917
+LDIFF_SYM1891=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1891
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1918=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1918
+LDIFF_SYM1892=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1892
 Lfde40_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor
 
-LDIFF_SYM1919=Lme_28 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28__ctor
-	.long LDIFF_SYM1919
+LDIFF_SYM1893=Lme_28 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38__ctor
+	.long LDIFF_SYM1893
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
 Lfde40_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_261:
+LTDIE_256:
 
 	.byte 17
 	.asciz "Xamarin_Forms_IValueConverter"
@@ -81317,173 +81124,173 @@ LTDIE_261:
 	.byte 16,7
 	.asciz "Xamarin_Forms_IValueConverter"
 
-LDIFF_SYM1920=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM1920
-LTDIE_261_POINTER:
+LDIFF_SYM1894=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM1894
+LTDIE_256_POINTER:
 
 	.byte 13
-LDIFF_SYM1921=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM1921
-LTDIE_261_REFERENCE:
+LDIFF_SYM1895=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM1895
+LTDIE_256_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1922=LTDIE_261 - Ldebug_info_start
-	.long LDIFF_SYM1922
-LTDIE_260:
+LDIFF_SYM1896=LTDIE_256 - Ldebug_info_start
+	.long LDIFF_SYM1896
+LTDIE_255:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Xaml_BindingExtension"
 
 	.byte 72,16
-LDIFF_SYM1923=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM1923
+LDIFF_SYM1897=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1897
 	.byte 2,35,0,6
 	.asciz "<Path>k__BackingField"
 
-LDIFF_SYM1924=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1924
+LDIFF_SYM1898=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1898
 	.byte 2,35,16,6
 	.asciz "<Mode>k__BackingField"
 
-LDIFF_SYM1925=LTDIE_141 - Ldebug_info_start
-	.long LDIFF_SYM1925
+LDIFF_SYM1899=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1899
 	.byte 2,35,64,6
 	.asciz "<Converter>k__BackingField"
 
-LDIFF_SYM1926=LTDIE_261_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1926
+LDIFF_SYM1900=LTDIE_256_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1900
 	.byte 2,35,24,6
 	.asciz "<ConverterParameter>k__BackingField"
 
-LDIFF_SYM1927=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1927
+LDIFF_SYM1901=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1901
 	.byte 2,35,32,6
 	.asciz "<StringFormat>k__BackingField"
 
-LDIFF_SYM1928=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1928
+LDIFF_SYM1902=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1902
 	.byte 2,35,40,6
 	.asciz "<Source>k__BackingField"
 
-LDIFF_SYM1929=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1929
+LDIFF_SYM1903=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1903
 	.byte 2,35,48,6
 	.asciz "<UpdateSourceEventName>k__BackingField"
 
-LDIFF_SYM1930=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM1930
+LDIFF_SYM1904=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM1904
 	.byte 2,35,56,0,7
 	.asciz "Xamarin_Forms_Xaml_BindingExtension"
 
-LDIFF_SYM1931=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM1931
-LTDIE_260_POINTER:
+LDIFF_SYM1905=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM1905
+LTDIE_255_POINTER:
 
 	.byte 13
-LDIFF_SYM1932=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM1932
-LTDIE_260_REFERENCE:
+LDIFF_SYM1906=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM1906
+LTDIE_255_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1933=LTDIE_260 - Ldebug_info_start
-	.long LDIFF_SYM1933
+LDIFF_SYM1907=LTDIE_255 - Ldebug_info_start
+	.long LDIFF_SYM1907
 	.byte 2
-	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_28:LoadDataTemplate"
-	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate"
+	.asciz "IntentionJournal.JournalPage/<InitializeComponent>_anonXamlCDataTemplate_38:LoadDataTemplate"
+	.asciz "IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate"
 
 	.byte 0,0
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate
 	.quad Lme_29
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1934=LTDIE_259_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1934
+LDIFF_SYM1908=LTDIE_254_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1908
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1935=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1935
+LDIFF_SYM1909=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1909
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM1936=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1936
+LDIFF_SYM1910=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1910
 	.byte 1,104,11
 	.asciz "V_2"
 
-LDIFF_SYM1937=LTDIE_260_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1937
+LDIFF_SYM1911=LTDIE_255_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1911
 	.byte 1,103,11
 	.asciz "V_3"
 
-LDIFF_SYM1938=LTDIE_252_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1938
+LDIFF_SYM1912=LTDIE_247_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1912
 	.byte 1,102,11
 	.asciz "V_4"
 
-LDIFF_SYM1939=LTDIE_153_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1939
+LDIFF_SYM1913=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1913
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM1940=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1940
+LDIFF_SYM1914=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1914
 	.byte 1,100,11
 	.asciz "V_6"
 
-LDIFF_SYM1941=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1941
+LDIFF_SYM1915=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1915
 	.byte 1,99,11
 	.asciz "V_7"
 
-LDIFF_SYM1942=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1942
+LDIFF_SYM1916=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1916
 	.byte 3,141,168,1,11
 	.asciz "V_8"
 
-LDIFF_SYM1943=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1943
+LDIFF_SYM1917=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1917
 	.byte 3,141,176,1,11
 	.asciz "V_9"
 
-LDIFF_SYM1944=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1944
+LDIFF_SYM1918=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1918
 	.byte 3,141,184,1,11
 	.asciz "V_10"
 
-LDIFF_SYM1945=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1945
+LDIFF_SYM1919=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1919
 	.byte 3,141,192,1,11
 	.asciz "V_11"
 
-LDIFF_SYM1946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1946
+LDIFF_SYM1920=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1920
 	.byte 3,141,200,1,11
 	.asciz "V_12"
 
-LDIFF_SYM1947=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM1947
+LDIFF_SYM1921=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM1921
 	.byte 3,141,208,1,11
 	.asciz "V_13"
 
-LDIFF_SYM1948=LTDIE_215_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1948
+LDIFF_SYM1922=LTDIE_210_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1922
 	.byte 3,141,216,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1949=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1949
+LDIFF_SYM1923=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1923
 Lfde41_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate
+	.quad IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate
 
-LDIFF_SYM1950=Lme_29 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_28_LoadDataTemplate
-	.long LDIFF_SYM1950
+LDIFF_SYM1924=Lme_29 - IntentionJournal_JournalPage__InitializeComponent_anonXamlCDataTemplate_38_LoadDataTemplate
+	.long LDIFF_SYM1924
 	.long 0
 	.byte 12,31,0,84,14,240,8,157,142,1,158,141,1,68,13,29,68,147,140,1,148,139,1,68,149,138,1,150,137,1,68,151
 	.byte 136,1,152,135,1,68,153,134,1,154,133,1
@@ -81491,6 +81298,151 @@ LDIFF_SYM1950=Lme_29 - IntentionJournal_JournalPage__InitializeComponent_anonXam
 Lfde41_end:
 
 .section __DWARF, __debug_info,regular,debug
+LTDIE_259:
+
+	.byte 5
+	.asciz "Xamarin_Forms_InputView"
+
+	.byte 232,2,16
+LDIFF_SYM1925=LTDIE_161 - Ldebug_info_start
+	.long LDIFF_SYM1925
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_InputView"
+
+LDIFF_SYM1926=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1926
+LTDIE_259_POINTER:
+
+	.byte 13
+LDIFF_SYM1927=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1927
+LTDIE_259_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1928=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1928
+LTDIE_261:
+
+	.byte 5
+	.asciz "System_Func`1"
+
+	.byte 112,16
+LDIFF_SYM1929=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1929
+	.byte 2,35,0,0,7
+	.asciz "System_Func`1"
+
+LDIFF_SYM1930=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM1930
+LTDIE_261_POINTER:
+
+	.byte 13
+LDIFF_SYM1931=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM1931
+LTDIE_261_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1932=LTDIE_261 - Ldebug_info_start
+	.long LDIFF_SYM1932
+LTDIE_260:
+
+	.byte 5
+	.asciz "System_Lazy`1"
+
+	.byte 40,16
+LDIFF_SYM1933=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM1933
+	.byte 2,35,0,6
+	.asciz "m_boxed"
+
+LDIFF_SYM1934=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1934
+	.byte 2,35,16,6
+	.asciz "m_valueFactory"
+
+LDIFF_SYM1935=LTDIE_261_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1935
+	.byte 2,35,24,6
+	.asciz "m_threadSafeObj"
+
+LDIFF_SYM1936=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1936
+	.byte 2,35,32,0,7
+	.asciz "System_Lazy`1"
+
+LDIFF_SYM1937=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM1937
+LTDIE_260_POINTER:
+
+	.byte 13
+LDIFF_SYM1938=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM1938
+LTDIE_260_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1939=LTDIE_260 - Ldebug_info_start
+	.long LDIFF_SYM1939
+LTDIE_262:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM1940=LTDIE_10 - Ldebug_info_start
+	.long LDIFF_SYM1940
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM1941=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM1941
+LTDIE_262_POINTER:
+
+	.byte 13
+LDIFF_SYM1942=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM1942
+LTDIE_262_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1943=LTDIE_262 - Ldebug_info_start
+	.long LDIFF_SYM1943
+LTDIE_258:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Entry"
+
+	.byte 128,3,16
+LDIFF_SYM1944=LTDIE_259 - Ldebug_info_start
+	.long LDIFF_SYM1944
+	.byte 2,35,0,6
+	.asciz "_platformConfigurationRegistry"
+
+LDIFF_SYM1945=LTDIE_260_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1945
+	.byte 3,35,232,2,6
+	.asciz "Completed"
+
+LDIFF_SYM1946=LTDIE_17_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1946
+	.byte 3,35,240,2,6
+	.asciz "TextChanged"
+
+LDIFF_SYM1947=LTDIE_262_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1947
+	.byte 3,35,248,2,0,7
+	.asciz "Xamarin_Forms_Entry"
+
+LDIFF_SYM1948=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM1948
+LTDIE_258_POINTER:
+
+	.byte 13
+LDIFF_SYM1949=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM1949
+LTDIE_258_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1950=LTDIE_258 - Ldebug_info_start
+	.long LDIFF_SYM1950
 LTDIE_265:
 
 	.byte 5
@@ -81555,10 +81507,10 @@ LDIFF_SYM1961=LTDIE_264 - Ldebug_info_start
 LTDIE_263:
 
 	.byte 5
-	.asciz "Xamarin_Forms_Entry"
+	.asciz "Xamarin_Forms_Editor"
 
 	.byte 128,3,16
-LDIFF_SYM1962=LTDIE_170 - Ldebug_info_start
+LDIFF_SYM1962=LTDIE_259 - Ldebug_info_start
 	.long LDIFF_SYM1962
 	.byte 2,35,0,6
 	.asciz "_platformConfigurationRegistry"
@@ -81573,10 +81525,10 @@ LDIFF_SYM1964=LTDIE_17_REFERENCE - Ldebug_info_start
 	.byte 3,35,240,2,6
 	.asciz "TextChanged"
 
-LDIFF_SYM1965=LTDIE_173_REFERENCE - Ldebug_info_start
+LDIFF_SYM1965=LTDIE_262_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1965
 	.byte 3,35,248,2,0,7
-	.asciz "Xamarin_Forms_Entry"
+	.asciz "Xamarin_Forms_Editor"
 
 LDIFF_SYM1966=LTDIE_263 - Ldebug_info_start
 	.long LDIFF_SYM1966
@@ -81689,7 +81641,7 @@ LTDIE_266_REFERENCE:
 	.byte 14
 LDIFF_SYM1986=LTDIE_266 - Ldebug_info_start
 	.long LDIFF_SYM1986
-LTDIE_262:
+LTDIE_257:
 
 	.byte 5
 	.asciz "IntentionJournal_AddEntryPage"
@@ -81710,12 +81662,12 @@ LDIFF_SYM1989=LTDIE_158_REFERENCE - Ldebug_info_start
 	.byte 3,35,208,3,6
 	.asciz "titleInput"
 
-LDIFF_SYM1990=LTDIE_263_REFERENCE - Ldebug_info_start
+LDIFF_SYM1990=LTDIE_258_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1990
 	.byte 3,35,216,3,6
 	.asciz "contInput"
 
-LDIFF_SYM1991=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM1991=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1991
 	.byte 3,35,224,3,6
 	.asciz "moodPicker"
@@ -81725,32 +81677,32 @@ LDIFF_SYM1992=LTDIE_266_REFERENCE - Ldebug_info_start
 	.byte 3,35,232,3,6
 	.asciz "pickImageBtn"
 
-LDIFF_SYM1993=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM1993=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1993
 	.byte 3,35,240,3,6
 	.asciz "image"
 
-LDIFF_SYM1994=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM1994=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1994
 	.byte 3,35,248,3,6
 	.asciz "saveBtn"
 
-LDIFF_SYM1995=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM1995=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1995
 	.byte 3,35,128,4,0,7
 	.asciz "IntentionJournal_AddEntryPage"
 
-LDIFF_SYM1996=LTDIE_262 - Ldebug_info_start
+LDIFF_SYM1996=LTDIE_257 - Ldebug_info_start
 	.long LDIFF_SYM1996
-LTDIE_262_POINTER:
+LTDIE_257_POINTER:
 
 	.byte 13
-LDIFF_SYM1997=LTDIE_262 - Ldebug_info_start
+LDIFF_SYM1997=LTDIE_257 - Ldebug_info_start
 	.long LDIFF_SYM1997
-LTDIE_262_REFERENCE:
+LTDIE_257_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1998=LTDIE_262 - Ldebug_info_start
+LDIFF_SYM1998=LTDIE_257 - Ldebug_info_start
 	.long LDIFF_SYM1998
 	.byte 2
 	.asciz "IntentionJournal.AddEntryPage:.ctor"
@@ -81763,7 +81715,7 @@ LDIFF_SYM1998=LTDIE_262 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1999=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM1999=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM1999
 	.byte 1,106,0
 
@@ -81797,7 +81749,7 @@ Lfde42_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2002=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2002=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2002
 	.byte 1,106,0
 
@@ -81896,7 +81848,7 @@ LDIFF_SYM2016=LTDIE_270 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2017=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2017=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2017
 	.byte 3,141,200,0,11
 	.asciz "currentBufferImage"
@@ -81911,12 +81863,12 @@ LDIFF_SYM2019=LDIE_SZARRAY - Ldebug_info_start
 	.byte 1,105,11
 	.asciz "ent"
 
-LDIFF_SYM2020=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2020=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2020
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM2021=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2021=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2021
 	.byte 1,103,11
 	.asciz "oldTreeProg"
@@ -81965,7 +81917,7 @@ Lfde44_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2027=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2027=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2027
 	.byte 2,141,16,3
 	.asciz "sender"
@@ -81975,7 +81927,7 @@ LDIFF_SYM2028=LDIE_OBJECT - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM2029=LTDIE_192_REFERENCE - Ldebug_info_start
+LDIFF_SYM2029=LTDIE_187_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2029
 	.byte 2,141,32,11
 	.asciz "V_0"
@@ -82014,7 +81966,7 @@ Lfde45_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2033=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2033=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2033
 	.byte 2,141,32,3
 	.asciz "sender"
@@ -82024,7 +81976,7 @@ LDIFF_SYM2034=LDIE_OBJECT - Ldebug_info_start
 	.byte 2,141,40,3
 	.asciz "args"
 
-LDIFF_SYM2035=LTDIE_192_REFERENCE - Ldebug_info_start
+LDIFF_SYM2035=LTDIE_187_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2035
 	.byte 2,141,48,11
 	.asciz "imRecord"
@@ -82068,37 +82020,37 @@ Lfde46_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2040=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2040=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2040
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM2041=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM2041=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2041
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM2042=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM2042=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2042
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM2043=LTDIE_263_REFERENCE - Ldebug_info_start
+LDIFF_SYM2043=LTDIE_258_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2043
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM2044=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM2044=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2044
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM2045=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM2045=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2045
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM2046=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM2046=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2046
 	.byte 3,141,240,1,11
 	.asciz ""
@@ -82108,17 +82060,17 @@ LDIFF_SYM2047=LTDIE_266_REFERENCE - Ldebug_info_start
 	.byte 3,141,248,1,11
 	.asciz ""
 
-LDIFF_SYM2048=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2048=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2048
 	.byte 3,141,128,2,11
 	.asciz ""
 
-LDIFF_SYM2049=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2049=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2049
 	.byte 3,141,136,2,11
 	.asciz ""
 
-LDIFF_SYM2050=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2050=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2050
 	.byte 3,141,144,2,11
 	.asciz ""
@@ -82128,12 +82080,12 @@ LDIFF_SYM2051=LTDIE_158_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM2052=LTDIE_180_REFERENCE - Ldebug_info_start
+LDIFF_SYM2052=LTDIE_175_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2052
 	.byte 3,141,152,2,11
 	.asciz ""
 
-LDIFF_SYM2053=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2053=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2053
 	.byte 1,99,11
 	.asciz ""
@@ -82188,7 +82140,7 @@ Lfde47_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2060=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2060=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2060
 	.byte 1,106,0
 
@@ -82353,7 +82305,7 @@ LDIFF_SYM2087=LTDIE_7 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "$this"
 
-LDIFF_SYM2088=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2088=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2088
 	.byte 2,35,0,6
 	.asciz "$builder"
@@ -82450,7 +82402,7 @@ LDIFF_SYM2101=LDIE_I - Ldebug_info_start
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2102=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM2102=LTDIE_200_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2102
 	.byte 2,141,24,0
 
@@ -82621,7 +82573,7 @@ LTDIE_281:
 	.asciz "_TaskNode"
 
 	.byte 96,16
-LDIFF_SYM2128=LTDIE_184 - Ldebug_info_start
+LDIFF_SYM2128=LTDIE_179 - Ldebug_info_start
 	.long LDIFF_SYM2128
 	.byte 2,35,0,6
 	.asciz "Prev"
@@ -82881,7 +82833,7 @@ LDIFF_SYM2173=LTDIE_155 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "image"
 
-LDIFF_SYM2174=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2174=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2174
 	.byte 3,35,200,3,0,7
 	.asciz "IntentionJournal_Tree"
@@ -83086,7 +83038,7 @@ LDIFF_SYM2200=LTDIE_283_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM2201=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2201=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2201
 	.byte 1,105,11
 	.asciz ""
@@ -83096,7 +83048,7 @@ LDIFF_SYM2202=LTDIE_284_REFERENCE - Ldebug_info_start
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM2203=LTDIE_180_REFERENCE - Ldebug_info_start
+LDIFF_SYM2203=LTDIE_175_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2203
 	.byte 1,103,11
 	.asciz ""
@@ -84009,12 +83961,12 @@ LDIFF_SYM2342=LTDIE_286_REFERENCE - Ldebug_info_start
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM2343=LTDIE_253_REFERENCE - Ldebug_info_start
+LDIFF_SYM2343=LTDIE_248_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2343
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM2344=LTDIE_253_REFERENCE - Ldebug_info_start
+LDIFF_SYM2344=LTDIE_248_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2344
 	.byte 1,104,11
 	.asciz ""
@@ -84024,12 +83976,12 @@ LDIFF_SYM2345=LTDIE_302_REFERENCE - Ldebug_info_start
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM2346=LTDIE_253_REFERENCE - Ldebug_info_start
+LDIFF_SYM2346=LTDIE_248_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2346
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM2347=LTDIE_253_REFERENCE - Ldebug_info_start
+LDIFF_SYM2347=LTDIE_248_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2347
 	.byte 1,101,11
 	.asciz ""
@@ -84219,7 +84171,7 @@ LDIFF_SYM2372=LDIE_I - Ldebug_info_start
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2373=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM2373=LTDIE_200_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2373
 	.byte 2,141,24,0
 
@@ -84349,7 +84301,7 @@ LDIFF_SYM2390=LDIE_I - Ldebug_info_start
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2391=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM2391=LTDIE_200_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2391
 	.byte 2,141,24,0
 
@@ -84572,7 +84524,7 @@ LDIFF_SYM2429=LDIE_I4 - Ldebug_info_start
 	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM2430=LTDIE_218_REFERENCE - Ldebug_info_start
+LDIFF_SYM2430=LTDIE_213_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2430
 	.byte 2,35,32,6
 	.asciz "keys"
@@ -84668,7 +84620,7 @@ LDIFF_SYM2446=LTDIE_318_REFERENCE - Ldebug_info_start
 	.byte 2,35,16,6
 	.asciz "_keyOrder"
 
-LDIFF_SYM2447=LTDIE_221_REFERENCE - Ldebug_info_start
+LDIFF_SYM2447=LTDIE_216_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2447
 	.byte 2,35,24,6
 	.asciz "_kvpCollection"
@@ -84678,7 +84630,7 @@ LDIFF_SYM2448=LTDIE_321_REFERENCE - Ldebug_info_start
 	.byte 2,35,32,6
 	.asciz "_roKeys"
 
-LDIFF_SYM2449=LTDIE_223_REFERENCE - Ldebug_info_start
+LDIFF_SYM2449=LTDIE_218_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2449
 	.byte 2,35,40,6
 	.asciz "_roValues"
@@ -84996,7 +84948,7 @@ LDIFF_SYM2507=LDIE_BOOLEAN - Ldebug_info_start
 	.byte 3,35,184,1,6
 	.asciz "_groupDisplayBinding"
 
-LDIFF_SYM2508=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM2508=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2508
 	.byte 2,35,96,6
 	.asciz "_groupedItems"
@@ -85006,12 +84958,12 @@ LDIFF_SYM2509=LTDIE_317_REFERENCE - Ldebug_info_start
 	.byte 2,35,104,6
 	.asciz "_groupHeaderTemplate"
 
-LDIFF_SYM2510=LTDIE_225_REFERENCE - Ldebug_info_start
+LDIFF_SYM2510=LTDIE_220_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2510
 	.byte 2,35,112,6
 	.asciz "_groupShortNameBinding"
 
-LDIFF_SYM2511=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM2511=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2511
 	.byte 2,35,120,6
 	.asciz "_shortNames"
@@ -85490,7 +85442,7 @@ LDIFF_SYM2594=LTDIE_310_REFERENCE - Ldebug_info_start
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM2595=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM2595=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2595
 	.byte 1,105,11
 	.asciz ""
@@ -85515,7 +85467,7 @@ LDIFF_SYM2599=LTDIE_331_REFERENCE - Ldebug_info_start
 	.byte 3,141,176,1,11
 	.asciz ""
 
-LDIFF_SYM2600=LTDIE_187_REFERENCE - Ldebug_info_start
+LDIFF_SYM2600=LTDIE_182_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2600
 	.byte 1,100,11
 	.asciz ""
@@ -85530,7 +85482,7 @@ LDIFF_SYM2602=LTDIE_331_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM2603=LTDIE_262_REFERENCE - Ldebug_info_start
+LDIFF_SYM2603=LTDIE_257_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2603
 	.byte 3,141,192,1,11
 	.asciz ""
@@ -85659,7 +85611,7 @@ Lfde71_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2621=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2621=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2621
 	.byte 2,141,16,0
 
@@ -85693,7 +85645,7 @@ Lfde72_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2624=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2624=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2624
 	.byte 2,141,24,11
 	.asciz ""
@@ -85732,7 +85684,7 @@ Lfde73_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2628=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2628=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2628
 	.byte 2,141,16,3
 	.asciz "value"
@@ -85771,7 +85723,7 @@ Lfde74_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2632=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2632=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2632
 	.byte 2,141,24,11
 	.asciz ""
@@ -85810,7 +85762,7 @@ Lfde75_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2636=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2636=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2636
 	.byte 2,141,16,3
 	.asciz "value"
@@ -85849,7 +85801,7 @@ Lfde76_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2640=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2640=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2640
 	.byte 2,141,24,11
 	.asciz ""
@@ -85888,7 +85840,7 @@ Lfde77_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2644=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2644=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2644
 	.byte 2,141,16,3
 	.asciz "value"
@@ -85927,7 +85879,7 @@ Lfde78_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2648=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2648=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2648
 	.byte 2,141,24,11
 	.asciz ""
@@ -85966,7 +85918,7 @@ Lfde79_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2652=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2652=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2652
 	.byte 2,141,16,3
 	.asciz "value"
@@ -86005,7 +85957,7 @@ Lfde80_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2656=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2656=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2656
 	.byte 2,141,24,11
 	.asciz ""
@@ -86044,7 +85996,7 @@ Lfde81_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2660=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2660=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2660
 	.byte 2,141,16,3
 	.asciz "value"
@@ -86083,7 +86035,7 @@ Lfde82_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2664=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2664=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2664
 	.byte 2,141,24,11
 	.asciz ""
@@ -86122,7 +86074,7 @@ Lfde83_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2668=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2668=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2668
 	.byte 2,141,16,3
 	.asciz "value"
@@ -86200,7 +86152,7 @@ LDIFF_SYM2675=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM2676=LTDIE_249_REFERENCE - Ldebug_info_start
+LDIFF_SYM2676=LTDIE_244_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2676
 	.byte 1,105,0
 
@@ -86244,7 +86196,7 @@ LDIFF_SYM2680=LDIE_STRING - Ldebug_info_start
 	.byte 2,141,40,11
 	.asciz ""
 
-LDIFF_SYM2681=LTDIE_249_REFERENCE - Ldebug_info_start
+LDIFF_SYM2681=LTDIE_244_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2681
 	.byte 1,104,0
 
@@ -86283,7 +86235,7 @@ LDIFF_SYM2684=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "entryVal"
 
-LDIFF_SYM2685=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2685=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2685
 	.byte 2,141,32,11
 	.asciz ""
@@ -86327,7 +86279,7 @@ LDIFF_SYM2689=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "entryVal"
 
-LDIFF_SYM2690=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2690=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2690
 	.byte 2,141,32,11
 	.asciz ""
@@ -86371,7 +86323,7 @@ LDIFF_SYM2694=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "entryVal"
 
-LDIFF_SYM2695=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2695=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2695
 	.byte 2,141,32,11
 	.asciz ""
@@ -86508,7 +86460,7 @@ LDIFF_SYM2716=LTDIE_338_REFERENCE - Ldebug_info_start
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM2717=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2717=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2717
 	.byte 1,102,0
 
@@ -86547,12 +86499,12 @@ LDIFF_SYM2720=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "l"
 
-LDIFF_SYM2721=LTDIE_249_REFERENCE - Ldebug_info_start
+LDIFF_SYM2721=LTDIE_244_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2721
 	.byte 1,105,11
 	.asciz "e"
 
-LDIFF_SYM2722=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2722=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2722
 	.byte 1,104,11
 	.asciz ""
@@ -86721,7 +86673,7 @@ LDIFF_SYM2743=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "quoteVal"
 
-LDIFF_SYM2744=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2744=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2744
 	.byte 2,141,32,11
 	.asciz ""
@@ -86765,7 +86717,7 @@ LDIFF_SYM2748=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "quoteVal"
 
-LDIFF_SYM2749=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2749=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2749
 	.byte 2,141,32,11
 	.asciz ""
@@ -86809,7 +86761,7 @@ LDIFF_SYM2753=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "quoteVal"
 
-LDIFF_SYM2754=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2754=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2754
 	.byte 2,141,32,11
 	.asciz ""
@@ -86853,7 +86805,7 @@ LDIFF_SYM2758=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM2759=LTDIE_174_REFERENCE - Ldebug_info_start
+LDIFF_SYM2759=LTDIE_172_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2759
 	.byte 1,105,0
 
@@ -86892,12 +86844,12 @@ LDIFF_SYM2762=LTDIE_125_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "l"
 
-LDIFF_SYM2763=LTDIE_174_REFERENCE - Ldebug_info_start
+LDIFF_SYM2763=LTDIE_172_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2763
 	.byte 1,105,11
 	.asciz "q"
 
-LDIFF_SYM2764=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2764=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2764
 	.byte 1,104,11
 	.asciz ""
@@ -87201,7 +87153,7 @@ LDIFF_SYM2798=LTDIE_155 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "currentEntryEdit"
 
-LDIFF_SYM2799=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2799=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2799
 	.byte 3,35,200,3,6
 	.asciz "stacklayout"
@@ -87211,42 +87163,42 @@ LDIFF_SYM2800=LTDIE_158_REFERENCE - Ldebug_info_start
 	.byte 3,35,208,3,6
 	.asciz "moodLabel"
 
-LDIFF_SYM2801=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM2801=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2801
 	.byte 3,35,216,3,6
 	.asciz "titleInputEdit"
 
-LDIFF_SYM2802=LTDIE_263_REFERENCE - Ldebug_info_start
+LDIFF_SYM2802=LTDIE_258_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2802
 	.byte 3,35,224,3,6
 	.asciz "contInputEdit"
 
-LDIFF_SYM2803=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM2803=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2803
 	.byte 3,35,232,3,6
 	.asciz "changeImageButton"
 
-LDIFF_SYM2804=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2804=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2804
 	.byte 3,35,240,3,6
 	.asciz "editImage"
 
-LDIFF_SYM2805=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2805=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2805
 	.byte 3,35,248,3,6
 	.asciz "deleteImageButton"
 
-LDIFF_SYM2806=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2806=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2806
 	.byte 3,35,128,4,6
 	.asciz "SaveEdit"
 
-LDIFF_SYM2807=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2807=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2807
 	.byte 3,35,136,4,6
 	.asciz "deleteEdit"
 
-LDIFF_SYM2808=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2808=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2808
 	.byte 3,35,144,4,0,7
 	.asciz "IntentionJournal_ViewEntryPage"
@@ -87279,7 +87231,7 @@ LDIFF_SYM2812=LTDIE_342_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "selectedEntryEdit"
 
-LDIFF_SYM2813=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM2813=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2813
 	.byte 2,141,24,0
 
@@ -87435,7 +87387,7 @@ LDIFF_SYM2828=LDIE_OBJECT - Ldebug_info_start
 	.byte 2,141,24,3
 	.asciz "args"
 
-LDIFF_SYM2829=LTDIE_192_REFERENCE - Ldebug_info_start
+LDIFF_SYM2829=LTDIE_187_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2829
 	.byte 2,141,32,11
 	.asciz "V_0"
@@ -87550,62 +87502,62 @@ LDIFF_SYM2843=LTDIE_342_REFERENCE - Ldebug_info_start
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM2844=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM2844=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2844
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM2845=LTDIE_260_REFERENCE - Ldebug_info_start
+LDIFF_SYM2845=LTDIE_255_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2845
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM2846=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM2846=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2846
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM2847=LTDIE_260_REFERENCE - Ldebug_info_start
+LDIFF_SYM2847=LTDIE_255_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2847
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM2848=LTDIE_263_REFERENCE - Ldebug_info_start
+LDIFF_SYM2848=LTDIE_258_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2848
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM2849=LTDIE_260_REFERENCE - Ldebug_info_start
+LDIFF_SYM2849=LTDIE_255_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2849
 	.byte 3,141,176,1,11
 	.asciz ""
 
-LDIFF_SYM2850=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM2850=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2850
 	.byte 3,141,184,1,11
 	.asciz ""
 
-LDIFF_SYM2851=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2851=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2851
 	.byte 3,141,192,1,11
 	.asciz ""
 
-LDIFF_SYM2852=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2852=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2852
 	.byte 3,141,200,1,11
 	.asciz ""
 
-LDIFF_SYM2853=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2853=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2853
 	.byte 3,141,208,1,11
 	.asciz ""
 
-LDIFF_SYM2854=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2854=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2854
 	.byte 3,141,216,1,11
 	.asciz ""
 
-LDIFF_SYM2855=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM2855=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2855
 	.byte 3,141,224,1,11
 	.asciz ""
@@ -87615,7 +87567,7 @@ LDIFF_SYM2856=LTDIE_158_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM2857=LTDIE_180_REFERENCE - Ldebug_info_start
+LDIFF_SYM2857=LTDIE_175_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2857
 	.byte 3,141,232,1,11
 	.asciz ""
@@ -87655,7 +87607,7 @@ LDIFF_SYM2864=LDIE_SZARRAY - Ldebug_info_start
 	.byte 3,141,144,2,11
 	.asciz ""
 
-LDIFF_SYM2865=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM2865=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2865
 	.byte 3,141,152,2,11
 	.asciz ""
@@ -87670,7 +87622,7 @@ LDIFF_SYM2867=LDIE_SZARRAY - Ldebug_info_start
 	.byte 3,141,168,2,11
 	.asciz ""
 
-LDIFF_SYM2868=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM2868=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2868
 	.byte 3,141,176,2,11
 	.asciz ""
@@ -87685,7 +87637,7 @@ LDIFF_SYM2870=LDIE_SZARRAY - Ldebug_info_start
 	.byte 3,141,192,2,11
 	.asciz ""
 
-LDIFF_SYM2871=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM2871=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2871
 	.byte 3,141,200,2,0
 
@@ -87883,7 +87835,7 @@ LDIFF_SYM2897=LDIE_I - Ldebug_info_start
 	.byte 2,141,16,3
 	.asciz "stateMachine"
 
-LDIFF_SYM2898=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM2898=LTDIE_200_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2898
 	.byte 2,141,24,0
 
@@ -88272,7 +88224,7 @@ LDIFF_SYM2938=LTDIE_155 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "image"
 
-LDIFF_SYM2939=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2939=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2939
 	.byte 3,35,200,3,0,7
 	.asciz "IntentionJournal_TreeGrowing"
@@ -88550,12 +88502,12 @@ LDIFF_SYM2975=LTDIE_346_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM2976=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM2976=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2976
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM2977=LTDIE_197_REFERENCE - Ldebug_info_start
+LDIFF_SYM2977=LTDIE_192_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2977
 	.byte 1,104,11
 	.asciz ""
@@ -88688,7 +88640,7 @@ Lfde131_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2992=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2992=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2992
 	.byte 2,141,16,0
 
@@ -88722,7 +88674,7 @@ Lfde132_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2995=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2995=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2995
 	.byte 2,141,24,11
 	.asciz ""
@@ -88761,7 +88713,7 @@ Lfde133_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM2999=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM2999=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM2999
 	.byte 2,141,16,3
 	.asciz "value"
@@ -88800,7 +88752,7 @@ Lfde134_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3003=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3003=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3003
 	.byte 2,141,24,11
 	.asciz ""
@@ -88839,7 +88791,7 @@ Lfde135_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3007=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3007=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3007
 	.byte 2,141,16,3
 	.asciz "value"
@@ -88877,12 +88829,12 @@ LDIFF_SYM3011=LTDIE_155 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "quoteInputEditor"
 
-LDIFF_SYM3012=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM3012=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3012
 	.byte 3,35,200,3,6
 	.asciz "saveQuoteButton"
 
-LDIFF_SYM3013=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM3013=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3013
 	.byte 3,35,208,3,0,7
 	.asciz "IntentionJournal_AddQuotePage"
@@ -88949,12 +88901,12 @@ LDIFF_SYM3020=LTDIE_350_REFERENCE - Ldebug_info_start
 	.byte 2,141,32,11
 	.asciz "quote"
 
-LDIFF_SYM3021=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3021=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3021
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM3022=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3022=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3022
 	.byte 1,105,0
 
@@ -88993,22 +88945,22 @@ LDIFF_SYM3025=LTDIE_350_REFERENCE - Ldebug_info_start
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM3026=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM3026=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3026
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM3027=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM3027=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3027
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM3028=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM3028=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3028
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM3029=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM3029=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3029
 	.byte 1,102,11
 	.asciz ""
@@ -89018,7 +88970,7 @@ LDIFF_SYM3030=LTDIE_158_REFERENCE - Ldebug_info_start
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM3031=LTDIE_180_REFERENCE - Ldebug_info_start
+LDIFF_SYM3031=LTDIE_175_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3031
 	.byte 1,100,11
 	.asciz ""
@@ -89111,7 +89063,7 @@ LDIFF_SYM3042=LTDIE_155 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "quotesListView"
 
-LDIFF_SYM3043=LTDIE_211_REFERENCE - Ldebug_info_start
+LDIFF_SYM3043=LTDIE_206_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3043
 	.byte 3,35,200,3,0,7
 	.asciz "IntentionJournal_BrowseQuotesPage"
@@ -89178,7 +89130,7 @@ LDIFF_SYM3050=LTDIE_351_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "quoteList"
 
-LDIFF_SYM3051=LTDIE_174_REFERENCE - Ldebug_info_start
+LDIFF_SYM3051=LTDIE_172_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3051
 	.byte 1,105,0
 
@@ -89222,12 +89174,12 @@ LDIFF_SYM3055=LDIE_OBJECT - Ldebug_info_start
 	.byte 2,141,48,3
 	.asciz "e"
 
-LDIFF_SYM3056=LTDIE_250_REFERENCE - Ldebug_info_start
+LDIFF_SYM3056=LTDIE_245_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3056
 	.byte 1,106,11
 	.asciz "selectedItem"
 
-LDIFF_SYM3057=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3057=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3057
 	.byte 1,104,0
 
@@ -89266,22 +89218,22 @@ LDIFF_SYM3060=LTDIE_351_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM3061=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM3061=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3061
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM3062=LTDIE_253_REFERENCE - Ldebug_info_start
+LDIFF_SYM3062=LTDIE_248_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3062
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM3063=LTDIE_225_REFERENCE - Ldebug_info_start
+LDIFF_SYM3063=LTDIE_220_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3063
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM3064=LTDIE_211_REFERENCE - Ldebug_info_start
+LDIFF_SYM3064=LTDIE_206_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3064
 	.byte 1,102,11
 	.asciz ""
@@ -89381,7 +89333,7 @@ Lfde145_end:
 LTDIE_352:
 
 	.byte 5
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_29"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_39"
 
 	.byte 32,16
 LDIFF_SYM3078=LTDIE_4 - Ldebug_info_start
@@ -89397,7 +89349,7 @@ LDIFF_SYM3079=LDIE_SZARRAY - Ldebug_info_start
 LDIFF_SYM3080=LTDIE_351_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3080
 	.byte 2,35,24,0,7
-	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_29"
+	.asciz "_<InitializeComponent>_anonXamlCDataTemplate_39"
 
 LDIFF_SYM3081=LTDIE_352 - Ldebug_info_start
 	.long LDIFF_SYM3081
@@ -89412,11 +89364,11 @@ LTDIE_352_REFERENCE:
 LDIFF_SYM3083=LTDIE_352 - Ldebug_info_start
 	.long LDIFF_SYM3083
 	.byte 2
-	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_29:.ctor"
-	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor"
+	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_39:.ctor"
+	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor"
 
 	.byte 0,0
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor
 	.quad Lme_93
 
 	.byte 2,118,16,3
@@ -89434,9 +89386,9 @@ Lfde146_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor
 
-LDIFF_SYM3086=Lme_93 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29__ctor
+LDIFF_SYM3086=Lme_93 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39__ctor
 	.long LDIFF_SYM3086
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
@@ -89446,11 +89398,11 @@ Lfde146_end:
 .section __DWARF, __debug_info,regular,debug
 
 	.byte 2
-	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_29:LoadDataTemplate"
-	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate"
+	.asciz "IntentionJournal.BrowseQuotesPage/<InitializeComponent>_anonXamlCDataTemplate_39:LoadDataTemplate"
+	.asciz "IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate"
 
 	.byte 0,0
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate
 	.quad Lme_94
 
 	.byte 2,118,16,3
@@ -89461,12 +89413,12 @@ LDIFF_SYM3087=LTDIE_352_REFERENCE - Ldebug_info_start
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM3088=LTDIE_260_REFERENCE - Ldebug_info_start
+LDIFF_SYM3088=LTDIE_255_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3088
 	.byte 1,105,11
 	.asciz "V_1"
 
-LDIFF_SYM3089=LTDIE_253_REFERENCE - Ldebug_info_start
+LDIFF_SYM3089=LTDIE_248_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3089
 	.byte 1,104,11
 	.asciz "V_2"
@@ -89486,7 +89438,7 @@ LDIFF_SYM3092=LDIE_SZARRAY - Ldebug_info_start
 	.byte 1,101,11
 	.asciz "V_5"
 
-LDIFF_SYM3093=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM3093=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3093
 	.byte 1,100,0
 
@@ -89498,9 +89450,9 @@ Lfde147_start:
 
 	.long 0
 	.align 3
-	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate
+	.quad IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate
 
-LDIFF_SYM3095=Lme_94 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_29_LoadDataTemplate
+LDIFF_SYM3095=Lme_94 - IntentionJournal_BrowseQuotesPage__InitializeComponent_anonXamlCDataTemplate_39_LoadDataTemplate
 	.long LDIFF_SYM3095
 	.long 0
 	.byte 12,31,0,68,14,240,3,157,62,158,61,68,13,29,68,147,60,148,59,68,149,58,150,57,68,151,56,152,55,68,153,54
@@ -89520,22 +89472,22 @@ LDIFF_SYM3096=LTDIE_155 - Ldebug_info_start
 	.byte 2,35,0,6
 	.asciz "currentQuoteEdit"
 
-LDIFF_SYM3097=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3097=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3097
 	.byte 3,35,200,3,6
 	.asciz "editQuoteEditor"
 
-LDIFF_SYM3098=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM3098=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3098
 	.byte 3,35,208,3,6
 	.asciz "saveQuoteButton"
 
-LDIFF_SYM3099=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM3099=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3099
 	.byte 3,35,216,3,6
 	.asciz "deleteQuoteButton"
 
-LDIFF_SYM3100=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM3100=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3100
 	.byte 3,35,224,3,0,7
 	.asciz "IntentionJournal_ViewQuotePage"
@@ -89568,7 +89520,7 @@ LDIFF_SYM3104=LTDIE_353_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "inputQuote"
 
-LDIFF_SYM3105=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3105=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3105
 	.byte 2,141,24,0
 
@@ -89675,32 +89627,32 @@ LDIFF_SYM3114=LTDIE_353_REFERENCE - Ldebug_info_start
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM3115=LTDIE_176_REFERENCE - Ldebug_info_start
+LDIFF_SYM3115=LTDIE_174_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3115
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM3116=LTDIE_177_REFERENCE - Ldebug_info_start
+LDIFF_SYM3116=LTDIE_169_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3116
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM3117=LTDIE_260_REFERENCE - Ldebug_info_start
+LDIFF_SYM3117=LTDIE_255_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3117
 	.byte 1,103,11
 	.asciz ""
 
-LDIFF_SYM3118=LTDIE_169_REFERENCE - Ldebug_info_start
+LDIFF_SYM3118=LTDIE_263_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3118
 	.byte 1,102,11
 	.asciz ""
 
-LDIFF_SYM3119=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM3119=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3119
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM3120=LTDIE_200_REFERENCE - Ldebug_info_start
+LDIFF_SYM3120=LTDIE_195_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3120
 	.byte 3,141,176,1,11
 	.asciz ""
@@ -89710,7 +89662,7 @@ LDIFF_SYM3121=LTDIE_158_REFERENCE - Ldebug_info_start
 	.byte 3,141,184,1,11
 	.asciz ""
 
-LDIFF_SYM3122=LTDIE_180_REFERENCE - Ldebug_info_start
+LDIFF_SYM3122=LTDIE_175_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3122
 	.byte 1,106,11
 	.asciz ""
@@ -89750,7 +89702,7 @@ LDIFF_SYM3129=LDIE_SZARRAY - Ldebug_info_start
 	.byte 3,141,224,1,11
 	.asciz ""
 
-LDIFF_SYM3130=LTDIE_215_REFERENCE - Ldebug_info_start
+LDIFF_SYM3130=LTDIE_210_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3130
 	.byte 3,141,232,1,0
 
@@ -90739,7 +90691,7 @@ LDIFF_SYM3251=LTDIE_359_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3252=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3252=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3252
 	.byte 1,106,11
 	.asciz "V_0"
@@ -90831,7 +90783,7 @@ LDIFF_SYM3265=LTDIE_360_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3266=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3266=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3266
 	.byte 1,106,11
 	.asciz "V_0"
@@ -90918,12 +90870,12 @@ LDIFF_SYM3278=LTDIE_361_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3279=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3279=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3279
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3280=LTDIE_175_REFERENCE - Ldebug_info_start
+LDIFF_SYM3280=LTDIE_173_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3280
 	.byte 1,106,11
 	.asciz "V_0"
@@ -91245,7 +91197,7 @@ LDIFF_SYM3320=LTDIE_362_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3321=LTDIE_193_REFERENCE - Ldebug_info_start
+LDIFF_SYM3321=LTDIE_188_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3321
 	.byte 1,106,11
 	.asciz "V_0"
@@ -91337,7 +91289,7 @@ LDIFF_SYM3334=LTDIE_363_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3335=LTDIE_193_REFERENCE - Ldebug_info_start
+LDIFF_SYM3335=LTDIE_188_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3335
 	.byte 1,106,11
 	.asciz "V_0"
@@ -91424,12 +91376,12 @@ LDIFF_SYM3347=LTDIE_364_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3348=LTDIE_193_REFERENCE - Ldebug_info_start
+LDIFF_SYM3348=LTDIE_188_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3348
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3349=LTDIE_193_REFERENCE - Ldebug_info_start
+LDIFF_SYM3349=LTDIE_188_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3349
 	.byte 1,106,11
 	.asciz "V_0"
@@ -91521,7 +91473,7 @@ LDIFF_SYM3362=LTDIE_365_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3363=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM3363=LTDIE_189_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3363
 	.byte 1,106,11
 	.asciz "V_0"
@@ -91613,7 +91565,7 @@ LDIFF_SYM3376=LTDIE_366_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3377=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM3377=LTDIE_189_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3377
 	.byte 1,106,11
 	.asciz "V_0"
@@ -91700,12 +91652,12 @@ LDIFF_SYM3389=LTDIE_367_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3390=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM3390=LTDIE_189_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3390
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3391=LTDIE_194_REFERENCE - Ldebug_info_start
+LDIFF_SYM3391=LTDIE_189_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3391
 	.byte 1,106,11
 	.asciz "V_0"
@@ -92619,7 +92571,7 @@ LDIFF_SYM3498=LTDIE_372_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3499=LTDIE_254_REFERENCE - Ldebug_info_start
+LDIFF_SYM3499=LTDIE_249_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3499
 	.byte 1,106,11
 	.asciz "V_0"
@@ -92711,7 +92663,7 @@ LDIFF_SYM3512=LTDIE_373_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3513=LTDIE_254_REFERENCE - Ldebug_info_start
+LDIFF_SYM3513=LTDIE_249_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3513
 	.byte 1,106,11
 	.asciz "V_0"
@@ -92798,12 +92750,12 @@ LDIFF_SYM3525=LTDIE_374_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3526=LTDIE_254_REFERENCE - Ldebug_info_start
+LDIFF_SYM3526=LTDIE_249_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3526
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3527=LTDIE_254_REFERENCE - Ldebug_info_start
+LDIFF_SYM3527=LTDIE_249_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3527
 	.byte 1,106,11
 	.asciz "V_0"
@@ -92895,7 +92847,7 @@ LDIFF_SYM3540=LTDIE_375_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3541=LTDIE_213_REFERENCE - Ldebug_info_start
+LDIFF_SYM3541=LTDIE_208_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3541
 	.byte 1,106,11
 	.asciz "V_0"
@@ -92987,7 +92939,7 @@ LDIFF_SYM3554=LTDIE_376_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM3555=LTDIE_213_REFERENCE - Ldebug_info_start
+LDIFF_SYM3555=LTDIE_208_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3555
 	.byte 1,106,11
 	.asciz "V_0"
@@ -93074,12 +93026,12 @@ LDIFF_SYM3567=LTDIE_377_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM3568=LTDIE_213_REFERENCE - Ldebug_info_start
+LDIFF_SYM3568=LTDIE_208_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3568
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3569=LTDIE_213_REFERENCE - Ldebug_info_start
+LDIFF_SYM3569=LTDIE_208_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3569
 	.byte 1,106,11
 	.asciz "V_0"
@@ -93596,7 +93548,7 @@ Lfde214_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3640=LTDIE_243_REFERENCE - Ldebug_info_start
+LDIFF_SYM3640=LTDIE_238_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3640
 	.byte 1,104,3
 	.asciz "param0"
@@ -93606,7 +93558,7 @@ LDIFF_SYM3641=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM3642=LTDIE_250_REFERENCE - Ldebug_info_start
+LDIFF_SYM3642=LTDIE_245_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3642
 	.byte 1,106,11
 	.asciz "V_0"
@@ -93666,7 +93618,7 @@ Lfde215_end:
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM3650=LTDIE_227_REFERENCE - Ldebug_info_start
+LDIFF_SYM3650=LTDIE_222_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM3650
 	.byte 1,106,11
 	.asciz "V_0"
@@ -97280,7 +97232,7 @@ LDIFF_SYM4147=LDIE_OBJECT - Ldebug_info_start
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM4148=LTDIE_184_REFERENCE - Ldebug_info_start
+LDIFF_SYM4148=LTDIE_179_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4148
 	.byte 1,99,0
 
@@ -99311,7 +99263,7 @@ LDIFF_SYM4431=LTDIE_435_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM4432=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM4432=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4432
 	.byte 1,106,11
 	.asciz "V_0"
@@ -99403,7 +99355,7 @@ LDIFF_SYM4445=LTDIE_436_REFERENCE - Ldebug_info_start
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM4446=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM4446=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4446
 	.byte 1,106,11
 	.asciz "V_0"
@@ -99490,12 +99442,12 @@ LDIFF_SYM4458=LTDIE_437_REFERENCE - Ldebug_info_start
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM4459=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM4459=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4459
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM4460=LTDIE_251_REFERENCE - Ldebug_info_start
+LDIFF_SYM4460=LTDIE_246_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4460
 	.byte 1,106,11
 	.asciz "V_0"
@@ -99900,7 +99852,7 @@ LDIFF_SYM4523=LTDIE_35_REFERENCE - Ldebug_info_start
 	.byte 2,35,16,6
 	.asciz "m_stateMachine"
 
-LDIFF_SYM4524=LTDIE_205_REFERENCE - Ldebug_info_start
+LDIFF_SYM4524=LTDIE_200_REFERENCE - Ldebug_info_start
 	.long LDIFF_SYM4524
 	.byte 2,35,24,0,7
 	.asciz "_MoveNextRunner"

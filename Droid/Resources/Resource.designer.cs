@@ -2230,8 +2230,8 @@ namespace IntentionJournal.Droid
 			// aapt resource value: 0x7f0200aa
 			public const int mr_ic_play_light = 2130837674;
 			
-			// aapt resource value: 0x7f0200b5
-			public const int notification_template_icon_bg = 2130837685;
+			// aapt resource value: 0x7f0200b4
+			public const int notification_template_icon_bg = 2130837684;
 			
 			// aapt resource value: 0x7f0200ab
 			public const int randomtransparent = 2130837675;
@@ -2240,28 +2240,25 @@ namespace IntentionJournal.Droid
 			public const int randomtransparent2x = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int saplingicon = 2130837677;
+			public const int settingsgrey = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int settingsgrey = 2130837678;
+			public const int settingsgrey2x = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int settingsgrey2x = 2130837679;
+			public const int tree = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int tree = 2130837680;
+			public const int treeall = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int treeall = 2130837681;
+			public const int treegrey = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int treegrey = 2130837682;
+			public const int treeonly = 2130837682;
 			
 			// aapt resource value: 0x7f0200b3
-			public const int treeonly = 2130837683;
-			
-			// aapt resource value: 0x7f0200b4
-			public const int writegrey = 2130837684;
+			public const int writegrey = 2130837683;
 			
 			static Drawable()
 			{

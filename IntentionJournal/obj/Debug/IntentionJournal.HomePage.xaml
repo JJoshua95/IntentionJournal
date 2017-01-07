@@ -7,7 +7,7 @@
 			 BackgroundColor="{StaticResource backgroundColor}">
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
-			<Label Text="Text:" HorizontalOptions="Center" />
+			<Label Text="Welcome Back" HorizontalOptions="Center" />
 			<Label x:Name="multiLineLabel" LineBreakMode="WordWrap"/>
   		</StackLayout>
 	</ScrollView>

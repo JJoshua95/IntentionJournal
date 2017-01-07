@@ -21,7 +21,6 @@
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/writegrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/settingsgrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/settingsgrey2x.png
-/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/saplingicon.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/randomtransparent.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/randomtransparent2x.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treeonly.png

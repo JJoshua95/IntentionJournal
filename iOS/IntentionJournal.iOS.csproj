@@ -155,6 +155,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SQLite_iOS.cs" />
+    <Compile Include="TabPageCustom.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tree.png" />
@@ -172,7 +173,6 @@
     <BundleResource Include="Resources\writegrey2x.png" />
     <BundleResource Include="Resources\settingsgrey.png" />
     <BundleResource Include="Resources\settingsgrey2x.png" />
-    <BundleResource Include="Resources\saplingicon.png" />
     <BundleResource Include="Resources\randomtransparent.png" />
     <BundleResource Include="Resources\randomtransparent2x.png" />
     <BundleResource Include="Resources\treeonly.png" />

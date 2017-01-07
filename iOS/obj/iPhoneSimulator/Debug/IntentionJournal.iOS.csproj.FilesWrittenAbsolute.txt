@@ -17,7 +17,14 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/writegrey2x.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/settingsgrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/settingsgrey2x.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/saplingicon.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/randomtransparent.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/randomtransparent2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treeonly.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treeall.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/floorsky.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/drawable-xxhdpi/loadingscreen.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/higherfloorsky.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/evenhigherfloorsky.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.iOS.exe.mdb
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.iOS.exe
@@ -37,11 +44,3 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.dll.mdb
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhoneSimulator/Debug/IntentionJournal.xml
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/randomtransparent.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/randomtransparent2x.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treeonly.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/treeall.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/floorsky.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/drawable-xxhdpi/loadingscreen.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/higherfloorsky.png
-/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhoneSimulator/Debug/optimized/evenhigherfloorsky.png

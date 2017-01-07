@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/BrowseMoodsPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml">
     <Files>
-      <File FileName="IntentionJournal/HomePage.xaml" Line="10" Column="53" />
-      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="70" Column="4" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/BrowseMoodsPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="IntentionJournal/AddQuotePage.xaml.cs" Line="1" Column="1" />
+      <File FileName="IntentionJournal/App.xaml" Line="12" Column="7" />
+      <File FileName="Droid/Resources/values/styles.xml" Line="27" Column="13" />
+      <File FileName="Droid/MainActivity.cs" Line="11" Column="102" />
+      <File FileName="iOS/AppDelegate.cs" Line="15" Column="4" />
+      <File FileName="IntentionJournal/Settings.xaml" Line="6" Column="28" />
+      <File FileName="IntentionJournal/HomePage.xaml" Line="14" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -12,6 +16,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97F31E44-E4DE-4DD3-ACE9-43239CD759AA" />
+  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5909ABD-1DD3-4CA4-9AB0-E59382CF78A3" />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.Nexus4Android7.0" />
 </Properties>
