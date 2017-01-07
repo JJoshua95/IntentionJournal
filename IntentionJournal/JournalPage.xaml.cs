@@ -17,6 +17,7 @@ namespace IntentionJournal
 	public partial class JournalPage : ContentPage
 	{
 		String currentInMood;
+
 		public static ObservableCollection<Entry> entries { get; set; }
 
 		/// <summary>
@@ -26,6 +27,7 @@ namespace IntentionJournal
 		public JournalPage()
 		{
 			InitializeComponent();
+
 		}
 
 		/// <summary>

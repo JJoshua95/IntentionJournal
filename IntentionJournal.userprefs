@@ -1,8 +1,11 @@
-﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/SQLite_Android.cs">
+﻿<Properties StartupConfiguration="{E59913A3-ACA9-44B3-8B0E-0C694B06FE83}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml">
     <Files>
-      <File FileName="Droid/SQLite_Android.cs" Line="10" Column="6" />
-      <File FileName="iOS/SQLite_iOS.cs" Line="1" Column="1" />
+      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="20" Column="3" />
+      <File FileName="IntentionJournal/BrowseQuotesPage.xaml" Line="7" Column="3" />
+      <File FileName="IntentionJournal/Settings.xaml" Line="16" Column="80" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="15" Column="55" />
+      <File FileName="IntentionJournal/HomePage.xaml" Line="11" Column="97" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -10,6 +13,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97F31E44-E4DE-4DD3-ACE9-43239CD759AA" />
+  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5909ABD-1DD3-4CA4-9AB0-E59382CF78A3" />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.Nexus4Android7.0" />
 </Properties>

@@ -3,16 +3,19 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
-			 Title="Your Intention">
+			 Title="Your Intention"
+			 BackgroundColor="{StaticResource backgroundColor}">
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
     		<Label Text="Title:" />
-    		<Entry x:Name="titleInput"/>
+    		<Entry x:Name="titleInput" BackgroundColor="White"/>
 			<Label Text="Text:"/>
-    		<Editor x:Name="contInput" HeightRequest="250" BackgroundColor="#FEF5E7"/>
+    		<Editor x:Name="contInput" HeightRequest="250" />
 			<Label Text="Mood:"/>
-			<Picker x:Name="moodPicker" />
+			<Picker x:Name="moodPicker" BackgroundColor="White"/>
+			<Button x:Name="pickImageBtn" Text="Add Picture" Clicked="pickGalleryImage"/>
 			<Image x:Name="image"/>
+			<Button x:Name="saveBtn" Text="Save Entry" Clicked="onSaveClicked"/>
   		</StackLayout>
 	</ScrollView>
 </ContentPage>

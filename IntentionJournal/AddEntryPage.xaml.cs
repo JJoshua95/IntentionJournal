@@ -34,6 +34,7 @@ namespace IntentionJournal
 				moodPicker.Items.Add("Creative");
 				moodPicker.Items.Add("Inspired");
 
+				/*
 				var picturebutton = new Button { Text = "Add Picture" };
 				picturebutton.Clicked += (sender, e) => { pickGalleryImage(sender, e); };
 				var savebutton = new Button { Text = "Save Entry" };
@@ -46,6 +47,7 @@ namespace IntentionJournal
 					VerticalOptions = LayoutOptions.EndAndExpand
 				};
 				stacklayout.Children.Add(buttonBar);
+				*/
 				// clear buffer when new page made
 			}
 		}

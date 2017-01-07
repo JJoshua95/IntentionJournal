@@ -1,6 +1,39 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="IntentionJournal.App">
-	<Application.Resources>
-		<!-- Application resource dictionary -->
-	</Application.Resources>
+﻿<Application
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="IntentionJournal.App">
+    <Application.Resources>
+		<ResourceDictionary>
+			<Color x:Key="backgroundColor">#6b6868</Color>
+    		<Color x:Key ="toolbarColor">#433e3f</Color>
+    		<Color x:Key="textColor">White</Color>
+    		<Color x:Key="buttonColor">#00ba8e</Color>
+    		<Color x:Key ="editorColor">#433e3f</Color>
+
+			<Style TargetType="NavigationPage">
+        		<Setter Property="BarBackgroundColor" Value="#433e3f"/>
+        		<Setter Property="BarTextColor" Value="White"/>
+				<Setter Property="BackgroundColor" Value="#6b6868"/>
+      		</Style>
+
+			<Style TargetType="Label">
+        		<Setter Property="TextColor" Value="White"/>
+      		</Style>
+
+			<Style TargetType="Editor">
+        		<Setter Property="TextColor" Value="White"/>
+				<Setter Property="BackgroundColor" Value="#433e3f"/>
+      		</Style>
+
+			<Style TargetType="Button">
+        		<Setter Property="BackgroundColor" Value="#00ba8e"/>
+      		</Style>
+
+      		<Style TargetType="ListView">
+        		<Setter Property="BackgroundColor" Value="#6b6868"/>
+				
+      		</Style>
+			
+        </ResourceDictionary>
+    </Application.Resources>
 </Application>

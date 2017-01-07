@@ -3,12 +3,13 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.AddQuotePage"
 		Padding="20"
-		Title="Enter Quote">
+		Title="Enter Quote"
+		BackgroundColor="{StaticResource backgroundColor}">
 	<ContentPage.Content>
 		<ScrollView Orientation="Vertical">
   		<StackLayout>
 			<Label Text="Enter your quote:"/>
-    		<Editor x:Name="quoteInputEditor" HeightRequest="250" BackgroundColor="#FEF5E7"/>
+    		<Editor x:Name="quoteInputEditor" HeightRequest="250"/>
 			<Button x:Name="saveQuoteButton" Text="Save Quote" Clicked="SaveQuoteToDB"/>
   		</StackLayout>
 	</ScrollView>

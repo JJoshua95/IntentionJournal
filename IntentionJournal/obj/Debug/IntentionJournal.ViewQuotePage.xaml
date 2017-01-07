@@ -3,12 +3,13 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.ViewQuotePage"
 		Padding="20"
-		Title="View/Edit Quote">
+		Title="View/Edit Quote"
+		BackgroundColor="{StaticResource backgroundColor}">
 <ContentPage.Content>
 		<ScrollView Orientation="Vertical">
 			<StackLayout>
 				<Label Text="Enter your quote:"/>
-    			<Editor x:Name="editQuoteEditor" Text = "{Binding quoteString}" HeightRequest="300" BackgroundColor="#FEF5E7"/>
+    			<Editor x:Name="editQuoteEditor" Text = "{Binding quoteString}" HeightRequest="300" />
 				<Button x:Name="saveQuoteButton" Text="Update Quote" Clicked="UpdateQuoteToDB"/>
 				<Button x:Name="deleteQuoteButton" Text="Delete Quote" Clicked="DeleteQuoteFromDB"/>
 			</StackLayout>

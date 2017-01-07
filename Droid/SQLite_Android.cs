@@ -9,13 +9,13 @@ using System.IO;
 namespace IntentionJournal.Droid
 {
 	/// <summary>
-	/// Establishes the SQLite file in the iOS project
+	/// Establishes the SQLite file in the Android project
 	/// </summary>
 	public class SQLite_Android : ISQLite
 	{
 		/// <summary>
 		/// Initializes a new instance of the <see cref="T:IntentionJournal.Droid.SQLite_Android"/> class.
-		/// Checks if there is a Sqlite "EntriesSQLite.db3" file and creates one if it's not there ready for use on an iOS device
+		/// Checks if there is a Sqlite "EntriesSQLite.db3" file and creates one if it's not there ready for use on an Android device
 		/// </summary>
 		public SQLite_Android() { }
 

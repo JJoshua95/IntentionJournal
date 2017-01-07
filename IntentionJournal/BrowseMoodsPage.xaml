@@ -3,10 +3,11 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
-			 Title="Browse">
+			 Title="Browse"
+			 BackgroundColor="{StaticResource backgroundColor}">
 	<ScrollView Orientation="Vertical">
 	<StackLayout x:Name="StackLayoutMap">
-		<Label Text="Today I want to feel..."/>
+		<Label Text="Today I want to feel..." HorizontalOptions="Center"/>
 		<Grid x:Name="gridView" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
 			<Grid.RowDefinitions>
       			<RowDefinition Height="*" />

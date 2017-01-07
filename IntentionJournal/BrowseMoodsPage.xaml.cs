@@ -16,7 +16,7 @@ namespace IntentionJournal
 		public BrowseMoodsPage()
 		{
 			InitializeComponent();
-			MakeComponent();
+			//MakeComponent();
 		}
 
 		/// <summary>

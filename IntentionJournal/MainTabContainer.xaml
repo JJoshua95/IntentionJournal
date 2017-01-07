@@ -4,7 +4,8 @@
 		xmlns:mypages="clr-namespace:IntentionJournal;assembly=IntentionJournal"
 		xmlns:local="clr-namespace:IntentionJournal;assembly=IntentionJournal" 
 		x:Class="IntentionJournal.MainTabContainer"
-		Title = "Intention Journal">
+		Title = "Intention Journal"
+		BackgroundColor="{StaticResource backgroundColor}">
 	<TabbedPage.Children>
 		<NavigationPage Icon="homegrey.png">
 			<NavigationPage.Title> 

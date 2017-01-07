@@ -3,12 +3,13 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.BrowseQuotesPage"
 		Padding = "20"
-		Title = "Browse Quotes">
+		Title = "Browse Quotes"
+		BackgroundColor="{StaticResource backgroundColor}">
 	<ContentPage.Content>
 		<ListView x:Name = "quotesListView" ItemSelected="QuoteSelected"  >
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<TextCell Text="{Binding quoteString}"/>
+					<TextCell Text="{Binding quoteString}" TextColor="White" DetailColor="White"/>
 				</DataTemplate>
 			</ListView.ItemTemplate>
 	 	</ListView>
