@@ -135,6 +135,23 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-76%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-60%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%403x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small%402x.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon57.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon114.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon50.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon100.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon144.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon72.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-Small-40.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\bigloadingscreen.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -155,6 +172,7 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="SQLite_iOS.cs" />
+    <Compile Include="TabPageCustom.cs" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\tree.png" />
@@ -172,7 +190,6 @@
     <BundleResource Include="Resources\writegrey2x.png" />
     <BundleResource Include="Resources\settingsgrey.png" />
     <BundleResource Include="Resources\settingsgrey2x.png" />
-    <BundleResource Include="Resources\saplingicon.png" />
     <BundleResource Include="Resources\randomtransparent.png" />
     <BundleResource Include="Resources\randomtransparent2x.png" />
     <BundleResource Include="Resources\treeonly.png" />
@@ -181,6 +198,14 @@
     <BundleResource Include="Resources\drawable-xxhdpi\loadingscreen.png" />
     <BundleResource Include="Resources\higherfloorsky.png" />
     <BundleResource Include="Resources\evenhigherfloorsky.png" />
+    <BundleResource Include="Resources\treeincircle.png" />
+    <BundleResource Include="Resources\treefloor.png" />
+    <BundleResource Include="Resources\skyonly.png" />
+    <BundleResource Include="Resources\treeonlytrimmed.png" />
+    <BundleResource Include="Resources\floorskyflat.png" />
+    <BundleResource Include="Resources\floorskyflat2x.png" />
+    <BundleResource Include="Resources\treenoroots1.png" />
+    <BundleResource Include="Resources\treenoroots2.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\icon.png" />

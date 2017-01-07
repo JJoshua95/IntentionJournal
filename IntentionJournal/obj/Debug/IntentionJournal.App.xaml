@@ -31,7 +31,6 @@
 
       		<Style TargetType="ListView">
         		<Setter Property="BackgroundColor" Value="#6b6868"/>
-				
       		</Style>
 			
         </ResourceDictionary>

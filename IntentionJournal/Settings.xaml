@@ -2,9 +2,10 @@
 <ContentPage x:Class="IntentionJournal.Settings"
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-			 Title="Settings">
+			 Title="Settings"
+			 BackgroundColor="White">
 <ContentPage.Content>
-		<TableView x:Name="settingsTable" Intent="Settings" >
+		<TableView x:Name="settingsTable" Intent="Settings">
 			<TableRoot>
 				<TableSection Title="Manage Quotes">
 					<TextCell Text="Add Quote" Tapped="addQuoteCellSelected"/>

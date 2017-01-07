@@ -153,7 +153,6 @@
     <AndroidResource Include="Resources\drawable\writegrey.png" />
     <AndroidResource Include="Resources\drawable\settingsgrey.png" />
     <AndroidResource Include="Resources\drawable\settingsgrey2x.png" />
-    <AndroidResource Include="Resources\drawable\saplingicon.png" />
     <AndroidResource Include="Resources\drawable\randomtransparent.png" />
     <AndroidResource Include="Resources\drawable\randomtransparent2x.png" />
     <AndroidResource Include="Resources\drawable\treeonly.png" />
@@ -162,6 +161,18 @@
     <AndroidResource Include="Resources\drawable\loadingscreen.png" />
     <AndroidResource Include="Resources\drawable\higherfloorsky.png" />
     <AndroidResource Include="Resources\drawable\evenhigherfloorsky.png" />
+    <AndroidResource Include="Resources\drawable\appIcon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\appIcon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\appIcon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\appIcon.png" />
+    <AndroidResource Include="Resources\drawable\treeincircle.png" />
+    <AndroidResource Include="Resources\drawable\skyonly.png" />
+    <AndroidResource Include="Resources\drawable\treefloor.png" />
+    <AndroidResource Include="Resources\drawable\treeonlytrimmed.png" />
+    <AndroidResource Include="Resources\drawable\floorskyflat.png" />
+    <AndroidResource Include="Resources\drawable\floorskyflat2x.png" />
+    <AndroidResource Include="Resources\drawable\treenoroots1.png" />
+    <AndroidResource Include="Resources\drawable\treenoroots2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

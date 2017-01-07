@@ -68,7 +68,6 @@ namespace IntentionJournal
 			System.Diagnostics.Debug.WriteLine("Randomly selected quote is: " + randomlySelectedQuote);
 			multiLineLabel.Text = "\"" + randomlySelectedQuote + "\"" ;
 
-			// Handle the tabel getting bigger every time page is opened
 		}
 
 	}

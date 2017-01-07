@@ -6,8 +6,8 @@
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
-  <application android:label="Intention Journal" android:icon="@drawable/saplingicon" android:name="md598554bcb206d2625391eee1e50073f73.MainApplication" android:allowBackup="true" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="IntentionJournal.Droid" android:theme="@style/MyTheme" android:name="md598554bcb206d2625391eee1e50073f73.MainActivity">
+  <application android:label="Intention Journal" android:icon="@drawable/appicon" android:name="md598554bcb206d2625391eee1e50073f73.MainApplication" android:allowBackup="true" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/appicon" android:label="IntentionJournal.Droid" android:theme="@style/MyTheme" android:name="md598554bcb206d2625391eee1e50073f73.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

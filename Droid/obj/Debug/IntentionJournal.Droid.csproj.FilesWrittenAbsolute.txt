@@ -21,7 +21,6 @@
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/writegrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/settingsgrey.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/settingsgrey2x.png
-/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/saplingicon.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/randomtransparent.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/randomtransparent2x.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treeonly.png
@@ -30,6 +29,18 @@
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/loadingscreen.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/higherfloorsky.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/evenhigherfloorsky.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/appicon.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable-hdpi/appicon.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable-xhdpi/appicon.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable-xxhdpi/appicon.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treeincircle.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/skyonly.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treefloor.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treeonlytrimmed.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/floorskyflat.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/floorskyflat2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treenoroots1.png
+/Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/res/drawable/treenoroots2.png
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/R.cs.flag
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/bin/Debug/uk.ac.ucl.msccs.gc02.appdesign.intention_journal-Signed.apk
 /Users/jcjoshua/Projects/IntentionJournal3/Droid/obj/Debug/uploadflags.txt
