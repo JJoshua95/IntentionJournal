@@ -356,7 +356,7 @@ Lme_3:
 	.no_dead_strip IntentionJournal_iOS_SQLite_iOS__ctor
 IntentionJournal_iOS_SQLite_iOS__ctor:
 .file 3 "/Users/jcjoshua/Projects/IntentionJournal3/iOS/SQLite_iOS.cs"
-.loc 3 11 0 prologue_end
+.loc 3 20 0 prologue_end
 .word 0xa9bd7bfd
 .word 0x910003fd
 .word 0xf9000ba0
@@ -380,12 +380,12 @@ ldr x16, [x16, #160]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9400ba0
-.loc 3 12 0
+.loc 3 21 0
 .word 0xf9400fb1
 .word 0xf9406631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 13 0
+.loc 3 22 0
 .word 0xf9400fb1
 .word 0xf9407631
 .word 0xb4000051
@@ -403,7 +403,7 @@ Lme_4:
 	.align 4
 	.no_dead_strip IntentionJournal_iOS_SQLite_iOS_GetConnection
 IntentionJournal_iOS_SQLite_iOS_GetConnection:
-.loc 3 16 0 prologue_end
+.loc 3 25 0 prologue_end
 .word 0xa9b37bfd
 .word 0x910003fd
 .word 0xa9015bb5
@@ -435,7 +435,7 @@ ldr x16, [x16, #168]
 .word 0xf9407631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 17 0
+.loc 3 26 0
 .word 0xf94027b1
 .word 0xf9408631
 .word 0xb4000051
@@ -445,7 +445,7 @@ adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
 ldr x0, [x16, #176]
 .word 0xaa0003fa
-.loc 3 18 0
+.loc 3 27 0
 .word 0xf94027b1
 .word 0xf940a631
 .word 0xb4000051
@@ -465,7 +465,7 @@ bl _p_8
 .word 0xf94067a0
 .word 0xf90063a0
 .word 0xaa0003f9
-.loc 3 19 0
+.loc 3 28 0
 .word 0xf94027b1
 .word 0xf940f231
 .word 0xb4000051
@@ -498,7 +498,7 @@ bl _p_9
 .word 0xf94053a0
 .word 0xf9004fa0
 .word 0xaa0003f8
-.loc 3 20 0
+.loc 3 29 0
 .word 0xf94027b1
 .word 0xf9416a31
 .word 0xb4000051
@@ -522,7 +522,7 @@ bl _p_10
 .word 0xf94043a0
 .word 0xf9003fa0
 .word 0xaa0003f7
-.loc 3 23 0
+.loc 3 32 0
 .word 0xf94027b1
 .word 0xf941c631
 .word 0xb4000051
@@ -535,7 +535,7 @@ bl _p_10
 .word 0xd63f0220
 .word 0xf9403ba0
 bl _p_11
-.loc 3 24 0
+.loc 3 33 0
 .word 0xf94027b1
 .word 0xf941f631
 .word 0xb4000051
@@ -556,12 +556,12 @@ bl _p_12
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0x35000300
-.loc 3 25 0
+.loc 3 34 0
 .word 0xf94027b1
 .word 0xf9424631
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 26 0
+.loc 3 35 0
 .word 0xf94027b1
 .word 0xf9425631
 .word 0xb4000051
@@ -577,12 +577,12 @@ bl _p_13
 .word 0xf9428231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 27 0
+.loc 3 36 0
 .word 0xf94027b1
 .word 0xf9429231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 3 31 0
+.loc 3 40 0
 .word 0xf9402bb1
 .word 0xf9400231
 .word 0xb4000051
@@ -621,14 +621,14 @@ bl _p_16
 .word 0xd63f0220
 .word 0xf94033a0
 .word 0xaa0003f6
-.loc 3 34 0
+.loc 3 43 0
 .word 0xf94027b1
 .word 0xf9433231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1603e0
 .word 0xaa1603f5
-.loc 3 35 0
+.loc 3 44 0
 .word 0xf94027b1
 .word 0xf9434a31
 .word 0xb4000051
@@ -842,7 +842,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "5E7B8B7C-EBAB-441F-9C6F-DCA13FF340C0"
+	.asciz "04F5339D-016B-4D3E-AADF-5433D3D68602"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -925,7 +925,7 @@ _mono_aot_file_info:
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 77,143,19,146,63,139,203,100,147,217,128,17,210,229,180,173
+	.byte 177,179,248,61,170,47,201,83,243,147,223,73,118,11,227,90
 	.globl _mono_aot_module_IntentionJournal_iOS_info
 	.align 3
 _mono_aot_module_IntentionJournal_iOS_info:
@@ -5760,7 +5760,7 @@ LDIFF_SYM853=LTDIE_135 - Ldebug_info_start
 	.asciz "IntentionJournal.iOS.SQLite_iOS:.ctor"
 	.asciz "IntentionJournal_iOS_SQLite_iOS__ctor"
 
-	.byte 3,11
+	.byte 3,20
 	.quad IntentionJournal_iOS_SQLite_iOS__ctor
 	.quad Lme_4
 
@@ -6306,7 +6306,7 @@ LDIFF_SYM951=LTDIE_136 - Ldebug_info_start
 	.asciz "IntentionJournal.iOS.SQLite_iOS:GetConnection"
 	.asciz "IntentionJournal_iOS_SQLite_iOS_GetConnection"
 
-	.byte 3,16
+	.byte 3,25
 	.quad IntentionJournal_iOS_SQLite_iOS_GetConnection
 	.quad Lme_5
 

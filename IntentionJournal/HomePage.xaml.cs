@@ -21,6 +21,7 @@ namespace IntentionJournal
 			ToolbarItems.Add(new ToolbarItem("Settings", "randomtransparent.png", () => {
 				//logic code goes here 
 				GetRandomQuote();
+
 			}));
 		}
 
@@ -65,7 +66,7 @@ namespace IntentionJournal
 			var randomIndexToPick = random.Next(noOfStrings);
 			String randomlySelectedQuote = quoteStringList[randomIndexToPick];
 			System.Diagnostics.Debug.WriteLine("Randomly selected quote is: " + randomlySelectedQuote);
-			randomQuoteEditor.Text = "\"" + randomlySelectedQuote + "\"";
+			multiLineLabel.Text = "\"" + randomlySelectedQuote + "\"" ;
 
 			// Handle the tabel getting bigger every time page is opened
 		}

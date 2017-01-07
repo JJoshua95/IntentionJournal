@@ -70,3 +70,12 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.2-10.2/optimized/settingsgrey2x.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.2-10.2/optimized/saplingicon.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.2-10.2/optimized/
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/randomtransparent.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/randomtransparent2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treeonly.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treeall.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/floorsky.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/drawable-xxhdpi/loadingscreen.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/higherfloorsky.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/evenhigherfloorsky.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhone/Debug/IntentionJournal.xml

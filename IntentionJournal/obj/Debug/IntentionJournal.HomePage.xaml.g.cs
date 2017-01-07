@@ -20,13 +20,13 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.StackLayout stacklayout;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Editor randomQuoteEditor;
+        private global::Xamarin.Forms.Label multiLineLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(HomePage));
             stacklayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stacklayout");
-            randomQuoteEditor = this.FindByName <global::Xamarin.Forms.Editor>("randomQuoteEditor");
+            multiLineLabel = this.FindByName <global::Xamarin.Forms.Label>("multiLineLabel");
         }
     }
 }
