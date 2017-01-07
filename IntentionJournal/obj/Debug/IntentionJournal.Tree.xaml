@@ -4,10 +4,10 @@
 		x:Class="IntentionJournal.Tree" 
 		xmlns:local="clr-namespace:IntentionJournal"
 		Title="Your Tree Progress"
-		BackgroundImage="higherfloorsky.png">
+		BackgroundImage="floorskyflat.png">
 		<ScrollView Orientation="Both">
-		<AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
-				<Image x:Name="image" Source="treeonly.png" />
+		<AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="End">
+				<Image x:Name="image" Source="treenoroots1.png" />
 		</AbsoluteLayout>
 		</ScrollView>
 </ContentPage>

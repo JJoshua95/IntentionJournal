@@ -33,7 +33,7 @@ namespace IntentionJournal
 			{
 				System.Diagnostics.Debug.WriteLine("No initial tree progress entry found");
 				ReloadTree(1);
-				App.DBase.UpdateTreeProgress(new TreeProgress { progressID = 1 , currentTreeScale = 1.0 });
+				App.DBase.UpdateTreeProgress(new TreeProgress { progressID = 1, currentTreeScale = 1.0 });
 			}
 			else 
 			{
@@ -54,10 +54,10 @@ namespace IntentionJournal
 			// set the scale of the tree instantaneously to the previously incremented scale
 			System.Diagnostics.Debug.WriteLine(image.Height);
 			// times by the original images dimensions
-			image.HeightRequest = 150*startingScale;
+			image.HeightRequest = 370*startingScale;
 			System.Diagnostics.Debug.WriteLine(image.Height);
 			System.Diagnostics.Debug.WriteLine(image.Width);
-			image.WidthRequest = 94*startingScale;
+			image.WidthRequest = 420*startingScale;
 			System.Diagnostics.Debug.WriteLine(image.Width);
 			//image.Scale = startingScale;
 

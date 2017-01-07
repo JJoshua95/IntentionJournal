@@ -1,14 +1,8 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/Tree.xaml">
     <Files>
-      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/AddQuotePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/App.xaml" Line="12" Column="7" />
-      <File FileName="Droid/Resources/values/styles.xml" Line="27" Column="13" />
-      <File FileName="Droid/MainActivity.cs" Line="11" Column="102" />
-      <File FileName="iOS/AppDelegate.cs" Line="15" Column="4" />
-      <File FileName="IntentionJournal/Settings.xaml" Line="6" Column="28" />
-      <File FileName="IntentionJournal/HomePage.xaml" Line="14" Column="15" />
+      <File FileName="IntentionJournal/Tree.xaml" Line="13" Column="15" />
+      <File FileName="IntentionJournal/Tree.xaml.cs" Line="36" Column="88" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -33,22 +33,6 @@ namespace IntentionJournal
 				moodPicker.Items.Add("Grateful");
 				moodPicker.Items.Add("Creative");
 				moodPicker.Items.Add("Inspired");
-
-				/*
-				var picturebutton = new Button { Text = "Add Picture" };
-				picturebutton.Clicked += (sender, e) => { pickGalleryImage(sender, e); };
-				var savebutton = new Button { Text = "Save Entry" };
-				savebutton.Clicked += (sender, e) => { onSaveClicked(); };
-				var buttonBar = new StackLayout
-				{
-					Children = { picturebutton, image, savebutton },
-					Orientation = StackOrientation.Vertical,
-					HorizontalOptions = LayoutOptions.CenterAndExpand,
-					VerticalOptions = LayoutOptions.EndAndExpand
-				};
-				stacklayout.Children.Add(buttonBar);
-				*/
-				// clear buffer when new page made
 			}
 		}
 

@@ -5,10 +5,13 @@
              Padding="20"
 			 Title="Home"
 			 BackgroundColor="{StaticResource backgroundColor}">
-	<ScrollView Orientation="Vertical">
-  		<StackLayout x:Name="stacklayout">
-			<Label Text="Welcome Back" HorizontalOptions="Center" />
+	<ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+  		<StackLayout x:Name="stacklayout" VerticalOptions="FillAndExpand">
+			<Label Text="Welcome!" HorizontalOptions="Center"/>
+			<Label Text=""/>
 			<Label x:Name="multiLineLabel" LineBreakMode="WordWrap"/>
+			<Image Source="treeincircle.png"/>
+			<Label Text="Write your intentions and your tree will grow!" LineBreakMode="WordWrap" HorizontalOptions="Center"/>
   		</StackLayout>
 	</ScrollView>
 </ContentPage>

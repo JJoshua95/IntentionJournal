@@ -454,7 +454,11 @@
             </member>
         <member name="M:IntentionJournal.TreeGrowing.GrowTree(System.Double)">
              <summary>
-             Grows the tree. given a scale this method performs an animation where the tree grows to the input scale
+             Grows the tree. given a scale this method would ideally perform an animation where the tree grows to the input scale.
+             In this case as we haven't fully implemented the animation in one, the image is scaled to a specifed size, not the input, 
+             the input is only used for recording progress in the database to paint the tree bigger on the tree tab, ideally you
+             could be able to see the animation go from previous progress to the current progress howver we sepearted this process to keep
+             it functional for now.
              </summary>
              <param name="newScale">New scale.</param>
             </member>
