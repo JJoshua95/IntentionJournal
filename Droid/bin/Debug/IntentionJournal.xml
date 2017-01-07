@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>IntentionJournal</name>
+    </assembly>
+    <members>
+        <member name="T:IntentionJournal.App">
+             <summary>
+             Initialisies the launch of the app, and is where you can handle how the app responds upon sleeping, resuming,
+             or starting
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.App.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.App" /> class.
+             </summary>
+            </member>
+        <member name="P:IntentionJournal.App.DBase">
+             <summary>
+             Establishes connection with the database if one doesn't exist
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.App.OnStart">
+             <summary>
+             On start.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.App.OnSleep">
+             <summary>
+             On sleep.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.App.OnResume">
+             <summary>
+             On resume.
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.HomePage">
+             <summary>
+             Encodes the logic behind the HomePage screen
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.HomePage.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.HomePage" /> class.
+             Also displays a random quote from the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.HomePage.OnAppearing">
+             <summary>
+             When the page is dispalyed a random quote is shown (so quote can change every time you switch to it)
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.HomePage.GetRandomQuote">
+             <summary>
+             Gets the random quote which is either preloaded in the code itself or from the database
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.BrowseMoodsPage">
+             <summary>
+             Encodes the logic behind the BrowseMoodsPage.xaml
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.BrowseMoodsPage" /> class.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.OnJournalButtonClicked(System.Object,System.EventArgs)">
+             <summary>
+             When the all entries button is pressed a Journal page displaying a listview of all entries in the database is opened
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="e">E.</param>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.MakeComponent">
+             <summary>
+             Makes the component.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.OnTapGestureRecognizerTappedCreative(System.Object,System.EventArgs)">
+             <summary>
+             When the creative image is pressed this opens a Journal page with creative entries only
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.OnTapGestureRecognizerTappedInspired(System.Object,System.EventArgs)">
+             <summary>
+             When the inspired image is pressed a journal is opened with all the inspired entries shown
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.OnTapGestureRecognizerTappedJoyful(System.Object,System.EventArgs)">
+             <summary>
+             When the inspired image is pressed a journal is opened with all the Joyful entries shown
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="M:IntentionJournal.BrowseMoodsPage.OnTapGestureRecognizerTappedGrateful(System.Object,System.EventArgs)">
+             <summary>
+             When the inspired image is pressed a journal is opened with all the grateful entries shown
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="T:IntentionJournal.JournalPage">
+             <summary>
+             Contains the logic behind the JournalPage.xaml page
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.JournalPage.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.JournalPage" /> class.
+             This constructor takes no arguments and then opens a Journal page with all entries
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.JournalPage.#ctor(System.String)">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.JournalPage" /> class.
+             This constructor takes a string argument and opens a Journal page with entries with a mood mathcing the
+             string input
+             </summary>
+             <param name="inMood">In mood.</param>
+            </member>
+        <member name="M:IntentionJournal.JournalPage.OnAppearing">
+             <summary>
+             On the page being displayed the entries are reloaded form the database (either for a specific mood or 
+             all moods)
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.JournalPage.listSelection(System.Object,Xamarin.Forms.SelectedItemChangedEventArgs)">
+             <summary>
+             When an entry in the list is selected a journal page is opened and the entry elements shown which the user can
+             manipulate 
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="e">E.</param>
+            </member>
+        <member name="T:IntentionJournal.AddEntryPage">
+             <summary>
+             This class encodes the logic underlying the "Write" tab page, where a user can enter a 
+             new intention entry in the journal. The UI is implemented in xaml AddEntryPage.xaml
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AddEntryPage.#ctor">
+             <summary>
+             Initializes a new instance of a <see cref="T:IntentionJournal.AddEntryPage" /> class. 
+             Renders in the UI functionality
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AddEntryPage.clearTextAreas">
+             <summary>
+             Clears the text inputs.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AddEntryPage.onSaveClicked">
+             <summary>
+             When the save button is clicked, this method checks that the user has picked a mood, entered a title and text for their entry, 
+             if all of these have been filled then the user inputted data (including a picture if selected) is stored as an object in the 
+             entries table in the database as a new record. The text areas are cleared and the image buffer is also cleared.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AddEntryPage.pickGalleryImage(System.Object,System.EventArgs)">
+             <summary>
+             Opens the native gallery for an iOS or Android device, when the add picture button is pressed,
+             where the user can pick one of their pictures and add it to their entry. The picture is displayed and then stored
+             as an array of bytes in a special table in the database where pictures are temporarily stored, and can be 
+             loaded back in and saved in the entry object if the user is happy with their choice and presses save.
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="M:IntentionJournal.AddEntryPage.getBlob(System.Object,System.EventArgs)">
+             <summary>
+             Gets the BLOB entry in the buffer table for images, displays the picyture currebtly stored in the buffer, 
+             this was used in testing and initialising this approach to saving pictures
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="T:IntentionJournal.Tree">
+             <summary>
+             Contains the logic behind the Tree.xaml page where the user can see the progress of their tree which gets bigger after 
+             every new entry
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Tree.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.Tree" /> class.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Tree.OnAppearing">
+             <summary>
+             When this page appears this method is called and searches the database for the tree progress and reloads the tree
+             to the size specified by the progress scale loaded in
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Tree.ReloadTree(System.Double)">
+             <summary>
+             Takes a double type input and then displays the tree image, whose scale is multiplied by the input, and the tree will get larger 
+             (or smaller if the previous scale input was smaller but this would suggest a bug is present)
+             </summary>
+             <param name="startingScale">Starting scale.</param>
+            </member>
+        <member name="T:IntentionJournal.Settings">
+             <summary>
+             Contains the logic behind the Settings.xaml page
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Settings.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.Settings" /> class.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Settings.addQuoteCellSelected">
+             <summary>
+             When the add quote cell is tapped an AddQuotePage is opened where a user can add a new quote into the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Settings.viewQuotesCellSelected">
+             <summary>
+             When the add view quotes cell is tapped a BrowseQuotesPage is opened where a user can view all quotes in the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Settings.clearQuotesCellSelected">
+             <summary>
+             Asks the user for confirmation which if given then prompts the app to delete every single
+             quote in the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.Settings.clearEntriesCellSelected">
+             <summary>
+             Asks the user for confirmation which if given then prompts the app to delete every single
+             entry in the database
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.MainTabContainer">
+             <summary>
+             This code encodes logic behind the tab container which is the page holding all the other pages, allowing
+             naviagtion.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.MainTabContainer.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.MainTabContainer" /> class.
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.EntryObject">
+             <summary>
+             A class representing an entry which is compatible for storage in an SQLite database, encoding all the data 
+             associated with a user entry
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.ISQLite">
+             <summary>
+             Directly establishes a connection with an SQLite database
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.AppDatabase">
+             <summary>
+             This class represents the model in the model view controller. This is where direct interactions with the database are 
+             handled, which various other classes and pages will need to make use of
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.AppDatabase" /> class.
+             Also creates the tables the app needs to function if any of them don't exist
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.GetAllEntries">
+             <summary>
+             Gets all entries from the database ready for display or manipulation
+             </summary>
+             <returns>List of all EntryObject instances in entry table</returns>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.GetEntriesForSingleMood(System.String)">
+             <summary>
+             Gets the entries for single mood, which all have the same entryCategory attribute, this is used for sorting 
+             entries
+             </summary>
+             <returns>The entries for single mood.</returns>
+             <param name="targetMood">Target mood.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.SaveEntry(IntentionJournal.EntryObject)">
+             <summary>
+             Inserts an entry into the database
+             </summary>
+             <param name="entryVal">Entry Input.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.DeleteEntry(IntentionJournal.EntryObject)">
+             <summary>
+             Deletes an EntryObject from the database.
+             </summary>
+             <param name="entryVal">Entry value.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.EditEntry(IntentionJournal.EntryObject)">
+             <summary>
+             Edits the entry in the database
+             </summary>
+             <param name="entryVal">Entry value.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.GetEntry(System.Int32)">
+             <summary>
+             Gets an EntryObject from the database given an ID number it can be found with
+             </summary>
+             <returns>The entry.</returns>
+             <param name="id">Identifier.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.deleteAllEntries">
+             <summary>
+             Deletes all entries from the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.getTreeProgress(System.Int32)">
+             <summary>
+             Gets a TreeProgress object with info specifying the user progress i.e a double that the tree image should be multiplied by on the 
+             tree screen in order to show the user their progress
+             </summary>
+             <returns>The tree progress.</returns>
+             <param name="scaleId">Scale identifier.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.UpdateTreeProgress(IntentionJournal.TreeProgress)">
+             <summary>
+             Updates the tree progress
+             </summary>
+             <param name="treeScaleVal">Tree scale value.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.SaveQuote(IntentionJournal.QuoteObject)">
+             <summary>
+             Saves the QuoteObject in the database
+             </summary>
+             <param name="quoteVal">Quote value.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.DeleteQuote(IntentionJournal.QuoteObject)">
+             <summary>
+             Deletes a specified QuoteObject from the table
+             </summary>
+             <param name="quoteVal">Quote value.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.EditQuote(IntentionJournal.QuoteObject)">
+             <summary>
+             Edits a spcified QuoteObject.
+             </summary>
+             <returns>The quote.</returns>
+             <param name="quoteVal">Quote value.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.GetAllQuotes">
+             <summary>
+             Gets all QuoteObjects in the database
+             </summary>
+             <returns>all quotes.</returns>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.deleteAllQuotes">
+             <summary>
+             Deletes all quotes in the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.InsertTemporaryImage(IntentionJournal.ImageDataObject)">
+             <summary>
+             Inserts an ImageDataObject into the database.
+             </summary>
+             <param name="imageInput">Image input.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.getTempImage(System.Int32)">
+             <summary>
+             Gets the ImageDataObject currently stored in the database
+             </summary>
+             <returns>The temporary image.</returns>
+             <param name="inputId">Input identifier.</param>
+            </member>
+        <member name="M:IntentionJournal.AppDatabase.ClearImageBuffer">
+             <summary>
+             Clears the image buffer.
+             </summary>
+             <returns>The image buffer.</returns>
+            </member>
+        <member name="T:IntentionJournal.ViewEntryPage">
+             <summary>
+             Contains the logic behind the ViewEntryPage.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.ViewEntryPage.#ctor(IntentionJournal.EntryObject)">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.ViewEntryPage" /> class.
+             Takes an EntryObject input and displays the entry allowing editing
+             </summary>
+             <param name="selectedEntryEdit">Selected entry edit.</param>
+            </member>
+        <member name="M:IntentionJournal.ViewEntryPage.onSaveClicked">
+             <summary>
+             When save is clicked all the user input is taken and the input EntryObject is updated in the database, howver no progress is made by 
+             editing, and no growing tree is shown, the user is taken back to a journal page where all the entries are refreshed and shown 
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.ViewEntryPage.onDeleteClicked">
+             <summary>
+             When the delete button is pressed the EntryObject entered into this page is deleted from the database
+             And the user is taken back to the journal where all the entries are updated
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.ViewEntryPage.DeletePicture">
+             <summary>
+             Deletes the image the user picked and wipes it from the buffer too
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.ViewEntryPage.pickGalleryImage(System.Object,System.EventArgs)">
+             <summary>
+             Opens up the users gallery on their device where they can choose a picture which will be displayed and thenstored in the buffer
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="args">Arguments.</param>
+            </member>
+        <member name="M:IntentionJournal.ViewEntryPage.getImageFromDB">
+             <summary>
+             Loads the image bytes from the entry and processes them to display an image
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.TreeProgress">
+             <summary>
+             TreeProgress object compatible with SQLite storage, holds an ID (only 1 will be used), and a double curretTreeScale representing 
+             the current progress of the user, this gets bigger every time a user makes an entry, and is used to scale up the tree image on the tree tab
+             big scale means big tree which means big progress.
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.TreeGrowing">
+             <summary>
+             Contains the logic behind the TreeGrowing.xaml page which is opened when a user makes a new entry and displays a 
+             quick animation of a tree growing.
+             This class was structured so that the animation would later be scaled up to an input scale, however for the moment it scales up 
+             to a uniform scale every time
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.TreeGrowing.#ctor(System.Double)">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.TreeGrowing" /> class.
+             </summary>
+             <param name="inputScale">Input scale.</param>
+            </member>
+        <member name="M:IntentionJournal.TreeGrowing.OnAppearing">
+             <summary>
+             When this page is displayed the curent progress is loaded in with the intent of displaying initially a tree of that previous size and then
+             scaling up to the next incremented size
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.TreeGrowing.ReloadTree(System.Double)">
+             <summary>
+             Reloads the tree, given a scale it displays a tree image at that scale
+             </summary>
+             <param name="startingScale">Starting scale.</param>
+            </member>
+        <member name="M:IntentionJournal.TreeGrowing.GrowTree(System.Double)">
+             <summary>
+             Grows the tree. given a scale this method performs an animation where the tree grows to the input scale
+             </summary>
+             <param name="newScale">New scale.</param>
+            </member>
+        <member name="T:IntentionJournal.QuoteObject">
+             <summary>
+             QuoteObject represents a quote in the database, with an quoteID to mark it uniquely and the text of the quote itself
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.AddQuotePage">
+             <summary>
+             Add quote page (implemented with the AddQuotePage.xaml file) logic encoded in this class, this is where a user
+             can add quotes which are randomly picked and displayed on the home page.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AddQuotePage.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.AddQuotePage" /> class.
+             The text on the page is cleared every time a new page is made.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.AddQuotePage.SaveQuoteToDB">
+             <summary>
+             Takes the text currently in the ditor and saves it an instance of QuoteObject, which is then stored in
+             the database
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.BrowseQuotesPage.#ctor">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.BrowseQuotesPage" /> class.
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.BrowseQuotesPage.OnAppearing">
+             <summary>
+             When the appears all quotes in the database are displayed
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.BrowseQuotesPage.QuoteSelected(System.Object,Xamarin.Forms.SelectedItemChangedEventArgs)">
+             <summary>
+             When a quote is selected in the listview a ViewQuotePage is opened where it can be seen/modified
+             </summary>
+             <param name="sender">Sender.</param>
+             <param name="e">E.</param>
+            </member>
+        <member name="T:IntentionJournal.ViewQuotePage">
+             <summary>
+             Contains the logic behind the ViewQuotePage
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.ViewQuotePage.#ctor(IntentionJournal.QuoteObject)">
+             <summary>
+             Initializes a new instance of the <see cref="T:IntentionJournal.ViewQuotePage" /> class.
+             Takes a QuoteObject and displays its text in the editor ready for editing
+             </summary>
+             <param name="inputQuote">Input quote.</param>
+            </member>
+        <member name="M:IntentionJournal.ViewQuotePage.UpdateQuoteToDB">
+             <summary>
+             Takes the text in the editor and updates the currently displayed QuoteObject with the new text
+             </summary>
+            </member>
+        <member name="M:IntentionJournal.ViewQuotePage.DeleteQuoteFromDB">
+             <summary>
+             Deletes the currently selected quote from the database
+             </summary>
+            </member>
+        <member name="T:IntentionJournal.ImageDataObject">
+             <summary>
+             This is an object representing an image. When a user loads in an image it is saved temporarily
+             so that it can be added to an entry record later if the user saves a new entry with a picture
+             The iamge is stored as an array of bytes that can be processed later
+             </summary>
+            </member>
+    </members>
+</doc>

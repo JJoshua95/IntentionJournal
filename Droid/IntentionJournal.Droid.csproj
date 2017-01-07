@@ -154,6 +154,14 @@
     <AndroidResource Include="Resources\drawable\settingsgrey.png" />
     <AndroidResource Include="Resources\drawable\settingsgrey2x.png" />
     <AndroidResource Include="Resources\drawable\saplingicon.png" />
+    <AndroidResource Include="Resources\drawable\randomtransparent.png" />
+    <AndroidResource Include="Resources\drawable\randomtransparent2x.png" />
+    <AndroidResource Include="Resources\drawable\treeonly.png" />
+    <AndroidResource Include="Resources\drawable\treeall.png" />
+    <AndroidResource Include="Resources\drawable\floorsky.png" />
+    <AndroidResource Include="Resources\drawable\loadingscreen.png" />
+    <AndroidResource Include="Resources\drawable\higherfloorsky.png" />
+    <AndroidResource Include="Resources\drawable\evenhigherfloorsky.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />
