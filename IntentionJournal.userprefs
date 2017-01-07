@@ -1,15 +1,11 @@
-﻿<Properties StartupConfiguration="{E59913A3-ACA9-44B3-8B0E-0C694B06FE83}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml.cs">
+﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml.cs">
     <Files>
-      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/AddEntryPage.xaml.cs" Line="37" Column="50" />
-      <File FileName="IntentionJournal/ViewEntryPage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/ViewEntryPage.xaml.cs" Line="76" Column="28" />
-      <File FileName="IntentionJournal/JournalPage.xaml" Line="16" Column="15" />
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="60" Column="58" />
-      <File FileName="IntentionJournal/AppDatabase.cs" Line="32" Column="102" />
-      <File FileName="IntentionJournal/EntryObject.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="55" Column="62" />
+      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="19" Column="24" />
+      <File FileName="IntentionJournal/BrowseQuotesPage.xaml" Line="7" Column="3" />
+      <File FileName="IntentionJournal/Settings.xaml" Line="16" Column="80" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="15" Column="55" />
+      <File FileName="IntentionJournal/HomePage.xaml" Line="11" Column="122" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -17,6 +13,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.97F31E44-E4DE-4DD3-ACE9-43239CD759AA" />
+  <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A5909ABD-1DD3-4CA4-9AB0-E59382CF78A3" />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.Nexus4Android7.0" />
 </Properties>

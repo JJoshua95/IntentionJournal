@@ -5,9 +5,16 @@ using Xamarin.Forms;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// Encodes the logic behind the HomePage screen
+	/// </summary>
 	public partial class HomePage : ContentPage
 	{
 		private List<String> quoteStringList = new List<string>();
+		/// <summary>
+		/// Initializes a new instance of the <see cref="T:IntentionJournal.HomePage"/> class.
+		/// Also displays a random quote from the database
+		/// </summary>
 		public HomePage()
 		{
 			InitializeComponent();
@@ -17,6 +24,9 @@ namespace IntentionJournal
 			}));
 		}
 
+		/// <summary>
+		/// When the page is dispalyed a random quote is shown (so quote can change every time you switch to it)
+		/// </summary>
 		protected override void OnAppearing()
 		{
 			// Every time the page is loaded a new quote shown
@@ -24,6 +34,9 @@ namespace IntentionJournal
 			base.OnAppearing();
 		}
 
+		/// <summary>
+		/// Gets the random quote which is either preloaded in the code itself or from the database
+		/// </summary>
 		public void GetRandomQuote() 
 		{
 			// Load the quote objects into a list and then put their quote strings into another list

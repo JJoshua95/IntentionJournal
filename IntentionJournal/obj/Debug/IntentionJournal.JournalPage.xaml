@@ -3,12 +3,14 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
-			 Title="Journal">
+			 Title="Journal"
+			 BackgroundColor="{StaticResource backgroundColor}">
 	<ContentPage.Content>
 		<ListView x:Name = "listView" ItemSelected="listSelection"  >
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<ImageCell Text="{Binding entryTitle}" Detail="{Binding entryContent}" ImageSource="{Binding entryImageFile}"/>
+					<ImageCell Text="{Binding entryTitle}" Detail="{Binding entryContent}" ImageSource="{Binding entryImageFile}" 
+						TextColor="White" DetailColor="White"/>
 				</DataTemplate>
 			</ListView.ItemTemplate> 
 	 	</ListView>

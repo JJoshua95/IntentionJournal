@@ -4,29 +4,80 @@
 		xmlns:mypages="clr-namespace:IntentionJournal;assembly=IntentionJournal"
 		xmlns:local="clr-namespace:IntentionJournal;assembly=IntentionJournal" 
 		x:Class="IntentionJournal.MainTabContainer"
-		Title = "Intention Journal">
+		Title = "Intention Journal"
+		BackgroundColor="{StaticResource backgroundColor}">
 	<TabbedPage.Children>
-		<NavigationPage Title="Home" Icon="homegrey.png">
+		<NavigationPage Icon="homegrey.png">
+			<NavigationPage.Title> 
+				<OnPlatform x:TypeArguments="x:String">
+				<OnPlatform.iOS>
+					Home
+				</OnPlatform.iOS>
+				<OnPlatform.Android>
+					<!-- Andorid title not set for aesthetic reasons -->
+				</OnPlatform.Android>
+				</OnPlatform>
+			</NavigationPage.Title>
 			<x:Arguments>
 				<local:HomePage/>
 			</x:Arguments>
 		</NavigationPage>
 		<NavigationPage Title="Browse" Icon="browsegrey.png">
+			<NavigationPage.Title> 
+				<OnPlatform x:TypeArguments="x:String">
+				<OnPlatform.iOS>
+					Browse
+				</OnPlatform.iOS>
+				<OnPlatform.Android>
+					<!-- Andorid title not set for aesthetic reasons -->
+				</OnPlatform.Android>
+				</OnPlatform>
+			</NavigationPage.Title>
 			<x:Arguments>
 				<local:BrowseMoodsPage/>
 			</x:Arguments>
 		</NavigationPage>
 		<NavigationPage Title = "Write" Icon="writegrey.png">
+			<NavigationPage.Title> 
+				<OnPlatform x:TypeArguments="x:String">
+				<OnPlatform.iOS>
+					Write
+				</OnPlatform.iOS>
+				<OnPlatform.Android>
+					<!-- Andorid title not set for aesthetic reasons -->
+				</OnPlatform.Android>
+				</OnPlatform>
+			</NavigationPage.Title>
 			<x:Arguments>
 				<local:AddEntryPage/>
 			</x:Arguments>
 		</NavigationPage>
 		<NavigationPage Title = "Tree" Icon="treegrey.png">
+			<NavigationPage.Title> 
+				<OnPlatform x:TypeArguments="x:String">
+				<OnPlatform.iOS>
+					Tree
+				</OnPlatform.iOS>
+				<OnPlatform.Android>
+					<!-- Andorid title not set for aesthetic reasons -->
+				</OnPlatform.Android>
+				</OnPlatform>
+			</NavigationPage.Title>
 			<x:Arguments>
 				<local:Tree/>
 			</x:Arguments>
 		</NavigationPage>
 		<NavigationPage Title = "Settings" Icon="settingsgrey.png">
+			<NavigationPage.Title> 
+				<OnPlatform x:TypeArguments="x:String">
+				<OnPlatform.iOS>
+					Settings
+				</OnPlatform.iOS>
+				<OnPlatform.Android>
+					<!-- Andorid title not set for aesthetic reasons -->
+				</OnPlatform.Android>
+				</OnPlatform>
+			</NavigationPage.Title>
 			<x:Arguments>
 				<local:Settings/>
 			</x:Arguments>

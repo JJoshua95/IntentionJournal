@@ -3,9 +3,11 @@ using SQLite;
 
 namespace IntentionJournal
 {
-	// This is a buffer object
-	// When a user loads in an image it is saved here temporarily
-	// So that it can be added to an entry record later if the user saves a new entry with a picture
+	/// <summary>
+	/// This is an object representing an image. When a user loads in an image it is saved temporarily
+	/// so that it can be added to an entry record later if the user saves a new entry with a picture
+	/// The iamge is stored as an array of bytes that can be processed later
+	/// </summary>
 	public class ImageDataObject
 	{
 		[PrimaryKey, AutoIncrement]

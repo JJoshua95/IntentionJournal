@@ -3,12 +3,13 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
-			 Title="Edit your entry">
+			 Title="Edit your entry"
+			 BackgroundColor="{StaticResource backgroundColor}">
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
     		<Label x:Name="moodLabel" Text="{Binding entryCategory}"/>
     		<Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}"/>
-    		<Editor x:Name="contInputEdit" Text ="{Binding entryContent}" HeightRequest="300" BackgroundColor="#FEF5E7"/>
+    		<Editor x:Name="contInputEdit" Text ="{Binding entryContent}" HeightRequest="300" />
 			<Button x:Name="changeImageButton" Text="Change Picture" Clicked="pickGalleryImage"/>
 			<Image x:Name="editImage"/>
 			<Button x:Name="deleteImageButton" Text="Delete Picture" Clicked="DeletePicture"/>

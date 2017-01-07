@@ -3,11 +3,12 @@
              xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Padding="20"
-			 Title="Home">
+			 Title="Home"
+			 BackgroundColor="{StaticResource backgroundColor}">
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
-			<Label Text="Text:" HorizontalOptions="Center"/>
-    		<Editor x:Name="randomQuoteEditor" HeightRequest="250" BackgroundColor="#FEF5E7" IsEnabled="false"/>
+			<Label Text="Text:" HorizontalOptions="Center" />
+    		<Editor x:Name="randomQuoteEditor" HeightRequest="250" IsEnabled="false" TextColor="White" BackgroundColor="Silver"/>
   		</StackLayout>
 	</ScrollView>
 </ContentPage>

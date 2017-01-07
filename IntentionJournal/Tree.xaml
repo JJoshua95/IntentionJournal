@@ -3,7 +3,8 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.Tree" 
 		xmlns:local="clr-namespace:IntentionJournal"
-		Title="Your Tree Progress">
+		Title="Your Tree Progress"
+		BackgroundColor="{StaticResource backgroundColor}">
 		<ScrollView Orientation="Both">
 		<AbsoluteLayout HorizontalOptions="CenterAndExpand" VerticalOptions="EndAndExpand">
 				<Image x:Name="image" Source="tree.png" />

@@ -6,6 +6,7 @@ using System.Linq;
 
 using Xamarin.Forms;
 
+// This class makes use of answers in the following forums
 // https://forums.xamarin.com/discussion/17882/blob-to-image-binding
 // https://forums.xamarin.com/discussion/46010/convert-image-to-byte
 // https://forums.xamarin.com/discussion/47973/sqlite-with-blob
@@ -13,9 +14,17 @@ using Xamarin.Forms;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// This class encodes the logic underlying the "Write" tab page, where a user can enter a 
+	/// new intention entry in the journal. The UI is implemented in xaml AddEntryPage.xaml
+	/// </summary>
 	public partial class AddEntryPage : ContentPage
 	{
-		public String currentMood;
+		public String currentMood; // to hold the currently selected ood a user may pick to save their entry under
+		/// <summary>
+		/// Initializes a new instance of a <see cref="T:IntentionJournal.AddEntryPage"/> class. 
+		/// Renders in the UI functionality
+		/// </summary>
 		public AddEntryPage()
 		{
 			InitializeComponent();
@@ -25,6 +34,7 @@ namespace IntentionJournal
 				moodPicker.Items.Add("Creative");
 				moodPicker.Items.Add("Inspired");
 
+				/*
 				var picturebutton = new Button { Text = "Add Picture" };
 				picturebutton.Clicked += (sender, e) => { pickGalleryImage(sender, e); };
 				var savebutton = new Button { Text = "Save Entry" };
@@ -37,10 +47,14 @@ namespace IntentionJournal
 					VerticalOptions = LayoutOptions.EndAndExpand
 				};
 				stacklayout.Children.Add(buttonBar);
+				*/
 				// clear buffer when new page made
 			}
 		}
 
+		/// <summary>
+		/// Clears the text inputs.
+		/// </summary>
 		public void clearTextAreas() 
 		{
 			titleInput.Text = "";
@@ -48,6 +62,11 @@ namespace IntentionJournal
 			moodPicker.SelectedIndex = -1;
 		}
 
+		/// <summary>
+		/// When the save button is clicked, this method checks that the user has picked a mood, entered a title and text for their entry, 
+		/// if all of these have been filled then the user inputted data (including a picture if selected) is stored as an object in the 
+		/// entries table in the database as a new record. The text areas are cleared and the image buffer is also cleared.
+		/// </summary>
 		public void onSaveClicked()
 		{
 			try
@@ -131,6 +150,14 @@ namespace IntentionJournal
 			}
 		}
 
+		/// <summary>
+		/// Opens the native gallery for an iOS or Android device, when the add picture button is pressed,
+		/// where the user can pick one of their pictures and add it to their entry. The picture is displayed and then stored
+		/// as an array of bytes in a special table in the database where pictures are temporarily stored, and can be 
+		/// loaded back in and saved in the entry object if the user is happy with their choice and presses save.
+		/// </summary>
+		/// <param name="sender">Sender.</param>
+		/// <param name="args">Arguments.</param>
 		public async void pickGalleryImage(object sender, EventArgs args)
 		{
 			if (!CrossMedia.Current.IsPickPhotoSupported)
@@ -160,6 +187,12 @@ namespace IntentionJournal
 
 		}
 
+		/// <summary>
+		/// Gets the BLOB entry in the buffer table for images, displays the picyture currebtly stored in the buffer, 
+		/// this was used in testing and initialising this approach to saving pictures
+		/// </summary>
+		/// <param name="sender">Sender.</param>
+		/// <param name="args">Arguments.</param>
 		public void getBlob(object sender, EventArgs args)
 		{
 			var imRecord = App.DBase.getTempImage(1);

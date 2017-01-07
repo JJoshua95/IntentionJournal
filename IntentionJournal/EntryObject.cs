@@ -3,6 +3,10 @@ using SQLite;
 
 namespace IntentionJournal
 {
+	/// <summary>
+	/// A class representing an entry which is compatible for storage in an SQLite database, encoding all the data 
+	/// associated with a user entry
+	/// </summary>
 	public class EntryObject
 	{
 		[PrimaryKey, AutoIncrement]
