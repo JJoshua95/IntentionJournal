@@ -18,7 +18,7 @@ namespace IntentionJournal
 		public HomePage()
 		{
 			InitializeComponent();
-			ToolbarItems.Add(new ToolbarItem("Settings", "settingsgrey.png", () => {
+			ToolbarItems.Add(new ToolbarItem("Settings", "randomtransparent.png", () => {
 				//logic code goes here 
 				GetRandomQuote();
 			}));

@@ -3,10 +3,11 @@
 		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="IntentionJournal.TreeGrowing" 
 		Title="Your Tree Grows!"
-		BackgroundColor="{StaticResource backgroundColor}">
+		BackgroundColor="{StaticResource backgroundColor}"
+		BackgroundImage="evenhigherfloorsky.png">
 	<ContentPage.Content>
 		<AbsoluteLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
-			<Image x:Name="image" Source="tree.png" HorizontalOptions="Center" VerticalOptions="EndAndExpand"/>
+			<Image x:Name="image" Source="treeonly.png" HorizontalOptions="Center" VerticalOptions="EndAndExpand"/>
 		</AbsoluteLayout>
 	</ContentPage.Content>
 </ContentPage>

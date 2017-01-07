@@ -8,7 +8,7 @@
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
 			<Label Text="Text:" HorizontalOptions="Center" />
-    		<Editor x:Name="randomQuoteEditor" HeightRequest="250" IsEnabled="false" TextColor="White" BackgroundColor="Silver"/>
+    		<Editor x:Name="randomQuoteEditor" HeightRequest="250" TextColor="White"/>
   		</StackLayout>
 	</ScrollView>
 </ContentPage>

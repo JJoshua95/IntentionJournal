@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/JournalPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/TreeGrowing.xaml">
     <Files>
-      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="19" Column="24" />
-      <File FileName="IntentionJournal/BrowseQuotesPage.xaml" Line="7" Column="3" />
-      <File FileName="IntentionJournal/Settings.xaml" Line="16" Column="80" />
-      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="15" Column="55" />
-      <File FileName="IntentionJournal/HomePage.xaml" Line="11" Column="122" />
+      <File FileName="IntentionJournal/JournalPage.xaml.cs" Line="8" Column="1" />
+      <File FileName="IntentionJournal/BrowseQuotesPage.xaml" Line="1" Column="1" />
+      <File FileName="IntentionJournal/Settings.xaml" Line="1" Column="1" />
+      <File FileName="IntentionJournal/AddEntryPage.xaml" Line="1" Column="1" />
+      <File FileName="IntentionJournal/HomePage.xaml" Line="11" Column="79" />
+      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="21" Column="67" />
+      <File FileName="IntentionJournal/Tree.xaml" Line="7" Column="3" />
+      <File FileName="IntentionJournal/Tree.xaml.cs" Line="1" Column="1" />
+      <File FileName="IntentionJournal/TreeGrowing.xaml" Line="14" Column="1" />
+      <File FileName="IntentionJournal/TreeGrowing.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
