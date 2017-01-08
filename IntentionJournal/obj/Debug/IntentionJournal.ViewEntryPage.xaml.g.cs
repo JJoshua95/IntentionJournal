@@ -23,6 +23,9 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.Label moodLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label dateLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry titleInputEdit;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -48,6 +51,7 @@ namespace IntentionJournal {
             this.LoadFromXaml(typeof(ViewEntryPage));
             stacklayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stacklayout");
             moodLabel = this.FindByName <global::Xamarin.Forms.Label>("moodLabel");
+            dateLabel = this.FindByName <global::Xamarin.Forms.Label>("dateLabel");
             titleInputEdit = this.FindByName <global::Xamarin.Forms.Entry>("titleInputEdit");
             contInputEdit = this.FindByName <global::Xamarin.Forms.Editor>("contInputEdit");
             editImage = this.FindByName <global::Xamarin.Forms.Image>("editImage");

@@ -20,10 +20,10 @@
         		<Setter Property="TextColor" Value="White"/>
       		</Style>
 
-			<!--Style TargetType="Editor">
+			<Style TargetType="Editor">
         		<Setter Property="TextColor" Value="White"/>
 				<Setter Property="BackgroundColor" Value="#433e3f"/>
-      		</Style-->
+      		</Style>
 
 			<!--Style TargetType="Entry">
         		<Setter Property="TextColor" Value="White"/>

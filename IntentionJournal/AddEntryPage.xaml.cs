@@ -85,13 +85,16 @@ namespace IntentionJournal
 					currentMood = moodPicker.Items[moodPicker.SelectedIndex];
 					System.Diagnostics.Debug.WriteLine("Selected mood: " + moodPicker.Items[moodPicker.SelectedIndex]);
 					System.Diagnostics.Debug.WriteLine(currentMood + ".png");
+					DateTime nowTime = DateTime.Now;
+					System.Diagnostics.Debug.WriteLine(nowTime);
 					var ent = new EntryObject()
 					{
 						entryCategory = currentMood,
 						entryTitle = titleInput.Text,
 						entryContent = contInput.Text,
 						entryImageFile = currentMood + ".png",
-						entryPictureBytes = inputBytes //currentBufferImage.pictureBytes
+						entryPictureBytes = inputBytes, //currentBufferImage.pictureBytes
+						entryDateTime = nowTime
 					};
 					App.DBase.SaveEntry(ent);
 					// Clear the buffer so that if another user saves an entry with no picture 
