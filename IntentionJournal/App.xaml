@@ -25,7 +25,7 @@
 				<Setter Property="BackgroundColor" Value="#433e3f"/>
       		</Style>
 
-			<!--Style TargetType="Entry">
+			<Style TargetType="Entry">
         		<Setter Property="TextColor" Value="White"/>
 				<Setter Property="BackgroundColor" Value="#433e3f"/>
       		</Style>
@@ -33,7 +33,7 @@
 			<Style TargetType="Picker">
         		<Setter Property="TextColor" Value="White"/>
 				<Setter Property="BackgroundColor" Value="#433e3f"/>
-      		</Style-->
+      		</Style>
 
 			<Style TargetType="Button">
         		<Setter Property="BackgroundColor" Value="#00ba8e"/>

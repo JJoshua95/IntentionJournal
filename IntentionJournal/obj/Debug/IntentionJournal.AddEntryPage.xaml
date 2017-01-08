@@ -8,11 +8,11 @@
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
     		<Label Text="Title:" />
-    		<Entry x:Name="titleInput" BackgroundColor="White"/>
+    		<Entry x:Name="titleInput" BackgroundColor="#433e3f" TextColor="White"/>
 			<Label Text="Text:"/>
     		<Editor x:Name="contInput" HeightRequest="250" />
 			<Label Text="Mood:"/>
-			<Picker x:Name="moodPicker" BackgroundColor="White"/>
+			<Picker x:Name="moodPicker" BackgroundColor="#433e3f" TextColor="White"/>
 			<Image x:Name="image"/>
 			<Button x:Name="pickImageBtn" Text="Add Picture" Clicked="pickGalleryImage"/>
 			<Button x:Name="saveBtn" Text="Save Entry" Clicked="onSaveClicked"/>

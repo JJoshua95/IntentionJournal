@@ -9,7 +9,7 @@
   		<StackLayout x:Name="stacklayout">
     		<Label x:Name="moodLabel" Text="{Binding entryCategory}" HorizontalOptions="Center" />
 			<Label x:Name="dateLabel" Text="{Binding entryDateTime}" HorizontalOptions="Center"/>
-    		<Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}" BackgroundColor="White"/>
+    		<Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}" BackgroundColor="#433e3f" TextColor="White"/>
     		<Editor x:Name="contInputEdit" Text ="{Binding entryContent}" HeightRequest="300" />
 			<Image x:Name="editImage"/>
 			<Button x:Name="changeImageButton" Text="Change Picture" Clicked="pickGalleryImage"/>
