@@ -250,7 +250,7 @@ Lme_2:
 	.no_dead_strip IntentionJournal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 IntentionJournal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 .file 2 "/Users/jcjoshua/Projects/IntentionJournal3/iOS/AppDelegate.cs"
-.loc 2 14 0 prologue_end
+.loc 2 15 0 prologue_end
 .word 0xa9b87bfd
 .word 0x910003fd
 .word 0xa90163b7
@@ -277,13 +277,13 @@ ldr x16, [x16, #144]
 .word 0xf9406231
 .word 0xb4000051
 .word 0xd63f0220
-.loc 2 15 0
+.loc 2 16 0
 .word 0xf9401bb1
 .word 0xf9407231
 .word 0xb4000051
 .word 0xd63f0220
 bl _p_3
-.loc 2 17 0
+.loc 2 18 0
 .word 0xf9401bb1
 .word 0xf9408631
 .word 0xb4000051
@@ -307,7 +307,7 @@ bl _p_5
 .word 0xf9403ba1
 .word 0xaa1803e0
 bl _p_6
-.loc 2 19 0
+.loc 2 20 0
 .word 0xf9401bb1
 .word 0xf940de31
 .word 0xb4000051
@@ -334,7 +334,7 @@ bl _p_7
 .word 0xf9402fa0
 .word 0xf9002ba0
 .word 0xaa0003f7
-.loc 2 20 0
+.loc 2 21 0
 .word 0xf9401bb1
 .word 0xf9414631
 .word 0xb4000051
@@ -648,6 +648,181 @@ bl _p_16
 
 Lme_5:
 .text
+	.align 4
+	.no_dead_strip IntentionJournal_iOS_TabPageCustom__ctor
+IntentionJournal_iOS_TabPageCustom__ctor:
+.file 4 "/Users/jcjoshua/Projects/IntentionJournal3/iOS/TabPageCustom.cs"
+.loc 4 15 0 prologue_end
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
+add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
+ldr x16, [x16, #208]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_17
+.loc 4 16 0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.loc 4 17 0
+.word 0xf9400fb1
+.word 0xf9408231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400fb1
+.word 0xf9409631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9421430
+.word 0xd63f0200
+.word 0xf9002fa0
+.word 0xf9400fb1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800e40
+.word 0xd28017a0
+.word 0xd2801440
+.word 0xf9400fb1
+.word 0xf940d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800e40
+.word 0xd28017a1
+.word 0xd2801442
+bl _p_18
+.word 0xf9002ba0
+.word 0xf9400fb1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xf9402fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9416450
+.word 0xd63f0200
+.loc 4 18 0
+.word 0xf9400fb1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400fb1
+.word 0xf9413631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9421430
+.word 0xd63f0200
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf9415a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800860
+.word 0xd28007c0
+.word 0xd28007e0
+.word 0xf9400fb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800860
+.word 0xd28007c1
+.word 0xd28007e2
+bl _p_18
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9419a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9423c50
+.word 0xd63f0200
+.loc 4 19 0
+.word 0xf9400fb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400fb1
+.word 0xf941d631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400341
+.word 0xf9421430
+.word 0xd63f0200
+.word 0xf9001fa0
+.word 0xf9400fb1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800860
+.word 0xd28007c0
+.word 0xd28007e0
+.word 0xf9400fb1
+.word 0xf9421631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800860
+.word 0xd28007c1
+.word 0xd28007e2
+bl _p_18
+.word 0xf9001ba0
+.word 0xf9400fb1
+.word 0xf9423a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+.word 0xf9401fa2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf941bc50
+.word 0xd63f0200
+.loc 4 20 0
+.word 0xf9400fb1
+.word 0xf9426231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9427231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_6:
+.text
 	.align 3
 jit_code_end:
 
@@ -662,6 +837,7 @@ bl IntentionJournal_iOS_AppDelegate__ctor
 bl IntentionJournal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 bl IntentionJournal_iOS_SQLite_iOS__ctor
 bl IntentionJournal_iOS_SQLite_iOS_GetConnection
+bl IntentionJournal_iOS_TabPageCustom__ctor
 bl method_addresses
 method_addresses_end:
 
@@ -682,7 +858,7 @@ unwind_info:
 
 	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,19,12,31,0
 	.byte 68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13,29,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68
-	.byte 149,24,150,23,68,151,22,152,21,68,153,20,154,19
+	.byte 149,24,150,23,68,151,22,152,21,68,153,20,154,19,16,12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
 
 .text
 	.align 4
@@ -693,133 +869,149 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #224]
 br x16
-.word 288
+.word 292
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #232]
 br x16
-.word 293
+.word 297
 	.no_dead_strip plt_Xamarin_Forms_Forms_Init
 plt_Xamarin_Forms_Forms_Init:
 _p_3:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #240]
 br x16
-.word 298
+.word 302
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_fast
 plt__jit_icall_ves_icall_object_new_fast:
 _p_4:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #248]
 br x16
-.word 303
+.word 307
 	.no_dead_strip plt_IntentionJournal_App__ctor
 plt_IntentionJournal_App__ctor:
 _p_5:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #248]
+ldr x16, [x16, #256]
 br x16
-.word 331
+.word 335
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
 _p_6:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #256]
+ldr x16, [x16, #264]
 br x16
-.word 336
+.word 340
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
 _p_7:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #264]
+ldr x16, [x16, #272]
 br x16
-.word 341
+.word 345
 	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
 plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
 _p_8:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #272]
+ldr x16, [x16, #280]
 br x16
-.word 346
+.word 350
 	.no_dead_strip plt_System_IO_Path_Combine_string_string_string
 plt_System_IO_Path_Combine_string_string_string:
 _p_9:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #280]
+ldr x16, [x16, #288]
 br x16
-.word 351
+.word 355
 	.no_dead_strip plt_System_IO_Path_Combine_string_string
 plt_System_IO_Path_Combine_string_string:
 _p_10:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #288]
+ldr x16, [x16, #296]
 br x16
-.word 356
+.word 360
 	.no_dead_strip plt_System_Console_WriteLine_string
 plt_System_Console_WriteLine_string:
 _p_11:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #296]
+ldr x16, [x16, #304]
 br x16
-.word 361
+.word 365
 	.no_dead_strip plt_System_IO_File_Exists_string
 plt_System_IO_File_Exists_string:
 _p_12:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #304]
+ldr x16, [x16, #312]
 br x16
-.word 366
+.word 370
 	.no_dead_strip plt_System_IO_File_Create_string
 plt_System_IO_File_Create_string:
 _p_13:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #312]
+ldr x16, [x16, #320]
 br x16
-.word 371
+.word 375
 	.no_dead_strip plt__jit_icall_mono_generic_class_init
 plt__jit_icall_mono_generic_class_init:
 _p_14:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #320]
+ldr x16, [x16, #328]
 br x16
-.word 376
+.word 380
 	.no_dead_strip plt__jit_icall_ves_icall_object_new_specific
 plt__jit_icall_ves_icall_object_new_specific:
 _p_15:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #328]
+ldr x16, [x16, #336]
 br x16
-.word 402
+.word 406
 	.no_dead_strip plt_SQLite_SQLiteConnection__ctor_string_bool
 plt_SQLite_SQLiteConnection__ctor_string_bool:
 _p_16:
 adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
 add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #344]
 br x16
-.word 434
+.word 438
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_TabbedRenderer__ctor
+plt_Xamarin_Forms_Platform_iOS_TabbedRenderer__ctor:
+_p_17:
+adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
+add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
+ldr x16, [x16, #352]
+br x16
+.word 443
+	.no_dead_strip plt_UIKit_UIColor_FromRGB_int_int_int
+plt_UIKit_UIColor_FromRGB_int_int_int:
+_p_18:
+adrp x16, mono_aot_IntentionJournal_iOS_got@PAGE+0
+add x16, x16, mono_aot_IntentionJournal_iOS_got@PAGEOFF
+ldr x16, [x16, #360]
+br x16
+.word 448
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_IntentionJournal_iOS_got, 344
+.lcomm mono_aot_IntentionJournal_iOS_got, 368
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -842,7 +1034,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "1AB94880-3649-4C39-B164-FA157C463295"
+	.asciz "AC6993B3-9A8E-4A7B-9AA3-F297F6AB7FBB"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -919,13 +1111,13 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 26,344,17,7,70,923871743,0,1371
-	.long 128,8,8,10,0,14,2240,856
-	.long 352,184,0,288,320,232,0,176
+	.long 27,368,19,8,70,923871743,0,2207
+	.long 128,8,8,10,0,14,3088,872
+	.long 368,184,0,296,336,240,0,176
 	.long 32,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 0,47,41,59,4,247,17,59,4,6,34,5,2,242,134,199
+	.byte 68,171,150,255,67,2,103,102,171,111,43,30,53,4,110,179
 	.globl _mono_aot_module_IntentionJournal_iOS_info
 	.align 3
 _mono_aot_module_IntentionJournal_iOS_info:
@@ -5689,7 +5881,7 @@ LDIFF_SYM843=LTDIE_134 - Ldebug_info_start
 	.asciz "IntentionJournal.iOS.AppDelegate:FinishedLaunching"
 	.asciz "IntentionJournal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,14
+	.byte 2,15
 	.quad IntentionJournal_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_3
 
@@ -6363,6 +6555,242 @@ LDIFF_SYM960=Lme_5 - IntentionJournal_iOS_SQLite_iOS_GetConnection
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,149,24,150,23,68,151,22,152,21,68,153,20,154,19
 	.align 3
 Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_151:
+
+	.byte 5
+	.asciz "UIKit_UIViewController"
+
+	.byte 48,16
+LDIFF_SYM961=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM961
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM962=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM962
+	.byte 2,35,40,0,7
+	.asciz "UIKit_UIViewController"
+
+LDIFF_SYM963=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM963
+LTDIE_151_POINTER:
+
+	.byte 13
+LDIFF_SYM964=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM964
+LTDIE_151_REFERENCE:
+
+	.byte 14
+LDIFF_SYM965=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM965
+LTDIE_150:
+
+	.byte 5
+	.asciz "UIKit_UITabBarController"
+
+	.byte 64,16
+LDIFF_SYM966=LTDIE_151 - Ldebug_info_start
+	.long LDIFF_SYM966
+	.byte 2,35,0,6
+	.asciz "__mt_SelectedViewController_var"
+
+LDIFF_SYM967=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM967
+	.byte 2,35,48,6
+	.asciz "__mt_WeakDelegate_var"
+
+LDIFF_SYM968=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM968
+	.byte 2,35,56,0,7
+	.asciz "UIKit_UITabBarController"
+
+LDIFF_SYM969=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM969
+LTDIE_150_POINTER:
+
+	.byte 13
+LDIFF_SYM970=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM970
+LTDIE_150_REFERENCE:
+
+	.byte 14
+LDIFF_SYM971=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM971
+LTDIE_152:
+
+	.byte 5
+	.asciz "UIKit_UIColor"
+
+	.byte 40,16
+LDIFF_SYM972=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM972
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIColor"
+
+LDIFF_SYM973=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM973
+LTDIE_152_POINTER:
+
+	.byte 13
+LDIFF_SYM974=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM974
+LTDIE_152_REFERENCE:
+
+	.byte 14
+LDIFF_SYM975=LTDIE_152 - Ldebug_info_start
+	.long LDIFF_SYM975
+LTDIE_153:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM976=LTDIE_15 - Ldebug_info_start
+	.long LDIFF_SYM976
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM977=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM977
+LTDIE_153_POINTER:
+
+	.byte 13
+LDIFF_SYM978=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM978
+LTDIE_153_REFERENCE:
+
+	.byte 14
+LDIFF_SYM979=LTDIE_153 - Ldebug_info_start
+	.long LDIFF_SYM979
+LTDIE_149:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Platform_iOS_TabbedRenderer"
+
+	.byte 120,16
+LDIFF_SYM980=LTDIE_150 - Ldebug_info_start
+	.long LDIFF_SYM980
+	.byte 2,35,0,6
+	.asciz "_barBackgroundColorWasSet"
+
+LDIFF_SYM981=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM981
+	.byte 2,35,96,6
+	.asciz "_barTextColorWasSet"
+
+LDIFF_SYM982=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM982
+	.byte 2,35,97,6
+	.asciz "_defaultBarTextColor"
+
+LDIFF_SYM983=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM983
+	.byte 2,35,64,6
+	.asciz "_defaultBarTextColorSet"
+
+LDIFF_SYM984=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM984
+	.byte 2,35,98,6
+	.asciz "_defaultBarColor"
+
+LDIFF_SYM985=LTDIE_152_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM985
+	.byte 2,35,72,6
+	.asciz "_defaultBarColorSet"
+
+LDIFF_SYM986=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM986
+	.byte 2,35,99,6
+	.asciz "_loaded"
+
+LDIFF_SYM987=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM987
+	.byte 2,35,100,6
+	.asciz "_queuedSize"
+
+LDIFF_SYM988=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM988
+	.byte 2,35,104,6
+	.asciz "<Element>k__BackingField"
+
+LDIFF_SYM989=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM989
+	.byte 2,35,80,6
+	.asciz "ElementChanged"
+
+LDIFF_SYM990=LTDIE_153_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM990
+	.byte 2,35,88,0,7
+	.asciz "Xamarin_Forms_Platform_iOS_TabbedRenderer"
+
+LDIFF_SYM991=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM991
+LTDIE_149_POINTER:
+
+	.byte 13
+LDIFF_SYM992=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM992
+LTDIE_149_REFERENCE:
+
+	.byte 14
+LDIFF_SYM993=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM993
+LTDIE_148:
+
+	.byte 5
+	.asciz "IntentionJournal_iOS_TabPageCustom"
+
+	.byte 120,16
+LDIFF_SYM994=LTDIE_149 - Ldebug_info_start
+	.long LDIFF_SYM994
+	.byte 2,35,0,0,7
+	.asciz "IntentionJournal_iOS_TabPageCustom"
+
+LDIFF_SYM995=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM995
+LTDIE_148_POINTER:
+
+	.byte 13
+LDIFF_SYM996=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM996
+LTDIE_148_REFERENCE:
+
+	.byte 14
+LDIFF_SYM997=LTDIE_148 - Ldebug_info_start
+	.long LDIFF_SYM997
+	.byte 2
+	.asciz "IntentionJournal.iOS.TabPageCustom:.ctor"
+	.asciz "IntentionJournal_iOS_TabPageCustom__ctor"
+
+	.byte 4,15
+	.quad IntentionJournal_iOS_TabPageCustom__ctor
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM998=LTDIE_148_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM998
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM999=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM999
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad IntentionJournal_iOS_TabPageCustom__ctor
+
+LDIFF_SYM1000=Lme_6 - IntentionJournal_iOS_TabPageCustom__ctor
+	.long LDIFF_SYM1000
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,154,10
+	.align 3
+Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
 

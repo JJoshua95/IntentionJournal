@@ -29,10 +29,10 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.Picker moodPicker;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button pickImageBtn;
+        private global::Xamarin.Forms.Image image;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Image image;
+        private global::Xamarin.Forms.Button pickImageBtn;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button saveBtn;
@@ -44,8 +44,8 @@ namespace IntentionJournal {
             titleInput = this.FindByName <global::Xamarin.Forms.Entry>("titleInput");
             contInput = this.FindByName <global::Xamarin.Forms.Editor>("contInput");
             moodPicker = this.FindByName <global::Xamarin.Forms.Picker>("moodPicker");
-            pickImageBtn = this.FindByName <global::Xamarin.Forms.Button>("pickImageBtn");
             image = this.FindByName <global::Xamarin.Forms.Image>("image");
+            pickImageBtn = this.FindByName <global::Xamarin.Forms.Button>("pickImageBtn");
             saveBtn = this.FindByName <global::Xamarin.Forms.Button>("saveBtn");
         }
     }

@@ -26,6 +26,8 @@
 @class UIKit_UIControlEventProxy;
 @class Xamarin_Forms_Platform_iOS_FormsApplicationDelegate;
 @class AppDelegate;
+@class Xamarin_Forms_Platform_iOS_TabbedRenderer;
+@class IntentionJournal_iOS_TabPageCustom;
 @class UIKit_UITextField__UITextFieldDelegate;
 @class UIKit_UIScrollView__UIScrollViewDelegate;
 @class UIKit_UITextView__UITextViewDelegate;
@@ -72,7 +74,6 @@
 @class Xamarin_Forms_Platform_iOS_SliderRenderer;
 @class Xamarin_Forms_Platform_iOS_StepperRenderer;
 @class Xamarin_Forms_Platform_iOS_SwitchRenderer;
-@class Xamarin_Forms_Platform_iOS_TabbedRenderer;
 @class Xamarin_Forms_Platform_iOS_TableViewModelRenderer;
 @class Xamarin_Forms_Platform_iOS_UnEvenTableViewModelRenderer;
 @class Xamarin_Forms_Platform_iOS_TableViewRenderer;

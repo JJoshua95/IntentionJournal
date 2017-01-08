@@ -79,3 +79,11 @@
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/higherfloorsky.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/evenhigherfloorsky.png
 /Users/jcjoshua/Projects/IntentionJournal3/iOS/bin/iPhone/Debug/IntentionJournal.xml
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treeincircle.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treefloor.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/skyonly.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treeonlytrimmed.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/floorskyflat.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/floorskyflat2x.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treenoroots1.png
+/Users/jcjoshua/Projects/IntentionJournal3/iOS/obj/iPhone/Debug/build-iphone8.1-10.2/optimized/treenoroots2.png

@@ -13,8 +13,8 @@
     		<Editor x:Name="contInput" HeightRequest="250" />
 			<Label Text="Mood:"/>
 			<Picker x:Name="moodPicker" BackgroundColor="White"/>
-			<Button x:Name="pickImageBtn" Text="Add Picture" Clicked="pickGalleryImage"/>
 			<Image x:Name="image"/>
+			<Button x:Name="pickImageBtn" Text="Add Picture" Clicked="pickGalleryImage"/>
 			<Button x:Name="saveBtn" Text="Save Entry" Clicked="onSaveClicked"/>
   		</StackLayout>
 	</ScrollView>
