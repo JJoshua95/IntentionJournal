@@ -22,5 +22,6 @@ namespace IntentionJournal
 		// This is for a picture selected from user photos gallery
 		[Column("BLOB")]
 		public byte[] entryPictureBytes { get; set; }
+		public DateTime entryDateTime { get; set; }
 	}
 }

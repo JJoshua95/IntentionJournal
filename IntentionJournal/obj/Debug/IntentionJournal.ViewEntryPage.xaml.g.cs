@@ -23,16 +23,19 @@ namespace IntentionJournal {
         private global::Xamarin.Forms.Label moodLabel;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label dateLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Entry titleInputEdit;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Editor contInputEdit;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Button changeImageButton;
+        private global::Xamarin.Forms.Image editImage;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Image editImage;
+        private global::Xamarin.Forms.Button changeImageButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button deleteImageButton;
@@ -48,10 +51,11 @@ namespace IntentionJournal {
             this.LoadFromXaml(typeof(ViewEntryPage));
             stacklayout = this.FindByName <global::Xamarin.Forms.StackLayout>("stacklayout");
             moodLabel = this.FindByName <global::Xamarin.Forms.Label>("moodLabel");
+            dateLabel = this.FindByName <global::Xamarin.Forms.Label>("dateLabel");
             titleInputEdit = this.FindByName <global::Xamarin.Forms.Entry>("titleInputEdit");
             contInputEdit = this.FindByName <global::Xamarin.Forms.Editor>("contInputEdit");
-            changeImageButton = this.FindByName <global::Xamarin.Forms.Button>("changeImageButton");
             editImage = this.FindByName <global::Xamarin.Forms.Image>("editImage");
+            changeImageButton = this.FindByName <global::Xamarin.Forms.Button>("changeImageButton");
             deleteImageButton = this.FindByName <global::Xamarin.Forms.Button>("deleteImageButton");
             SaveEdit = this.FindByName <global::Xamarin.Forms.Button>("SaveEdit");
             deleteEdit = this.FindByName <global::Xamarin.Forms.Button>("deleteEdit");

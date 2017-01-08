@@ -7,11 +7,12 @@
 			 BackgroundColor="{StaticResource backgroundColor}">
 	<ScrollView Orientation="Vertical">
   		<StackLayout x:Name="stacklayout">
-    		<Label x:Name="moodLabel" Text="{Binding entryCategory}"/>
-    		<Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}"/>
+    		<Label x:Name="moodLabel" Text="{Binding entryCategory}" HorizontalOptions="Center" />
+			<Label x:Name="dateLabel" Text="{Binding entryDateTime}" HorizontalOptions="Center"/>
+    		<Entry x:Name="titleInputEdit" Text ="{Binding entryTitle}" BackgroundColor="#433e3f" TextColor="White"/>
     		<Editor x:Name="contInputEdit" Text ="{Binding entryContent}" HeightRequest="300" />
-			<Button x:Name="changeImageButton" Text="Change Picture" Clicked="pickGalleryImage"/>
 			<Image x:Name="editImage"/>
+			<Button x:Name="changeImageButton" Text="Change Picture" Clicked="pickGalleryImage"/>
 			<Button x:Name="deleteImageButton" Text="Delete Picture" Clicked="DeletePicture"/>
 			<Button x:Name="SaveEdit" Text="Save" Clicked="onSaveClicked"/>
 			<Button x:Name="deleteEdit" Text="Delete" Clicked="onDeleteClicked"/>
