@@ -3,7 +3,9 @@ using Xamarin.Forms;
 using IntentionJournal.Droid;
 using System.IO;
 
-// References needed
+// https://msdn.microsoft.com/magazine/mt736454
+// https://code.tutsplus.com/tutorials/an-introduction-to-xamarinforms-and-sqlite--cms-23020
+// http://err2solution.com/2016/05/sqlite-with-xamarin-forms-step-by-step-guide/
 
 [assembly: Dependency(typeof(SQLite_Android))]
 namespace IntentionJournal.Droid

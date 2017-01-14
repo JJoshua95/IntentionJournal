@@ -1,0 +1,326 @@
+\hypertarget{class_intention_journal_1_1_app_database}{}\section{Intention\+Journal.\+App\+Database Class Reference}
+\label{class_intention_journal_1_1_app_database}\index{Intention\+Journal.\+App\+Database@{Intention\+Journal.\+App\+Database}}
+
+
+This class represents the model in the model view controller. This is where direct interactions with the database are handled, which various other classes and pages will need to make use of  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_intention_journal_1_1_app_database_ac4a9875c8d5253d2218c45ef6dd7094e}{App\+Database} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the T\+:\+Intention\+Journal.\+App\+Database class. Also creates the tables the app needs to function if any of them don\textquotesingle{}t exist \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} $>$ \hyperlink{class_intention_journal_1_1_app_database_a59c3959015247eb6f4ad2265710e82d3}{Get\+All\+Entries} ()
+\begin{DoxyCompactList}\small\item\em Gets all entries from the database ready for display or manipulation \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} $>$ \hyperlink{class_intention_journal_1_1_app_database_a361d6772fd3a16d2bfca062d97a9ecde}{Get\+Entries\+For\+Single\+Mood} (String target\+Mood)
+\begin{DoxyCompactList}\small\item\em Gets the entries for single mood, which all have the same entry\+Category attribute, this is used for sorting entries \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_a0fbfd4cc628dbd28e5628cc1194e64bb}{Save\+Entry} (\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} entry\+Val)
+\begin{DoxyCompactList}\small\item\em Inserts an entry into the database \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_ad8769ac4a83aa71d3dcc18d5a0d9f3b2}{Delete\+Entry} (\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} entry\+Val)
+\begin{DoxyCompactList}\small\item\em Deletes an \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} from the database. \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_a07232a4f14f877fc9e46cf57aad2bfae}{Edit\+Entry} (\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} entry\+Val)
+\begin{DoxyCompactList}\small\item\em Edits the entry in the database \end{DoxyCompactList}\item 
+\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} \hyperlink{class_intention_journal_1_1_app_database_ac06d1fa6aeb5a2eb479b7d6c0f47cb94}{Get\+Entry} (int id)
+\begin{DoxyCompactList}\small\item\em Gets an \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} from the database given an ID number it can be found with \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_app_database_a090f896fa5b8ffc96273462294202950}{delete\+All\+Entries} ()
+\begin{DoxyCompactList}\small\item\em Deletes all entries from the database \end{DoxyCompactList}\item 
+\hyperlink{class_intention_journal_1_1_tree_progress}{Tree\+Progress} \hyperlink{class_intention_journal_1_1_app_database_ab9fd2bf2734c6e0e57380ee0b65a19e5}{get\+Tree\+Progress} (int scale\+Id)
+\begin{DoxyCompactList}\small\item\em Gets a \hyperlink{class_intention_journal_1_1_tree_progress}{Tree\+Progress} object with info specifying the user progress i.\+e a double that the tree image should be multiplied by on the tree screen in order to show the user their progress \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_a3b41cf46222b022becb63af220d7e1b6}{Update\+Tree\+Progress} (\hyperlink{class_intention_journal_1_1_tree_progress}{Tree\+Progress} tree\+Scale\+Val)
+\begin{DoxyCompactList}\small\item\em Updates the tree progress \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_a9beec77d3440f42c47bfe6592fb3107f}{Save\+Quote} (\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} quote\+Val)
+\begin{DoxyCompactList}\small\item\em Saves the \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} in the database \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_a46575d566d77e5e87c2070ef3b740123}{Delete\+Quote} (\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} quote\+Val)
+\begin{DoxyCompactList}\small\item\em Deletes a specified \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} from the table \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_afc282838226ca74ce6d570132fabea58}{Edit\+Quote} (\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} quote\+Val)
+\begin{DoxyCompactList}\small\item\em Edits a spcified \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object}. \end{DoxyCompactList}\item 
+List$<$ \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} $>$ \hyperlink{class_intention_journal_1_1_app_database_a83cdd8b05dd4f11f2e27b03328bd5ef6}{Get\+All\+Quotes} ()
+\begin{DoxyCompactList}\small\item\em Gets all Quote\+Objects in the database \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_app_database_a2fc98eedc93868297f07968691dbdeed}{delete\+All\+Quotes} ()
+\begin{DoxyCompactList}\small\item\em Deletes all quotes in the database \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_ab5b4992848a3a24724176335ea1f02fd}{Insert\+Temporary\+Image} (\hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} image\+Input)
+\begin{DoxyCompactList}\small\item\em Inserts an \hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} into the database. \end{DoxyCompactList}\item 
+\hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} \hyperlink{class_intention_journal_1_1_app_database_a1f6754a18f434ae8bb7d2b5ec8eb7c19}{get\+Temp\+Image} (int input\+Id)
+\begin{DoxyCompactList}\small\item\em Gets the \hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} currently stored in the database \end{DoxyCompactList}\item 
+int \hyperlink{class_intention_journal_1_1_app_database_a4e859f5d31d6c889307543f919afa9bd}{Clear\+Image\+Buffer} ()
+\begin{DoxyCompactList}\small\item\em Clears the image buffer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class represents the model in the model view controller. This is where direct interactions with the database are handled, which various other classes and pages will need to make use of 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_ac4a9875c8d5253d2218c45ef6dd7094e}\label{class_intention_journal_1_1_app_database_ac4a9875c8d5253d2218c45ef6dd7094e}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!App\+Database@{App\+Database}}
+\index{App\+Database@{App\+Database}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{App\+Database()}{AppDatabase()}}
+{\footnotesize\ttfamily Intention\+Journal.\+App\+Database.\+App\+Database (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the T\+:\+Intention\+Journal.\+App\+Database class. Also creates the tables the app needs to function if any of them don\textquotesingle{}t exist 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a4e859f5d31d6c889307543f919afa9bd}\label{class_intention_journal_1_1_app_database_a4e859f5d31d6c889307543f919afa9bd}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Clear\+Image\+Buffer@{Clear\+Image\+Buffer}}
+\index{Clear\+Image\+Buffer@{Clear\+Image\+Buffer}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Clear\+Image\+Buffer()}{ClearImageBuffer()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Clear\+Image\+Buffer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clears the image buffer. 
+
+\begin{DoxyReturn}{Returns}
+The image buffer.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a090f896fa5b8ffc96273462294202950}\label{class_intention_journal_1_1_app_database_a090f896fa5b8ffc96273462294202950}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!delete\+All\+Entries@{delete\+All\+Entries}}
+\index{delete\+All\+Entries@{delete\+All\+Entries}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{delete\+All\+Entries()}{deleteAllEntries()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+App\+Database.\+delete\+All\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deletes all entries from the database 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a2fc98eedc93868297f07968691dbdeed}\label{class_intention_journal_1_1_app_database_a2fc98eedc93868297f07968691dbdeed}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!delete\+All\+Quotes@{delete\+All\+Quotes}}
+\index{delete\+All\+Quotes@{delete\+All\+Quotes}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{delete\+All\+Quotes()}{deleteAllQuotes()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+App\+Database.\+delete\+All\+Quotes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deletes all quotes in the database 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_ad8769ac4a83aa71d3dcc18d5a0d9f3b2}\label{class_intention_journal_1_1_app_database_ad8769ac4a83aa71d3dcc18d5a0d9f3b2}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Delete\+Entry@{Delete\+Entry}}
+\index{Delete\+Entry@{Delete\+Entry}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Delete\+Entry()}{DeleteEntry()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Delete\+Entry (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object}}]{entry\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deletes an \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} from the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry\+Val} & Entry value.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a46575d566d77e5e87c2070ef3b740123}\label{class_intention_journal_1_1_app_database_a46575d566d77e5e87c2070ef3b740123}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Delete\+Quote@{Delete\+Quote}}
+\index{Delete\+Quote@{Delete\+Quote}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Delete\+Quote()}{DeleteQuote()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Delete\+Quote (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object}}]{quote\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deletes a specified \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} from the table 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quote\+Val} & Quote value.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a07232a4f14f877fc9e46cf57aad2bfae}\label{class_intention_journal_1_1_app_database_a07232a4f14f877fc9e46cf57aad2bfae}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Edit\+Entry@{Edit\+Entry}}
+\index{Edit\+Entry@{Edit\+Entry}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Edit\+Entry()}{EditEntry()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Edit\+Entry (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object}}]{entry\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Edits the entry in the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry\+Val} & Entry value.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_afc282838226ca74ce6d570132fabea58}\label{class_intention_journal_1_1_app_database_afc282838226ca74ce6d570132fabea58}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Edit\+Quote@{Edit\+Quote}}
+\index{Edit\+Quote@{Edit\+Quote}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Edit\+Quote()}{EditQuote()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Edit\+Quote (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object}}]{quote\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Edits a spcified \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object}. 
+
+\begin{DoxyReturn}{Returns}
+The quote.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em quote\+Val} & Quote value.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a59c3959015247eb6f4ad2265710e82d3}\label{class_intention_journal_1_1_app_database_a59c3959015247eb6f4ad2265710e82d3}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Get\+All\+Entries@{Get\+All\+Entries}}
+\index{Get\+All\+Entries@{Get\+All\+Entries}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Get\+All\+Entries()}{GetAllEntries()}}
+{\footnotesize\ttfamily List$<$\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object}$>$ Intention\+Journal.\+App\+Database.\+Get\+All\+Entries (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets all entries from the database ready for display or manipulation 
+
+\begin{DoxyReturn}{Returns}
+List of all \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} instances in entry table
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a83cdd8b05dd4f11f2e27b03328bd5ef6}\label{class_intention_journal_1_1_app_database_a83cdd8b05dd4f11f2e27b03328bd5ef6}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Get\+All\+Quotes@{Get\+All\+Quotes}}
+\index{Get\+All\+Quotes@{Get\+All\+Quotes}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Get\+All\+Quotes()}{GetAllQuotes()}}
+{\footnotesize\ttfamily List$<$\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object}$>$ Intention\+Journal.\+App\+Database.\+Get\+All\+Quotes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets all Quote\+Objects in the database 
+
+\begin{DoxyReturn}{Returns}
+all quotes.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a361d6772fd3a16d2bfca062d97a9ecde}\label{class_intention_journal_1_1_app_database_a361d6772fd3a16d2bfca062d97a9ecde}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Get\+Entries\+For\+Single\+Mood@{Get\+Entries\+For\+Single\+Mood}}
+\index{Get\+Entries\+For\+Single\+Mood@{Get\+Entries\+For\+Single\+Mood}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Get\+Entries\+For\+Single\+Mood()}{GetEntriesForSingleMood()}}
+{\footnotesize\ttfamily List$<$\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object}$>$ Intention\+Journal.\+App\+Database.\+Get\+Entries\+For\+Single\+Mood (\begin{DoxyParamCaption}\item[{String}]{target\+Mood }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the entries for single mood, which all have the same entry\+Category attribute, this is used for sorting entries 
+
+\begin{DoxyReturn}{Returns}
+The entries for single mood.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em target\+Mood} & Target mood.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_ac06d1fa6aeb5a2eb479b7d6c0f47cb94}\label{class_intention_journal_1_1_app_database_ac06d1fa6aeb5a2eb479b7d6c0f47cb94}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Get\+Entry@{Get\+Entry}}
+\index{Get\+Entry@{Get\+Entry}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Get\+Entry()}{GetEntry()}}
+{\footnotesize\ttfamily \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} Intention\+Journal.\+App\+Database.\+Get\+Entry (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets an \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} from the database given an ID number it can be found with 
+
+\begin{DoxyReturn}{Returns}
+The entry.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Identifier.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a1f6754a18f434ae8bb7d2b5ec8eb7c19}\label{class_intention_journal_1_1_app_database_a1f6754a18f434ae8bb7d2b5ec8eb7c19}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!get\+Temp\+Image@{get\+Temp\+Image}}
+\index{get\+Temp\+Image@{get\+Temp\+Image}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{get\+Temp\+Image()}{getTempImage()}}
+{\footnotesize\ttfamily \hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} Intention\+Journal.\+App\+Database.\+get\+Temp\+Image (\begin{DoxyParamCaption}\item[{int}]{input\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the \hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} currently stored in the database 
+
+\begin{DoxyReturn}{Returns}
+The temporary image.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em input\+Id} & Input identifier.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_ab9fd2bf2734c6e0e57380ee0b65a19e5}\label{class_intention_journal_1_1_app_database_ab9fd2bf2734c6e0e57380ee0b65a19e5}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!get\+Tree\+Progress@{get\+Tree\+Progress}}
+\index{get\+Tree\+Progress@{get\+Tree\+Progress}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{get\+Tree\+Progress()}{getTreeProgress()}}
+{\footnotesize\ttfamily \hyperlink{class_intention_journal_1_1_tree_progress}{Tree\+Progress} Intention\+Journal.\+App\+Database.\+get\+Tree\+Progress (\begin{DoxyParamCaption}\item[{int}]{scale\+Id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets a \hyperlink{class_intention_journal_1_1_tree_progress}{Tree\+Progress} object with info specifying the user progress i.\+e a double that the tree image should be multiplied by on the tree screen in order to show the user their progress 
+
+\begin{DoxyReturn}{Returns}
+The tree progress.
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em scale\+Id} & Scale identifier.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_ab5b4992848a3a24724176335ea1f02fd}\label{class_intention_journal_1_1_app_database_ab5b4992848a3a24724176335ea1f02fd}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Insert\+Temporary\+Image@{Insert\+Temporary\+Image}}
+\index{Insert\+Temporary\+Image@{Insert\+Temporary\+Image}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Insert\+Temporary\+Image()}{InsertTemporaryImage()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Insert\+Temporary\+Image (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object}}]{image\+Input }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inserts an \hyperlink{class_intention_journal_1_1_image_data_object}{Image\+Data\+Object} into the database. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em image\+Input} & Image input.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a0fbfd4cc628dbd28e5628cc1194e64bb}\label{class_intention_journal_1_1_app_database_a0fbfd4cc628dbd28e5628cc1194e64bb}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Save\+Entry@{Save\+Entry}}
+\index{Save\+Entry@{Save\+Entry}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Save\+Entry()}{SaveEntry()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Save\+Entry (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object}}]{entry\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Inserts an entry into the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em entry\+Val} & Entry Input.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a9beec77d3440f42c47bfe6592fb3107f}\label{class_intention_journal_1_1_app_database_a9beec77d3440f42c47bfe6592fb3107f}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Save\+Quote@{Save\+Quote}}
+\index{Save\+Quote@{Save\+Quote}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Save\+Quote()}{SaveQuote()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Save\+Quote (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object}}]{quote\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Saves the \hyperlink{class_intention_journal_1_1_quote_object}{Quote\+Object} in the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em quote\+Val} & Quote value.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_app_database_a3b41cf46222b022becb63af220d7e1b6}\label{class_intention_journal_1_1_app_database_a3b41cf46222b022becb63af220d7e1b6}} 
+\index{Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}!Update\+Tree\+Progress@{Update\+Tree\+Progress}}
+\index{Update\+Tree\+Progress@{Update\+Tree\+Progress}!Intention\+Journal\+::\+App\+Database@{Intention\+Journal\+::\+App\+Database}}
+\subsubsection{\texorpdfstring{Update\+Tree\+Progress()}{UpdateTreeProgress()}}
+{\footnotesize\ttfamily int Intention\+Journal.\+App\+Database.\+Update\+Tree\+Progress (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_tree_progress}{Tree\+Progress}}]{tree\+Scale\+Val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Updates the tree progress 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree\+Scale\+Val} & \hyperlink{class_intention_journal_1_1_tree}{Tree} scale value.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+App\+Database.\+cs\end{DoxyCompactItemize}

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
+// https://github.com/xamarin/xamarin-forms-samples/tree/master/UserInterface/ListView
+
 namespace IntentionJournal
 {
 	/// <summary>

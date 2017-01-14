@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="IntentionJournal.TreeProgress",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_tree_progress.html",tooltip="TreeProgress object compatible with SQLite storage, holds an ID (only 1 will be used), and a double curretTreeScale representing the current progress of the user, this gets bigger every time a user makes an entry, and is used to scale up the tree image on the tree tab big scale means big tree which means big progress. "];
+}

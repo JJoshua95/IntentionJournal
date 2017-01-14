@@ -1,0 +1,118 @@
+\hypertarget{class_intention_journal_1_1_view_entry_page}{}\section{Intention\+Journal.\+View\+Entry\+Page Class Reference}
+\label{class_intention_journal_1_1_view_entry_page}\index{Intention\+Journal.\+View\+Entry\+Page@{Intention\+Journal.\+View\+Entry\+Page}}
+
+
+Contains the logic behind the \hyperlink{class_intention_journal_1_1_view_entry_page}{View\+Entry\+Page}.  
+
+
+
+
+Inheritance diagram for Intention\+Journal.\+View\+Entry\+Page\+:
+% FIG 0
+
+
+Collaboration diagram for Intention\+Journal.\+View\+Entry\+Page\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_intention_journal_1_1_view_entry_page_aee0c9a7d98ef81043797789095a4c9e9}{View\+Entry\+Page} (\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} selected\+Entry\+Edit)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the T\+:\+Intention\+Journal.\+View\+Entry\+Page class. Takes an \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} input and displays the entry allowing editing \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_view_entry_page_a42744fad9ae25e4b10a7a308e69545ce}{on\+Save\+Clicked} ()
+\begin{DoxyCompactList}\small\item\em When save is clicked all the user input is taken and the input \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} is updated in the database, howver no progress is made by editing, and no growing tree is shown, the user is taken back to a journal page where all the entries are refreshed and shown \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_view_entry_page_a9c8e210d72362c9a92d4f15fc1e2c523}{on\+Delete\+Clicked} ()
+\begin{DoxyCompactList}\small\item\em When the delete button is pressed the \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} entered into this page is deleted from the database And the user is taken back to the journal where all the entries are updated \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_view_entry_page_a23b72c3c73f876955f1b4ba32fbcd7f6}{Delete\+Picture} ()
+\begin{DoxyCompactList}\small\item\em Deletes the image the user picked and wipes it from the buffer too \end{DoxyCompactList}\item 
+async void \hyperlink{class_intention_journal_1_1_view_entry_page_a2f172c5cd22210438c6c671a8c59022b}{pick\+Gallery\+Image} (object sender, Event\+Args args)
+\begin{DoxyCompactList}\small\item\em Opens up the users gallery on their device where they can choose a picture which will be displayed and thenstored in the buffer \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_view_entry_page_ac49daa0a90b73c7c2ec011656cd56274}{get\+Image\+From\+DB} ()
+\begin{DoxyCompactList}\small\item\em Loads the image bytes from the entry and processes them to display an image \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Contains the logic behind the \hyperlink{class_intention_journal_1_1_view_entry_page}{View\+Entry\+Page}. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_intention_journal_1_1_view_entry_page_aee0c9a7d98ef81043797789095a4c9e9}\label{class_intention_journal_1_1_view_entry_page_aee0c9a7d98ef81043797789095a4c9e9}} 
+\index{Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}!View\+Entry\+Page@{View\+Entry\+Page}}
+\index{View\+Entry\+Page@{View\+Entry\+Page}!Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}}
+\subsubsection{\texorpdfstring{View\+Entry\+Page()}{ViewEntryPage()}}
+{\footnotesize\ttfamily Intention\+Journal.\+View\+Entry\+Page.\+View\+Entry\+Page (\begin{DoxyParamCaption}\item[{\hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object}}]{selected\+Entry\+Edit }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of the T\+:\+Intention\+Journal.\+View\+Entry\+Page class. Takes an \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} input and displays the entry allowing editing 
+
+
+\begin{DoxyParams}{Parameters}
+{\em selected\+Entry\+Edit} & Selected entry edit.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_intention_journal_1_1_view_entry_page_a23b72c3c73f876955f1b4ba32fbcd7f6}\label{class_intention_journal_1_1_view_entry_page_a23b72c3c73f876955f1b4ba32fbcd7f6}} 
+\index{Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}!Delete\+Picture@{Delete\+Picture}}
+\index{Delete\+Picture@{Delete\+Picture}!Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}}
+\subsubsection{\texorpdfstring{Delete\+Picture()}{DeletePicture()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+View\+Entry\+Page.\+Delete\+Picture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Deletes the image the user picked and wipes it from the buffer too 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_view_entry_page_ac49daa0a90b73c7c2ec011656cd56274}\label{class_intention_journal_1_1_view_entry_page_ac49daa0a90b73c7c2ec011656cd56274}} 
+\index{Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}!get\+Image\+From\+DB@{get\+Image\+From\+DB}}
+\index{get\+Image\+From\+DB@{get\+Image\+From\+DB}!Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}}
+\subsubsection{\texorpdfstring{get\+Image\+From\+D\+B()}{getImageFromDB()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+View\+Entry\+Page.\+get\+Image\+From\+DB (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Loads the image bytes from the entry and processes them to display an image 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_view_entry_page_a9c8e210d72362c9a92d4f15fc1e2c523}\label{class_intention_journal_1_1_view_entry_page_a9c8e210d72362c9a92d4f15fc1e2c523}} 
+\index{Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}!on\+Delete\+Clicked@{on\+Delete\+Clicked}}
+\index{on\+Delete\+Clicked@{on\+Delete\+Clicked}!Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}}
+\subsubsection{\texorpdfstring{on\+Delete\+Clicked()}{onDeleteClicked()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+View\+Entry\+Page.\+on\+Delete\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+When the delete button is pressed the \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} entered into this page is deleted from the database And the user is taken back to the journal where all the entries are updated 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_view_entry_page_a42744fad9ae25e4b10a7a308e69545ce}\label{class_intention_journal_1_1_view_entry_page_a42744fad9ae25e4b10a7a308e69545ce}} 
+\index{Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}!on\+Save\+Clicked@{on\+Save\+Clicked}}
+\index{on\+Save\+Clicked@{on\+Save\+Clicked}!Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}}
+\subsubsection{\texorpdfstring{on\+Save\+Clicked()}{onSaveClicked()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+View\+Entry\+Page.\+on\+Save\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+When save is clicked all the user input is taken and the input \hyperlink{class_intention_journal_1_1_entry_object}{Entry\+Object} is updated in the database, howver no progress is made by editing, and no growing tree is shown, the user is taken back to a journal page where all the entries are refreshed and shown 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_view_entry_page_a2f172c5cd22210438c6c671a8c59022b}\label{class_intention_journal_1_1_view_entry_page_a2f172c5cd22210438c6c671a8c59022b}} 
+\index{Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}!pick\+Gallery\+Image@{pick\+Gallery\+Image}}
+\index{pick\+Gallery\+Image@{pick\+Gallery\+Image}!Intention\+Journal\+::\+View\+Entry\+Page@{Intention\+Journal\+::\+View\+Entry\+Page}}
+\subsubsection{\texorpdfstring{pick\+Gallery\+Image()}{pickGalleryImage()}}
+{\footnotesize\ttfamily async void Intention\+Journal.\+View\+Entry\+Page.\+pick\+Gallery\+Image (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens up the users gallery on their device where they can choose a picture which will be displayed and thenstored in the buffer 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Sender.\\
+\hline
+{\em args} & Arguments.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+View\+Entry\+Page.\+xaml.\+cs\end{DoxyCompactItemize}
