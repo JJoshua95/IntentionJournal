@@ -6,11 +6,12 @@ using System.Linq;
 
 using Xamarin.Forms;
 
-// This class makes use of answers in the following forums
+// This file makes use of the following
 // https://forums.xamarin.com/discussion/17882/blob-to-image-binding
 // https://forums.xamarin.com/discussion/46010/convert-image-to-byte
 // https://forums.xamarin.com/discussion/47973/sqlite-with-blob
 // https://forums.xamarin.com/discussion/19853/load-image-form-byte-array
+// https://github.com/jamesmontemagno/MediaPlugin
 
 namespace IntentionJournal
 {

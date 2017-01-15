@@ -1,0 +1,29 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node7 [label="ContentPage",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node7 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="IntentionJournal.AddEntryPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_add_entry_page.html",tooltip="This class encodes the logic underlying the \"Write\" tab page, where a user can enter a new intention ..."];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="IntentionJournal.AddQuotePage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_add_quote_page.html",tooltip="Add quote page (implemented with the AddQuotePage.xaml file) logic encoded in this class..."];
+  Node7 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="IntentionJournal.BrowseMoodsPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_browse_moods_page.html",tooltip="Encodes the logic behind the BrowseMoodsPage.xaml "];
+  Node7 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="IntentionJournal.BrowseQuotesPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_browse_quotes_page.html"];
+  Node7 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="IntentionJournal.HomePage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_home_page.html",tooltip="Encodes the logic behind the HomePage screen "];
+  Node7 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="IntentionJournal.JournalPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_journal_page.html",tooltip="Contains the logic behind the JournalPage.xaml page "];
+  Node7 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="IntentionJournal.Settings",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_settings.html",tooltip="Contains the logic behind the Settings.xaml page "];
+  Node7 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="IntentionJournal.Tree",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_tree.html",tooltip="Contains the logic behind the Tree.xaml page where the user can see the progress of their tree which ..."];
+  Node7 -> Node16 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="IntentionJournal.TreeGrowing",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_tree_growing.html",tooltip="Contains the logic behind the TreeGrowing.xaml page which is opened when a user makes a new entry and..."];
+  Node7 -> Node17 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node17 [label="IntentionJournal.ViewEntryPage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_view_entry_page.html",tooltip="Contains the logic behind the ViewEntryPage. "];
+  Node7 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="IntentionJournal.ViewQuotePage",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_intention_journal_1_1_view_quote_page.html",tooltip="Contains the logic behind the ViewQuotePage "];
+}

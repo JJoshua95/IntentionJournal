@@ -3,6 +3,12 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
+// This file makes use of the following
+// https://github.com/srkrathore/SQLiteEx/blob/master/SQLiteEx/SQLiteEx/ManageEmployee.xaml.cs
+// https://developer.xamarin.com/api/type/Xamarin.Forms.ListView/
+// https://developer.xamarin.com/guides/android/user_interface/working_with_listviews_and_adapters/part_3_-_customizing_a_listview's_appearance/
+// https://developer.xamarin.com/guides/xamarin-forms/user-interface/gestures/tap/
+
 namespace IntentionJournal
 {
 	public partial class BrowseQuotesPage : ContentPage

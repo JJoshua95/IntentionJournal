@@ -3,9 +3,9 @@ using Xamarin.Forms;
 using IntentionJournal.iOS;
 using Xamarin.Forms.Platform.iOS;
 
+// This file makes use of the following
 // https://forums.xamarin.com/discussion/17811/tabbedpage-tabbar-background-color-tint
 // https://developer.xamarin.com/guides/ios/user_interface/introduction_to_the_appearance_api/
-// 
 
 [assembly: ExportRenderer(typeof(TabbedPage), typeof(TabPageCustom))]
 namespace IntentionJournal.iOS

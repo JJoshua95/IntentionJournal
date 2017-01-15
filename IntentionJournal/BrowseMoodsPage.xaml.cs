@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
+// This file makes use of the following
+// https://github.com/xamarin/xamarin-forms-samples/tree/master/WorkingWithImages
+
 namespace IntentionJournal
 {
 	/// <summary>

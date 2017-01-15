@@ -1,0 +1,114 @@
+\hypertarget{class_intention_journal_1_1_add_entry_page}{}\section{Intention\+Journal.\+Add\+Entry\+Page Class Reference}
+\label{class_intention_journal_1_1_add_entry_page}\index{Intention\+Journal.\+Add\+Entry\+Page@{Intention\+Journal.\+Add\+Entry\+Page}}
+
+
+This class encodes the logic underlying the \char`\"{}\+Write\char`\"{} tab page, where a user can enter a new intention entry in the journal. The UI is implemented in xaml Add\+Entry\+Page.\+xaml  
+
+
+
+
+Inheritance diagram for Intention\+Journal.\+Add\+Entry\+Page\+:
+% FIG 0
+
+
+Collaboration diagram for Intention\+Journal.\+Add\+Entry\+Page\+:
+% FIG 1
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_intention_journal_1_1_add_entry_page_afd6ccd65ffa7b72b969b9b7679d19d07}{Add\+Entry\+Page} ()
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of a T\+:\+Intention\+Journal.\+Add\+Entry\+Page class. Renders in the UI functionality \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_add_entry_page_a0f8490d40cdb9dae58650f333949e341}{clear\+Text\+Areas} ()
+\begin{DoxyCompactList}\small\item\em Clears the text inputs. \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_add_entry_page_a047ea40e94d7a09519ef95d9726b1cd3}{on\+Save\+Clicked} ()
+\begin{DoxyCompactList}\small\item\em When the save button is clicked, this method checks that the user has picked a mood, entered a title and text for their entry, if all of these have been filled then the user inputted data (including a picture if selected) is stored as an object in the entries table in the database as a new record. The text areas are cleared and the image buffer is also cleared. \end{DoxyCompactList}\item 
+async void \hyperlink{class_intention_journal_1_1_add_entry_page_ac153ef39986ab890452a91b9aaba13cb}{pick\+Gallery\+Image} (object sender, Event\+Args args)
+\begin{DoxyCompactList}\small\item\em Opens the native gallery for an i\+OS or Android device, when the add picture button is pressed, where the user can pick one of their pictures and add it to their entry. The picture is displayed and then stored as an array of bytes in a special table in the database where pictures are temporarily stored, and can be loaded back in and saved in the entry object if the user is happy with their choice and presses save. \end{DoxyCompactList}\item 
+void \hyperlink{class_intention_journal_1_1_add_entry_page_a902649335997d980dbcc81d2519305f7}{get\+Blob} (object sender, Event\+Args args)
+\begin{DoxyCompactList}\small\item\em Gets the B\+L\+OB entry in the buffer table for images, displays the picyture currebtly stored in the buffer, this was used in testing and initialising this approach to saving pictures \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_intention_journal_1_1_add_entry_page_a85f092e1cc9eca91f553588404d79a3e}\label{class_intention_journal_1_1_add_entry_page_a85f092e1cc9eca91f553588404d79a3e}} 
+String {\bfseries current\+Mood}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class encodes the logic underlying the \char`\"{}\+Write\char`\"{} tab page, where a user can enter a new intention entry in the journal. The UI is implemented in xaml Add\+Entry\+Page.\+xaml 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_intention_journal_1_1_add_entry_page_afd6ccd65ffa7b72b969b9b7679d19d07}\label{class_intention_journal_1_1_add_entry_page_afd6ccd65ffa7b72b969b9b7679d19d07}} 
+\index{Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}!Add\+Entry\+Page@{Add\+Entry\+Page}}
+\index{Add\+Entry\+Page@{Add\+Entry\+Page}!Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}}
+\subsubsection{\texorpdfstring{Add\+Entry\+Page()}{AddEntryPage()}}
+{\footnotesize\ttfamily Intention\+Journal.\+Add\+Entry\+Page.\+Add\+Entry\+Page (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Initializes a new instance of a T\+:\+Intention\+Journal.\+Add\+Entry\+Page class. Renders in the UI functionality 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_intention_journal_1_1_add_entry_page_a0f8490d40cdb9dae58650f333949e341}\label{class_intention_journal_1_1_add_entry_page_a0f8490d40cdb9dae58650f333949e341}} 
+\index{Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}!clear\+Text\+Areas@{clear\+Text\+Areas}}
+\index{clear\+Text\+Areas@{clear\+Text\+Areas}!Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}}
+\subsubsection{\texorpdfstring{clear\+Text\+Areas()}{clearTextAreas()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+Add\+Entry\+Page.\+clear\+Text\+Areas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Clears the text inputs. 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_add_entry_page_a902649335997d980dbcc81d2519305f7}\label{class_intention_journal_1_1_add_entry_page_a902649335997d980dbcc81d2519305f7}} 
+\index{Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}!get\+Blob@{get\+Blob}}
+\index{get\+Blob@{get\+Blob}!Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}}
+\subsubsection{\texorpdfstring{get\+Blob()}{getBlob()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+Add\+Entry\+Page.\+get\+Blob (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Gets the B\+L\+OB entry in the buffer table for images, displays the picyture currebtly stored in the buffer, this was used in testing and initialising this approach to saving pictures 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Sender.\\
+\hline
+{\em args} & Arguments.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_intention_journal_1_1_add_entry_page_a047ea40e94d7a09519ef95d9726b1cd3}\label{class_intention_journal_1_1_add_entry_page_a047ea40e94d7a09519ef95d9726b1cd3}} 
+\index{Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}!on\+Save\+Clicked@{on\+Save\+Clicked}}
+\index{on\+Save\+Clicked@{on\+Save\+Clicked}!Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}}
+\subsubsection{\texorpdfstring{on\+Save\+Clicked()}{onSaveClicked()}}
+{\footnotesize\ttfamily void Intention\+Journal.\+Add\+Entry\+Page.\+on\+Save\+Clicked (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+When the save button is clicked, this method checks that the user has picked a mood, entered a title and text for their entry, if all of these have been filled then the user inputted data (including a picture if selected) is stored as an object in the entries table in the database as a new record. The text areas are cleared and the image buffer is also cleared. 
+
+\mbox{\Hypertarget{class_intention_journal_1_1_add_entry_page_ac153ef39986ab890452a91b9aaba13cb}\label{class_intention_journal_1_1_add_entry_page_ac153ef39986ab890452a91b9aaba13cb}} 
+\index{Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}!pick\+Gallery\+Image@{pick\+Gallery\+Image}}
+\index{pick\+Gallery\+Image@{pick\+Gallery\+Image}!Intention\+Journal\+::\+Add\+Entry\+Page@{Intention\+Journal\+::\+Add\+Entry\+Page}}
+\subsubsection{\texorpdfstring{pick\+Gallery\+Image()}{pickGalleryImage()}}
+{\footnotesize\ttfamily async void Intention\+Journal.\+Add\+Entry\+Page.\+pick\+Gallery\+Image (\begin{DoxyParamCaption}\item[{object}]{sender,  }\item[{Event\+Args}]{args }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Opens the native gallery for an i\+OS or Android device, when the add picture button is pressed, where the user can pick one of their pictures and add it to their entry. The picture is displayed and then stored as an array of bytes in a special table in the database where pictures are temporarily stored, and can be loaded back in and saved in the entry object if the user is happy with their choice and presses save. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sender} & Sender.\\
+\hline
+{\em args} & Arguments.\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Add\+Entry\+Page.\+xaml.\+cs\end{DoxyCompactItemize}

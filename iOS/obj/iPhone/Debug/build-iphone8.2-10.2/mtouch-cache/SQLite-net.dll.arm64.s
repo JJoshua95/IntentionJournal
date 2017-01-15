@@ -136686,7 +136686,7 @@ _mono_aot_file_info:
 	.long 1440,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
-	.byte 16,7,13,195,191,36,240,192,166,64,19,116,221,36,222,138
+	.byte 137,109,221,65,196,189,5,69,250,143,52,136,106,34,107,217
 	.globl _mono_aot_module_SQLite_net_info
 	.align 3
 _mono_aot_module_SQLite_net_info:
