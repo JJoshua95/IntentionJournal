@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 
-// https://github.com/xamarin/xamarin-forms-samples/tree/master/UserInterface/ListView
+// This file makes use of the following
+// https://github.com/xamarin/xamarin-forms-samples/tree/master/WorkingWithImages
 
 namespace IntentionJournal
 {

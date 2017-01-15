@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// This file makes use of the following
 // http://www.kymphillpotts.com/common-ui-patterns-in-xamarin-forms-part-2-tabbed-pages/
 
 using Xamarin.Forms;

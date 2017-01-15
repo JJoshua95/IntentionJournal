@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+// This file makes use of the following
 // https://github.com/xamarin/xamarin-forms-samples/blob/master/UserInterface/Animation/Basic/BasicAnimation/ScaleAnimationPage.xaml.cs
 
 using Xamarin.Forms;

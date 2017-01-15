@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+// This file makes use of the following
 // https://blog.xamarin.com/easy-app-theming-with-xamarin-forms-styles/
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]

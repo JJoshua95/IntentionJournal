@@ -1,20 +1,9 @@
 ﻿<Properties StartupConfiguration="{1692A553-6127-4892-967B-720C976C93F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="IntentionJournal/HomePage.xaml.cs">
-    <Files>
-      <File FileName="IntentionJournal/AddQuotePage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/AddQuotePage.xaml.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/BrowseQuotesPage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/BrowseQuotesPage.xaml.cs" Line="6" Column="87" />
-      <File FileName="IntentionJournal/EntryObject.cs" Line="1" Column="1" />
-      <File FileName="IntentionJournal/HomePage.xaml" Line="1" Column="1" />
-      <File FileName="IntentionJournal/HomePage.xaml.cs" Line="1" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.IntentionJournal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.43D5B4AF-67C6-4607-9621-1EB96266412B" />
-  <MonoDevelop.Ide.ItemProperties.IntentionJournal.Droid PreferredExecutionTarget="Android.1162176571" />
 </Properties>

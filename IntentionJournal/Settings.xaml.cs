@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
-// for git test
+// This file makes use of the following
+// https://github.com/xamarin/xamarin-forms-samples/tree/master/UserInterface/TableView
 
 using Xamarin.Forms;
 

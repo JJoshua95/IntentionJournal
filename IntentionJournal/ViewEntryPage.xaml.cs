@@ -6,6 +6,9 @@ using System.Linq;
 
 using Xamarin.Forms;
 
+// This file makes use of the following
+// https://github.com/jamesmontemagno/MediaPlugin
+
 namespace IntentionJournal
 {
 	/// <summary>
